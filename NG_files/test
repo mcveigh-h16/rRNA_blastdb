@@ -1,0 +1,493 @@
+Bioseq-set ::= {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Helicobacter fennelliae" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 215 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Helicobacter" ,
+              species "fennelliae" } ,
+          attrib "nomodforward" ,
+          mod {
+            {
+              subtype strain ,
+              subname "NCTC 11612" } ,
+            {
+              subtype culture-collection ,
+              subname "NCTC:11612" } } ,
+          lineage "Bacteria; Proteobacteria; Epsilonproteobacteria;
+ Campylobacterales; Helicobacteraceae; Helicobacter" ,
+          gcode 11 ,
+          div "BCT" } } } ,
+    pub {
+      pub {
+        pmid 11446363 ,
+        article {
+          title {
+            name "Misidentifying Helicobacter cinadei." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Kuhnert" ,
+                      initials "P." } } ,
+                {
+                  name
+                    name {
+                      last "Burnens" ,
+                      initials "A.P." } } } } ,
+          from
+            journal {
+              title {
+                iso-jta "J. Clin. Microbiol." ,
+                ml-jta "J Clin Microbiol" ,
+                issn "0095-1137" ,
+                name "Journal of clinical microbiology" } ,
+              imp {
+                date
+                  std {
+                    year 2001 ,
+                    month 7 } ,
+                volume "39" ,
+                issue "7" ,
+                pages "2751-2752" ,
+                language "eng" ,
+                pubstatus ppublish ,
+                history {
+                  {
+                    pubstatus pubmed ,
+                    date
+                      std {
+                        year 2001 ,
+                        month 7 ,
+                        day 12 ,
+                        hour 10 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus medline ,
+                    date
+                      std {
+                        year 2001 ,
+                        month 9 ,
+                        day 21 ,
+                        hour 10 ,
+                        minute 1 } } ,
+                  {
+                    pubstatus other ,
+                    date
+                      std {
+                        year 2001 ,
+                        month 7 ,
+                        day 12 ,
+                        hour 10 ,
+                        minute 0 } } } } } ,
+          ids {
+            pubmed 11446363 ,
+            other {
+              db "pmc" ,
+              tag
+                str "PMC88232" } } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Kuhnert" ,
+                      first "Peter" ,
+                      initials "P." } } } ,
+            affil
+              std {
+                affil "University of Bern" ,
+                div "Institute for Veterinary Bacteriology" ,
+                city "Ber" ,
+                sub "BE" ,
+                country "Switzerland" ,
+                street "Laenggass-Str. 122" ,
+                postal-code "3012" } } ,
+          date
+            std {
+              year 2001 ,
+              month 2 ,
+              day 14 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2014 ,
+              month 4 ,
+              day 23 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA33175" } } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_042880" } ,
+        general {
+          db "REF_SSU16S" ,
+          tag
+            str "AF348746:1-1676" } } ,
+      descr {
+        title "Helicobacter fennelliae strain NCTC 11612 16S ribosomal RNA
+ gene, partial sequence." ,
+        molinfo {
+          biomol genomic } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 9 ,
+                  day 29 } } } } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "AF348746:1-1676" } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        user {
+          type
+            str "GenomeProjectsDB" ,
+          data {
+            {
+              label
+                str "ProjectID" ,
+              data
+                int 33175 } } } ,
+        user {
+          class "1.0" ,
+          type
+            str "AutodefOptions" ,
+          data {
+            {
+              label
+                str "SpecifyNuclearProduct" ,
+              data
+                bool TRUE } ,
+            {
+              label
+                str "MiscFeatRule" ,
+              data
+                str "NoncodingProductFeat" } ,
+            {
+              label
+                str "FeatureListType" ,
+              data
+                str "List All Features" } ,
+            {
+              label
+                str "ModifierList" ,
+              data
+                fields {
+                  {
+                    label
+                      str "OrgMods" ,
+                    num 1 ,
+                    data
+                      strs {
+                        "Strain" } } } } ,
+            {
+              label
+                str "HIVRule" ,
+              data
+                str "WantBoth" } ,
+            {
+              label
+                str "DoNotApplyToSp" ,
+              data
+                bool TRUE } ,
+            {
+              label
+                str "LeaveParenthetical" ,
+              data
+                bool TRUE } ,
+            {
+              label
+                str "MaxMods" ,
+              data
+                int -99 } ,
+            {
+              label
+                str "UseLabels" ,
+              data
+                bool TRUE } } } ,
+        create-date
+          std {
+            year 2014 ,
+            month 5 ,
+            day 20 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 3 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 1676 ,
+        seq-data
+          ncbi4na '14841124284424842281181218421148241124184114828281428842814
+141844188148442421244484148118421814181121842228881482814418142212844111244841
+881181284418128828812414141114441282881181414118821142888841484288881244414288
+411188888111281241841128881184882818288488811111888284242112221211118218282111
+182881411882814118282211112121411828111888211418828481111418814418888141182814
+142114118844418848424811418884211488882114111114484214441488122811424481184122
+114228888824214118288421114188424842114821118828111421841188888818811414828224
+281114418844828184822818214288488448414481184428212211442818412444818224422841
+414448411244121212844112841412124482214128228124441442142148144411819842821184
+444411122284114214211242242484414418411448888144188481112822888848814141141881
+841244818281124118114212244281128224842214214224244811812441444842114248812824
+411821284442481114148424214424441814211482141848411184281844288112218141128421
+888411128428188281414848444141448144844118828844848144448111182248141418211414
+411812821884241144241228128441121881284124282184212411142484444142111214418814
+181222844814822124222811124184118428148848842228428248214442148118421428112421
+881142188224228444414812448242114188111128211144118141244441222421211424484414
+218484488811882411428124241141122881228144288412188418141182842814141814244148
+428442884221414288411112144842842124428482482142824848248414184884448811482224
+211241424211222824822881488488142148824428414212828114414128422882421144144144
+114484144124124821148218218442228812422814442812121248428121184444842121114141
+142118182424141844142111828221111242282821488244188481482842112824128121811142
+844118242814811824211182142118488424484118124882224448288'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "16S ribosomal RNA" } ,
+                partial TRUE ,
+                product
+                  whole
+                    other {
+                      accession "NR_114604" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 168 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042880" } ,
+                      fuzz-from
+                        lim lt } ,
+                    int {
+                      from 521 ,
+                      to 1675 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042880" } ,
+                      fuzz-to
+                        lim gt } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 169 ,
+                    to 520 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_042880" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_114604" } } ,
+      descr {
+        title "Helicobacter fennelliae strain NCTC 11612 16S ribosomal RNA,
+ partial sequence." ,
+        molinfo {
+          biomol rRNA ,
+          completeness no-ends } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "Status" ,
+              data
+                str "Reviewed" } ,
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_042880" } } } ,
+        user {
+          class "1.0" ,
+          type
+            str "AutodefOptions" ,
+          data {
+            {
+              label
+                str "SpecifyNuclearProduct" ,
+              data
+                bool TRUE } ,
+            {
+              label
+                str "MiscFeatRule" ,
+              data
+                str "NoncodingProductFeat" } ,
+            {
+              label
+                str "FeatureListType" ,
+              data
+                str "List All Features" } ,
+            {
+              label
+                str "ModifierList" ,
+              data
+                fields {
+                  {
+                    label
+                      str "OrgMods" ,
+                    num 1 ,
+                    data
+                      strs {
+                        "Strain" } } } } ,
+            {
+              label
+                str "HIVRule" ,
+              data
+                str "WantBoth" } ,
+            {
+              label
+                str "DoNotApplyToSp" ,
+              data
+                bool TRUE } ,
+            {
+              label
+                str "LeaveParenthetical" ,
+              data
+                bool TRUE } ,
+            {
+              label
+                str "MaxMods" ,
+              data
+                int -99 } ,
+            {
+              label
+                str "UseLabels" ,
+              data
+                bool TRUE } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 1324 ,
+        seq-data
+          ncbi4na '14841124284424842281181218421148241124184114828281428842814
+141844188148442421244484148118421814181121842228881482814418142212844111244841
+881181284418128828812414141114448282242811144188448281848228182142884884484144
+811844282122114428184124448182244228414144484112441212128441128414121244822141
+282281244414421421481444118198428211844444111222841142142112422424844144184114
+488881441884811128228888488141411418818412448182811241181142122442811282248422
+142142242448118124414448421142488128244118212844424811141484242144244418142114
+821418484111842818442881122181411284218884111284281882814148484441414481448441
+188288448481444481111822481414182114144118128218842411442412281284411218812841
+242821842124111424844441421112144188141812228448148221242228111241841184281488
+488422284282482144421481184214281124218811421882242284444148124482421141881111
+282111441181412444412224212114244844142184844888118824114281242411411228812281
+442884121884181411828428141418142441484284428842214142884111121448428421244284
+824821428248482484141848844488114822242112414242112228248228814884881421488244
+284142128281144141284228824211441441441144841441241248211482182184422288124228
+144428121212484281211844448421211141411421181824241418441421118282211112422828
+214882441884814828421128241281218111428441182428148118242111821421184884244841
+18124882224448288'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "16S ribosomal RNA" } ,
+                partial TRUE ,
+                location
+                  int {
+                    from 0 ,
+                    to 1323 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_114604" } ,
+                    fuzz-from
+                      lim lt ,
+                    fuzz-to
+                      lim gt } } } } } } } }

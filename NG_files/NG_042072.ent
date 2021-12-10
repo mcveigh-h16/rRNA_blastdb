@@ -1,0 +1,434 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Aeropyrum camini" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 229980 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Aeropyrum" ,
+              species "camini" } ,
+          attrib "nomodforward" ,
+          mod {
+            {
+              subtype strain ,
+              subname "SY1" } ,
+            {
+              subtype culture-collection ,
+              subname "JCM:12091" } } ,
+          lineage "Archaea; Crenarchaeota; Thermoprotei; Desulfurococcales;
+ Desulfurococcaceae; Aeropyrum" ,
+          gcode 11 ,
+          div "BCT" } } ,
+      subtype {
+        {
+          subtype country ,
+          name "Japan: Izu-Bonin Arc, Suiyo Seamount" } ,
+        {
+          subtype isolation-source ,
+          name "deep-sea hydrothermal vent chimney sample" } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Nakagawa" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Takai" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Horikoshi" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Sako" ,
+                      initials "Y." } } } ,
+            affil
+              str "Satoshi Nakagawa, Graduate School of Agriculture, Kyoto
+ University, Laboratory of Marine Microbiology; Oiwakecho, Kitashirakawa,
+ Sakyo-ku, Kyoto, Kyoto 606-8502, Japan (E-mail:nakasato@kais.kyoto-u.ac.jp,
+ Tel:81-75-753-6224(ex.6224), Fax:81-75-753-6226)" } ,
+          medium email ,
+          date
+            std {
+              year 2003 ,
+              month 5 ,
+              day 6 } } } } ,
+    pub {
+      pub {
+        pmid 15023940 ,
+        article {
+          title {
+            name "Aeropyrum camini sp. nov., a strictly aerobic,
+ hyperthermophilic archaeon from a deep-sea hydrothermal vent chimney." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Nakagawa" ,
+                      initials "S." } ,
+                  affil
+                    str "Laboratory of Marine Microbiology, Graduate School of
+ Agriculture, Kyoto University, Kyoto 606-8502, Japan.
+ nakasato@kais.kyoto-u.ac.jp" } ,
+                {
+                  name
+                    name {
+                      last "Takai" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Horikoshi" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Sako" ,
+                      initials "Y." } } } } ,
+          from
+            journal {
+              title {
+                iso-jta "Int. J. Syst. Evol. Microbiol." ,
+                ml-jta "Int J Syst Evol Microbiol" ,
+                issn "1466-5026" ,
+                name "International journal of systematic and evolutionary
+ microbiology" } ,
+              imp {
+                date
+                  std {
+                    year 2004 ,
+                    month 3 } ,
+                volume "54" ,
+                issue "PT 2" ,
+                pages "329-335" ,
+                language "eng" ,
+                pubstatus ppublish ,
+                history {
+                  {
+                    pubstatus pubmed ,
+                    date
+                      std {
+                        year 2004 ,
+                        month 3 ,
+                        day 17 ,
+                        hour 5 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus medline ,
+                    date
+                      std {
+                        year 2004 ,
+                        month 7 ,
+                        day 20 ,
+                        hour 5 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus other ,
+                    date
+                      std {
+                        year 2004 ,
+                        month 3 ,
+                        day 17 ,
+                        hour 5 ,
+                        minute 0 } } } } } ,
+          ids {
+            pubmed 15023940 } } } ,
+      reftype no-target } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2011 ,
+              month 8 ,
+              day 8 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA33317" } } } } ,
+    user {
+      type
+        str "NcbiCleanup" ,
+      data {
+        {
+          label
+            str "method" ,
+          data
+            str "SequinCleanup" } ,
+        {
+          label
+            str "version" ,
+          data
+            int 8 } ,
+        {
+          label
+            str "month" ,
+          data
+            int 4 } ,
+        {
+          label
+            str "day" ,
+          data
+            int 1 } ,
+        {
+          label
+            str "year" ,
+          data
+            int 2015 } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_042072" } ,
+        general {
+          db "REF_16S_RNA" ,
+          tag
+            str "AB109559:1-1562" } } ,
+      descr {
+        title "Aeropyrum camini strain SY1 16S ribosomal RNA gene, partial
+ sequence." ,
+        molinfo {
+          biomol genomic } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 26 } } } } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "accession" ,
+                          data
+                            str "AB109559" } ,
+                        {
+                          label
+                            str "gi" ,
+                          data
+                            int 30519866 } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        create-date
+          std {
+            year 2011 ,
+            month 8 ,
+            day 10 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 2 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 1562 ,
+        seq-data
+          ncbi2na '5AF8D79685616736AB2A7094EA2D8195659E6A9BA6869E2C11BA705C576
+A1AA3055DA807AA70D56329AAAE5E82AD759602A966AABCD959AD65628EA9E695346B2FA6AB0E9
+59425C61AB2A96E226A25548EA478842A54A571AA645299801D6439A905B86A9C558B9557EAAA7
+FD567B0B29AA8309AAA421EBB49659AC314956626B6A9EDF1EA5C0995B25A7610B55970255A9D0
+56A8BA6A8C7B6A72AA6A22962AC756AB2A980D4F0D5A8A1452E98299DA7A066561AE2A98096AA2
+605A3C8C56ACB5E9EC0639A9CAEFA9A9B9895952E592A096F095965EA8B1A590A780AD6EA2AAF7
+46EBC2C83ED15D56A54901F0283E9AA891442ABA25E69F0FA2D065A817516AA6124A38694A7829
+7E56199E2A8AE4E96D9485A7B299591A467833300300CA00482CF28037C2F57F1EFC04E3C30199
+6E6AE5EA7AA6076E5B8AED7BC2D29062621559572F94D56A9856AA911CAA879659C29A2828AA90
+692B4939570155A9E466A710E9AA126AE585580AA8A43574055974BEA362A79076576E06E83572
+C1666D34D99AE0C6F5E70'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "16S ribosomal RNA" } ,
+                partial TRUE ,
+                product
+                  whole
+                    other {
+                      accession "NR_040973" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 877 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042072" } ,
+                      fuzz-from
+                        lim lt } ,
+                    int {
+                      from 941 ,
+                      to 1094 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042072" } } ,
+                    int {
+                      from 1236 ,
+                      to 1561 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042072" } ,
+                      fuzz-to
+                        lim gt } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 878 ,
+                    to 940 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_042072" } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 1095 ,
+                    to 1235 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_042072" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_040973" } } ,
+      descr {
+        title "Aeropyrum camini strain SY1 16S ribosomal RNA, partial
+ sequence." ,
+        molinfo {
+          biomol rRNA ,
+          completeness no-ends } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "Status" ,
+              data
+                str "Reviewed" } ,
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_042072" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 1358 ,
+        seq-data
+          ncbi2na '5AF8D79685616736AB2A7094EA2D8195659E6A9BA6869E2C11BA705C576
+A1AA3055DA807AA70D56329AAAE5E82AD759602A966AABCD959AD65628EA9E695346B2FA6AB0E9
+59425C61AB2A96E226A25548EA478842A54A571AA645299801D6439A905B86A9C558B9557EAAA7
+FD567B0B29AA8309AAA421EBB49659AC314956626B6A9EDF1EA5C0995B25A7610B55970255A9D0
+56A8BA6A8C7B6A72AA6A22962AC756AB2A980D4F0D5A8A1452E98299DA7A066561AE2A98096AA2
+605A3C8C56ACB5E9EC0639A9CAEFA9A9B9895952E592A096F095965EA8B1A590A7807C0A0FA6AA
+24510AAE8979A7C3E8B4196A05D45AA984928E1A529E0A5F9586678AA2B93A5B65276E5B8AED7B
+C2D29062621559572F94D56A9856AA911CAA879659C29A2828AA90692B4939570155A9E466A710
+E9AA126AE585580AA8A43574055974BEA362A79076576E06E83572C1666D34D99AE0C6F5E70'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "16S ribosomal RNA" } ,
+                partial TRUE ,
+                location
+                  int {
+                    from 0 ,
+                    to 1357 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_040973" } ,
+                    fuzz-from
+                      lim lt ,
+                    fuzz-to
+                      lim gt } } } } } } } }

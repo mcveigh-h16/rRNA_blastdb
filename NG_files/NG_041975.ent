@@ -1,0 +1,592 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      origin natural ,
+      org {
+        taxname "Haemophilus parasuis" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 738 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Haemophilus" ,
+              species "parasuis" } ,
+          attrib "nomodforward" ,
+          mod {
+            {
+              subtype strain ,
+              subname "SH0165" } ,
+            {
+              subtype serovar ,
+              subname "5" } ,
+            {
+              subtype nat-host ,
+              subname "swine" } } ,
+          lineage "Bacteria; Proteobacteria; Gammaproteobacteria;
+ Pasteurellales; Pasteurellaceae; Haemophilus" ,
+          gcode 11 ,
+          div "BCT" } } ,
+      subtype {
+        {
+          subtype country ,
+          name "China" } ,
+        {
+          subtype isolation-source ,
+          name "isolated from a Glasser's disease outbreak farm" } } } ,
+    pub {
+      pub {
+        article {
+          title {
+            name "Complete genome sequence of Haemophilus parasuis SH0165." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Yue" ,
+                      first "M" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Yang" ,
+                      first "F" ,
+                      initials "F." } } ,
+                {
+                  name
+                    name {
+                      last "Yang" ,
+                      first "J" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Bei" ,
+                      first "W" ,
+                      initials "W." } } ,
+                {
+                  name
+                    name {
+                      last "Cai" ,
+                      first "X" ,
+                      initials "X." } } ,
+                {
+                  name
+                    name {
+                      last "Chen" ,
+                      first "L" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Dong" ,
+                      first "J" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Zhou" ,
+                      first "R" ,
+                      initials "R." } } ,
+                {
+                  name
+                    name {
+                      last "Jin" ,
+                      first "M" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Jin" ,
+                      first "Q" ,
+                      initials "Q." } } ,
+                {
+                  name
+                    name {
+                      last "Chen" ,
+                      first "H" ,
+                      initials "H." } } } ,
+            affil
+              str "Division of Animal Infectious Disease, State Key Laboratory
+ of Agricultural Microbiology, Huazhong Agricultural University, Wuhan 430070,
+ People's Republic of China." } ,
+          from
+            journal {
+              title {
+                iso-jta "J. Bacteriol." ,
+                ml-jta "J Bacteriol" ,
+                issn "1098-5530" ,
+                name "Journal of bacteriology" } ,
+              imp {
+                date
+                  std {
+                    year 2009 ,
+                    month 2 } ,
+                volume "191" ,
+                issue "4" ,
+                pages "1359-1360" ,
+                language "eng" ,
+                pubstatus ppublish ,
+                history {
+                  {
+                    pubstatus aheadofprint ,
+                    date
+                      std {
+                        year 2008 ,
+                        month 12 ,
+                        day 12 } } ,
+                  {
+                    pubstatus other ,
+                    date
+                      std {
+                        year 2008 ,
+                        month 12 ,
+                        day 17 ,
+                        hour 9 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus pubmed ,
+                    date
+                      std {
+                        year 2008 ,
+                        month 12 ,
+                        day 17 ,
+                        hour 9 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus medline ,
+                    date
+                      std {
+                        year 2009 ,
+                        month 2 ,
+                        day 28 ,
+                        hour 9 ,
+                        minute 0 } } } } } ,
+          ids {
+            pii "JB.01682-08" ,
+            doi "10.1128/JB.01682-08" ,
+            pubmed 19074396 ,
+            other {
+              db "pmc" ,
+              tag
+                str "PMC2632009" } ,
+            other {
+              db "ELocationID doi" ,
+              tag
+                str "10.1128/JB.01682-08" } } } ,
+        pmid 19074396 } } ,
+    pub {
+      pub {
+        article {
+          title {
+            name "Genomic characterization of Haemophilus parasuis SH0165, a
+ highly virulent strain of serovar 5 prevalent in China." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Xu" ,
+                      initials "Z." } ,
+                  affil
+                    str "State Key Laboratory of Agricultural Microbiology,
+ Division of Animal Infectious Disease, College of Veterinary Medicine,
+ Huazhong Agricultural University, Wuhan, China." } ,
+                {
+                  name
+                    name {
+                      last "Yue" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Zhou" ,
+                      initials "R." } } ,
+                {
+                  name
+                    name {
+                      last "Jin" ,
+                      initials "Q." } } ,
+                {
+                  name
+                    name {
+                      last "Fan" ,
+                      initials "Y." } } ,
+                {
+                  name
+                    name {
+                      last "Bei" ,
+                      initials "W." } } ,
+                {
+                  name
+                    name {
+                      last "Chen" ,
+                      initials "H." } } } } ,
+          from
+            journal {
+              title {
+                iso-jta "PLoS ONE" ,
+                ml-jta "PLoS One" ,
+                issn "1932-6203" ,
+                name "PloS one" } ,
+              imp {
+                date
+                  std {
+                    year 2011 } ,
+                volume "6" ,
+                issue "5" ,
+                pages "E19631" ,
+                language "eng" ,
+                pubstatus ppublish ,
+                history {
+                  {
+                    pubstatus received ,
+                    date
+                      std {
+                        year 2010 ,
+                        month 11 ,
+                        day 23 } } ,
+                  {
+                    pubstatus accepted ,
+                    date
+                      std {
+                        year 2011 ,
+                        month 4 ,
+                        day 11 } } ,
+                  {
+                    pubstatus epublish ,
+                    date
+                      std {
+                        year 2011 ,
+                        month 5 ,
+                        day 17 } } ,
+                  {
+                    pubstatus other ,
+                    date
+                      std {
+                        year 2011 ,
+                        month 5 ,
+                        day 26 ,
+                        hour 6 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus pubmed ,
+                    date
+                      std {
+                        year 2011 ,
+                        month 5 ,
+                        day 26 ,
+                        hour 6 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus medline ,
+                    date
+                      std {
+                        year 2011 ,
+                        month 9 ,
+                        day 13 ,
+                        hour 6 ,
+                        minute 0 } } } } } ,
+          ids {
+            doi "10.1371/journal.pone.0019631" ,
+            pii "PONE-D-11-01927" ,
+            pubmed 21611187 ,
+            other {
+              db "pmc" ,
+              tag
+                str "PMC3096633" } ,
+            other {
+              db "ELocationID doi" ,
+              tag
+                str "10.1371/journal.pone.0019631" } } } ,
+        pmid 21611187 } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Yue" ,
+                      first "Min" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Yang" ,
+                      first "Jian" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Chen" ,
+                      first "Huanchun" ,
+                      initials "H." } } ,
+                {
+                  name
+                    name {
+                      last "Jin" ,
+                      first "Qi" ,
+                      initials "Q." } } } ,
+            affil
+              std {
+                affil "College of Veterinary Medicine, Huazhong Agricultural
+ University" ,
+                div "Division of Animal Infectious Disease, State Key
+ Laboratory of Agricultural Microorganism" ,
+                city "Wuhan" ,
+                sub "Hubei" ,
+                country "P.R.China" ,
+                street "1# Shizhisan Street" ,
+                email "chenhch@mail.hzau.edu.cn" ,
+                fax "+86-27-87282608" ,
+                phone "+86-27-87281795" ,
+                postal-code "430070" } } ,
+          medium other ,
+          date
+            std {
+              year 2008 ,
+              month 12 ,
+              day 19 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2013 ,
+              month 5 ,
+              day 9 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA188943" } } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_041975" } ,
+        general {
+          db "REF_23S_RNA" ,
+          tag
+            str "CP001321:974896-977914" } } ,
+      descr {
+        title "Haemophilus parasuis strain SH0165 23S ribosomal RNA gene,
+ complete sequence." ,
+        molinfo {
+          biomol genomic } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 26 } } } } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "Status" ,
+              data
+                str "Reviewed" } ,
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "CP001321:974896-977914" } } } } } } } ,
+        create-date
+          std {
+            year 2013 ,
+            month 5 ,
+            day 24 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 2 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 3019 ,
+        seq-data
+          ncbi2na 'AF0B8709B11AE8E5CA4348A608286E70DE6009FA38BE30826FC3508CD60
+EA8054B23820DC73432383132DEF8A405A881E01370B15628020341623FED2C9A6260260225242
+E32490212083E9EA09426112AE3255B3FC2FCEFBAC701F9042CA9A8462035EFE08EAA8535D429C
+0475E3E1632E052C7B8280A6008154B8AA2E03205E016EC6C424BA895FFAB879B17FECC3AB4987
+CCFFB262BC1E0C2A2582A0162DF07A9AE2F90ACC856015AE37253A92BE0AFAB04707A2858161C3
+BE003C9A387EE9EAAE02943405A88C9EBDD560373F2B225F3B8317DAAB2247BF69CAAD4D5A3C50
+563901E60C5822C393288444BAB9C1B536E88A804152165270AD502DCCF0BA8060BA829F212728
+EFA7C8249453F02026C327472D8B69799A08EC1AA700CC91609E6934A6CD103197C63C104D8382
+E01A0C23BEB4245411BE2FA4C0B9A320348A0CFEE3197BEACAA26FBB09A382B83622BF9E86CD10
+B9839E130B0630062E001DBD9682142AF5ED41BC36A92AE2DA55C298A78026CB63A806AF0CF56C
+7EB02798EEA86882BCAF2487BE8EDEFC2FACAEA0BF29035A1F53047888E3862FDC680E0B078C51
+9F5280251C26029FC7016C78016112BAD2B220C74A67E22076AE0A072900C916C1F6A20AE67A6C
+AFB08B3175829E052D823149E9E41EFCF00112477901180BA1B32AEE39795AE7A0AF0F8EBBCD80
+88275E360954B01A696C1CC1AD70AC980F5FB6AC2F585E460E930E3A529EDD45621D2E03E0365B
+8239AEC5669C8680855B817F1CC9F847813E0FF8EECA32BA8970824B4652E3EE8A6D7E031457F0
+4FE3BDC1823E6019ADDA12EDEBAB2FE1EA9ADD75409B068A2460AFE70D1ADA136E2BCB90EB3090
+9F079884842D892B98092B4CB8D6BAF783A0A94D9D068C02B1D6A8C129E3165422F4CD869AEFE9
+1763B69D344D7AA782CAD50AB3A7BD94FC0BAC6627ABF206DB884BDAD5CDE5BA9BE883E22A9E75
+CB188A168BA19347AEC52FB7652293E7AB27039A088C2E78093709180765F08E2F75727309CB0A
+BEFA21C61B232B7AEEC26BB896F89C1231C3E56229F0730'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                product
+                  whole
+                    other {
+                      accession "NR_103163" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 1175 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041975" } } ,
+                    int {
+                      from 1276 ,
+                      to 3018 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041975" } } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 1176 ,
+                    to 1275 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_041975" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_103163" } } ,
+      descr {
+        title "Haemophilus parasuis strain SH0165 23S ribosomal RNA, complete
+ sequence." ,
+        molinfo {
+          biomol rRNA } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "Status" ,
+              data
+                str "Reviewed" } ,
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_041975" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 2919 ,
+        seq-data
+          ncbi2na 'AF0B8709B11AE8E5CA4348A608286E70DE6009FA38BE30826FC3508CD60
+EA8054B23820DC73432383132DEF8A405A881E01370B15628020341623FED2C9A6260260225242
+E32490212083E9EA09426112AE3255B3FC2FCEFBAC701F9042CA9A8462035EFE08EAA8535D429C
+0475E3E1632E052C7B8280A6008154B8AA2E03205E016EC6C424BA895FFAB879B17FECC3AB4987
+CCFFB262BC1E0C2A2582A0162DF07A9AE2F90ACC856015AE37253A92BE0AFAB04707A2858161C3
+BE003C9A387EE9EAAE02943405A88C9EBDD560373F2B225F3B8317DAAB2247BF69CAAD4D5A3C50
+563901E60C5822C393288444BAB9C1B536E88A804152165270AD502DCCF0BA8060BA829F212728
+EFA7C8249453F02026C327472D8B69799A08EC1AA700CC91609E6934A6CD148A0CFEE3197BEACA
+A26FBB09A382B83622BF9E86CD10B9839E130B0630062E001DBD9682142AF5ED41BC36A92AE2DA
+55C298A78026CB63A806AF0CF56C7EB02798EEA86882BCAF2487BE8EDEFC2FACAEA0BF29035A1F
+53047888E3862FDC680E0B078C519F5280251C26029FC7016C78016112BAD2B220C74A67E22076
+AE0A072900C916C1F6A20AE67A6CAFB08B3175829E052D823149E9E41EFCF00112477901180BA1
+B32AEE39795AE7A0AF0F8EBBCD8088275E360954B01A696C1CC1AD70AC980F5FB6AC2F585E460E
+930E3A529EDD45621D2E03E0365B8239AEC5669C8680855B817F1CC9F847813E0FF8EECA32BA89
+70824B4652E3EE8A6D7E031457F04FE3BDC1823E6019ADDA12EDEBAB2FE1EA9ADD75409B068A24
+60AFE70D1ADA136E2BCB90EB30909F079884842D892B98092B4CB8D6BAF783A0A94D9D068C02B1
+D6A8C129E3165422F4CD869AEFE91763B69D344D7AA782CAD50AB3A7BD94FC0BAC6627ABF206DB
+884BDAD5CDE5BA9BE883E22A9E75CB188A168BA19347AEC52FB7652293E7AB27039A088C2E7809
+3709180765F08E2F75727309CB0ABEFA21C61B232B7AEEC26BB896F89C1231C3E56229F0730'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                location
+                  int {
+                    from 0 ,
+                    to 2918 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_103163" } } } } } } } } }

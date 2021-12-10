@@ -1,0 +1,440 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Pelotomaculum thermopropionicum" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 110500 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Pelotomaculum" ,
+              species "thermopropionicum" } ,
+          attrib "nomodforward" ,
+          mod {
+            {
+              subtype strain ,
+              subname "SI" } ,
+            {
+              subtype culture-collection ,
+              subname "DSM:13744" } } ,
+          lineage "Bacteria; Firmicutes; Clostridia; Clostridiales;
+ Peptococcaceae; Pelotomaculum" ,
+          gcode 11 ,
+          div "BCT" } } } ,
+    pub {
+      pub {
+        pmid 16352836 ,
+        article {
+          title {
+            name "Reconstruction and regulation of the central catabolic
+ pathway in the thermophilic propionate-oxidizing syntroph Pelotomaculum
+ thermopropionicum." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Kosaka" ,
+                      initials "T." } ,
+                  affil
+                    str "Laboratory of Applied Microbiology, Marine
+ Biotechnology Institute, Heita, Kamaishi, Iwate 026-0001, Japan.
+ kazuya.watanabe@mbio.jp" } ,
+                {
+                  name
+                    name {
+                      last "Uchiyama" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Ishii" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Enoki" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Imachi" ,
+                      initials "H." } } ,
+                {
+                  name
+                    name {
+                      last "Kamagata" ,
+                      initials "Y." } } ,
+                {
+                  name
+                    name {
+                      last "Ohashi" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Harada" ,
+                      initials "H." } } ,
+                {
+                  name
+                    name {
+                      last "Ikenaga" ,
+                      initials "H." } } ,
+                {
+                  name
+                    name {
+                      last "Watanabe" ,
+                      initials "K." } } } } ,
+          from
+            journal {
+              title {
+                iso-jta "J. Bacteriol." ,
+                ml-jta "J Bacteriol" ,
+                issn "0021-9193" ,
+                name "Journal of bacteriology" } ,
+              imp {
+                date
+                  std {
+                    year 2006 ,
+                    month 1 } ,
+                volume "188" ,
+                issue "1" ,
+                pages "202-210" ,
+                language "eng" ,
+                pubstatus ppublish ,
+                history {
+                  {
+                    pubstatus pubmed ,
+                    date
+                      std {
+                        year 2005 ,
+                        month 12 ,
+                        day 15 ,
+                        hour 9 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus medline ,
+                    date
+                      std {
+                        year 2006 ,
+                        month 3 ,
+                        day 15 ,
+                        hour 9 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus other ,
+                    date
+                      std {
+                        year 2005 ,
+                        month 12 ,
+                        day 15 ,
+                        hour 9 ,
+                        minute 0 } } } } } ,
+          ids {
+            pii "188/1/202" ,
+            doi "10.1128/JB.188.1.202-210.2006" ,
+            pubmed 16352836 ,
+            other {
+              db "pmc" ,
+              tag
+                str "PMC1317604" } } } } ,
+      reftype no-target } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Watanabe" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Kosaka" ,
+                      initials "T." } } } ,
+            affil
+              str "Contact:Kazuya Watanabe Marine Biotechnology Institute Co.,
+ Ltd.; 3-75-1 Heita, Kamaishi, Iwate 026-0001, Japan" } ,
+          medium other ,
+          date
+            std {
+              year 2007 ,
+              month 5 ,
+              day 7 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2013 ,
+              month 2 ,
+              day 14 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA188943" } } } } ,
+    user {
+      type
+        str "NcbiCleanup" ,
+      data {
+        {
+          label
+            str "method" ,
+          data
+            str "SequinCleanup" } ,
+        {
+          label
+            str "version" ,
+          data
+            int 8 } ,
+        {
+          label
+            str "month" ,
+          data
+            int 4 } ,
+        {
+          label
+            str "day" ,
+          data
+            int 22 } ,
+        {
+          label
+            str "year" ,
+          data
+            int 2015 } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_042022" } ,
+        general {
+          db "REF_23S_RNA" ,
+          tag
+            str "AP009389:267450-270926" } } ,
+      descr {
+        title "Pelotomaculum thermopropionicum 23S ribosomal RNA gene,
+ complete sequence." ,
+        molinfo {
+          biomol genomic } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 26 } } } } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "AP009389:267450-270926" } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        create-date
+          std {
+            year 2013 ,
+            month 3 ,
+            day 25 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 2 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 3477 ,
+        seq-data
+          ncbi2na '427282A4C6BA397E9918A9608286E909E6009C6A896426A6F8D6CADD60E
+A9056B5B4692E9AB45919E044CA6E6AA915A607804DF2C968A0880800D8157CB26989826A98950
+15A476322E7AAB26A1D5322422CB21F25826B7A0295A48A2B0455ECA600B629FF9A89150B146A9
+1BA0D7BA835A8A145D50A70315EE616322842C5B8A80AE009156A2A8B804A17805B3971892D225
+73DACB6B2E2CB4B2D23C20A0F69C0960F5442435A4121C5871E1C582AE3A6C7FFB20685A62F9F7
+26A62BC26E9119A259260262DF00A9ACCB59E89215805AB8DC54ED48B82702C0BF2E8A760585B6
+F8029A68E2BBAB2AB80E50D815A0327AF75580C9FCA9C95EB0E0C5A2B224783A9CAA5F45AF1605
+4340758396ACFE8C528B4879AB9C23DB2D88A80495216D270AD542929C2EA828EE8BE568414A3B
+E9F2092534FC08B9B0C9D1EB42E9DE65803B26A9C0979458271A3F4B2D2CB8B2D2CB6888883EA2
+8C4201F82CCC32B4CD23A5F18B110BC15087F5344E029383CA8B41F608924B3432C701324828CE
+922C0368808BD391FDF20393CAF4E4180422EF0C85DBC087EA333232D2311DE078B420C6230C24
+040CCD8748824E87020C161C4841E147871E23ACAA26F7B39A609CC5B0A2CBA26C482620E5ACC2
+C2600A4AE20D79596025C2BFDEA82ADB59522C25AA5C258A580A6CAE3A20DAF8C358E51E9A5BF8
+28EAB844A2A0A789B9AFA0291B50A6B2AE82929005B7D6C89788960AA2600C2C982495B9531ED0
+8005DC18A7C96B95B16405844ACA6AB8835C299988815DBC281DA403855B07DA882AB956F26E0B
+1626CE8998AA964880A950987BF140044AD5E503602386CCAA7865E56B9E82BC2A8AAF26906609
+DE0582552C069A5B07306B5C2B2603D7EDAB0BD6159180A6C18FEA67B7618AA76981FB0C56E08E
+6AF17984A1202156E89FC7905E33EAFFACF93B128CAEA29E2314A194BFEBA25B6FA8C515FA2CF8
+277044996E016B9BA12ED29A92FE1EA9AD975402B068A6540AF57499AFA03666F22EC0A482A27E
+12621312B627A8602DA9F2E35A6BFE2E8225B6741A3009C55AA304A7CDD5508B51361AA2BFA45D
+8EDA74D935EA9ECB2B542AFA9EF654F026B1B89EAF481B6E212F6B5735B64A64A01F88A27B572C
+62285A8E84859EBB14BEF594A2499EAC942DE86A3099E024DC266095576238AFD512EF09EB0855
+E921C52B232968AEC27A9052F89E16B1C32B62A7E00'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                product
+                  whole
+                    other {
+                      accession "NR_076092" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 1363 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042022" } } ,
+                    int {
+                      from 1696 ,
+                      to 3476 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042022" } } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 1364 ,
+                    to 1695 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_042022" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_076092" } } ,
+      descr {
+        title "Pelotomaculum thermopropionicum 23S ribosomal RNA, complete
+ sequence." ,
+        molinfo {
+          biomol rRNA } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "Status" ,
+              data
+                str "Reviewed" } ,
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_042022" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 3145 ,
+        seq-data
+          ncbi2na '427282A4C6BA397E9918A9608286E909E6009C6A896426A6F8D6CADD60E
+A9056B5B4692E9AB45919E044CA6E6AA915A607804DF2C968A0880800D8157CB26989826A98950
+15A476322E7AAB26A1D5322422CB21F25826B7A0295A48A2B0455ECA600B629FF9A89150B146A9
+1BA0D7BA835A8A145D50A70315EE616322842C5B8A80AE009156A2A8B804A17805B3971892D225
+73DACB6B2E2CB4B2D23C20A0F69C0960F5442435A4121C5871E1C582AE3A6C7FFB20685A62F9F7
+26A62BC26E9119A259260262DF00A9ACCB59E89215805AB8DC54ED48B82702C0BF2E8A760585B6
+F8029A68E2BBAB2AB80E50D815A0327AF75580C9FCA9C95EB0E0C5A2B224783A9CAA5F45AF1605
+4340758396ACFE8C528B4879AB9C23DB2D88A80495216D270AD542929C2EA828EE8BE568414A3B
+E9F2092534FC08B9B0C9D1EB42E9DE65803B26A9C0979458271A3F4B2D2CB8B2D2CB6888883EA8
+824E87020C161C4841E147871E23ACAA26F7B39A609CC5B0A2CBA26C482620E5ACC2C2600A4AE2
+0D79596025C2BFDEA82ADB59522C25AA5C258A580A6CAE3A20DAF8C358E51E9A5BF828EAB844A2
+A0A789B9AFA0291B50A6B2AE82929005B7D6C89788960AA2600C2C982495B9531ED08005DC18A7
+C96B95B16405844ACA6AB8835C299988815DBC281DA403855B07DA882AB956F26E0B1626CE8998
+AA964880A950987BF140044AD5E503602386CCAA7865E56B9E82BC2A8AAF26906609DE0582552C
+069A5B07306B5C2B2603D7EDAB0BD6159180A6C18FEA67B7618AA76981FB0C56E08E6AF17984A1
+202156E89FC7905E33EAFFACF93B128CAEA29E2314A194BFEBA25B6FA8C515FA2CF8277044996E
+016B9BA12ED29A92FE1EA9AD975402B068A6540AF57499AFA03666F22EC0A482A27E12621312B6
+27A8602DA9F2E35A6BFE2E8225B6741A3009C55AA304A7CDD5508B51361AA2BFA45D8EDA74D935
+EA9ECB2B542AFA9EF654F026B1B89EAF481B6E212F6B5735B64A64A01F88A27B572C62285A8E84
+859EBB14BEF594A2499EAC942DE86A3099E024DC266095576238AFD512EF09EB0855E921C52B23
+2968AEC27A9052F89E16B1C32B62A7E00'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                location
+                  int {
+                    from 0 ,
+                    to 3144 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_076092" } } } } } } } } }

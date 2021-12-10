@@ -1,0 +1,715 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Brucella melitensis bv. 1" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 644337 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Brucella" ,
+              species "melitensis" } ,
+          attrib "nomodforward" ,
+          mod {
+            {
+              subtype strain ,
+              subname "16M" } ,
+            {
+              subtype biovar ,
+              subname "1" } ,
+            {
+              subtype culture-collection ,
+              subname "ATCC:23456" } } ,
+          lineage "Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales;
+ Brucellaceae; Brucella" ,
+          gcode 11 ,
+          div "BCT" } } } ,
+    pub {
+      pub {
+        article {
+          title {
+            name "The genome sequence of the facultative intracellular
+ pathogen Brucella melitensis." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "DelVecchio" ,
+                      initials "V.G." } ,
+                  affil
+                    str "Institute of Molecular Biology and Medicine,
+ University of Scranton, Scranton, PA 18510, USA. vimbm@aol.com" } ,
+                {
+                  name
+                    name {
+                      last "Kapatral" ,
+                      initials "V." } } ,
+                {
+                  name
+                    name {
+                      last "Redkar" ,
+                      initials "R.J." } } ,
+                {
+                  name
+                    name {
+                      last "Patra" ,
+                      initials "G." } } ,
+                {
+                  name
+                    name {
+                      last "Mujer" ,
+                      initials "C." } } ,
+                {
+                  name
+                    name {
+                      last "Los" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Ivanova" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Anderson" ,
+                      initials "I." } } ,
+                {
+                  name
+                    name {
+                      last "Bhattacharyya" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Lykidis" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Reznik" ,
+                      initials "G." } } ,
+                {
+                  name
+                    name {
+                      last "Jablonski" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Larsen" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "D'Souza" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Bernal" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Mazur" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Goltsman" ,
+                      initials "E." } } ,
+                {
+                  name
+                    name {
+                      last "Selkov" ,
+                      initials "E." } } ,
+                {
+                  name
+                    name {
+                      last "Elzer" ,
+                      initials "P.H." } } ,
+                {
+                  name
+                    name {
+                      last "Hagius" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "O'Callaghan" ,
+                      initials "D." } } ,
+                {
+                  name
+                    name {
+                      last "Letesson" ,
+                      initials "J.J." } } ,
+                {
+                  name
+                    name {
+                      last "Haselkorn" ,
+                      initials "R." } } ,
+                {
+                  name
+                    name {
+                      last "Kyrpides" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Overbeek" ,
+                      initials "R." } } } } ,
+          from
+            journal {
+              title {
+                iso-jta "Proc. Natl. Acad. Sci. U.S.A." ,
+                ml-jta "Proc Natl Acad Sci U S A" ,
+                issn "0027-8424" ,
+                name "Proceedings of the National Academy of Sciences of the
+ United States of America" } ,
+              imp {
+                date
+                  std {
+                    year 2002 ,
+                    month 1 ,
+                    day 8 } ,
+                volume "99" ,
+                issue "1" ,
+                pages "443-448" ,
+                language "eng" ,
+                pubstatus ppublish ,
+                history {
+                  {
+                    pubstatus pubmed ,
+                    date
+                      std {
+                        year 2002 ,
+                        month 1 ,
+                        day 5 ,
+                        hour 10 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus medline ,
+                    date
+                      std {
+                        year 2002 ,
+                        month 4 ,
+                        day 16 ,
+                        hour 10 ,
+                        minute 1 } } ,
+                  {
+                    pubstatus aheadofprint ,
+                    date
+                      std {
+                        year 2001 ,
+                        month 12 ,
+                        day 26 } } ,
+                  {
+                    pubstatus other ,
+                    date
+                      std {
+                        year 2002 ,
+                        month 1 ,
+                        day 5 ,
+                        hour 10 ,
+                        minute 0 } } } } } ,
+          ids {
+            pubmed 11756688 ,
+            doi "10.1073/pnas.221575398" ,
+            pii "221575398" ,
+            other {
+              db "pmc" ,
+              tag
+                str "PMC117579" } } } ,
+        pmid 11756688 } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Kapatral" ,
+                      first "Vinayak" ,
+                      initials "V." } } ,
+                {
+                  name
+                    name {
+                      last "Los" ,
+                      first "Tamara" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Ivanova" ,
+                      first "Natalia" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Anderson" ,
+                      first "Iain" ,
+                      initials "I." } } ,
+                {
+                  name
+                    name {
+                      last "Bhattacharyya" ,
+                      first "Anamitra" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Lykidis" ,
+                      first "Athanasios" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Reznik" ,
+                      first "Gary" ,
+                      initials "G." } } ,
+                {
+                  name
+                    name {
+                      last "Jablonski" ,
+                      first "Lynn" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Larsen" ,
+                      first "Niels" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "D'Souza" ,
+                      first "Mark" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Bernal" ,
+                      first "Axel" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Mazur" ,
+                      first "Mikhail" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Goltsman" ,
+                      first "Eugene" ,
+                      initials "E." } } ,
+                {
+                  name
+                    name {
+                      last "Selkov" ,
+                      first "Eugene" ,
+                      initials "E." } } ,
+                {
+                  name
+                    name {
+                      last "Haselkorn" ,
+                      first "Robert" ,
+                      initials "R." } } ,
+                {
+                  name
+                    name {
+                      last "Kyrpides" ,
+                      first "Nikos" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Overbeek" ,
+                      first "Ross" ,
+                      initials "R." } } } ,
+            affil
+              std {
+                affil "Integrated Genomics, Inc." ,
+                sub "IL" ,
+                country "USA" ,
+                street "2201 W. Campbell Park Drive" ,
+                postal-code "60612" } } ,
+          medium other ,
+          date
+            std {
+              year 2001 ,
+              month 11 ,
+              day 13 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "DelVecchio" ,
+                      first "Vito" ,
+                      initials "V.G." } } ,
+                {
+                  name
+                    name {
+                      last "Redkar" ,
+                      first "Rajendra" ,
+                      initials "R.J." } } ,
+                {
+                  name
+                    name {
+                      last "Patra" ,
+                      first "Guy" ,
+                      initials "G." } } ,
+                {
+                  name
+                    name {
+                      last "Mujer" ,
+                      first "Cesar" ,
+                      initials "C." } } } ,
+            affil
+              std {
+                affil "University of Scranton" ,
+                div "Institute of Molecular Biology and Medicine" ,
+                city "Scranton" ,
+                sub "PA" ,
+                country "USA" ,
+                postal-code "18510" } } ,
+          medium other ,
+          date
+            std {
+              year 2001 ,
+              month 11 ,
+              day 13 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Letesson" ,
+                      first "Jean-Jacques" ,
+                      initials "J.-J." } } } ,
+            affil
+              std {
+                affil "Universite of Namur" ,
+                div "Unite de Recherche en Biologie Moleculaire, Laboratoire
+ d'Immunologie et de Microbiologie" ,
+                city "Namur" ,
+                country "Belgium" ,
+                street "61 rue de Bruxelles" ,
+                postal-code "5000" } } ,
+          medium other ,
+          date
+            std {
+              year 2001 ,
+              month 11 ,
+              day 13 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Elzer" ,
+                      first "Philip" ,
+                      initials "P.H." } } ,
+                {
+                  name
+                    name {
+                      last "Hagius" ,
+                      first "Sue" ,
+                      initials "S." } } } ,
+            affil
+              std {
+                affil "LSU Ag Center" ,
+                div "Department of Veterinary Science" ,
+                city "Baton Rouge" ,
+                sub "LA" ,
+                country "USA" ,
+                street "111 Dalrymple Building" ,
+                postal-code "70803" } } ,
+          medium other ,
+          date
+            std {
+              year 2001 ,
+              month 11 ,
+              day 13 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "O'Callaghan" ,
+                      first "David" ,
+                      initials "D." } } } ,
+            affil
+              std {
+                affil "INSERM U431" ,
+                div "Faculte de Medecine" ,
+                city "Nimes" ,
+                country "France" ,
+                street "Avenue Kennedy" ,
+                postal-code "30900" } } ,
+          medium other ,
+          date
+            std {
+              year 2001 ,
+              month 11 ,
+              day 13 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2013 ,
+              month 2 ,
+              day 14 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA188943" } } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_042029" } ,
+        general {
+          db "REF_23S_RNA" ,
+          tag
+            str "AE008917:200902-203806" } } ,
+      descr {
+        title "Brucella melitensis bv. 1 23S ribosomal RNA gene, complete
+ sequence." ,
+        molinfo {
+          biomol genomic } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 26 } } } } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "AE008917:200902-203806" } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        create-date
+          std {
+            year 2013 ,
+            month 3 ,
+            day 25 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 2 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 2905 ,
+        seq-data
+          ncbi2na '42EDF0A93FAE8E5FA4E44A638286E319E6309B6A8AE60C57F8D618FD60E
+A90545F2387200DEFFBE89067A3ABF1153121672B6DA54EEA595566899493D77A0E6C699B89881
+2449FDCB4D3030ACDC17E0C4CAAF209817AA07804DC2C548A0284D0188759CB2E989819A14A52E
+9FFB8302E818BE801D8582EAE32D5B11B20C920B5F8B2A6A11B80D7B7813AB6146350970B1DB93
+858C9814B16E2A02B802455862A8B804B17805A3971012FA2542BFB5EAE126C5FFB30EAD261F2E
+CD8909F096B2BB299260262DE04A9BD2F6393C8560142E37253892BE0AC6B046C7A285815337BE
+43236A387EE9CAAE02943407E88C9EBDD660373F2B226D8583155AAB2247A3A9CEA8745B7C78D7
+0501D60C5AA2C72DA484469AB9C1B5B6E88A90415E145370AD5C2F3A70BA80A3B8A354010528EF
+A7C82494D3F02026C12747ADC0C2ADFE65803B16A9D094C45827BA391B3B9BAC9A26F5B097B82A
+12DB884D7A2B3682E20E784E2C18C0A8B8887576580B50ABD79F02F0DE24ABC969570A6296029B
+2D8EA051BC33DBA9792B2E1A366EEFB8ADF3E8F8DF92609AF5280C9D7933216C5701611EBA1EB2
+20C50A67E22079BE0A076900E466C1F68209B85D1CEA414CAAAE91214AAB261EFC500112A77982
+D90861B32ADE19795AE7A0AF08A22B9097E0F82552C069A5B07306B5C2B2603D7EDAB0BD617918
+3A6C187D567B75064874B80F83D56E08E6ABD79AF21A02156E45FC7327F11E93DB8613BB28CAEB
+21FE092A99497FBA2D15F80C515FBFF3A3B7079A56F35AB5285BB3AEACBF87AA6B65D7022C1A29
+998EB29D206B680DBDB62E43A4C25E5E1E421E10B62488602DAD32E35AEB566E82A536741A300A
+C65AA304A78E15508B53361AAFBFA45D8ED874D935EA9E892B542ACE9EF653F026B1B8BEAF481B
+6E212F6B573796EAECA0CF84A37B572C62285A8E86CDDEBA17BEE994964C92AC9CCC686A3059E0
+A4DC26A015178018B3D5CD225BA085146F8CA5ABBA0B9A4193927C5AC70C9D8D87E00'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                product
+                  whole
+                    other {
+                      accession "NR_076080" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 172 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042029" } } ,
+                    int {
+                      from 289 ,
+                      to 2904 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042029" } } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 173 ,
+                    to 288 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_042029" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_076080" } } ,
+      descr {
+        title "Brucella melitensis bv. 1 23S ribosomal RNA, complete
+ sequence." ,
+        molinfo {
+          biomol rRNA } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_042029" } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "PROVISIONAL" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 2789 ,
+        seq-data
+          ncbi2na '42EDF0A93FAE8E5FA4E44A638286E319E6309B6A8AE60C57F8D618FD60E
+A90545F2387200DEFFBE89067A3B4D3030ACDC17E0C4CAAF209817AA07804DC2C548A0284D0188
+759CB2E989819A14A52E9FFB8302E818BE801D8582EAE32D5B11B20C920B5F8B2A6A11B80D7B78
+13AB6146350970B1DB93858C9814B16E2A02B802455862A8B804B17805A3971012FA2542BFB5EA
+E126C5FFB30EAD261F2ECD8909F096B2BB299260262DE04A9BD2F6393C8560142E37253892BE0A
+C6B046C7A285815337BE43236A387EE9CAAE02943407E88C9EBDD660373F2B226D8583155AAB22
+47A3A9CEA8745B7C78D70501D60C5AA2C72DA484469AB9C1B5B6E88A90415E145370AD5C2F3A70
+BA80A3B8A354010528EFA7C82494D3F02026C12747ADC0C2ADFE65803B16A9D094C45827BA391B
+3B9BAC9A26F5B097B82A12DB884D7A2B3682E20E784E2C18C0A8B8887576580B50ABD79F02F0DE
+24ABC969570A6296029B2D8EA051BC33DBA9792B2E1A366EEFB8ADF3E8F8DF92609AF5280C9D79
+33216C5701611EBA1EB220C50A67E22079BE0A076900E466C1F68209B85D1CEA414CAAAE91214A
+AB261EFC500112A77982D90861B32ADE19795AE7A0AF08A22B9097E0F82552C069A5B07306B5C2
+B2603D7EDAB0BD6179183A6C187D567B75064874B80F83D56E08E6ABD79AF21A02156E45FC7327
+F11E93DB8613BB28CAEB21FE092A99497FBA2D15F80C515FBFF3A3B7079A56F35AB5285BB3AEAC
+BF87AA6B65D7022C1A29998EB29D206B680DBDB62E43A4C25E5E1E421E10B62488602DAD32E35A
+EB566E82A536741A300AC65AA304A78E15508B53361AAFBFA45D8ED874D935EA9E892B542ACE9E
+F653F026B1B8BEAF481B6E212F6B573796EAECA0CF84A37B572C62285A8E86CDDEBA17BEE99496
+4C92AC9CCC686A3059E0A4DC26A015178018B3D5CD225BA085146F8CA5ABBA0B9A4193927C5AC7
+0C9D8D87E00'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                location
+                  int {
+                    from 0 ,
+                    to 2788 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_076080" } } } } } } } } }

@@ -1,0 +1,745 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Proteus mirabilis" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 584 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Proteus" ,
+              species "mirabilis" } ,
+          attrib "nomodforward" ,
+          mod {
+            {
+              subtype strain ,
+              subname "HI4320" } } ,
+          lineage "Bacteria; Proteobacteria; Gammaproteobacteria;
+ Enterobacteriales; Enterobacteriaceae; Proteus" ,
+          gcode 11 ,
+          div "BCT" } } } ,
+    pub {
+      pub {
+        pmid 18375554 ,
+        article {
+          title {
+            name "Complete genome sequence of uropathogenic Proteus mirabilis,
+ a master of both adherence and motility." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Pearson" ,
+                      initials "M.M." } ,
+                  affil
+                    str "Department of Microbiology and Immunology, University
+ of Michigan Medical School, Ann Arbor, MI 48109-0620, USA." } ,
+                {
+                  name
+                    name {
+                      last "Sebaihia" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Churcher" ,
+                      initials "C." } } ,
+                {
+                  name
+                    name {
+                      last "Quail" ,
+                      initials "M.A." } } ,
+                {
+                  name
+                    name {
+                      last "Seshasayee" ,
+                      initials "A.S." } } ,
+                {
+                  name
+                    name {
+                      last "Luscombe" ,
+                      initials "N.M." } } ,
+                {
+                  name
+                    name {
+                      last "Abdellah" ,
+                      initials "Z." } } ,
+                {
+                  name
+                    name {
+                      last "Arrosmith" ,
+                      initials "C." } } ,
+                {
+                  name
+                    name {
+                      last "Atkin" ,
+                      initials "B." } } ,
+                {
+                  name
+                    name {
+                      last "Chillingworth" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Hauser" ,
+                      initials "H." } } ,
+                {
+                  name
+                    name {
+                      last "Jagels" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Moule" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Mungall" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Norbertczak" ,
+                      initials "H." } } ,
+                {
+                  name
+                    name {
+                      last "Rabbinowitsch" ,
+                      initials "E." } } ,
+                {
+                  name
+                    name {
+                      last "Walker" ,
+                      initials "D." } } ,
+                {
+                  name
+                    name {
+                      last "Whithead" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Thomson" ,
+                      initials "N.R." } } ,
+                {
+                  name
+                    name {
+                      last "Rather" ,
+                      initials "P.N." } } ,
+                {
+                  name
+                    name {
+                      last "Parkhill" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Mobley" ,
+                      initials "H.L." } } } } ,
+          from
+            journal {
+              title {
+                iso-jta "J. Bacteriol." ,
+                ml-jta "J Bacteriol" ,
+                issn "1098-5530" ,
+                name "Journal of bacteriology" } ,
+              imp {
+                date
+                  std {
+                    year 2008 ,
+                    month 6 } ,
+                volume "190" ,
+                issue "11" ,
+                pages "4027-4037" ,
+                language "eng" ,
+                pubstatus ppublish ,
+                history {
+                  {
+                    pubstatus aheadofprint ,
+                    date
+                      std {
+                        year 2008 ,
+                        month 3 ,
+                        day 28 } } ,
+                  {
+                    pubstatus pubmed ,
+                    date
+                      std {
+                        year 2008 ,
+                        month 4 ,
+                        day 1 ,
+                        hour 9 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus medline ,
+                    date
+                      std {
+                        year 2008 ,
+                        month 7 ,
+                        day 4 ,
+                        hour 9 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus other ,
+                    date
+                      std {
+                        year 2008 ,
+                        month 4 ,
+                        day 1 ,
+                        hour 9 ,
+                        minute 0 } } } } } ,
+          ids {
+            pii "JB.01981-07" ,
+            doi "10.1128/JB.01981-07" ,
+            pubmed 18375554 ,
+            other {
+              db "pmc" ,
+              tag
+                str "PMC2395036" } ,
+            other {
+              db "ELocationID doi" ,
+              tag
+                str "10.1128/JB.01981-07" } } } } ,
+      reftype no-target } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Sebaihia" ,
+                      initials "M." } } } ,
+            affil
+              str "Sebaihia M., Sulston Laboratories, Wellcome Trust Sanger
+ Institute, Wellcome Trust Genome Campus, Hinxton, Cambridge, CB10 1SA, UNITED
+ KINGDOM" } ,
+          medium other ,
+          date
+            std {
+              year 2008 ,
+              month 2 ,
+              day 18 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2013 ,
+              month 2 ,
+              day 14 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA188943" } } } } ,
+    user {
+      type
+        str "NcbiCleanup" ,
+      data {
+        {
+          label
+            str "method" ,
+          data
+            str "SequinCleanup" } ,
+        {
+          label
+            str "version" ,
+          data
+            int 8 } ,
+        {
+          label
+            str "month" ,
+          data
+            int 4 } ,
+        {
+          label
+            str "day" ,
+          data
+            int 22 } ,
+        {
+          label
+            str "year" ,
+          data
+            int 2015 } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_042024" } ,
+        general {
+          db "REF_23S_RNA" ,
+          tag
+            str "AM942759:455204-458271" } } ,
+      descr {
+        title "Proteus mirabilis 23S ribosomal RNA gene, complete sequence." ,
+        molinfo {
+          biomol genomic } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 26 } } } } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "AM942759:455204-458271" } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        embl {
+          div pro ,
+          creation-date
+            std {
+              year 2008 ,
+              month 4 ,
+              day 2 } ,
+          update-date
+            std {
+              year 2010 ,
+              month 11 ,
+              day 5 } ,
+          xref {
+            {
+              dbname
+                name "ENA" ,
+              id {
+                str "ERS000070" } } ,
+            {
+              dbname
+                name "GR" ,
+              id {
+                str "AM942759_GR" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00001" ,
+                str "5S_rRNA" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00005" ,
+                str "tRNA" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00010" ,
+                str "RNaseP_bact_a" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00013" ,
+                str "6S" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00021" ,
+                str "Spot_42" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00022" ,
+                str "GcvB" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00023" ,
+                str "tmRNA" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00029" ,
+                str "Intron_gpII" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00034" ,
+                str "RprA" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00040" ,
+                str "rne5" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00050" ,
+                str "FMN" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00057" ,
+                str "RyhB" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00059" ,
+                str "TPP" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00081" ,
+                str "SraH" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00082" ,
+                str "SraG" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00083" ,
+                str "GlmZ_SraJ" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00110" ,
+                str "RybB" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00111" ,
+                str "RyeB" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00112" ,
+                str "CyaR_RyeE" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00114" ,
+                str "S15" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00127" ,
+                str "t44" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00128" ,
+                str "GlmY_tke1" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00140" ,
+                str "Alpha_RBS" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00169" ,
+                str "SRP_bact" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00174" ,
+                str "Cobalamin" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00177" ,
+                str "SSU_rRNA_5" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00368" ,
+                str "sroB" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00380" ,
+                str "ykoK" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00506" ,
+                str "Thr_leader" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00512" ,
+                str "Leu_leader" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00514" ,
+                str "His_leader" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00552" ,
+                str "rncO" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00630" ,
+                str "P26" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF01055" ,
+                str "MOCO_RNA_motif" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF01086" ,
+                str "LR-PK1" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF01118" ,
+                str "PK-G12rRNA" } } ,
+            {
+              dbname
+                name "SILVA-LSU" ,
+              id {
+                str "AM942759" } } ,
+            {
+              dbname
+                name "SILVA-SSU" ,
+              id {
+                str "AM942759" } } } } ,
+        create-date
+          std {
+            year 2013 ,
+            month 3 ,
+            day 25 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 2 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 3068 ,
+        seq-data
+          ncbi2na 'C260C26C46BA397290D2298E0A1B9C3798026DAC2B8CE05BCC5618CD60E
+A8054B350E8C734F0783532BC38A605A881E01374B15628020341623D572C9A62606A892548B7C
+34324BB4A206B7A02D692C0AB8C956CDE08E7BCFB81D862CA9A846EF35EDE0CEAA8535D429C0C7
+5E3E1632E052C5B8A80A600815698AA2E00205E016EC6C424B28954D1D0B976478B8E4204D1600
+C9960FE7042BEB63FFD096D992EC5C82C46241A0BC0036A423E0640A426A13F8A3AAE1E6C5FFB3
+0EAD261F33DEC90AF05932A896CA8058B7C1EA60E2F92ACC856015AE37353A92BE0AFAB04707A2
+858161C3BE003C9A387EE8EAAE02943405A88C9EBDD560273F2B265DB81D37DAAB2247BF61CAAB
+4D587C50763901E60C5820EF346A2111A6AE706D6DB822A0105485949C2B540B4EBC2EA0182EA0
+A748494A3BE9F2092534FC0809B0C9D1EB62DA5666823B06A9C05391609E69261102EFBEACAA26
+F7B097982BB1EE2B39E8ACD20B9839E130B0630E6AE0015919682142AF5ED41BC36A92AE2D855C
+298A78026CB63A806AF0CF56C7AEB0798EAA068829CAFB5A986B6D5AF424ACA48B8F29035AD1F0
+E788EE38605142BAE090F8E559F528025DC27D2BC50436C55016112BAD2B220C74A67E22076AE0
+A072900EB96C1F6A20A467A6B2B02D5F9A1A678252D823149E9E41EFCF0011247B901180BA1B31
+AEE19795AE7A0AF0F8EABC9B098275E360954B01A696C1CC1AD70AC980F5FB6AC2F585E460E9B0
+E3A529EDD45621D2E03E0767B82392EC566908680855B817F1CC9F847813E25F8EECA32BA8A7F8
+2EE8652DE4E89417E031457F06FE3BDC17295301EADAA16EDEBAB2FE1EA9ADD75C08B068A2460A
+FA7093ADA134E6BCB902930949F87988B869D892B180B2B7CB8D6BAF783A0A94D9D068C02B1D6A
+8C129E3165422F4CD869AEFE91763B69D344D7AA782CAD50AB3A7BD94FC0BAC6627ABF206DB884
+BDAD5CDE5BA9BE823E22ABE75CB188A168B819147AEF6AFB4E50E93E56B270B9A088C167809370
+9A807E5D88E2DF57B67F0B85C0A06FC21C21BE329EAEEC26C98C6F89C14B1C3816E29F0'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                product
+                  whole
+                    other {
+                      accession "NR_076090" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 561 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042024" } } ,
+                    int {
+                      from 661 ,
+                      to 3067 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042024" } } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 562 ,
+                    to 660 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_042024" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_076090" } } ,
+      descr {
+        title "Proteus mirabilis 23S ribosomal RNA, complete sequence." ,
+        molinfo {
+          biomol rRNA } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "Status" ,
+              data
+                str "Reviewed" } ,
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_042024" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 2969 ,
+        seq-data
+          ncbi2na 'C260C26C46BA397290D2298E0A1B9C3798026DAC2B8CE05BCC5618CD60E
+A8054B350E8C734F0783532BC38A605A881E01374B15628020341623D572C9A62606A892548B7C
+34324BB4A206B7A02D692C0AB8C956CDE08E7BCFB81D862CA9A846EF35EDE0CEAA8535D429C0C7
+5E3E1632E052C5B8A80A600815698AA2E00205E016EC6C424B28954D1D0B976478682F000DA908
+F81902909A84FE28EAB879B17FECC3AB4987CCF7B242BC164CAA25B2A0162DF07A9838BE4AB321
+58056B8DCD4EA4AF82BEAC11C1E8A1605870EF800F268E1FBA3AAB80A50D016A2327AF755809CF
+CAC9976E074DF6AAC891EFD872AAD3561F141D8E40798316083BCD1A884469AB9C1B5B6E08A804
+152165270AD502D3AF0BA8060BA829D212528EFA7C82494D3F02026C32747AD8B69599A08EC1AA
+7014E458279A498440BBEFAB2A89BDEC25E60AEC7B8ACE7A2B3482E60E784C2C18C39AB8005646
+5A0850ABD7B506F0DAA4AB8B61570A629E009B2D8EA01ABC33D5B1EBAC1E63AA81A20A72BED6A6
+1ADB56BD092B2922E3CA40D6B47C39E23B8E181450AEB8243E39567D4A0097709F4AF1410DB154
+05844AEB4AC8831D299F8881DAB8281CA403AE5B07DA882919E9ACAC0B57E68699E094B608C527
+A7907BF3C004491EE404602E86CC6BB865E56B9E82BC3E3AAF26C2609D78D82552C069A5B07306
+B5C2B2603D7EDAB0BD6179183A6C38E94A7B75158874B80F81D9EE08E4BB159A421A02156E05FC
+7327E11E04F897E3BB28CAEA29FE0BBA194B793A2505F80C515FC1BF8EF705CA54C07AB6A85BB7
+AEACBF87AA6B75D7022C1A289182BE9C24EB684D39AF2E40A4C2527E1E622E1A7624AC602CADF2
+E35AEBDE0E82A536741A300AC75AA304A78C59508BD3361A6BBFA45D8EDA74D135EA9E0B2B542A
+CE9EF653F02EB1989EAFC81B6E212F6B573796EA6FA08F88AAF9D72C62285A2E06451EBBDABED3
+943A4F95AC9C2E68223059E024DC26A01F976238B7D5ED9FC2E170281BF087086F8CA7ABBB09B2
+631BE27052C70E05B8A7C00'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                location
+                  int {
+                    from 0 ,
+                    to 2968 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_076090" } } } } } } } } }

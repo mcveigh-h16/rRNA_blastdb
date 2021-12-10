@@ -1,0 +1,127 @@
+Seq-entry ::= seq {
+  id {
+    other {
+      accession "NR_114604" } } ,
+  descr {
+    title "Helicobacter fennelliae strain NCTC 11612 16S ribosomal RNA,
+ partial sequence." ,
+    molinfo {
+      biomol rRNA ,
+      completeness no-ends } ,
+    user {
+      type
+        str "RefGeneTracking" ,
+      data {
+        {
+          label
+            str "Status" ,
+          data
+            str "Reviewed" } ,
+        {
+          label
+            str "GenomicSource" ,
+          data
+            str "NG_042880" } } } ,
+    user {
+      class "1.0" ,
+      type
+        str "AutodefOptions" ,
+      data {
+        {
+          label
+            str "SpecifyNuclearProduct" ,
+          data
+            bool TRUE } ,
+        {
+          label
+            str "MiscFeatRule" ,
+          data
+            str "NoncodingProductFeat" } ,
+        {
+          label
+            str "FeatureListType" ,
+          data
+            str "List All Features" } ,
+        {
+          label
+            str "ModifierList" ,
+          data
+            fields {
+              {
+                label
+                  str "OrgMods" ,
+                num 1 ,
+                data
+                  strs {
+                    "Strain" } } } } ,
+        {
+          label
+            str "HIVRule" ,
+          data
+            str "WantBoth" } ,
+        {
+          label
+            str "DoNotApplyToSp" ,
+          data
+            bool TRUE } ,
+        {
+          label
+            str "LeaveParenthetical" ,
+          data
+            bool TRUE } ,
+        {
+          label
+            str "MaxMods" ,
+          data
+            int -99 } ,
+        {
+          label
+            str "UseLabels" ,
+          data
+            bool TRUE } } } } ,
+  inst {
+    repr raw ,
+    mol rna ,
+    length 1324 ,
+    seq-data
+      ncbi4na '148411242844248422811812184211482411241841148282814288428141418
+441881484424212444841481184218141811218422288814828144181422128441112448418811
+812844181288288124141411144482822428111441884482818482281821428848844841448118
+442821221144281841244481822442284141444841124412121284411284141212448221412822
+812444144214214814441181984282118444441112228411421421124224248441441841144888
+814418848111282288884881414114188184124481828112411811421224428112822484221421
+422424481181244144484211424881282441182128444248111414842421442444181421148214
+184841118428184428811221814112842188841112842818828141484844414144814484411882
+884484814444811118224814141821141441181282188424114424122812844112188128412428
+218421241114248444414211121441881418122284481482212422281112418411842814884884
+222842824821444214811842142811242188114218822422844441481244824211418811112821
+114411814124444122242121142448441421848448881188241142812424114112288122814428
+841218841814118284281414181424414842844288422141428841111214484284212442848248
+214282484824841418488444881148222421124142421122282482288148848814214882442841
+421282811441412842288242114414414411448414412412482114821821844222881242281444
+281212124842812118444484212111414114211818242414184414211182822111124228282148
+824418848148284211282412812181114284411824281481182421118214211848842448411812
+4882224448288'H } ,
+  annot {
+    {
+      data
+        ftable {
+          {
+            data
+              rna {
+                type rRNA ,
+                ext
+                  name "16S ribosomal RNA" } ,
+            partial TRUE ,
+            location
+              int {
+                from 0 ,
+                to 1323 ,
+                strand plus ,
+                id
+                  other {
+                    accession "NR_114604" } ,
+                fuzz-from
+                  lim lt ,
+                fuzz-to
+                  lim gt } } } } } }

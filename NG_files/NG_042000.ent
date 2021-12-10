@@ -1,0 +1,418 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Brucella microti" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 444163 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Brucella" ,
+              species "microti" } ,
+          attrib "nomodforward" ,
+          mod {
+            {
+              subtype strain ,
+              subname "CCM 4915" } ,
+            {
+              subtype culture-collection ,
+              subname "CCM:4915" } } ,
+          lineage "Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales;
+ Brucellaceae; Brucella" ,
+          gcode 11 ,
+          div "BCT" } } } ,
+    pub {
+      pub {
+        article {
+          title {
+            name "Brucella microti: the genome sequence of an emerging
+ pathogen." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Audic" ,
+                      initials "S." } ,
+                  affil
+                    str "Laboratoire Information Genomique et Structurale,
+ CNRS - UPR2589, Aix-Marseille University, Institut de Microbiologie de la
+ Mediterranee (IM2, IFR-88), Parc Scientifique de Luminy, FR- 13288, Marseille
+ cedex 09, France. stephane.audic@igs.cnrs-mrs.fr" } ,
+                {
+                  name
+                    name {
+                      last "Lescot" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Claverie" ,
+                      initials "J.M." } } ,
+                {
+                  name
+                    name {
+                      last "Scholz" ,
+                      initials "H.C." } } } } ,
+          from
+            journal {
+              title {
+                iso-jta "BMC Genomics" ,
+                ml-jta "BMC Genomics" ,
+                issn "1471-2164" ,
+                name "BMC genomics" } ,
+              imp {
+                date
+                  std {
+                    year 2009 } ,
+                volume "10" ,
+                pages "352" ,
+                language "eng" ,
+                pubstatus epublish ,
+                history {
+                  {
+                    pubstatus received ,
+                    date
+                      std {
+                        year 2009 ,
+                        month 5 ,
+                        day 7 } } ,
+                  {
+                    pubstatus accepted ,
+                    date
+                      std {
+                        year 2009 ,
+                        month 8 ,
+                        day 4 } } ,
+                  {
+                    pubstatus aheadofprint ,
+                    date
+                      std {
+                        year 2009 ,
+                        month 8 ,
+                        day 4 } } ,
+                  {
+                    pubstatus other ,
+                    date
+                      std {
+                        year 2009 ,
+                        month 8 ,
+                        day 6 ,
+                        hour 9 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus pubmed ,
+                    date
+                      std {
+                        year 2009 ,
+                        month 8 ,
+                        day 6 ,
+                        hour 9 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus medline ,
+                    date
+                      std {
+                        year 2009 ,
+                        month 10 ,
+                        day 1 ,
+                        hour 6 ,
+                        minute 0 } } } } } ,
+          ids {
+            pii "1471-2164-10-352" ,
+            doi "10.1186/1471-2164-10-352" ,
+            pubmed 19653890 ,
+            other {
+              db "pmc" ,
+              tag
+                str "PMC2743711" } ,
+            other {
+              db "ELocationID doi" ,
+              tag
+                str "10.1186/1471-2164-10-352" } } } ,
+        pmid 19653890 } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Audic" ,
+                      first "Stephane" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Lescot" ,
+                      first "Magali" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Claverie" ,
+                      first "Jean-Michel" ,
+                      initials "J.-M." } } ,
+                {
+                  name
+                    name {
+                      last "Scholz" ,
+                      first "Holger" ,
+                      initials "H.C." } } } ,
+            affil
+              std {
+                affil "CNRS UPR2589, Institut de Microbiologie de la
+ Mediterranee, IM2, IFR88" ,
+                div "Information Genomique et Structurale" ,
+                city "Marseille" ,
+                country "France" ,
+                street "Parc Scientifique de Luminy - 163 Avenue de Luminy -
+ Case 934 - FR-13288" ,
+                postal-code "cedex 09" } } ,
+          medium other ,
+          date
+            std {
+              year 2009 ,
+              month 3 ,
+              day 31 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2013 ,
+              month 2 ,
+              day 14 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA188943" } } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_042000" } ,
+        general {
+          db "REF_23S_RNA" ,
+          tag
+            str "CP001578:1593308-1596187" } } ,
+      descr {
+        title "Brucella microti strain CCM 4915 23S ribosomal RNA gene,
+ complete sequence." ,
+        molinfo {
+          biomol genomic } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 26 } } } } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "CP001578:1593308-1596187" } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        create-date
+          std {
+            year 2013 ,
+            month 3 ,
+            day 25 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 2 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 2880 ,
+        seq-data
+          ncbi2na '42EDF0A93FAE8E5FA4E44A638286E319E6309B6A8AE60C57F8D618FD60E
+A90545F2387200D23BB6FC290CA90C692CA92CEC20133E5F3E571E1F1E5FFE21A64EEBF72D34C0
+C2B3705F83132ABC82605EA81E01370B152280A1340621D672CBA62606685294BA432A0C0BA081
+7A02BF960BAB8C956C46C8117BED7E2CA9A8462035EDE04EAD8518D425C2C76E4E16326052C5B8
+A80AE00915618AA2E012C5E0168E5C404BE8950AFED7AB849B17FECC3AB4987CB7862427C25ACA
+ECA6498098B7812A6F4BDB68F2158050B8DC94E24AF82B1AC11B1E8A16054CDEF90C8DA8E1FBA7
+2AB80A50D01FA2327AF75980DCFCAC89B6160C556AAC891E8EA73AA1D16DF1E35C140758316A8B
+1CB692111A6AE706D6DBA22A410578514DC2B570BCE9C2EA028EE28D500414A3BE9F2092534FC0
+809B049D1EB7030AB7F99600EC5AA7425311609EE8E46CEE6EB2689BD6C25EE0A84B6E2135E8AC
+DA0B8839E138B06302A2E221D5D9602D42AF5E7C0BC37892AF25A55C298A580A6CB63A8146F0CF
+6EA5E4ACB868D9BBBEE2B7CFA3E37E49826BD4A03275E4CC85B15C05847AE87AC88314299F8881
+E6F8281DA403919B07DA0826E17473A90532AABA44852AAC987BF140044A9DE60B642186CCAB78
+65E56B9E82BC2288AE425F83E0954B01A696C1CC1AD70AC980F5FB6AC2F585E460E9B061F559ED
+D41921D2E03E0F55B8239AAF5E6BC8680855B917F1CC9FC47A4F6E184EECA32BAC87F824AA6525
+FEE8B457E031457EFFCE8EDC1E695BCD6AD4A16ECEBAB2FE1EA9AD975C08B068A6663ACA7481AD
+A036F6D8B90E9309797879087842D8922180B6B4CB8D6BAD59BA0A94D9D068C02B196A8C129E38
+55422D4CD86ABEFE91763B61D364D7AA7A24AD50AB3A7BD94FC09AC6E2FABD206DB884BDAD5CDE
+5BABB2833E128DED5CB188A16A3A1B377AE85EFBA65259324AB27331A1A8C1678293709A80545E
+0062CF5734896E821451BE3296AEE82E69064E49F16B1C3276361F8'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                product
+                  whole
+                    other {
+                      accession "NR_076125" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 186 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042000" } } ,
+                    int {
+                      from 262 ,
+                      to 2879 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042000" } } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 187 ,
+                    to 261 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_042000" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_076125" } } ,
+      descr {
+        title "Brucella microti strain CCM 4915 23S ribosomal RNA, complete
+ sequence." ,
+        molinfo {
+          biomol rRNA } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "Status" ,
+              data
+                str "Reviewed" } ,
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_042000" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 2805 ,
+        seq-data
+          ncbi2na '42EDF0A93FAE8E5FA4E44A638286E319E6309B6A8AE60C57F8D618FD60E
+A90545F2387200D23BB6FC290CA90C692C8B4D3030ACDC17E0C4CAAF209817AA07804DC2C548A0
+284D0188759CB2E989819A14A52E90CA8302E8205E80AFE582EAE3255B11B2045EFB5F8B2A6A11
+880D7B7813AB6146350970B1DB93858C9814B16E2A02B802455862A8B804B17805A3971012FA25
+42BFB5EAE126C5FFB30EAD261F2DE18909F096B2BB299260262DE04A9BD2F6DA3C8560142E3725
+3892BE0AC6B046C7A285815337BE43236A387EE9CAAE02943407E88C9EBDD660373F2B226D8583
+155AAB2247A3A9CEA8745B7C78D70501D60C5AA2C72DA484469AB9C1B5B6E88A90415E145370AD
+5C2F3A70BA80A3B8A354010528EFA7C82494D3F02026C12747ADC0C2ADFE65803B16A9D094C458
+27BA391B3B9BAC9A26F5B097B82A12DB884D7A2B3682E20E784E2C18C0A8B8887576580B50ABD7
+9F02F0DE24ABC969570A6296029B2D8EA051BC33DBA9792B2E1A366EEFB8ADF3E8F8DF92609AF5
+280C9D7933216C5701611EBA1EB220C50A67E22079BE0A076900E466C1F68209B85D1CEA414CAA
+AE91214AAB261EFC500112A77982D90861B32ADE19795AE7A0AF08A22B9097E0F82552C069A5B0
+7306B5C2B2603D7EDAB0BD6179183A6C187D567B75064874B80F83D56E08E6ABD79AF21A02156E
+45FC7327F11E93DB8613BB28CAEB21FE092A99497FBA2D15F80C515FBFF3A3B7079A56F35AB528
+5BB3AEACBF87AA6B65D7022C1A29998EB29D206B680DBDB62E43A4C25E5E1E421E10B62488602D
+AD32E35AEB566E82A536741A300AC65AA304A78E15508B53361AAFBFA45D8ED874D935EA9E892B
+542ACE9EF653F026B1B8BEAF481B6E212F6B573796EAECA0CF84A37B572C62285A8E86CDDEBA17
+BEE994964C92AC9CCC686A3059E0A4DC26A015178018B3D5CD225BA085146F8CA5ABBA0B9A4193
+927C5AC70C9D8D87E00'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                location
+                  int {
+                    from 0 ,
+                    to 2804 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_076125" } } } } } } } } }

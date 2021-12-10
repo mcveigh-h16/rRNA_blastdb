@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE RegisterDbOrder PUBLIC "-//NCBI//create db/EN" "register-db.xsd">
+<RegisterDbOrder>
+  <version>1.1</version>
+  <reg-order>
+    <db-path>/net/snowman/vol/export2/mcveigh/rRNA_blastdb/rRNA_blast</db-path>
+    <display-name>rRNA_blast</display-name>
+    <visibility>private</visibility>
+    <molecule-type>dna</molecule-type>
+    <desc> rRNA_blast is a database of sequences of common rRNA genes from a variety of organism types.</desc>
+    <keyword>rRNA</keyword>
+  </reg-order>
+</RegisterDbOrder>

@@ -1,0 +1,448 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Helicobacter bilis" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 37372 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Helicobacter" ,
+              species "bilis" } ,
+          attrib "nomodforward" ,
+          mod {
+            {
+              subtype strain ,
+              subname "Hb1; MIT 93-1909" } ,
+            {
+              subtype nat-host ,
+              subname "Mus musculus" } ,
+            {
+              subtype culture-collection ,
+              subname "MIT:93-1909" } } ,
+          lineage "Bacteria; Proteobacteria; Epsilonproteobacteria;
+ Campylobacterales; Helicobacteraceae; Helicobacter" ,
+          gcode 11 ,
+          div "BCT" } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Dewhirst" ,
+                      first "F" ,
+                      initials "F.E." } } } ,
+            affil
+              std {
+                affil "Forsyth Dental Center" ,
+                div "Molecular Genetics" ,
+                city "Boston" ,
+                sub "MA" ,
+                country "USA" ,
+                street "140 Fenway" ,
+                postal-code "02115" } } ,
+          medium other ,
+          date
+            std {
+              year 1994 ,
+              month 12 ,
+              day 16 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Dewhirst" ,
+                      first "Floyd" ,
+                      initials "F.E." } } } ,
+            affil
+              std {
+                affil "The Forsyth Institute" ,
+                div "Department of Molecular Genetics" ,
+                city "Boston" ,
+                sub "MA" ,
+                country "USA" ,
+                street "140 The Fenway" ,
+                email "fdewhirst@forsyth.org" ,
+                fax "(617) 262-4021" ,
+                phone "(617) 262-5200 X298" ,
+                postal-code "02115" } } ,
+          medium other ,
+          date
+            std {
+              year 2004 ,
+              month 5 ,
+              day 20 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2009 ,
+              month 10 ,
+              day 6 } } } } ,
+    pub {
+      pub {
+        article {
+          title {
+            name "Helicobacter bilis sp. nov., a novel Helicobacter species
+ isolated from bile, livers, and intestines of aged, inbred mice." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Fox" ,
+                      initials "J.G." } ,
+                  affil
+                    str "Division of Comparative Medicine, Massachusetts
+ Institute of Technology Cambridge 02139." } ,
+                {
+                  name
+                    name {
+                      last "Yan" ,
+                      initials "L.L." } } ,
+                {
+                  name
+                    name {
+                      last "Dewhirst" ,
+                      initials "F.E." } } ,
+                {
+                  name
+                    name {
+                      last "Paster" ,
+                      initials "B.J." } } ,
+                {
+                  name
+                    name {
+                      last "Shames" ,
+                      initials "B." } } ,
+                {
+                  name
+                    name {
+                      last "Murphy" ,
+                      initials "J.C." } } ,
+                {
+                  name
+                    name {
+                      last "Hayward" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Belcher" ,
+                      initials "J.C." } } ,
+                {
+                  name
+                    name {
+                      last "Mendes" ,
+                      initials "E.N." } } } } ,
+          from
+            journal {
+              title {
+                iso-jta "J. Clin. Microbiol." ,
+                ml-jta "J Clin Microbiol" ,
+                issn "0095-1137" ,
+                name "Journal of clinical microbiology" } ,
+              imp {
+                date
+                  std {
+                    year 1995 ,
+                    month 2 } ,
+                volume "33" ,
+                issue "2" ,
+                pages "445-454" ,
+                language "eng" ,
+                pubstatus ppublish ,
+                history {
+                  {
+                    pubstatus pubmed ,
+                    date
+                      std {
+                        year 1995 ,
+                        month 2 ,
+                        day 1 } } ,
+                  {
+                    pubstatus medline ,
+                    date
+                      std {
+                        year 1995 ,
+                        month 2 ,
+                        day 1 ,
+                        hour 0 ,
+                        minute 1 } } ,
+                  {
+                    pubstatus other ,
+                    date
+                      std {
+                        year 1995 ,
+                        month 2 ,
+                        day 1 ,
+                        hour 0 ,
+                        minute 0 } } } } } ,
+          ids {
+            pubmed 7536217 ,
+            other {
+              db "pmc" ,
+              tag
+                str "PMC227964" } } } ,
+        pmid 7536217 } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA33175" } } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_041960" } ,
+        general {
+          db "REF_16S_RNA" ,
+          tag
+            str "U18766:1-1652" } } ,
+      descr {
+        title "Helicobacter bilis strain Hb1 16S ribosomal RNA gene, partial
+ sequence." ,
+        molinfo {
+          biomol genomic } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 26 } } } } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "Assembly" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "accession" ,
+                          data
+                            str "U18766" } ,
+                        {
+                          label
+                            str "gi" ,
+                          data
+                            int 47524191 } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        create-date
+          std {
+            year 2009 ,
+            month 11 ,
+            day 10 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 2 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 1652 ,
+        seq-data
+          ncbi4na '41488841822844282141484112428442442484228118121842114824112
+418411428828142884281411484418814844242124448414811842181448818484222888148284
+441814221284411124484188118128441812822281244444111444428882118111411888282888
+881484288848488488442121111882814818884411841411188418488484114211888484244141
+281412881484828482421211421118842411282182418881824822111412411888888188411142
+288242811144182142281848228182142884884484144811844282122114428184124448182244
+228414144484182441212128441128414121244822141282281244414421421481444118188428
+211844444111222841142142112422424844144184114488881441884811128228888481141411
+418818412448182881241181142122442811282248422142142242448118124414448421142488
+128244118212844424811141424248144244414148114821418484111822848142881128121411
+284218884111281288882814148184441414481448441188288448481444481111822481414182
+114144118128218842411442412284284411218812841242841842424111424844441421112144
+188141812228448148221242228111241841184281488488422284288482144421481184214281
+124218811421882242284444148124482421141881111282111441181412444412224212114244
+844142184844888118824114181242411411228812281442884121884181411822428141418148
+441484284428842214142884111121448428421244284824821428248482484141848844488114
+822242112414242112228248228814884281421488244284142128281144141284228824811441
+441441144841441A41248211482182184422288124228144428121212484281211844412181211
+111418421181224241448441421118282811118482828214882441884814828421128241281218
+111428441182428148118248411821421184821244841181248822244482884812821224222482
+121221844414884818824228811482444181281118844881224222124424418421424128444484
+114824811211448112248144841122842'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "16S ribosomal RNA" } ,
+                partial TRUE ,
+                product
+                  whole
+                    other {
+                      accession "NR_029182" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 187 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041960" } ,
+                      fuzz-from
+                        lim lt } ,
+                    int {
+                      from 375 ,
+                      to 1651 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041960" } ,
+                      fuzz-to
+                        lim gt } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 188 ,
+                    to 374 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_041960" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_029182" } } ,
+      descr {
+        title "Helicobacter bilis strain Hb1 16S ribosomal RNA, partial
+ sequence." ,
+        molinfo {
+          biomol rRNA ,
+          completeness no-ends } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "Status" ,
+              data
+                str "Reviewed" } ,
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_041960" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 1465 ,
+        seq-data
+          ncbi4na '41488841822844282141484112428442442484228118121842114824112
+418411428828142884281411484418814844242124448414811842181448818484222888148284
+441814221284411124484188118128441812822281244444111428111441821422818482281821
+428848844841448118442821221144281841244481822442284141444841824412121284411284
+141212448221412822812444144214214814441181884282118444441112228411421421124224
+248441441841144888814418848111282288884811414114188184124481828812411811421224
+428112822484221421422424481181244144484211424881282441182128444248111414242481
+442444141481148214184841118228481428811281214112842188841112812888828141481844
+414144814484411882884484814444811118224814141821141441181282188424114424122842
+844112188128412428418424241114248444414211121441881418122284481482212422281112
+418411842814884884222842884821444214811842142811242188114218822422844441481244
+824211418811112821114411814124444122242121142448441421848448881188241141812424
+114112288122814428841218841814118224281414181484414842844288422141428841111214
+484284212442848248214282484824841418488444881148222421124142421122282482288148
+84281421488244284142128281144141284228824811441441441144841441A412482114821821
+844222881242281444281212124842812118444121812111114184211812242414484414211182
+828111184828282148824418848148284211282412812181114284411824281481182484118214
+211848212448411812488222444828848128212242224821212218444148848188242288114824
+441812811188448812242221244244184214241284444841148248112114481122481448411228
+420'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "16S ribosomal RNA" } ,
+                partial TRUE ,
+                location
+                  int {
+                    from 0 ,
+                    to 1464 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_029182" } ,
+                    fuzz-from
+                      lim lt ,
+                    fuzz-to
+                      lim gt } } } } } } } }

@@ -1,0 +1,208 @@
+Seq-entry ::= seq {
+  id {
+    other {
+      accession "NG_042880" } ,
+    general {
+      db "REF_SSU16S" ,
+      tag
+        str "AF348746:1-1676" } } ,
+  descr {
+    title "Helicobacter fennelliae strain NCTC 11612 16S ribosomal RNA gene,
+ partial sequence." ,
+    molinfo {
+      biomol genomic } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI Genome Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2015 ,
+              month 9 ,
+              day 29 } } } } ,
+    user {
+      type
+        str "RefGeneTracking" ,
+      data {
+        {
+          label
+            str "IdenticalTo" ,
+          data
+            fields {
+              {
+                label
+                  id 0 ,
+                data
+                  fields {
+                    {
+                      label
+                        str "name" ,
+                      data
+                        str "AF348746:1-1676" } } } } } ,
+        {
+          label
+            str "Status" ,
+          data
+            str "REVIEWED" } } } ,
+    user {
+      type
+        str "GenomeProjectsDB" ,
+      data {
+        {
+          label
+            str "ProjectID" ,
+          data
+            int 33175 } } } ,
+    user {
+      class "1.0" ,
+      type
+        str "AutodefOptions" ,
+      data {
+        {
+          label
+            str "SpecifyNuclearProduct" ,
+          data
+            bool TRUE } ,
+        {
+          label
+            str "MiscFeatRule" ,
+          data
+            str "NoncodingProductFeat" } ,
+        {
+          label
+            str "FeatureListType" ,
+          data
+            str "List All Features" } ,
+        {
+          label
+            str "ModifierList" ,
+          data
+            fields {
+              {
+                label
+                  str "OrgMods" ,
+                num 1 ,
+                data
+                  strs {
+                    "Strain" } } } } ,
+        {
+          label
+            str "HIVRule" ,
+          data
+            str "WantBoth" } ,
+        {
+          label
+            str "DoNotApplyToSp" ,
+          data
+            bool TRUE } ,
+        {
+          label
+            str "LeaveParenthetical" ,
+          data
+            bool TRUE } ,
+        {
+          label
+            str "MaxMods" ,
+          data
+            int -99 } ,
+        {
+          label
+            str "UseLabels" ,
+          data
+            bool TRUE } } } ,
+    create-date
+      std {
+        year 2014 ,
+        month 5 ,
+        day 20 } ,
+    update-date
+      std {
+        year 2015 ,
+        month 2 ,
+        day 3 } } ,
+  inst {
+    repr raw ,
+    mol dna ,
+    length 1676 ,
+    seq-data
+      ncbi4na '148411242844248422811812184211482411241841148282814288428141418
+441881484424212444841481184218141811218422288814828144181422128441112448418811
+812844181288288124141411144412828811814141188211428888414842888812444142884111
+888881112812418411288811848828182884888111118882842421122212111182182821111828
+814118828141182822111121214118281118882114188284811114188144188881411828141421
+141188444188484248114188842114888821141111144842144414881228114244811841221142
+288888242141182884211141884248421148211188281114218411888888188114148282242811
+144188448281848228182142884884484144811844282122114428184124448182244228414144
+484112441212128441128414121244822141282281244414421421481444118198428211844444
+111222841142142112422424844144184114488881441884811128228888488141411418818412
+448182811241181142122442811282248422142142242448118124414448421142488128244118
+212844424811141484242144244418142114821418484111842818442881122181411284218884
+111284281882814148484441414481448441188288448481444481111822481414182114144118
+128218842411442412281284411218812841242821842124111424844441421112144188141812
+228448148221242228111241841184281488488422284282482144421481184214281124218811
+421882242284444148124482421141881111282111441181412444412224212114244844142184
+844888118824114281242411411228812281442884121884181411828428141418142441484284
+428842214142884111121448428421244284824821428248482484141848844488114822242112
+414242112228248228814884881421488244284142128281144141284228824211441441441144
+841441241248211482182184422288124228144428121212484281211844448421211141411421
+181824241418441421118282211112422828214882441884814828421128241281218111428441
+18242814811824211182142118488424484118124882224448288'H } ,
+  annot {
+    {
+      data
+        ftable {
+          {
+            data
+              rna {
+                type rRNA ,
+                ext
+                  name "16S ribosomal RNA" } ,
+            partial TRUE ,
+            product
+              whole
+                other {
+                  accession "NR_114604" } ,
+            location
+              mix {
+                int {
+                  from 0 ,
+                  to 168 ,
+                  strand plus ,
+                  id
+                    other {
+                      accession "NG_042880" } ,
+                  fuzz-from
+                    lim lt } ,
+                int {
+                  from 521 ,
+                  to 1675 ,
+                  strand plus ,
+                  id
+                    other {
+                      accession "NG_042880" } ,
+                  fuzz-to
+                    lim gt } } } ,
+          {
+            data
+              imp {
+                key "intron" } ,
+            location
+              int {
+                from 169 ,
+                to 520 ,
+                strand plus ,
+                id
+                  other {
+                    accession "NG_042880" } } } } } } }

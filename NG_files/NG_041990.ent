@@ -1,0 +1,417 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Hydrogenobacter thermophilus" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 940 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Hydrogenobacter" ,
+              species "thermophilus" } ,
+          attrib "nomodforward" ,
+          mod {
+            {
+              subtype strain ,
+              subname "TK-6" } ,
+            {
+              subtype culture-collection ,
+              subname "DSM:6534" } } ,
+          lineage "Bacteria; Aquificae; Aquificales; Aquificaceae;
+ Hydrogenobacter" ,
+          gcode 11 ,
+          div "BCT" } } } ,
+    pub {
+      pub {
+        pmid 20348262 ,
+        article {
+          title {
+            name "Complete genome sequence of the thermophilic, obligately
+ chemolithoautotrophic hydrogen-oxidizing bacterium Hydrogenobacter
+ thermophilus TK-6." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Arai" ,
+                      initials "H." } ,
+                  affil
+                    str "Department of Biotechnology, Graduate School of
+ Agricultural and Life Sciences, the University of Tokyo, Yayoi 1-1-1,
+ Bunkyo-ku, Tokyo 113-8657, Japan. aharai@mail.ecc.u-tokyo.ac.jp" } ,
+                {
+                  name
+                    name {
+                      last "Kanbe" ,
+                      initials "H." } } ,
+                {
+                  name
+                    name {
+                      last "Ishii" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Igarashi" ,
+                      initials "Y." } } } } ,
+          from
+            journal {
+              title {
+                iso-jta "J. Bacteriol." ,
+                ml-jta "J Bacteriol" ,
+                issn "1098-5530" ,
+                name "Journal of bacteriology" } ,
+              imp {
+                date
+                  std {
+                    year 2010 ,
+                    month 5 } ,
+                volume "192" ,
+                issue "10" ,
+                pages "2651-2652" ,
+                language "eng" ,
+                pubstatus ppublish ,
+                history {
+                  {
+                    pubstatus aheadofprint ,
+                    date
+                      std {
+                        year 2010 ,
+                        month 3 ,
+                        day 26 } } ,
+                  {
+                    pubstatus other ,
+                    date
+                      std {
+                        year 2010 ,
+                        month 3 ,
+                        day 30 ,
+                        hour 6 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus pubmed ,
+                    date
+                      std {
+                        year 2010 ,
+                        month 3 ,
+                        day 30 ,
+                        hour 6 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus medline ,
+                    date
+                      std {
+                        year 2010 ,
+                        month 5 ,
+                        day 19 ,
+                        hour 6 ,
+                        minute 0 } } } } } ,
+          ids {
+            pii "JB.00158-10" ,
+            doi "10.1128/JB.00158-10" ,
+            pubmed 20348262 ,
+            other {
+              db "pmc" ,
+              tag
+                str "PMC2863560" } ,
+            other {
+              db "ELocationID doi" ,
+              tag
+                str "10.1128/JB.00158-10" } } } } ,
+      reftype no-target } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Arai" ,
+                      initials "H." } } } ,
+            affil
+              str "Contact:Hiroyuki Arai The University of Tokyo, Department
+ of Biotechnology; Yayoi 1-1-1, Bunkyo-ku, Tokyo 113-8657, Japan" } ,
+          medium other ,
+          date
+            std {
+              year 2009 ,
+              month 3 ,
+              day 25 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2013 ,
+              month 2 ,
+              day 14 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA188943" } } } } ,
+    user {
+      type
+        str "NcbiCleanup" ,
+      data {
+        {
+          label
+            str "method" ,
+          data
+            str "SequinCleanup" } ,
+        {
+          label
+            str "version" ,
+          data
+            int 8 } ,
+        {
+          label
+            str "month" ,
+          data
+            int 4 } ,
+        {
+          label
+            str "day" ,
+          data
+            int 17 } ,
+        {
+          label
+            str "year" ,
+          data
+            int 2015 } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_041990" } ,
+        general {
+          db "REF_23S_RNA" ,
+          tag
+            str "AP011112:243990-246491" } } ,
+      descr {
+        title "Hydrogenobacter thermophilus strain TK-6 23S ribosomal RNA
+ gene, complete sequence." ,
+        molinfo {
+          biomol genomic } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 26 } } } } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "AP011112:243990-246491" } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        create-date
+          std {
+            year 2013 ,
+            month 3 ,
+            day 25 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 2 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 3773 ,
+        seq-data
+          ncbi2na '90BCB0AB5AAE8E5DA7978AA182A6EF09E63096AE8A640097B8A568E560E
+A805692AEF895ED35963CA689706A182C017DCB2D5280A0340621D542C9A62602A852540779AB9
+4EBA497C9D922AF9A864D688ADE525DD2A2F1007D67C960B89E839D65122AE0255B29C0AE20B75
+6A8E63542C51A556E82B6EA0D2AA85D5D429C2C71292163264CB1662A02B802055A0AA2E03205E
+01568D44252E82ADFCE95879B97FE483894A8BED749A62BC25B0A6096C98098B5812A67F2D9EAA
+486609A0637153952AE0A1AB0E5B7A29581AB6B9E4016D638AEEAC9AE0094366F5B8C9DBDD5603
+2B619726D9DBF7D5A2B2251EBEA72A5D80AAC5815E501D60E5A808C89A4B4B55AA8C275AE8422A
+0125485949C2B54035A9C2EA828EE69E70849EA2BE9F2292535FC04B9B049E16962696E65803F2
+6A9C095AC58279A9D990989ACAA26F57BABE0B745B8AEA3A1E4A82E20D7A4E2C926084AE2017B5
+96825D2BFE9A43B0349652F25A8570AE296029B258EA09AB413D59949AEE8948B6E1928A72A225
+173A0EBAD42B2CA2AAE929035B45531D62278EAB0775E19447942010699EBBE0916795B1680584
+4ACA7ABCB25C29B6AA0775D0A076903E5D6C576B20AAA56EA2E095E69309DF9AB64885A9AE587B
+F340044A1C6405602A8ECEEB7825E94B95B2BC2A82AE4257816095AB019696C1CE1AD70AC980F5
+FB6AC2F585E4E0E95062E599EDD8A22D5A603EC396B423969C566928680855B827D1ECB7AC78B7
+C97B5E64A32BA897B82D5D75A8A8E8A65AE231457A129E215C16258BC17696A16E523A92FC9EA9
+A7975C02B068A6D40AC574A6ADA03596C8B10A920AB9787B8A484E5892298096A5CB8545AF5DAA
+0A96B8D268C0271D6A8C17BBED59D52907A8A430669F306AA2575E5C12A6EAB0D5BA82D288A453
+8D2C021202230D32B15FF2B8E8CDE4B412A0080662BC09F811DA0290023C4DF7A0BA8227C005D3
+9284254828C80AC41588EAA009C45C732BB409474395FDEA007C039DFF38520A90802AC5E008C8
+257FE0B555FDFC9ACEB33A38E8C71C482A30AE9F13317150B38208A07D029F3CA13E82C07F2DD0
+9601FB3A002A315EE7F1FD40228074807CE88CB025BAB148BF388CC01775E156C1878AB9BC562A
+F71402B225006599D5450408BAA382332DC15D4A01E880AF8129C3755622544D86A8AFEB1763B6
+9D554D7AA7824AD50ABEA7BD953C0AA86627ABD206D9884BDAD5CD659A9928B7E2AAD6D7CB188A
+16A1AA4A77AEC5AF377522B265AB2535E71A8C2678093709982545508C2875782A57A08714AF8C
+A492BA09D6C2ABB2589EC70C95BD87E4440'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                product
+                  whole
+                    other {
+                      accession "NR_076284" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 2498 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041990" } } ,
+                    int {
+                      from 3338 ,
+                      to 3772 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041990" } } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 2499 ,
+                    to 3337 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_041990" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_076284" } } ,
+      descr {
+        title "Hydrogenobacter thermophilus strain TK-6 23S ribosomal RNA,
+ complete sequence." ,
+        molinfo {
+          biomol rRNA } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "Status" ,
+              data
+                str "Reviewed" } ,
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_041990" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 2934 ,
+        seq-data
+          ncbi2na '90BCB0AB5AAE8E5DA7978AA182A6EF09E63096AE8A640097B8A568E560E
+A805692AEF895ED35963CA689706A182C017DCB2D5280A0340621D542C9A62602A852540779AB9
+4EBA497C9D922AF9A864D688ADE525DD2A2F1007D67C960B89E839D65122AE0255B29C0AE20B75
+6A8E63542C51A556E82B6EA0D2AA85D5D429C2C71292163264CB1662A02B802055A0AA2E03205E
+01568D44252E82ADFCE95879B97FE483894A8BED749A62BC25B0A6096C98098B5812A67F2D9EAA
+486609A0637153952AE0A1AB0E5B7A29581AB6B9E4016D638AEEAC9AE0094366F5B8C9DBDD5603
+2B619726D9DBF7D5A2B2251EBEA72A5D80AAC5815E501D60E5A808C89A4B4B55AA8C275AE8422A
+0125485949C2B54035A9C2EA828EE69E70849EA2BE9F2292535FC04B9B049E16962696E65803F2
+6A9C095AC58279A9D990989ACAA26F57BABE0B745B8AEA3A1E4A82E20D7A4E2C926084AE2017B5
+96825D2BFE9A43B0349652F25A8570AE296029B258EA09AB413D59949AEE8948B6E1928A72A225
+173A0EBAD42B2CA2AAE929035B45531D62278EAB0775E19447942010699EBBE0916795B1680584
+4ACA7ABCB25C29B6AA0775D0A076903E5D6C576B20AAA56EA2E095E69309DF9AB64885A9AE587B
+F340044A1C6405602A8ECEEB7825E94B95B2BC2A82AE4257816095AB019696C1CE1AD70AC980F5
+FB6AC2F585E4E0E95062E599EDD8A22D5A603EC396B423969C566928680855B827D1ECB7AC78B7
+C97B5E64A32BA897B82D5D75A8A8E8A65AE231457A129E215C16258BC17696A16E523A92FC9EA9
+A7975C02B068A6D40AC574A6ADA03596C8B10A920AB9787B8A484E5892298096A5CB8545AF5DAA
+0A96B8D268C0271D6A8C0A70DD5588951361AA2BFAC5D8EDA755535EA9E092B542AFA9EF654F02
+AA1989EAF481B66212F6B5735966A64A2DF8AAB5B5F2C62285A86A929DEBB16BCDDD48AC996AC9
+4D79C6A3099E024DC266095154230A1D5E0A95E821C52BE32924AE8275B0AAEC9627B1C3256F61
+F9110'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                location
+                  int {
+                    from 0 ,
+                    to 2933 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_076284" } } } } } } } } }

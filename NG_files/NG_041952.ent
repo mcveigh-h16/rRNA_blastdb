@@ -1,0 +1,451 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Pyrobaculum neutrophilum" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 70771 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Pyrobaculum" ,
+              species "neutrophilum" } ,
+          attrib "nomodforward" ,
+          mod {
+            {
+              subtype strain ,
+              subname "V24Sta" } ,
+            {
+              subtype culture-collection ,
+              subname "DSM:2338" } } ,
+          lineage "Archaea; Crenarchaeota; Thermoprotei; Thermoproteales;
+ Thermoproteaceae; Pyrobaculum" ,
+          gcode 11 ,
+          div "BCT" } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Copeland" ,
+                      first "Alex" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Lucas" ,
+                      first "Susan" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Lapidus" ,
+                      first "Alla" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Glavina del Rio" ,
+                      first "Tijana" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Dalin" ,
+                      first "Eileen" ,
+                      initials "E." } } ,
+                {
+                  name
+                    name {
+                      last "Tice" ,
+                      first "Hope" ,
+                      initials "H." } } ,
+                {
+                  name
+                    name {
+                      last "Bruce" ,
+                      first "David" ,
+                      initials "D." } } ,
+                {
+                  name
+                    name {
+                      last "Goodwin" ,
+                      first "Lynne" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Pitluck" ,
+                      first "Samuel" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Sims" ,
+                      first "David" ,
+                      initials "D." } } ,
+                {
+                  name
+                    name {
+                      last "Brettin" ,
+                      first "Thomas" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Detter" ,
+                      first "John" ,
+                      initials "J.C." } } ,
+                {
+                  name
+                    name {
+                      last "Han" ,
+                      first "Cliff" ,
+                      initials "C." } } ,
+                {
+                  name
+                    name {
+                      last "Kuske" ,
+                      first "C" ,
+                      initials "C.R." } } ,
+                {
+                  name
+                    name {
+                      last "Schmutz" ,
+                      first "Jeremy" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Larimer" ,
+                      first "Frank" ,
+                      initials "F." } } ,
+                {
+                  name
+                    name {
+                      last "Land" ,
+                      first "Miriam" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Hauser" ,
+                      first "Loren" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Kyrpides" ,
+                      first "Nikos" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Mikhailova" ,
+                      first "Natalia" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Biddle" ,
+                      first "J" ,
+                      initials "J.F." } } ,
+                {
+                  name
+                    name {
+                      last "Zhang" ,
+                      first "Z" ,
+                      initials "Z." } } ,
+                {
+                  name
+                    name {
+                      last "Fitz-Gibbon" ,
+                      first "S" ,
+                      initials "S.T." } } ,
+                {
+                  name
+                    name {
+                      last "Lowe" ,
+                      first "Todd" ,
+                      initials "T.M." } } ,
+                {
+                  name
+                    name {
+                      last "Saltikov" ,
+                      first "C" ,
+                      initials "C." } } ,
+                {
+                  name
+                    name {
+                      last "House" ,
+                      first "C" ,
+                      initials "C.H." } } ,
+                {
+                  name
+                    name {
+                      last "Richardson" ,
+                      first "Paul" ,
+                      initials "P." } } ,
+                {
+                  name
+                    consortium "US DOE Joint Genome Institute" } } ,
+            affil
+              std {
+                affil "US DOE Joint Genome Institute" ,
+                city "Walnut Creek" ,
+                sub "CA" ,
+                country "USA" ,
+                street "2800 Mitchell Drive B100" ,
+                postal-code "94598-1698" } } ,
+          date
+            std {
+              year 2008 ,
+              month 3 ,
+              day 24 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2013 ,
+              month 5 ,
+              day 9 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA188942" } } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_041952" } ,
+        general {
+          db "REF_23S_RNA" ,
+          tag
+            str "CP001014:692666-696312" } } ,
+      descr {
+        title "Pyrobaculum neutrophilum strain V24Sta 23S ribosomal RNA gene,
+ complete sequence." ,
+        molinfo {
+          biomol genomic } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 26 } } } } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "CP001014:692666-696312" } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        create-date
+          std {
+            year 2013 ,
+            month 5 ,
+            day 24 } ,
+        update-date
+          std {
+            year 2014 ,
+            month 11 ,
+            day 10 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 3647 ,
+        seq-data
+          ncbi2na '7591A4096D6BA3A769DA996082A6E909E63095AA8964A4A7C815A8D560E
+A9F5E5AA58129569956C2A9A819AA06804DF2C564A2882500A8D578B2A98580AA88950140D546A
+105BAA23BAA7EA5EA4165A6A6B2582EA7A025596C8AB8C956CA601656E9A2D5A8D5A2C51A7CBFE
+5BA83196947A5A429C046D58B58C991CB16E2A027802055A0AAAE00897805A9A712EA9A9580A19
+5755828055AE1AA8B18AA2AB52AD657C6DC8046A5AA2F4696E98970AAF41568A6CA8058495926A
+805662A9AADE02A56CB4696E214805A98DC95EA4A9826A980956E8A560AAF78EE40DBD5385EA9C
+AA4021434256B8C9EBD55609EB5494A5D548A6969AAC8B1E36AAE6A2580A75A556B40758179699
+6C82AA8A6AA6BAAC25D675886A0416216ABC29550B9A9F2ED0DD02A6D55950849AA5BA97049253
+69C2419B049A159629AAA55823B12A1C2565962156A5D696FA5A2E6B2AA99A5BAA4825A96E2B5A
+E8566961823569ACB249822AB88255D65A02852AFD7A41F43294A2F25AD70A6A970CA456580A80
+6AF0CF56E59AAB2BDE69064A55B55865DA8CA9A9A8796D59F05B60A5AA2E5B0E98816960A6A0C9
+6AAFD56B595835EA95B802A86A818955995B16205864AE75EAE20950A69DAB855A94A81DA40FA5
+5B07DA882AB979A5F2AC455EA964AD92E10AA85E1EFC100132B559895B0A9AC2A2509F0031AABA
+43ECCBA333D4B3B409DD267FE3A73B63C48B69001C6036C3658CEDC283D76288CE4189C200C69B
+8BE68B739F660884897F29F20CC690A2DED8C837E07525F9558AE70C9A790C8E58AA0EE080CC80
+D25FF20520FBEC08984E9C860F82399D1E67F6308C6F08D1CA028AC8C4780DBECDEB0A28814027
+B36ACBC0319455400F12BAEAD3CDF05DCA58109E9D5F5956A22AEEC6AA7835E947A6B1B8156BC4
+16A6099678296AAC1DE15DF0AC940E5F96AC2F5A6E4E0E8D062B551ED5A56A95A60545D4AE44B5
+EA15586A9882D5CE89F44925EDBE6AAA6AAB9226CAEA263806A975AB56E8E6B5E8114547759575
+9F1596829AA126929A9EF69EA9A4455E008CDAAB9502769D29AB480D65B22EC2A4025A9E1EA57E
+0442A9529A805AA5C8819DB95514BAA96A4E1200BC5728305A76D9AB88B55361566BFAC5486DB7
+7D535E9AE4925942AEA9E5654F02A81B88EAF485B66212B6B7717B6AA6FA5978AA0AE574B188A0
+6A99669772EC5AFB5A4A91E5A925196EAA3059E024DC26A095D56218A696D95EAA9055EA998A9D
+5B2086ABE3AAA9AEC1558ABDD58AAA25A55D50D9589B9AA68'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                product
+                  whole
+                    other {
+                      accession "NR_102991" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 1950 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041952" } } ,
+                    int {
+                      from 2558 ,
+                      to 3646 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041952" } } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 1951 ,
+                    to 2557 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_041952" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_102991" } } ,
+      descr {
+        title "Pyrobaculum neutrophilum strain V24Sta 23S ribosomal RNA,
+ complete sequence." ,
+        molinfo {
+          biomol rRNA } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "Status" ,
+              data
+                str "Reviewed" } ,
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_041952" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 3040 ,
+        seq-data
+          ncbi2na '7591A4096D6BA3A769DA996082A6E909E63095AA8964A4A7C815A8D560E
+A9F5E5AA58129569956C2A9A819AA06804DF2C564A2882500A8D578B2A98580AA88950140D546A
+105BAA23BAA7EA5EA4165A6A6B2582EA7A025596C8AB8C956CA601656E9A2D5A8D5A2C51A7CBFE
+5BA83196947A5A429C046D58B58C991CB16E2A027802055A0AAAE00897805A9A712EA9A9580A19
+5755828055AE1AA8B18AA2AB52AD657C6DC8046A5AA2F4696E98970AAF41568A6CA8058495926A
+805662A9AADE02A56CB4696E214805A98DC95EA4A9826A980956E8A560AAF78EE40DBD5385EA9C
+AA4021434256B8C9EBD55609EB5494A5D548A6969AAC8B1E36AAE6A2580A75A556B40758179699
+6C82AA8A6AA6BAAC25D675886A0416216ABC29550B9A9F2ED0DD02A6D55950849AA5BA97049253
+69C2419B049A159629AAA55823B12A1C2565962156A5D696FA5A2E6B2AA99A5BAA4825A96E2B5A
+E8566961823569ACB249822AB88255D65A02852AFD7A41F43294A2F25AD70A6A970CA456580A80
+6AF0CF56E59AAB2BDE69064A55B55865DA8CA9A9A8796D59F05B60A5AA2E5B0E98816960A6A0C9
+6AAFD56B595835EA95B802A86A818955995B16205864AE75EAE20950A69DAB855A94A81DA40FA5
+5B07DA882AB979A5F2AC455EA964AD92E10AA85E1EFC100132B559895B0ABBB1AA9E0D7A51E9AC
+6E055AF105A982659E0A5AAB0778577C2B250397E5AB0BD69B9383A3418AD547B5695AA5698151
+752B912D7A85561AA620B573A27D12497B6F9AAA9AAAE489B2BA898E01AA5D6AD5BA39AD7A0451
+51DD655D67C565A0A6A849A4A6A7BDA7AA691157802336AAE5409DA74A6AD203596C8BB0A90096
+A787A95F8110AA54A6A016A97220676E55452EAA5A9384802F15CA0C169DB66AE22D54D8559AFE
+B1521B6DDF54D7A6B9249650ABAA795953C0AA06E23ABD216D9884ADADDC5EDAA9BE965E2A82B9
+5D2C62281AA659A5DCBB16BED692A4796A49465BAA8C1678093709A82575588629A5B657AAA415
+7AA662A756C821AAF8EAAA6BB05562AF7562AA89695754365626E6A9A'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                location
+                  int {
+                    from 0 ,
+                    to 3039 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_102991" } } } } } } } } }

@@ -1,0 +1,448 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Fervidicoccus fontis" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 683846 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Fervidicoccus" ,
+              species "fontis" } ,
+          attrib "nomodforward" ,
+          mod {
+            {
+              subtype strain ,
+              subname "Kam940" } ,
+            {
+              subtype culture-collection ,
+              subname "DSM:19380" } } ,
+          lineage "Archaea; Crenarchaeota; Thermoprotei; Fervidicoccales;
+ Fervidicoccaceae; Fervidicoccus" ,
+          gcode 11 ,
+          div "BCT" } } ,
+      subtype {
+        {
+          subtype country ,
+          name "Russia: Uzon caldera, Kamchatka" } } } ,
+    pub {
+      pub {
+        article {
+          title {
+            name "Analysis of the complete genome of Fervidococcus fontis
+ confirms the distinct phylogenetic position of the order Fervidicoccales and
+ suggests its environmental function." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Lebedinsky" ,
+                      first "A" ,
+                      initials "A.V." } } ,
+                {
+                  name
+                    name {
+                      last "Mardanov" ,
+                      first "A" ,
+                      initials "A.V." } } ,
+                {
+                  name
+                    name {
+                      last "Kublanov" ,
+                      first "I" ,
+                      initials "I.V." } } ,
+                {
+                  name
+                    name {
+                      last "Gumerov" ,
+                      first "V" ,
+                      initials "V.M." } } ,
+                {
+                  name
+                    name {
+                      last "Beletsky" ,
+                      first "A" ,
+                      initials "A.V." } } ,
+                {
+                  name
+                    name {
+                      last "Perevalova" ,
+                      first "A" ,
+                      initials "A.A." } } ,
+                {
+                  name
+                    name {
+                      last "Bidzhieva" ,
+                      first "S" ,
+                      initials "S.Kh." } } ,
+                {
+                  name
+                    name {
+                      last "Bonch-Osmolovskaya" ,
+                      first "E" ,
+                      initials "E.A." } } ,
+                {
+                  name
+                    name {
+                      last "Skryabin" ,
+                      first "K" ,
+                      initials "K.G." } } ,
+                {
+                  name
+                    name {
+                      last "Ravin" ,
+                      first "N" ,
+                      initials "N.V." } } } } ,
+          from
+            journal {
+              title {
+                iso-jta "Extremophiles" } ,
+              imp {
+                date
+                  std {
+                    year 2014 ,
+                    month 3 } ,
+                volume "18" ,
+                issue "2" ,
+                pages "295-309" ,
+                pubstatus ppublish } } ,
+          ids {
+            doi "10.1007/s00792-013-0616-7" ,
+            pubmed 24366681 } } ,
+        pmid 24366681 } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Mardanov" ,
+                      first "Andrey" ,
+                      initials "A.V." } } ,
+                {
+                  name
+                    name {
+                      last "Lebedinsky" ,
+                      first "Alexander" ,
+                      initials "A.V." } } ,
+                {
+                  name
+                    name {
+                      last "Gumerov" ,
+                      first "Vadim" ,
+                      initials "V.M." } } ,
+                {
+                  name
+                    name {
+                      last "Beletsky" ,
+                      first "Alexey" ,
+                      initials "A.V." } } ,
+                {
+                  name
+                    name {
+                      last "Kublanov" ,
+                      first "Ilya" ,
+                      initials "I.V." } } ,
+                {
+                  name
+                    name {
+                      last "Bonch-Osmolovskaya" ,
+                      first "Elizaveta" ,
+                      initials "E.A." } } ,
+                {
+                  name
+                    name {
+                      last "Ravin" ,
+                      first "Nikolai" ,
+                      initials "N.V." } } } ,
+            affil
+              std {
+                affil "Centre Bioengineering Ras" ,
+                div "Lab of Molecular Cloning" ,
+                city "Moscow" ,
+                country "Russia" ,
+                street "Prosp. 60-Let Oktyabria" ,
+                email "mardanov@biengi.ac.ru" ,
+                fax "+74991350571" ,
+                phone "+74997833264" ,
+                postal-code "117312" } } ,
+          date
+            std {
+              year 2012 ,
+              month 3 ,
+              day 16 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2013 ,
+              month 5 ,
+              day 9 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA188943" } } } } ,
+    user {
+      type
+        str "NcbiCleanup" ,
+      data {
+        {
+          label
+            str "method" ,
+          data
+            str "SequinCleanup" } ,
+        {
+          label
+            str "version" ,
+          data
+            int 8 } ,
+        {
+          label
+            str "month" ,
+          data
+            int 4 } ,
+        {
+          label
+            str "day" ,
+          data
+            int 3 } ,
+        {
+          label
+            str "year" ,
+          data
+            int 2015 } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_041970" } ,
+        general {
+          db "REF_23S_RNA" ,
+          tag
+            str "CP003423:1065113-1068304" } } ,
+      descr {
+        title "Fervidicoccus fontis strain Kam940 23S ribosomal RNA gene,
+ complete sequence." ,
+        molinfo {
+          biomol genomic } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 26 } } } } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "CP003423:1065113-1068304" } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        create-date
+          std {
+            year 2013 ,
+            month 5 ,
+            day 24 } ,
+        update-date
+          std {
+            year 2014 ,
+            month 11 ,
+            day 10 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 3192 ,
+        seq-data
+          ncbi2na 'FC2597AE8E9DA76A65820A99A42698CE56AE2993925B2056A3D583A81D7
+1E4AF0C9792E568C16A6A055581A0137CB2AA28A201406A3D5E2CAA61602A822B4050357738C2C
+8A88EEBBE227DE9EBC02520258976B2782EA7A0E551648AB8CB56C240162BA7F65209C8B1C695A
+FE96CA092A25149F5017031B56216326842C598A809E00A15622ABB80225E014A6BC45A3925602
+0381F7502801A2E35B8B18A2098DAAF937D6DF8046A5AA2F46BEE989F0AA705560A74A805842D6
+416BDD6B8A86AB540A97A2D125B8056016AE3729AA92260962A0176BA29D80ABDE1B90F6F55E15
+5B72A900850DC15AE327AF56582EADD2549747A2B294EAB22F1E3E82E4B2580A7187D4B4075817
+BA596082BA8BAAFD52AB097A89622A81074858AF0A5502E7A70B94DC0A9B5D25C2126A8AFA5492
+494D770A2E6C12745658A78A95608FADAA70949658C5DAA45DE4F922B8D6B29A9B6ABAA482DA96
+E2B58E856758B9A356BACB049822ABA8355D65202A52AF5DA41ADB6962AD25AD709895B04699D9
+00A804AF0CF5EE5BA2B29366906409D275E1BF6AB29E12AB259579C17960C5A82C5B42B8816B20
+AAA0E97972E4AF496357A054E00A89E20635D4656C58816112B954AB8825429B7AAB499294A81D
+A40F255B37DA082AB97BA17A92017AB532B64B9722A1787BF0C004C9D16725EC0AFEC6BAB835E9
+47A6B5B8156AD416A6099678296A2C1DE1DDF06A2CDD9728013003D00233C2CE03227CF0002005
+F0000D90F3E3D31F0780A6A2756A202B250397E5AB0BD6999381A3418AD5C7B56979955B837309
+EBD12D4905D5B2A220855BA27F1E4948EFB5CEA2EA06C9B2BA8A6D8D715FDAAB2A89635E01145F
+76756CA1F15EACD4AA1245EBA92F69EA9A46666008C119B9502B69D09AB480567B22E42A4025A5
+E16055A3041ABDA1A8058A5C9819DB9551EBAA96A4E1200BC55AA3068B6D9A9889D5361566BF9E
+7D8EDA77D535C8AE4925DC2AEA9E5654F02A8DB89EAFC05B6E212BE877151A8A6FA5B78AA08E54
+4B188A07A93669772DC5AFB5A4A90E5A925196F2A3059E024DC26A0959562188694F5B9AA01D91
+A3A2A556C821A9F8CA1AABB09D62A1FBD58A2E25E5BC700958659F9'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                product
+                  whole
+                    other {
+                      accession "NR_103215" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 2086 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041970" } } ,
+                    int {
+                      from 2181 ,
+                      to 3191 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041970" } } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 2087 ,
+                    to 2180 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_041970" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_103215" } } ,
+      descr {
+        title "Fervidicoccus fontis Kam940 23S ribosomal RNA, rRNA." ,
+        molinfo {
+          biomol rRNA } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "Status" ,
+              data
+                str "Reviewed" } ,
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_041970" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 3098 ,
+        seq-data
+          ncbi2na 'FC2597AE8E9DA76A65820A99A42698CE56AE2993925B2056A3D583A81D7
+1E4AF0C9792E568C16A6A055581A0137CB2AA28A201406A3D5E2CAA61602A822B4050357738C2C
+8A88EEBBE227DE9EBC02520258976B2782EA7A0E551648AB8CB56C240162BA7F65209C8B1C695A
+FE96CA092A25149F5017031B56216326842C598A809E00A15622ABB80225E014A6BC45A3925602
+0381F7502801A2E35B8B18A2098DAAF937D6DF8046A5AA2F46BEE989F0AA705560A74A805842D6
+416BDD6B8A86AB540A97A2D125B8056016AE3729AA92260962A0176BA29D80ABDE1B90F6F55E15
+5B72A900850DC15AE327AF56582EADD2549747A2B294EAB22F1E3E82E4B2580A7187D4B4075817
+BA596082BA8BAAFD52AB097A89622A81074858AF0A5502E7A70B94DC0A9B5D25C2126A8AFA5492
+494D770A2E6C12745658A78A95608FADAA70949658C5DAA45DE4F922B8D6B29A9B6ABAA482DA96
+E2B58E856758B9A356BACB049822ABA8355D65202A52AF5DA41ADB6962AD25AD709895B04699D9
+00A804AF0CF5EE5BA2B29366906409D275E1BF6AB29E12AB259579C17960C5A82C5B42B8816B20
+AAA0E97972E4AF496357A054E00A89E20635D4656C58816112B954AB8825429B7AAB499294A81D
+A40F255B37DA082AB97BA17A92017AB532B64B9722A1787BF0C004C9D16725EC0AFEC6BAB835E9
+47A6B5B8156AD416A6099678296A2C1DE1DDF06A2CDD9728380A6A2756A202B250397E5AB0BD69
+99381A3418AD5C7B56979955B837309EBD12D4905D5B2A220855BA27F1E4948EFB5CEA2EA06C9B
+2BA8A6D8D715FDAAB2A89635E01145F76756CA1F15EACD4AA1245EBA92F69EA9A46666008C119B
+9502B69D09AB480567B22E42A4025A5E16055A3041ABDA1A8058A5C9819DB9551EBAA96A4E1200
+BC55AA3068B6D9A9889D5361566BF9E7D8EDA77D535C8AE4925DC2AEA9E5654F02A8DB89EAFC05
+B6E212BE877151A8A6FA5B78AA08E544B188A07A93669772DC5AFB5A4A90E5A925196F2A3059E0
+24DC26A0959562188694F5B9AA01D91A3A2A556C821A9F8CA1AABB09D62A1FBD58A2E25E5BC700
+958659F90'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                location
+                  int {
+                    from 0 ,
+                    to 3097 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_103215" } } } } } } } } }

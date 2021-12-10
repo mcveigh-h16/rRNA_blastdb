@@ -1,0 +1,51 @@
+Submit-block ::= {
+  contact {
+    contact {
+      name
+        name {
+          last "McVeigh" ,
+          first "R" ,
+          initials "R." } ,
+      affil
+        std {
+          affil "NCBI" ,
+          country "USA" ,
+          email "mcveigh@ncbi.nlm.nih.gov" } } } ,
+  cit {
+    authors {
+      names
+        std {
+          {
+            name
+              name {
+                last "McVeigh" ,
+                first "R" ,
+                initials "R." } } } ,
+      affil
+        std {
+          affil "NCBI" ,
+          country "USA" } } ,
+    date
+      std {
+        year 2016 ,
+        month 9 ,
+        day 16 } } ,
+  subtype new }
+Seqdesc ::= pub {
+  pub {
+    gen {
+      cit "unpublished" ,
+      authors {
+        names
+          std {
+            {
+              name
+                name {
+                  last "McVeigh" ,
+                  first "R" ,
+                  initials "R." } } } ,
+        affil
+          std {
+            affil "NCBI" ,
+            country "USA" } } ,
+      title "hiho" } } }

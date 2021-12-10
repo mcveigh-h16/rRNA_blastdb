@@ -1,0 +1,781 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Deinococcus radiodurans" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 1299 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Deinococcus" ,
+              species "radiodurans" } ,
+          attrib "nomodforward" ,
+          mod {
+            {
+              subtype strain ,
+              subname "R1" } ,
+            {
+              subtype culture-collection ,
+              subname "ATCC:13939" } } ,
+          lineage "Bacteria; Deinococcus-Thermus; Deinococci; Deinococcales;
+ Deinococcaceae; Deinococcus" ,
+          gcode 11 ,
+          div "BCT" } } } ,
+    pub {
+      pub {
+        article {
+          title {
+            name "Genome sequence of the radioresistant bacterium Deinococcus
+ radiodurans R1." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "White" ,
+                      initials "O." } ,
+                  affil
+                    str "Institute for Genomic Research, 9712 Medical Center
+ Drive, Rockville, MD 20850, USA." } ,
+                {
+                  name
+                    name {
+                      last "Eisen" ,
+                      initials "J.A." } } ,
+                {
+                  name
+                    name {
+                      last "Heidelberg" ,
+                      initials "J.F." } } ,
+                {
+                  name
+                    name {
+                      last "Hickey" ,
+                      initials "E.K." } } ,
+                {
+                  name
+                    name {
+                      last "Peterson" ,
+                      initials "J.D." } } ,
+                {
+                  name
+                    name {
+                      last "Dodson" ,
+                      initials "R.J." } } ,
+                {
+                  name
+                    name {
+                      last "Haft" ,
+                      initials "D.H." } } ,
+                {
+                  name
+                    name {
+                      last "Gwinn" ,
+                      initials "M.L." } } ,
+                {
+                  name
+                    name {
+                      last "Nelson" ,
+                      initials "W.C." } } ,
+                {
+                  name
+                    name {
+                      last "Richardson" ,
+                      initials "D.L." } } ,
+                {
+                  name
+                    name {
+                      last "Moffat" ,
+                      initials "K.S." } } ,
+                {
+                  name
+                    name {
+                      last "Qin" ,
+                      initials "H." } } ,
+                {
+                  name
+                    name {
+                      last "Jiang" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Pamphile" ,
+                      initials "W." } } ,
+                {
+                  name
+                    name {
+                      last "Crosby" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Shen" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Vamathevan" ,
+                      initials "J.J." } } ,
+                {
+                  name
+                    name {
+                      last "Lam" ,
+                      initials "P." } } ,
+                {
+                  name
+                    name {
+                      last "McDonald" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Utterback" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Zalewski" ,
+                      initials "C." } } ,
+                {
+                  name
+                    name {
+                      last "Makarova" ,
+                      initials "K.S." } } ,
+                {
+                  name
+                    name {
+                      last "Aravind" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Daly" ,
+                      initials "M.J." } } ,
+                {
+                  name
+                    name {
+                      last "Minton" ,
+                      initials "K.W." } } ,
+                {
+                  name
+                    name {
+                      last "Fleischmann" ,
+                      initials "R.D." } } ,
+                {
+                  name
+                    name {
+                      last "Ketchum" ,
+                      initials "K.A." } } ,
+                {
+                  name
+                    name {
+                      last "Nelson" ,
+                      initials "K.E." } } ,
+                {
+                  name
+                    name {
+                      last "Salzberg" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Smith" ,
+                      initials "H.O." } } ,
+                {
+                  name
+                    name {
+                      last "Venter" ,
+                      initials "J.C." } } ,
+                {
+                  name
+                    name {
+                      last "Fraser" ,
+                      initials "C.M." } } } } ,
+          from
+            journal {
+              title {
+                iso-jta "Science" ,
+                ml-jta "Science" ,
+                issn "0036-8075" ,
+                name "Science (New York, N.Y.)" } ,
+              imp {
+                date
+                  std {
+                    year 1999 ,
+                    month 11 ,
+                    day 19 } ,
+                volume "286" ,
+                issue "5444" ,
+                pages "1571-1577" ,
+                language "eng" ,
+                pubstatus ppublish ,
+                history {
+                  {
+                    pubstatus pubmed ,
+                    date
+                      std {
+                        year 1999 ,
+                        month 11 ,
+                        day 24 } } ,
+                  {
+                    pubstatus medline ,
+                    date
+                      std {
+                        year 1999 ,
+                        month 11 ,
+                        day 24 ,
+                        hour 0 ,
+                        minute 1 } } ,
+                  {
+                    pubstatus other ,
+                    date
+                      std {
+                        year 1999 ,
+                        month 11 ,
+                        day 24 ,
+                        hour 0 ,
+                        minute 0 } } } } } ,
+          ids {
+            pubmed 10567266 ,
+            pii "8014" ,
+            other {
+              db "pmc" ,
+              tag
+                str "PMC4147723" } ,
+            other {
+              db "mid" ,
+              tag
+                str "NIHMS622167" } } } ,
+        muid 20036896 ,
+        pmid 10567266 } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "White" ,
+                      first "Owen" ,
+                      initials "O." } } ,
+                {
+                  name
+                    name {
+                      last "Eisen" ,
+                      first "Jonathan" ,
+                      initials "J.A." } } ,
+                {
+                  name
+                    name {
+                      last "Heidelberg" ,
+                      first "John" ,
+                      initials "J.F." } } ,
+                {
+                  name
+                    name {
+                      last "Hickey" ,
+                      first "Erin" ,
+                      initials "E.K." } } ,
+                {
+                  name
+                    name {
+                      last "Peterson" ,
+                      first "Jeremy" ,
+                      initials "J.D." } } ,
+                {
+                  name
+                    name {
+                      last "Dodson" ,
+                      first "Robert" ,
+                      initials "R.J." } } ,
+                {
+                  name
+                    name {
+                      last "Haft" ,
+                      first "Daniel" ,
+                      initials "D.H." } } ,
+                {
+                  name
+                    name {
+                      last "Gwinn" ,
+                      first "Michelle" ,
+                      initials "M.L." } } ,
+                {
+                  name
+                    name {
+                      last "Nelson" ,
+                      first "William" ,
+                      initials "W.C." } } ,
+                {
+                  name
+                    name {
+                      last "Richardson" ,
+                      first "Delwood" ,
+                      initials "D.L." } } ,
+                {
+                  name
+                    name {
+                      last "Moffat" ,
+                      first "Kelly" ,
+                      initials "K.S." } } ,
+                {
+                  name
+                    name {
+                      last "Qin" ,
+                      first "Haiying" ,
+                      initials "H." } } ,
+                {
+                  name
+                    name {
+                      last "Jiang" ,
+                      first "Lingxia" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Pamphile" ,
+                      first "Wanda" ,
+                      initials "W." } } ,
+                {
+                  name
+                    name {
+                      last "Crosby" ,
+                      first "Marie" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Shen" ,
+                      first "Mian" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Vamathevan" ,
+                      first "Jessica" ,
+                      initials "J.J." } } ,
+                {
+                  name
+                    name {
+                      last "Lam" ,
+                      first "Peter" ,
+                      initials "P." } } ,
+                {
+                  name
+                    name {
+                      last "McDonald" ,
+                      first "Lisa" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Utterback" ,
+                      first "Terry" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Zalewski" ,
+                      first "Celeste" ,
+                      initials "C." } } ,
+                {
+                  name
+                    name {
+                      last "Makarova" ,
+                      first "Kira" ,
+                      initials "K.S." } } ,
+                {
+                  name
+                    name {
+                      last "Aravind" ,
+                      first "L" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Daly" ,
+                      first "Michael" ,
+                      initials "M.J." } } ,
+                {
+                  name
+                    name {
+                      last "Minton" ,
+                      first "Kenneth" ,
+                      initials "K.W." } } ,
+                {
+                  name
+                    name {
+                      last "Fleischmann" ,
+                      first "Robert" ,
+                      initials "R.D." } } ,
+                {
+                  name
+                    name {
+                      last "Ketchum" ,
+                      first "Karen" ,
+                      initials "K.A." } } ,
+                {
+                  name
+                    name {
+                      last "Nelson" ,
+                      first "Karen" ,
+                      initials "K.E." } } ,
+                {
+                  name
+                    name {
+                      last "Salzberg" ,
+                      first "Steven" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Smith" ,
+                      first "Hamilton" ,
+                      initials "H.O." } } ,
+                {
+                  name
+                    name {
+                      last "Venter" ,
+                      first "J" ,
+                      initials "J.C." } } ,
+                {
+                  name
+                    name {
+                      last "Fraser" ,
+                      first "Claire" ,
+                      initials "C.M." } } } ,
+            affil
+              std {
+                affil "The Institute for Genomic Research" ,
+                city "Rockville" ,
+                sub "MD" ,
+                country "USA" ,
+                street "9712 Medical Center Dr" ,
+                postal-code "20850" } } ,
+          medium email ,
+          date
+            std {
+              year 1999 ,
+              month 11 ,
+              day 8 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2013 ,
+              month 2 ,
+              day 14 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA188943" } } } } ,
+    user {
+      type
+        str "NcbiCleanup" ,
+      data {
+        {
+          label
+            str "method" ,
+          data
+            str "SequinCleanup" } ,
+        {
+          label
+            str "version" ,
+          data
+            int 8 } ,
+        {
+          label
+            str "month" ,
+          data
+            int 4 } ,
+        {
+          label
+            str "day" ,
+          data
+            int 22 } ,
+        {
+          label
+            str "year" ,
+          data
+            int 2015 } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_042031" } ,
+        general {
+          db "REF_23S_RNA" ,
+          tag
+            str "AE000513:250342-254279" } } ,
+      descr {
+        title "Deinococcus radiodurans 23S ribosomal RNA gene, complete
+ sequence." ,
+        molinfo {
+          biomol genomic } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 26 } } } } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "AE000513:250342-254279" } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        create-date
+          std {
+            year 2013 ,
+            month 3 ,
+            day 25 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 2 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 3938 ,
+        seq-data
+          ncbi4na '21141814811444822124484418422284421284414224184114412424188
+122842411114222241241428441418124288841282444418482241184444111222122824811414
+481822421144184441128214441128411121828214812284114414114111414118824188224881
+481424424142411222441821422211122411124288424888244448848144122148888811418821
+122228211422411484428441114281212282141144841414822848144241124142448841284812
+844212284148144824884882484111241841284118224242441221224242114428111812822214
+841224181424218148122484144411144841111411222244414444148411141411228411122484
+412881211421482184421228818424848818442484228188411421841422442412881412284124
+842414288114884111112441442441424111424148224118144424421881481248244428141282
+411122144841428114218412214488411122222484121444442441441224112244842284284111
+214828244184148848488814414841111428112241122844141814281488282222411184818841
+448121422824418488412248482284814142128212114428144444228122142881221112288184
+111282241144442124248881482244414841442842414142811288224814224141444111211222
+141221821428114482228111841824282148448811441848482482421814121422144144884428
+814114214221222882111414842481181428212844824148412418424224111184182444428211
+484182812241142818441882112824241142414884828448144441424882148224244141142218
+122441144148448441422412841148424418422442184148112418111141148414118288288242
+248114412114448822844441144482482242221444111482444122811448414422411244242142
+241844121421448211418822842122418218484414841844144412421881242818221184221142
+81844281842844884481242821144424182444821411118281224482121A422821412481824441
+428822824411424114884411124241244842211411114288281112488411121841884222481224
+211122412121448482241484821184212811442424241414112228248811441128884211828212
+222481128824411411444482222124288242484444242148411814422214424128488812211118
+212142128284221121241121484412481814448484124228422244842244114482114844142448
+421142842411184114222244841124424422481128181124482281144814241118822884824448
+114882241228421241114424811241828444242848282112414441282448411188411884428481
+114184244228122248142144124111141222248441428881281814828442188444188244488828
+284248144181448444142284241112844228888444482448441442112448411181221222841411
+128844188828112284111118212888244441224842884424448148884128444424482422822211
+118481124414424222111448212282114124488441118248284814142421114481411448442884
+128424141284121248241421444144111282444288148411224484481224848441144422182418
+211244181111488122224444181121442841828222224141482218182442444414488844212282
+418482442824824218228444428411411448222114448844428488242221881114244212424142
+844488214112482484141214882448282818224281244424214414118841444414884282281884
+128224428814488441412411214814244841481144242844441142241184811241121248842212
+424414888142288422882112821224121488884444214114888224144128418228888184814422
+212122242821184441884148821441424814442444141812824124481141244442842842824124
+114422282144422882488884844181241424884822182112121124142884228844124844244144
+141848244214112422124122842844228241184424228444814482848848114112844222481482
+488182421221181482414142884822211284428884422484184182442488848228244124422211
+482244482122482448882144284114221288821824144114124141482181222842821122888888
+888211428444414248284282412221448284112242284282182424882211442124241882844288
+284144128411422114284484114211288228412484182442484481221212282111884214422118
+412282224212424441448248221124242482444181122442442214244822842424214418282222
+214884248424284882844228214424244841144222142242824448442284414428422824882824
+414124284888221448424412848128882441112422412241142242418282288442188412282122
+842442414414284284142181214224824882882214284482124148211148441444824221412424
+214212282281148881228242482822114824842244148211814812414144122441484112441224
+284482822284284824812211244212184214448142818482244112441811224284111421828114
+244411422142222114184148828222128488818214481141282224411412212244488114144221
+442484212421814211848488214244128448428218214824144828841'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                product
+                  whole
+                    other {
+                      accession "NR_076078" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 2645 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042031" } } ,
+                    int {
+                      from 3682 ,
+                      to 3937 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042031" } } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 2646 ,
+                    to 3681 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_042031" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_076078" } } ,
+      descr {
+        title "Deinococcus radiodurans 23S ribosomal RNA, complete sequence." ,
+        molinfo {
+          biomol rRNA } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_042031" } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "PROVISIONAL" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 2902 ,
+        seq-data
+          ncbi4na '21141814811444822124484418422284421284414224184114412424188
+122842411114222241241428441418124288841282444418482241184444111222122824811414
+481822421144184441128214441128411121828214812284114414114111414118824188224881
+481424424142411222441821422211122411124288424888244448848144122148888811418821
+122228211422411484428441114281212282141144841414822848144241124142448841284812
+844212284148144824884882484111241841284118224242441221224242114428111812822214
+841224181424218148122484144411144841111411222244414444148411141411228411122484
+412881211421482184421228818424848818442484228188411421841422442412881412284124
+842414288114884111112441442441424111424148224118144424421881481248244428141282
+411122144841428114218412214488411122222484121444442441441224112244842284284111
+214828244184148848488814414841111428112241122844141814281488282222411184818841
+448121422824418488412248482284814142128212114428144444228122142881221112288184
+111282241144442124248881482244414841442842414142811288224814224141444111211222
+141221821428114482228111841824282148448811441848482482421814121422144144884428
+814114214221222882111414842481181428212844824148412418424224111184182444428211
+484182812241142818441882112824241142414884828448144441424882148224244141142218
+122441144148448441422412841148424418422442184148112418111141148414118288288242
+248114412114448822844441144482482242221444111482444122811448414422411244242142
+241844121421448211418822842122418218484414841844144412421881242818221184221142
+81844281842844884481242821144424182444821411118281224482121A422821412481824441
+428822824411424114884411124241244842211411114288281112488411121841884222481224
+211122412121448482241484821184212811442424241414112228248811441128884211828212
+222481128824411411444482222124288242484444242148411814422214424128488812211118
+212142128284221121241121484412481814448484124228422244842244114482114844142448
+421142842411184114222244841124424422481128181124482281144814241118822884824448
+114882241228421241114424811241828444242848282112414441282448411188411884428481
+114184244228122248142144124111141222248441428881281814828442188444188244488828
+284248144181448444142284241112844228888444482448441442112448411181221222841411
+128844188828112284111118212888244441224842884424448148884128444424482422822211
+118481124414424222111448212282114124488441118248284814142421114481411448442884
+128424141284121248241421444144111282444288148411224484481224848441144422182418
+211244181111488122224444181121442841828222224141482218182442444414488844212282
+418482442824824218228444428411411448222114448844428488242221881114244212424142
+844488214112482484141214882448282818224281244424214414118841444414884282281884
+128224428814448422441482118148124141441224414841124412242844828222842848248122
+112442121842144481428184822441124418112242841114218281142444114221422221141841
+488282221284888182144811412822244114122122444881141442214424842124218142118484
+88214244128448428218214824144828841'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                location
+                  int {
+                    from 0 ,
+                    to 2901 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_076078" } } } } } } } } }

@@ -1,0 +1,445 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Simkania negevensis" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 83561 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Simkania" ,
+              species "negevensis" } ,
+          attrib "nomodforward" ,
+          mod {
+            {
+              subtype strain ,
+              subname "Z" } ,
+            {
+              subtype culture-collection ,
+              subname "ATCC:VR-1471" } } ,
+          lineage "Bacteria; Chlamydiae; Chlamydiales; Simkaniaceae; Simkania" ,
+          gcode 11 ,
+          div "BCT" } } } ,
+    pub {
+      pub {
+        pmid 21690563 ,
+        article {
+          title {
+            name "Unity in variety--the pan-genome of the Chlamydiae." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Collingro" ,
+                      initials "A." } ,
+                  affil
+                    str "Department of Microbial Ecology, University of
+ Vienna, Vienna, Austria." } ,
+                {
+                  name
+                    name {
+                      last "Tischler" ,
+                      initials "P." } } ,
+                {
+                  name
+                    name {
+                      last "Weinmaier" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Penz" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Heinz" ,
+                      initials "E." } } ,
+                {
+                  name
+                    name {
+                      last "Brunham" ,
+                      initials "R.C." } } ,
+                {
+                  name
+                    name {
+                      last "Read" ,
+                      initials "T.D." } } ,
+                {
+                  name
+                    name {
+                      last "Bavoil" ,
+                      initials "P.M." } } ,
+                {
+                  name
+                    name {
+                      last "Sachse" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Kahane" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Friedman" ,
+                      initials "M.G." } } ,
+                {
+                  name
+                    name {
+                      last "Rattei" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Myers" ,
+                      initials "G.S." } } ,
+                {
+                  name
+                    name {
+                      last "Horn" ,
+                      initials "M." } } } } ,
+          from
+            journal {
+              title {
+                iso-jta "Mol. Biol. Evol." ,
+                ml-jta "Mol Biol Evol" ,
+                issn "1537-1719" ,
+                name "Molecular biology and evolution" } ,
+              imp {
+                date
+                  std {
+                    year 2011 ,
+                    month 12 } ,
+                volume "28" ,
+                issue "12" ,
+                pages "3253-3270" ,
+                language "eng" ,
+                pubstatus ppublish ,
+                history {
+                  {
+                    pubstatus aheadofprint ,
+                    date
+                      std {
+                        year 2011 ,
+                        month 6 ,
+                        day 20 } } ,
+                  {
+                    pubstatus other ,
+                    date
+                      std {
+                        year 2011 ,
+                        month 6 ,
+                        day 22 ,
+                        hour 6 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus pubmed ,
+                    date
+                      std {
+                        year 2011 ,
+                        month 6 ,
+                        day 22 ,
+                        hour 6 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus medline ,
+                    date
+                      std {
+                        year 2012 ,
+                        month 5 ,
+                        day 18 ,
+                        hour 6 ,
+                        minute 0 } } } } } ,
+          ids {
+            pii "msr161" ,
+            doi "10.1093/molbev/msr161" ,
+            pubmed 21690563 ,
+            other {
+              db "pmc" ,
+              tag
+                str "PMC3247790" } ,
+            other {
+              db "ELocationID doi" ,
+              tag
+                str "10.1093/molbev/msr161" } } } } ,
+      reftype no-target } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Rattei" ,
+                      initials "T." } } } ,
+            affil
+              str "University of Vienna, Department of Computational Systems
+ Biology, Althanstr. 14, 1090 Vienna, AUSTRIA" } ,
+          medium other ,
+          date
+            std {
+              year 2011 ,
+              month 5 ,
+              day 27 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2013 ,
+              month 2 ,
+              day 14 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA188943" } } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_041991" } ,
+        general {
+          db "REF_23S_RNA" ,
+          tag
+            str "FR872582:371857-375448" } } ,
+      descr {
+        title "Simkania negevensis strain Z 23S ribosomal RNA gene, complete
+ sequence." ,
+        molinfo {
+          biomol genomic } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 26 } } } } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "FR872582:371857-375448" } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        embl {
+          div pro ,
+          creation-date
+            std {
+              year 2011 ,
+              month 6 ,
+              day 21 } ,
+          update-date
+            std {
+              year 2011 ,
+              month 11 ,
+              day 15 } } ,
+        create-date
+          std {
+            year 2013 ,
+            month 3 ,
+            day 25 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 2 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 3592 ,
+        seq-data
+          ncbi2na 'C273C2273EBA397E9361298E0A199B1798C27DAA27A32093E05823F583A
+A8152E8BCB5D473D71783132AFA0243179E0F884DC2CA48A0080D0F88F56CB2698982EA0895016
+00FCFF6ABECA1CB4C09F0BA1F24C34DEA0AE26312AE0255BB9022027C2E23C9178B2A5A11B8056
+B7837AA2147750A7031DB63858CB910B12E3A02B802055EF2A8B80C8378052C9F109AD22973357
+FCA80E9E3A6E5FF938E25262F0BCC69CAF0A0CC6F5A25A2E02626F0C99F12DB38FC8460142E373
+538528E0918B04DBB82B581CBB3BE0031FA38BEE8CAAE02943407E88CDFBDDD60307F2AF25F87F
+487FEAAC891E8F542AA5C5A5C50280501D60C700BC2D288C84BAA8C27D3ED00AA049523658F0A5
+5C3DCE70B8B0A3B82FD1212FA0EFA7C8A49453F022E6C1274505880FF99630C06A1C24C8960366
+AE5313FB3A66B2889B2CEE6B823316028BBE89931CB8A393A4E2C4630282E20DF5D96025C2BF52
+AC09DB7D5EAF25A55C258A480E6CA63A024AF033D79945C01CEB8EA1860B3BC2466073E8EF6FDD
+CE2967492B0359E220252B2A842A817DAA8163AEC99CA7D42032DDC16F8EB85B14016112B2938E
+0CF74A666210776F0A076903CD76C1F68208A255FAEE3D5F9A30936AA964880E952987BF040044
+91CE4076DC2282CCEBB8E5E5439402B4128A6D257DAA6099E0CC257AE0E9A5B07306B5C2BC3272
+5F2C01407339A8015D009FC2B1DBF230B7092C00D7C08CEEA6359280870F9F8077CAC01FB57AE2
+10BC1C22703E835D221406FE8BF80E4FC8E443A32FA3FB63A20A3BFC0BF774300E0A03E01E0F45
+BEF4018908EC42C7FD9BC0024FFA3BA2EBD808D5F404A3BBCD9B0080701377C10234F5FFFE0011
+DDF007FC262E8BF402FCA00C77E00D4080E244E2678E83E180F40134D210BA7D0F40708C8B5877
+FE80402A1C362603D7EDAB0BD6179183A6C18DEA67B74188876B80FB2C9AE08E5BF1592721A021
+56E05FC7B1DE33E9FF87ED3BB28C96A29EE0223DB4A3F7A2535F80C5A5F84EF8037060956E0D6A
+BDA13ED21A92FE1EA9ACD75C03B068A2F409F974DBAFA43463C89B02B30A42F879885062D892B1
+80B287CB8D69AE80BA0D96D9F068C02B1D6A8C129F3651422F4CD86E9AFE91763B61D364D7AA7B
+20AD50ABFA7BD943C09AC662FABD206DB884BFAD5CDE7BA9B28C7E2089E7DCB188A160BA18143A
+EF5AFBDE50893E5AB273BDA028C26F80937019425D7D08C0B35738841782184ABE329EAEEC2C49
+0ECF89C14B1C37B53E9F0'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                product
+                  whole
+                    other {
+                      accession "NR_076152" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 1990 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041991" } } ,
+                    int {
+                      from 2619 ,
+                      to 3591 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041991" } } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 1991 ,
+                    to 2618 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_041991" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_076152" } } ,
+      descr {
+        title "Simkania negevensis strain Z 23S ribosomal RNA, complete
+ sequence." ,
+        molinfo {
+          biomol rRNA } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "Status" ,
+              data
+                str "Reviewed" } ,
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_041991" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 2964 ,
+        seq-data
+          ncbi2na 'C273C2273EBA397E9361298E0A199B1798C27DAA27A32093E05823F583A
+A8152E8BCB5D473D71783132AFA0243179E0F884DC2CA48A0080D0F88F56CB2698982EA0895016
+00FCFF6ABECA1CB4C09F0BA1F24C34DEA0AE26312AE0255BB9022027C2E23C9178B2A5A11B8056
+B7837AA2147750A7031DB63858CB910B12E3A02B802055EF2A8B80C8378052C9F109AD22973357
+FCA80E9E3A6E5FF938E25262F0BCC69CAF0A0CC6F5A25A2E02626F0C99F12DB38FC8460142E373
+538528E0918B04DBB82B581CBB3BE0031FA38BEE8CAAE02943407E88CDFBDDD60307F2AF25F87F
+487FEAAC891E8F542AA5C5A5C50280501D60C700BC2D288C84BAA8C27D3ED00AA049523658F0A5
+5C3DCE70B8B0A3B82FD1212FA0EFA7C8A49453F022E6C1274505880FF99630C06A1C24C8960366
+AE5313FB3A66B2889B2CEE6B823316028BBE89931CB8A393A4E2C4630282E20DF5D96025C2BF52
+AC09DB7D5EAF25A55C258A480E6CA63A024AF033D79945C01CEB8EA1860B3BC2466073E8EF6FDD
+CE2967492B0359E220252B2A842A817DAA8163AEC99CA7D42032DDC16F8EB85B14016112B2938E
+0CF74A666210776F0A076903CD76C1F68208A255FAEE3D5F9A30936AA964880E952987BF040044
+91CE4076DC2282CCEBB8E5E5439402B4128A6D257DAA6099E0CC257AE0E9A5B07306B5C2BC3272
+40402A1C362603D7EDAB0BD6179183A6C18DEA67B74188876B80FB2C9AE08E5BF1592721A02156
+E05FC7B1DE33E9FF87ED3BB28C96A29EE0223DB4A3F7A2535F80C5A5F84EF8037060956E0D6ABD
+A13ED21A92FE1EA9ACD75C03B068A2F409F974DBAFA43463C89B02B30A42F879885062D892B180
+B287CB8D69AE80BA0D96D9F068C02B1D6A8C129F3651422F4CD86E9AFE91763B61D364D7AA7B20
+AD50ABFA7BD943C09AC662FABD206DB884BFAD5CDE7BA9B28C7E2089E7DCB188A160BA18143AEF
+5AFBDE50893E5AB273BDA028C26F80937019425D7D08C0B35738841782184ABE329EAEEC2C490E
+CF89C14B1C37B53E9F0'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                location
+                  int {
+                    from 0 ,
+                    to 2963 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_076152" } } } } } } } } }

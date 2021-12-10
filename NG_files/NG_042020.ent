@@ -1,0 +1,465 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Nostoc sp. PCC 7120" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 103690 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Nostoc" ,
+              species "sp. PCC 7120" } ,
+          mod {
+            {
+              subtype strain ,
+              subname "PCC 7120" } ,
+            {
+              subtype gb-synonym ,
+              subname "Anabaena sp. PCC 7120" } } ,
+          lineage "Bacteria; Cyanobacteria; Nostocales; Nostocaceae; Nostoc" ,
+          gcode 11 ,
+          div "BCT" } } } ,
+    pub {
+      pub {
+        pmid 11759840 ,
+        article {
+          title {
+            name "Complete genomic sequence of the filamentous nitrogen-fixing
+ cyanobacterium Anabaena sp. strain PCC 7120." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Kaneko" ,
+                      initials "T." } ,
+                  affil
+                    str "Kazusa DNA Research Institute, Kisarazu, Chiba,
+ Japan." } ,
+                {
+                  name
+                    name {
+                      last "Nakamura" ,
+                      initials "Y." } } ,
+                {
+                  name
+                    name {
+                      last "Wolk" ,
+                      initials "C.P." } } ,
+                {
+                  name
+                    name {
+                      last "Kuritz" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Sasamoto" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Watanabe" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Iriguchi" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Ishikawa" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Kawashima" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Kimura" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Kishida" ,
+                      initials "Y." } } ,
+                {
+                  name
+                    name {
+                      last "Kohara" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Matsumoto" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Matsuno" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Muraki" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Nakazaki" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Shimpo" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Sugimoto" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Takazawa" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Yamada" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Yasuda" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Tabata" ,
+                      initials "S." } } } } ,
+          from
+            journal {
+              title {
+                iso-jta "DNA Res." ,
+                ml-jta "DNA Res" ,
+                issn "1340-2838" ,
+                name "DNA research : an international journal for rapid
+ publication of reports on genes and genomes" } ,
+              imp {
+                date
+                  std {
+                    year 2001 ,
+                    month 10 ,
+                    day 31 } ,
+                volume "8" ,
+                issue "5" ,
+                pages "205-213" ,
+                language "eng" ,
+                pubstatus ppublish ,
+                history {
+                  {
+                    pubstatus pubmed ,
+                    date
+                      std {
+                        year 2002 ,
+                        month 1 ,
+                        day 5 ,
+                        hour 10 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus medline ,
+                    date
+                      std {
+                        year 2002 ,
+                        month 5 ,
+                        day 9 ,
+                        hour 10 ,
+                        minute 1 } } ,
+                  {
+                    pubstatus other ,
+                    date
+                      std {
+                        year 2002 ,
+                        month 1 ,
+                        day 5 ,
+                        hour 10 ,
+                        minute 0 } } } } } ,
+          ids {
+            pubmed 11759840 } } } ,
+      reftype no-target } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Sato" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Kaneko" ,
+                      initials "T." } } } ,
+            affil
+              str "Contact:Shusei Sato Kazusa DNA Research Institute,
+ Department of Plant Genome Research; 2-6-7 Kazusa-kamatari, Kisarazu, Chiba
+ 292-0812, Japan URL :http://www.kazusa.or.jp/rhizobase/" } ,
+          medium other ,
+          date
+            std {
+              year 2001 ,
+              month 5 ,
+              day 15 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2013 ,
+              month 2 ,
+              day 14 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA188943" } } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_042020" } ,
+        general {
+          db "REF_23S_RNA" ,
+          tag
+            str "BA000019:2377739-2382030" } } ,
+      descr {
+        title "Nostoc sp. PCC 7120 23S ribosomal RNA gene, complete sequence." ,
+        molinfo {
+          biomol genomic } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 26 } } } } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "BA000019:2377739-2382030" } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        create-date
+          std {
+            year 2013 ,
+            month 3 ,
+            day 25 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 2 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 4292 ,
+        seq-data
+          ncbi2na '4270C2A70EBA3172911229820A1BAF16180C75AA2FA09013E25A2BB583A
+A415C0C717BE0CCC84A0225054981E0137CB27A28220340223D5E2CBAE2602A8225C052FAFC787
+AACBA8498CD8346887218249C0C79148A2B80B5ECB602D028CB2783562C93AA4628354EE0D2628
+5376C29C0C71EEE1632E052C598A80AE00815642A8B80C8138053C9F1092EA2D63C068E166E5EF
+820E25A61F3291EB2BC09A039E8940A8058B7802A630D2EFCC856057AE37053A528E09FAB0450B
+A2B5816163BE00369A38BEEBCAAE03943605289C9EBDD5603BBE29926B063CCDEAAB0247BF6B9A
+9EA216B140D884074831522446F94B886BAA8C27D36D08A804952145270AD540D3670B8C0A2B88
+F97210728AFE5C8249457E022E6C327472D098DF99600E06A9C263B1609EEA3C3F3C36B261EDF8
+0B42636F04005A877813E1907AA06799C8F79AE9EB1A90021FBA77E9C23AC925645251D67D9648
+37D54BE7A3F56E08C00224D003E15039A4328D34A88B3F50B3001AD0FB8F09BEA0EAFB0BED2C11
+942B03CD5814F93F00E1C13FCE06424B889C3FFD8FC51BD84219D300A5F8C168F3864C90412454
+CC08BA4604E2661653C34E67C5FEEF851CD38F8CAE41141C26203FBFA4B8BE162F7A40D20148BE
+D80C1FA50C528B2FF8B03C1FFD0D4FBE3EFF8BC3E743F7E3E2FBF886F6D08CF43BB9F43379439F
+C51A99B89B63FFF492FE4DD070FB7D861C3C3DD70F86239FB8743BF047E2BF4F9F5502EE50CFEE
+4D8C937BFE98BF14BA7FA403F6D7E1BA3E3C39C7AC93E797B2F83852F7BF70D75AF9F72C638AF4
+0D300FF0FBD0703C0CFDCBDECF2407D0E7F163A868CC04D8AB67F9D1B43971511223BFD4FFE0DD
+073FED082FFC3D355F8FD1D35F958E687B31FC0ED2CBF027F855A61EF62F7B4088FBEEB854E710
+26B7F0E172AE61ADC51F7FC3310AA26F5B2CA0824B2698927BA188682E20EDA7E2C99013EB8835
+0E5580570ABD4894AF6D477ABCB6A170A6296029B2D8E844AB410D5E1C7B3A893CF2A193808C94
+C578FAFEA28BF181D62EB828CBB42009CB0EE38133AC56C56016112B2A2BE20C50AA6623077770
+A076900E956C1F6820AAE545C20BAB64B822352987BF140044ADD64076C2282CEAA7865E54B968
+2BC282FAD2A6027C09E1858255AE069A5B07306B5C2B2603D7EDAB0BD6159180A6C18DE8EBB748
+88876980CA0EDEE08C68797917A120215CE09FC7B25E83EED6A7D9F9928CAEA098E0B3D7EEA833
+A2706B88C51DE982728F707CFD6F35A00284BF4AEA4BF87AA6B65D700AC1A299902BD5D2467E80
+5B9A62EC0A4C0A89F879085842D892B180B297CB8D61A6483A0E96D9D068C02F1DCA8C129E3755
+422D44D86A8AFE91763B69D36417AA682C6D50ABEA7BD953C09AC6E27ABD206DB884BDAD4CD6B9
+29B0893E22897D7CB188A16A0A19167AEC52F3EC564B019EAC942E689A3059E024DC2EA0951742
+38B9DD1C400B2B0AD1A920456FCCA7F0BA0B92C3B38278A2C704858A9F8'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                product
+                  whole
+                    other {
+                      accession "NR_076095" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 1236 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042020" } } ,
+                    int {
+                      from 2640 ,
+                      to 4291 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042020" } } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 1237 ,
+                    to 2639 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_042020" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_076095" } } ,
+      descr {
+        title "Nostoc sp. PCC 7120 23S ribosomal RNA, complete sequence." ,
+        molinfo {
+          biomol rRNA } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_042020" } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "PROVISIONAL" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 2889 ,
+        seq-data
+          ncbi2na '4270C2A70EBA3172911229820A1BAF16180C75AA2FA09013E25A2BB583A
+A415C0C717BE0CCC84A0225054981E0137CB27A28220340223D5E2CBAE2602A8225C052FAFC787
+AACBA8498CD8346887218249C0C79148A2B80B5ECB602D028CB2783562C93AA4628354EE0D2628
+5376C29C0C71EEE1632E052C598A80AE00815642A8B80C8138053C9F1092EA2D63C068E166E5EF
+820E25A61F3291EB2BC09A039E8940A8058B7802A630D2EFCC856057AE37053A528E09FAB0450B
+A2B5816163BE00369A38BEEBCAAE03943605289C9EBDD5603BBE29926B063CCDEAAB0247BF6B9A
+9EA216B140D884074831522446F94B886BAA8C27D36D08A804952145270AD540D3670B8C0A2B88
+F97210728AFE5C8249457E022E6C327472D098DF99600E06A9C263B1609EEA3C3F3C36B261EDF8
+0B42636F0400586B7147DFF0CC42A89BD6CB282092C9A6249EE8621A0B883B69F8B26404FAE20D
+43956015C2AF52252BDB51DEAF2DA85C298A580A6CB63A112AD04357871ECEA24F3CA864E02325
+315E3EBFA8A2FC60758BAE0A32ED080272C3B8E04CEB15B15805844ACA8AF883142A9988C1DDDC
+281DA403A55B07DA082AB9517082EAD92E088D4A61EFC500112B75901DB08A0B3AA9E197952E5A
+0AF0A0BEB4A9809F02786160956B81A696C1CC1AD70AC980F5FB6AC2F585646029B0637A3AEDD2
+2221DA603283B7B8231A1E5E45E84808573827F1EC97A0FBB5A9F67E64A32BA826382CF5FBAA0C
+E89C1AE231477A609CA3DC1F3F5BCD6800A12FD2BA92FE1EA9AD975C02B068A6640AF574919FA0
+16E698BB029302A27E1E421610B624AC602CA5F2E35869920E83A5B6741A300BC772A304A78DD5
+508B51361AA2BFA45D8EDA74D905EA9A0B1B542AFA9EF654F026B1B89EAF481B6E212F6B5335AE
+4A6C224F88A25F5F2C62285A8286459EBB14BCFB1592C067AB250B9A268C167809370BA82545D0
+8E2E77471002CAC2B46A48115BF329FC2E82E4B0ECE09E28B1C12162A7E00'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                location
+                  int {
+                    from 0 ,
+                    to 2888 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_076095" } } } } } } } } }

@@ -1,0 +1,597 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Candidatus Korarchaeum cryptofilum" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 498846 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Korarchaeum" ,
+              species "cryptofilum" } ,
+          attrib "nomodforward" ,
+          lineage "Archaea; Korarchaeota; Candidatus Korarchaeum" ,
+          gcode 11 ,
+          div "BCT" } } } ,
+    pub {
+      pub {
+        article {
+          title {
+            name "A korarchaeal genome reveals insights into the evolution of
+ the Archaea." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Elkins" ,
+                      initials "J.G." } } ,
+                {
+                  name
+                    name {
+                      last "Podar" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Graham" ,
+                      initials "D.E." } } ,
+                {
+                  name
+                    name {
+                      last "Makarova" ,
+                      initials "K.S." } } ,
+                {
+                  name
+                    name {
+                      last "Wolf" ,
+                      initials "Y." } } ,
+                {
+                  name
+                    name {
+                      last "Randau" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Hedlund" ,
+                      initials "B.P." } } ,
+                {
+                  name
+                    name {
+                      last "Brochier-Armanet" ,
+                      initials "C." } } ,
+                {
+                  name
+                    name {
+                      last "Kunin" ,
+                      initials "V." } } ,
+                {
+                  name
+                    name {
+                      last "Anderson" ,
+                      initials "I." } } ,
+                {
+                  name
+                    name {
+                      last "Lapidus" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Goltsman" ,
+                      initials "E." } } ,
+                {
+                  name
+                    name {
+                      last "Barry" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Koonin" ,
+                      initials "E.V." } } ,
+                {
+                  name
+                    name {
+                      last "Hugenholtz" ,
+                      initials "P." } } ,
+                {
+                  name
+                    name {
+                      last "Kyrpides" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Wanner" ,
+                      initials "G." } } ,
+                {
+                  name
+                    name {
+                      last "Richardson" ,
+                      initials "P." } } ,
+                {
+                  name
+                    name {
+                      last "Keller" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Stetter" ,
+                      initials "K.O." } } } ,
+            affil
+              str "Lehrstuhl fur Mikrobiologie und Archaeenzentrum,
+ Universitat Regensburg, D-93053 Regensburg, Germany." } ,
+          from
+            journal {
+              title {
+                iso-jta "Proc. Natl. Acad. Sci. U.S.A." ,
+                ml-jta "Proc Natl Acad Sci U S A" ,
+                issn "1091-6490" ,
+                name "Proceedings of the National Academy of Sciences of the
+ United States of America" } ,
+              imp {
+                date
+                  std {
+                    year 2008 ,
+                    month 6 ,
+                    day 10 } ,
+                volume "105" ,
+                issue "23" ,
+                pages "8102-8107" ,
+                language "eng" ,
+                pubstatus ppublish ,
+                history {
+                  {
+                    pubstatus aheadofprint ,
+                    date
+                      std {
+                        year 2008 ,
+                        month 6 ,
+                        day 5 } } ,
+                  {
+                    pubstatus pubmed ,
+                    date
+                      std {
+                        year 2008 ,
+                        month 6 ,
+                        day 7 ,
+                        hour 9 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus medline ,
+                    date
+                      std {
+                        year 2008 ,
+                        month 6 ,
+                        day 28 ,
+                        hour 9 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus other ,
+                    date
+                      std {
+                        year 2008 ,
+                        month 6 ,
+                        day 7 ,
+                        hour 9 ,
+                        minute 0 } } } } } ,
+          ids {
+            pii "0801980105" ,
+            doi "10.1073/pnas.0801980105" ,
+            pubmed 18535141 ,
+            other {
+              db "pmc" ,
+              tag
+                str "PMC2430366" } } } ,
+        pmid 18535141 } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Copeland" ,
+                      first "Alex" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Lucas" ,
+                      first "Susan" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Lapidus" ,
+                      first "Alla" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Bruce" ,
+                      first "David" ,
+                      initials "D." } } ,
+                {
+                  name
+                    name {
+                      last "Goodwin" ,
+                      first "Lynne" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Barry" ,
+                      first "Kerrie" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Glavina del Rio" ,
+                      first "Tijana" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Dalin" ,
+                      first "Eileen" ,
+                      initials "E." } } ,
+                {
+                  name
+                    name {
+                      last "Tice" ,
+                      first "Hope" ,
+                      initials "H." } } ,
+                {
+                  name
+                    name {
+                      last "Pitluck" ,
+                      first "Samuel" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Goltsman" ,
+                      first "Eugene" ,
+                      initials "E." } } ,
+                {
+                  name
+                    name {
+                      last "Schmutz" ,
+                      first "Jeremy" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Larimer" ,
+                      first "Frank" ,
+                      initials "F." } } ,
+                {
+                  name
+                    name {
+                      last "Land" ,
+                      first "Miriam" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Hauser" ,
+                      first "Loren" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Kyrpides" ,
+                      first "Nikos" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Kim" ,
+                      first "Edwin" ,
+                      initials "E." } } ,
+                {
+                  name
+                    name {
+                      last "Elkins" ,
+                      first "James" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Stetter" ,
+                      first "Karl" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Richardson" ,
+                      first "Paul" ,
+                      initials "P." } } ,
+                {
+                  name
+                    consortium "US DOE Joint Genome Institute" } } ,
+            affil
+              std {
+                affil "US DOE Joint Genome Institute" ,
+                city "Walnut Creek" ,
+                sub "CA" ,
+                country "USA" ,
+                street "2800 Mitchell Drive B100" ,
+                postal-code "94598-1698" } } ,
+          date
+            std {
+              year 2008 ,
+              month 3 ,
+              day 13 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2013 ,
+              month 2 ,
+              day 14 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA188942" } } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_042001" } ,
+        general {
+          db "REF_23S_RNA" ,
+          tag
+            str "CP000968:1328199-1331725" } } ,
+      descr {
+        title "Candidatus Korarchaeum cryptofilum 23S ribosomal RNA gene,
+ complete sequence." ,
+        molinfo {
+          biomol genomic } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 26 } } } } ,
+        comment "This record has been curated by collaboration with an
+ international consortium of ribosomal RNA databases" ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "CP000968:1328199-1331725" } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        create-date
+          std {
+            year 2013 ,
+            month 3 ,
+            day 25 } ,
+        update-date
+          std {
+            year 2014 ,
+            month 11 ,
+            day 10 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 3527 ,
+        seq-data
+          ncbi2na 'E71965EBA3A769DA996282AAE909E530956A8964A4A7D8D6A8D560E98E5
+962299D5A4A89A815560F824DD2CAA8A2880505A8E578B1698A80AA789D0160756766226AE8EEA
+BE6AA8DA8967A8A82582E97A069594C8AB88956CA6C17149AD6B5DD58B16EAFA0C566A0D6AAD36
+175027031B56216326078B16E2A027802459E99AAE0089780529AD3289A695D0A9E09D58280396
+62938B18A89A16AB655B1B7E011996A8BD1A9BA625C2A7F095829A260262855926398AAB65D602
+AAF4B4676E214825A98DC75EA4A9825AB66256BA2958CA8EB8AE40D5D5B85EA2CAA40214372569
+0C9EBD596097564A28DD668ABAA9BACA9063EAEAC2A9D65594577605583997556C826A896A69AA
+A09D6D9622A8105685AAF0AD542D7A70B9603582A6DD5D70849AA2B29D2092535FC08B9B009D15
+9628A8A554038B6A9E094A458C55A49B5E82A67AB29A999116A6825AA6E275AE85AEEEF903569A
+CB24982EAB883551A580994ABD9690E7DB4969AF25AD70A691527AC96580A825AF0CF5A6516AB2
+9A419297455E1976A729E26AA5678A6A615B5099F0A596205B0EB88269E0A663AA957FAA97DA74
+E5EA85F802AAEA898D56B95B16235844AE67A7882970A5CDAD7066A22A076903E956C1F6A23AAE
+5E6F5D602AAD64AD92E10AA6561EFC100132F55989590ABBB1AA8E297A50E5AC5E0956B106AB82
+A5AE025A8B0778777C1A4AD54795560203FC3574B8B80990E86828C82ACEEBA8F4C8E782A27DDE
+E24C0BC480A5D233A0D65D8D7BBD2EC1922A22A05CC8C630C4EEF019A928D30A096A90593F3379
+EB0C84B33689D3E801E315F7E88A04D87C7BB9820114B13DDF4A8CDB88A9D4E09584C28CDAAA3B
+38DFB8F0A7CE27758FC2CE0360CA28A2FE8E3BDDF0E7C24BAA165AA80AC94CE5F960C00DA6E4E0
+E9F062B959ED57566A5AE0564D5AEC485A865506A888215EE89F47925EB7EEB127AA3922ACA6A2
+63BA515D4AABA582618E811657DD49EC51C1675A6A12A52BA92FE9EABA4655E40ACD2A995C2989
+D29A8480565B22A429402765E1E8D5C066EA352AB8096A5C9811D895DDAE2A5AB184002F154AAC
+1A27BA6A622D54DA55967E7D561B691E54D7AAB9249750ABAA3BD953C0AA06E27ABD206D9894BD
+AFDD5EFAA790A5978AA0A857CB180A06ABB6A975AEC5ADB582A9865AB2599549630A9E024DC256
+09A55600CA697655DBAAF2A66AC8215BD8EAAAEBB0A4A27DA687974971575409588'H ,
+        hist {
+          assembly {
+            {
+              type partial ,
+              dim 2 ,
+              segs
+                denseg {
+                  dim 2 ,
+                  numseg 1 ,
+                  ids {
+                    gi 470468516 ,
+                    gi 170173707 } ,
+                  starts {
+                    0 ,
+                    1328198 } ,
+                  lens {
+                    3527 } ,
+                  strands {
+                    plus ,
+                    plus } } } } } } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                product
+                  whole
+                    other {
+                      accession "NR_076122" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 2038 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042001" } } ,
+                    int {
+                      from 2546 ,
+                      to 3526 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042001" } } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 2039 ,
+                    to 2545 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_042001" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_076122" } } ,
+      descr {
+        title "Candidatus Korarchaeum cryptofilum 23S ribosomal RNA, complete
+ sequence." ,
+        molinfo {
+          biomol rRNA } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_042001" } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "PROVISIONAL" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 3020 ,
+        seq-data
+          ncbi2na 'E71965EBA3A769DA996282AAE909E530956A8964A4A7D8D6A8D560E98E5
+962299D5A4A89A815560F824DD2CAA8A2880505A8E578B1698A80AA789D0160756766226AE8EEA
+BE6AA8DA8967A8A82582E97A069594C8AB88956CA6C17149AD6B5DD58B16EAFA0C566A0D6AAD36
+175027031B56216326078B16E2A027802459E99AAE0089780529AD3289A695D0A9E09D58280396
+62938B18A89A16AB655B1B7E011996A8BD1A9BA625C2A7F095829A260262855926398AAB65D602
+AAF4B4676E214825A98DC75EA4A9825AB66256BA2958CA8EB8AE40D5D5B85EA2CAA40214372569
+0C9EBD596097564A28DD668ABAA9BACA9063EAEAC2A9D65594577605583997556C826A896A69AA
+A09D6D9622A8105685AAF0AD542D7A70B9603582A6DD5D70849AA2B29D2092535FC08B9B009D15
+9628A8A554038B6A9E094A458C55A49B5E82A67AB29A999116A6825AA6E275AE85AEEEF903569A
+CB24982EAB883551A580994ABD9690E7DB4969AF25AD70A691527AC96580A825AF0CF5A6516AB2
+9A419297455E1976A729E26AA5678A6A615B5099F0A596205B0EB88269E0A663AA957FAA97DA74
+E5EA85F802AAEA898D56B95B16235844AE67A7882970A5CDAD7066A22A076903E956C1F6A23AAE
+5E6F5D602AAD64AD92E10AA6561EFC100132F55989590ABBB1AA8E297A50E5AC5E0956B106AB82
+A5AE025A8B0778777C1A4AD57092EA8596AA02B253397E58300369B9383A7C18AE567B55D59A96
+B8159356BB1216A19541AA220857BA27D1E497ADFBAC49EA8E48AB29A898EE945752AAE9609863
+A04595F7527B147059D69A84A94AEA4BFA7AAE91957902B34AA6570A6274A6A1201596C8A90A50
+09D9787A357019BA8D4AAE025A9726047625776B8A96AC61000BC552AB0689EE9A988B55369565
+9F9F5586DA479535EAAE4925D42AEA8EF654F02A81B89EAF481B66252F6BF757BEA9E42965E2A8
+2A15F2C60281AAEDAA5D6BB16B6D60AA6196AC96655258C2A78093709582695580329A5D9576EA
+BCA99AB20856F63AAABAEC29289F69A1E5D25C55D502562'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                location
+                  int {
+                    from 0 ,
+                    to 3019 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_076122" } } } } } } } } }

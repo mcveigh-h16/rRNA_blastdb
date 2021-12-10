@@ -1,0 +1,436 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Pyrobaculum aerophilum" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 13773 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Pyrobaculum" ,
+              species "aerophilum" } ,
+          attrib "nomodforward" ,
+          mod {
+            {
+              subtype strain ,
+              subname "IM2" } } ,
+          lineage "Archaea; Crenarchaeota; Thermoprotei; Thermoproteales;
+ Thermoproteaceae; Pyrobaculum" ,
+          gcode 11 ,
+          div "BCT" } } } ,
+    pub {
+      pub {
+        article {
+          title {
+            name "Genome sequence of the hyperthermophilic crenarchaeon
+ Pyrobaculum aerophilum." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Fitz-Gibbon" ,
+                      initials "S.T." } ,
+                  affil
+                    str "Department of Microbiology, Immunology, and Molecular
+ Genetics, and Molecular Biology Institute, University of California, Los
+ Angeles, CA 90095-1489, USA." } ,
+                {
+                  name
+                    name {
+                      last "Ladner" ,
+                      initials "H." } } ,
+                {
+                  name
+                    name {
+                      last "Kim" ,
+                      initials "U.J." } } ,
+                {
+                  name
+                    name {
+                      last "Stetter" ,
+                      initials "K.O." } } ,
+                {
+                  name
+                    name {
+                      last "Simon" ,
+                      initials "M.I." } } ,
+                {
+                  name
+                    name {
+                      last "Miller" ,
+                      initials "J.H." } } } } ,
+          from
+            journal {
+              title {
+                iso-jta "Proc. Natl. Acad. Sci. U.S.A." ,
+                ml-jta "Proc Natl Acad Sci U S A" ,
+                issn "0027-8424" ,
+                name "Proceedings of the National Academy of Sciences of the
+ United States of America" } ,
+              imp {
+                date
+                  std {
+                    year 2002 ,
+                    month 1 ,
+                    day 22 } ,
+                volume "99" ,
+                issue "2" ,
+                pages "984-989" ,
+                language "eng" ,
+                pubstatus ppublish ,
+                history {
+                  {
+                    pubstatus pubmed ,
+                    date
+                      std {
+                        year 2002 ,
+                        month 1 ,
+                        day 17 ,
+                        hour 10 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus medline ,
+                    date
+                      std {
+                        year 2002 ,
+                        month 5 ,
+                        day 1 ,
+                        hour 10 ,
+                        minute 1 } } ,
+                  {
+                    pubstatus aheadofprint ,
+                    date
+                      std {
+                        year 2002 ,
+                        month 1 ,
+                        day 15 } } ,
+                  {
+                    pubstatus other ,
+                    date
+                      std {
+                        year 2002 ,
+                        month 1 ,
+                        day 17 ,
+                        hour 10 ,
+                        minute 0 } } } } } ,
+          ids {
+            pubmed 11792869 ,
+            doi "10.1073/pnas.241636498" ,
+            pii "241636498" ,
+            other {
+              db "pmc" ,
+              tag
+                str "PMC117417" } } } ,
+        pmid 11792869 } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Fitz-Gibbon" ,
+                      first "Sorel" ,
+                      initials "S.T." } } ,
+                {
+                  name
+                    name {
+                      last "Ladner" ,
+                      first "Heidi" ,
+                      initials "H." } } ,
+                {
+                  name
+                    name {
+                      last "Kim" ,
+                      first "Ung-Jin" ,
+                      initials "U.-J." } } ,
+                {
+                  name
+                    name {
+                      last "Stetter" ,
+                      first "Karl" ,
+                      initials "K.O." } } ,
+                {
+                  name
+                    name {
+                      last "Simon" ,
+                      first "Melvin" ,
+                      initials "M.I." } } ,
+                {
+                  name
+                    name {
+                      last "Miller" ,
+                      first "Jeffrey" ,
+                      initials "J.H." } } } ,
+            affil
+              std {
+                affil "University of California, Los Angeles" ,
+                div "Microbiology and Molecular Genetics" ,
+                city "Los Angeles" ,
+                sub "CA" ,
+                country "USA" ,
+                street "405 Hilgard Ave" ,
+                postal-code "90095-1489" } } ,
+          date
+            std {
+              year 2001 ,
+              month 12 ,
+              day 12 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2013 ,
+              month 5 ,
+              day 9 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA33317" } } } } ,
+    user {
+      type
+        str "NcbiCleanup" ,
+      data {
+        {
+          label
+            str "method" ,
+          data
+            str "SequinCleanup" } ,
+        {
+          label
+            str "version" ,
+          data
+            int 8 } ,
+        {
+          label
+            str "month" ,
+          data
+            int 4 } ,
+        {
+          label
+            str "day" ,
+          data
+            int 1 } ,
+        {
+          label
+            str "year" ,
+          data
+            int 2015 } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_041958" } ,
+        general {
+          db "REF_16S_RNA" ,
+          tag
+            str "AE009441:1089640-1091850" } } ,
+      descr {
+        title "Pyrobaculum aerophilum strain IM2 16S ribosomal RNA gene,
+ complete sequence." ,
+        molinfo {
+          biomol genomic } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 26 } } } } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "AE009441:1089640-1091850" } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        create-date
+          std {
+            year 2013 ,
+            month 5 ,
+            day 24 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 2 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 2211 ,
+        seq-data
+          ncbi2na '016BE35E5A15859CDAACA9C25398B66656AA656A26991A74B046E5C1705
+DA8AA84556A01EAB43554CAA0A99E82957D5602A3A69635965B5958ABAA91A54D2B2FA6AF02959
+425821AB2A9AE2259895623691E210A96295C6AB924A660C75903AA82969D74E1A283F05C0E0B4
+0CF603F84201B04D22E5A10941207DC92288C90C47CA21A717FFC618228C3273231A6FA9F0D400
+58AF83193196C9A2F0CAA0B33AF30175AC20299B3E230ED5C98CA86FC0440B9DAFF5CCA45286A0
+188239768CAFA33C423880F651A634C22A7FC8C5828DAE002337287FAA3EFB824880428CD9CEF7
+1952ECFDDCFABF4751833143A06008109737196DBAC7A90A3BAC821F5D6873005480D5DC2155DF
+FCB7D77465A5D7526839A905986A9C558B96A60895A7FE56B70065A98309AAA42DEBB49659AC31
+49D662EB6ABBF1EA7C0995B25A5690B675E0355A9D056AA6AA98C796A72AA6A22965AC75AAB2A9
+80D6F0D568A1452E9809A9A52066561AE2A98096AA240AA3C8C55ECB5696C0639A9C9EDADA9F2A
+5696BA60A805BC256597AA2C696429E01F0283E9AAA91442AB827E69F0FA2D065A017456A98492
+8E0A529C185F96862788A2B93A5B6D276E5B8AED6BC2D69062621559572F9C55B5F6A1AAA4472A
+A1E5A6C25A2828AA94692B4B39560156A9E4662790E9AA126A3585580AA8A4356C055954B2A362
+AF9076576E06E83572C166ED14199AE0C6D5E55F9111656D914562A257798A55D9608AEAA8624A
+A9D50AAAE0B6C10AC96CAA05E69E8D174'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "16S ribosomal RNA" } ,
+                product
+                  whole
+                    other {
+                      accession "NR_102764" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 376 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041958" } } ,
+                    int {
+                      from 1090 ,
+                      to 2210 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041958" } } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 377 ,
+                    to 1089 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_041958" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_102764" } } ,
+      descr {
+        title "Pyrobaculum aerophilum strain IM2 16S ribosomal RNA, complete
+ sequence." ,
+        molinfo {
+          biomol rRNA } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "Status" ,
+              data
+                str "Reviewed" } ,
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_041958" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 1498 ,
+        seq-data
+          ncbi2na '016BE35E5A15859CDAACA9C25398B66656AA656A26991A74B046E5C1705
+DA8AA84556A01EAB43554CAA0A99E82957D5602A3A69635965B5958ABAA91A54D2B2FA6AF02959
+425821AB2A9AE2259895623691E210A96295C6AB924A660C7590E6A41661AA71562E5A9822569F
+F95ADC0196A60C26AA90B7AED25966B0C527598BADAAEFC7A9F02656C9695A42D9D780D56A7415
+AA9AAA631E5A9CAA9A88A596B1D6AACAA6035BC355A28514BA6026A6948199586B8AA6025AA890
+2A8F23157B2D5A5B018E6A727B6B6A7CA95A5AE982A016F095965EA8B1A590A7807C0A0FA6AAA4
+510AAE09F9A7C3E8B4196805D15AA6124A38294A70617E5A189E228AE4E96DB49DB96E2BB5AF0B
+5A41898855655CBE7156D7DA86AA911CAA87969B0968A0A2AA51A4AD2CE558055AA791989E43A6
+A849A8D615602AA290D5B0156552CA8D8ABE41D95DB81BA0D5CB059BB450666B831B57957E4445
+95B645158A895DE6295765822BAAA1892AA7542AAB82DB042B25B2A8179A7A345D0'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "16S ribosomal RNA" } ,
+                location
+                  int {
+                    from 0 ,
+                    to 1497 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_102764" } } } } } } } } }

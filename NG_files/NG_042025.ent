@@ -1,0 +1,511 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Brucella abortus" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 235 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Brucella" ,
+              species "abortus" } ,
+          attrib "nomodforward" ,
+          mod {
+            {
+              subtype strain ,
+              subname "2308" } ,
+            {
+              subtype gb-synonym ,
+              subname "Brucella melitensis biovar Abortus" } } ,
+          lineage "Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales;
+ Brucellaceae; Brucella" ,
+          gcode 11 ,
+          div "BCT" } } } ,
+    pub {
+      pub {
+        pmid 16299333 ,
+        article {
+          title {
+            name "Whole-genome analyses of speciation events in pathogenic
+ Brucellae." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "Microbial Genomics Group, Lawrence Livermore
+ National Laboratory, and the Genome Analysis Group, Oak Ridge National
+ Laboratory" } ,
+                {
+                  name
+                    name {
+                      last "Chain" ,
+                      initials "P.S." } ,
+                  affil
+                    str "Biosciences Directorate, Lawrence Livermore National
+ Laboratory, Livermore, California 94551, USA." } ,
+                {
+                  name
+                    name {
+                      last "Comerci" ,
+                      initials "D.J." } } ,
+                {
+                  name
+                    name {
+                      last "Tolmasky" ,
+                      initials "M.E." } } ,
+                {
+                  name
+                    name {
+                      last "Larimer" ,
+                      initials "F.W." } } ,
+                {
+                  name
+                    name {
+                      last "Malfatti" ,
+                      initials "S.A." } } ,
+                {
+                  name
+                    name {
+                      last "Vergez" ,
+                      initials "L.M." } } ,
+                {
+                  name
+                    name {
+                      last "Aguero" ,
+                      initials "F." } } ,
+                {
+                  name
+                    name {
+                      last "Land" ,
+                      initials "M.L." } } ,
+                {
+                  name
+                    name {
+                      last "Ugalde" ,
+                      initials "R.A." } } ,
+                {
+                  name
+                    name {
+                      last "Garcia" ,
+                      initials "E." } } } } ,
+          from
+            journal {
+              title {
+                iso-jta "Infect. Immun." ,
+                ml-jta "Infect Immun" ,
+                issn "0019-9567" ,
+                name "Infection and immunity" } ,
+              imp {
+                date
+                  std {
+                    year 2005 ,
+                    month 12 } ,
+                volume "73" ,
+                issue "12" ,
+                pages "8353-8361" ,
+                language "eng" ,
+                pubstatus ppublish ,
+                history {
+                  {
+                    pubstatus pubmed ,
+                    date
+                      std {
+                        year 2005 ,
+                        month 11 ,
+                        day 22 ,
+                        hour 9 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus medline ,
+                    date
+                      std {
+                        year 2006 ,
+                        month 1 ,
+                        day 7 ,
+                        hour 9 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus other ,
+                    date
+                      std {
+                        year 2005 ,
+                        month 11 ,
+                        day 22 ,
+                        hour 9 ,
+                        minute 0 } } } } } ,
+          ids {
+            pii "73/12/8353" ,
+            doi "10.1128/IAI.73.12.8353-8361.2005" ,
+            pubmed 16299333 ,
+            other {
+              db "pmc" ,
+              tag
+                str "PMC1307078" } } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "Microbial Genomics Group, Lawrence Livermore
+ National Laboratory, and the Genome Analysis Group, Oak Ridge National
+ Laboratory" } ,
+                {
+                  name
+                    name {
+                      last "Larimer" ,
+                      initials "F." } } } ,
+            affil
+              str "Larimer F., Oak Ridge National Laboratory, 1 Bethel Valley
+ Road, Bldg 5700 A201 Oak Ridge, TN 37831, USA" } ,
+          medium other ,
+          date
+            std {
+              year 2006 ,
+              month 6 ,
+              day 21 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2013 ,
+              month 2 ,
+              day 14 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA188943" } } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_042025" } ,
+        general {
+          db "REF_23S_RNA" ,
+          tag
+            str "AM040264:1599897-1602800" } } ,
+      descr {
+        title "Brucella abortus 23S ribosomal RNA gene, complete sequence." ,
+        molinfo {
+          biomol genomic } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 26 } } } } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "AM040264:1599897-1602800" } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        embl {
+          div pro ,
+          creation-date
+            std {
+              year 2005 ,
+              month 11 ,
+              day 22 } ,
+          update-date
+            std {
+              year 2010 ,
+              month 6 ,
+              day 15 } ,
+          xref {
+            {
+              dbname
+                name "GR" ,
+              id {
+                str "AM040264_GR" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00001" ,
+                str "5S_rRNA" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00005" ,
+                str "tRNA" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00010" ,
+                str "RNaseP_bact_a" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00013" ,
+                str "6S" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00059" ,
+                str "TPP" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00169" ,
+                str "SRP_bact" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00174" ,
+                str "Cobalamin" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00177" ,
+                str "SSU_rRNA_5" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00517" ,
+                str "serC" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00520" ,
+                str "ybhL" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00521" ,
+                str "SAM_alpha" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF01086" ,
+                str "LR-PK1" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF01118" ,
+                str "PK-G12rRNA" } } ,
+            {
+              dbname
+                name "SILVA-LSU" ,
+              id {
+                str "AM040264" } } ,
+            {
+              dbname
+                name "SILVA-SSU" ,
+              id {
+                str "AM040264" } } } } ,
+        create-date
+          std {
+            year 2013 ,
+            month 3 ,
+            day 25 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 2 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 2904 ,
+        seq-data
+          ncbi2na '42EDF0A93FAE8E5FA4E44A638286E319E6309B6A8AE60C57F8D618FD60E
+A90545F2387200DEFFBE89067A3ABF1153121672B6DA54EEA595566899493D77A0E6C699B89881
+2449FDCB4D3030ACDC17E0C4CAAF209817AA07804DC2C548A0284D0188759CB2E989819A14A52E
+9FFB8302E818BE801D8582EAE32D5B11B20C920B5F8B2A6A11B80D7B7813AB6146350970B1DB93
+858C9814B16E2A02B802455862A8B804B17805A3971012FA2542BFB5EAE126C5FFB30EAD261F3E
+CD8909F0D6B2BB299360262DE04A9BD2F6393C8560142E37253892BE0AC6B046C7A285815337BE
+43236A387EE9CAAE02943407E88C9EBDD660373F2B226D8583155AAB2247A3A9CEA8745B7C78D7
+0501D60C5AA2C72DA484469AB9C1B5B6E88A90415E145370AD5C2F3A70BA80A3B8A354010528EF
+A7C02494D3F02026C12747ADC0C2ADFE65803B16A9D094C45827BA391B3B9BAC9A26F5B097B82A
+12DB884D7A2B3682E20E784E2C18C0A8B8887576580B50ABD79F02F0DE24ABC969570A6296029B
+2D8EA051BC33DBA9792B2E1A366EEFB8A5F3E8F8DF9E209AF5280275E4CC85B15C05847AE87AC8
+8314299F8881E6F8281DA403919B07DA0826E17473A90532AABA44852AAC987BF140044A9DE60B
+642186CCAB7865E56B9E82BC2288AE425F83E0954B01A696C1CC1AD70AC980F5FB6AC2F585E460
+E9B061F559EDD41921D2E03E0F55B8239AAF5E6BC8680855B917F1CC9FC47A4F6E184EECA32BAC
+87F824AA6525FEE8B457E031457EFFCE8EDC1E695BCD6AD4A16ECEBAB2FE1EA9AD975C08B068A6
+663ACA7481ADA036F6D8B90E9309797879087842D8922180B6B4CB8D6BAD59BA0A94D9D068C02B
+196A8C129E3855422D4CD86ABEFE91763B61D364D7AA7A24AD50AB3A9EF653F026B1B8BEAF481B
+6E212F6B573796EAECA0CF84A37B572C62285A8E86CDDEBA17BEE65259324AB27331A1A8C16782
+93709A80545E0062CF5734896E821451BE3296AEE82E69064E49F16B1C3276361F8'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                product
+                  whole
+                    other {
+                      accession "NR_076087" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 172 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042025" } } ,
+                    int {
+                      from 289 ,
+                      to 2903 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042025" } } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 173 ,
+                    to 288 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_042025" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_076087" } } ,
+      descr {
+        title "Brucella abortus 23S ribosomal RNA, complete sequence." ,
+        molinfo {
+          biomol rRNA } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "Status" ,
+              data
+                str "Reviewed" } ,
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_042025" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 2788 ,
+        seq-data
+          ncbi2na '42EDF0A93FAE8E5FA4E44A638286E319E6309B6A8AE60C57F8D618FD60E
+A90545F2387200DEFFBE89067A3B4D3030ACDC17E0C4CAAF209817AA07804DC2C548A0284D0188
+759CB2E989819A14A52E9FFB8302E818BE801D8582EAE32D5B11B20C920B5F8B2A6A11B80D7B78
+13AB6146350970B1DB93858C9814B16E2A02B802455862A8B804B17805A3971012FA2542BFB5EA
+E126C5FFB30EAD261F3ECD8909F0D6B2BB299360262DE04A9BD2F6393C8560142E37253892BE0A
+C6B046C7A285815337BE43236A387EE9CAAE02943407E88C9EBDD660373F2B226D8583155AAB22
+47A3A9CEA8745B7C78D70501D60C5AA2C72DA484469AB9C1B5B6E88A90415E145370AD5C2F3A70
+BA80A3B8A354010528EFA7C02494D3F02026C12747ADC0C2ADFE65803B16A9D094C45827BA391B
+3B9BAC9A26F5B097B82A12DB884D7A2B3682E20E784E2C18C0A8B8887576580B50ABD79F02F0DE
+24ABC969570A6296029B2D8EA051BC33DBA9792B2E1A366EEFB8A5F3E8F8DF9E209AF5280275E4
+CC85B15C05847AE87AC88314299F8881E6F8281DA403919B07DA0826E17473A90532AABA44852A
+AC987BF140044A9DE60B642186CCAB7865E56B9E82BC2288AE425F83E0954B01A696C1CC1AD70A
+C980F5FB6AC2F585E460E9B061F559EDD41921D2E03E0F55B8239AAF5E6BC8680855B917F1CC9F
+C47A4F6E184EECA32BAC87F824AA6525FEE8B457E031457EFFCE8EDC1E695BCD6AD4A16ECEBAB2
+FE1EA9AD975C08B068A6663ACA7481ADA036F6D8B90E9309797879087842D8922180B6B4CB8D6B
+AD59BA0A94D9D068C02B196A8C129E3855422D4CD86ABEFE91763B61D364D7AA7A24AD50AB3A9E
+F653F026B1B8BEAF481B6E212F6B573796EAECA0CF84A37B572C62285A8E86CDDEBA17BEE65259
+324AB27331A1A8C1678293709A80545E0062CF5734896E821451BE3296AEE82E69064E49F16B1C
+3276361F8'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                location
+                  int {
+                    from 0 ,
+                    to 2787 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_076087" } } } } } } } } }

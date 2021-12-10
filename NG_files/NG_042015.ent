@@ -1,0 +1,525 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Syntrophomonas wolfei subsp. wolfei" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 370885 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Syntrophomonas" ,
+              species "wolfei" ,
+              subspecies "wolfei" } ,
+          attrib "nomodforward" ,
+          mod {
+            {
+              subtype strain ,
+              subname "Goettingen" } ,
+            {
+              subtype sub-species ,
+              subname "wolfei" } } ,
+          lineage "Bacteria; Firmicutes; Clostridia; Clostridiales;
+ Syntrophomonadaceae; Syntrophomonas" ,
+          gcode 11 ,
+          div "BCT" } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Copeland" ,
+                      first "Alex" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Lucas" ,
+                      first "Susan" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Lapidus" ,
+                      first "Alla" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Barry" ,
+                      first "Kerrie" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Detter" ,
+                      first "John" ,
+                      initials "J.C." } } ,
+                {
+                  name
+                    name {
+                      last "Glavina del Rio" ,
+                      first "Tijana" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Hammon" ,
+                      first "Nancy" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Israni" ,
+                      first "Sanjay" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Dalin" ,
+                      first "Eileen" ,
+                      initials "E." } } ,
+                {
+                  name
+                    name {
+                      last "Tice" ,
+                      first "Hope" ,
+                      initials "H." } } ,
+                {
+                  name
+                    name {
+                      last "Pitluck" ,
+                      first "Samuel" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Sims" ,
+                      first "David" ,
+                      initials "D." } } ,
+                {
+                  name
+                    name {
+                      last "Brettin" ,
+                      first "Thomas" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Bruce" ,
+                      first "David" ,
+                      initials "D." } } ,
+                {
+                  name
+                    name {
+                      last "Han" ,
+                      first "Cliff" ,
+                      initials "C." } } ,
+                {
+                  name
+                    name {
+                      last "Tapia" ,
+                      first "Roxanne" ,
+                      initials "R." } } ,
+                {
+                  name
+                    name {
+                      last "Gilna" ,
+                      first "Paul" ,
+                      initials "P." } } ,
+                {
+                  name
+                    name {
+                      last "Schmutz" ,
+                      first "Jeremy" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Larimer" ,
+                      first "Frank" ,
+                      initials "F." } } ,
+                {
+                  name
+                    name {
+                      last "Land" ,
+                      first "Miriam" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Hauser" ,
+                      first "Loren" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Kyrpides" ,
+                      first "Nikos" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Kim" ,
+                      first "Edwin" ,
+                      initials "E." } } ,
+                {
+                  name
+                    name {
+                      last "Boone" ,
+                      first "David" ,
+                      initials "D.R." } } ,
+                {
+                  name
+                    name {
+                      last "Brockman" ,
+                      first "Fred" ,
+                      initials "F." } } ,
+                {
+                  name
+                    name {
+                      last "Culley" ,
+                      first "David" ,
+                      initials "D." } } ,
+                {
+                  name
+                    name {
+                      last "Ferry" ,
+                      first "James" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Gunsalus" ,
+                      first "Robert" ,
+                      initials "R." } } ,
+                {
+                  name
+                    name {
+                      last "McInerney" ,
+                      first "Michael" ,
+                      initials "M.J." } } ,
+                {
+                  name
+                    name {
+                      last "Morrison" ,
+                      first "Mark" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Plugge" ,
+                      first "Caroline" ,
+                      initials "C." } } ,
+                {
+                  name
+                    name {
+                      last "Rohlin" ,
+                      first "Lars" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Scholten" ,
+                      first "Johannes" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Sieber" ,
+                      first "Jessica" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Stams" ,
+                      first "Alfons" ,
+                      initials "A.J.M." } } ,
+                {
+                  name
+                    name {
+                      last "Richardson" ,
+                      first "Paul" ,
+                      initials "P." } } ,
+                {
+                  name
+                    consortium "US DOE Joint Genome Institute" } } ,
+            affil
+              std {
+                affil "US DOE Joint Genome Institute" ,
+                city "Walnut Creek" ,
+                sub "CA" ,
+                country "USA" ,
+                street "2800 Mitchell Drive B100" ,
+                postal-code "94598-1698" } } ,
+          date
+            std {
+              year 2006 ,
+              month 8 ,
+              day 25 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2013 ,
+              month 2 ,
+              day 14 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA188943" } } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_042015" } ,
+        general {
+          db "REF_23S_RNA" ,
+          tag
+            str "CP000448:45992-49515" } } ,
+      descr {
+        title "Syntrophomonas wolfei subsp. wolfei 23S ribosomal RNA gene,
+ complete sequence." ,
+        molinfo {
+          biomol genomic } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 26 } } } } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "CP000448:45992-49515" } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        create-date
+          std {
+            year 2013 ,
+            month 3 ,
+            day 25 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 2 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 3524 ,
+        seq-data
+          ncbi2na '42300226CEBA3972994A29820A19A426980651AA27909893235BA33583A
+A015A48A605DED15F1781132AC22898856B81E0137CB05A28220342623F5C2C9A62602A0225405
+392BB029E496F97B3AAF8AADE4A14C792CEB448B080333BF278309E809D25120AE0255B098024C
+CDDE2488558B165A11BA056BA824A8A145F50A7031C5E9858C8822C5B8A80AE009156A2A8B8020
+5E016CE7C404B2891CFA82E20BA82F20B8802A080DA44963F4D100D517565DD17747D50BB879B1
+7FEC83A9498BC7B3C242BC2F420A3A259260262DF0CA9CCCBF0E4B215805AB8DCD4E94AB8263AC
+1136E8A560522E6F802C6E8E2FBA32AB80E50D815A2327AF75580C9FCA9C9B4A00897E2AAC891E
+BCA72A97C46BC5817D501D60C510AE717A4B487BAB802B532D88A804952141270AD540DCE70BA8
+0A3B22791212528EFA7C8249453E022E6C32747AD0BA7799600EC1AA70932C5827FA8F882E20BA
+82720B8809F1E22B8B4203A882208C089F608DD32DCD00A7CD0F2CF809D3B1C1411FF5A20E200A
+81FAF348C208964B353149C3325829CEB68207594283D093FFC20393CA352C180E32F7DC09E240
+8FCA313908E800D3208F38EC72801077D21E3200BA8301D517505D517747DD0DACAA24F5C3A920
+9EC580A24BA1EF282220E7A4E2C2620A4AE20D79596C05E2BF5EA829DB5952AC25A85C258A590A
+6CA63A107AF88352E5178259CC263AAE1928A32B826468E822E6D4246CAB0EA4A40D654F8025E2
+BB8EA8B80CCB260B478B501E508025DC90AC12B95B16005844ACAE288835C299988815DBC281DA
+403855B07CA882AB9DCF26E2CEFC133389B888964B8D2952987BF040044ADDE503602382CC8A78
+65E56B9682BC2282EF26424091E258255AE069A5B07306B5C2B2603D7EDEB0BD2159180A6C18DE
+A47B7618AA76B80FB0C5AE08E5AF1798CA1202156E89FC7927E33E0FFACBE3B128CAEA21C20B8A
+D94ADD3A2D06BA8C51DFC3E7A8F705EA56C35AB4A84BB7A6A4BF87AA6B65D5022C1A299582BF5D
+2668E80D99822EC0A4C2A27E1EE222137624A8602DA9F2E35A6B162E82A5B674DA3009C55AA304
+A7CDD5508BD1361AA2BFA45D8EDA74D135EA9E882B542AFA9EF654F02EB1B89EAF481B6E212F6B
+5735364A64A20F88A37B572C62285A8E84859EBB14BEDD948A4D9EAC9CEDEA1A3099E024DC2660
+94174238BDD51D6228AC2354D0812BAF8CA5ABBB0BB2E393C2785AC70C8D8ADF8'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                product
+                  whole
+                    other {
+                      accession "NR_076102" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 634 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042015" } } ,
+                    int {
+                      from 717 ,
+                      to 1439 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042015" } } ,
+                    int {
+                      from 1782 ,
+                      to 3523 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042015" } } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 635 ,
+                    to 716 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_042015" } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 1440 ,
+                    to 1781 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_042015" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_076102" } } ,
+      descr {
+        title "Syntrophomonas wolfei subsp. wolfei 23S ribosomal RNA, complete
+ sequence." ,
+        molinfo {
+          biomol rRNA } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "Status" ,
+              data
+                str "Reviewed" } ,
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_042015" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 3100 ,
+        seq-data
+          ncbi2na '42300226CEBA3972994A29820A19A426980651AA27909893235BA33583A
+A015A48A605DED15F1781132AC22898856B81E0137CB05A28220342623F5C2C9A62602A0225405
+392BB029E496F97B3AAF8AADE4A14C792CEB448B080333BF278309E809D25120AE0255B098024C
+CDDE2488558B165A11BA056BA824A8A145F50A7031C5E9858C8822C5B8A80AE009156A2A8B8020
+5E016CE7C404B2891CFA82E2347D50BB879B17FEC83A9498BC7B3C242BC2F420A3A259260262DF
+0CA9CCCBF0E4B215805AB8DCD4E94AB8263AC1136E8A560522E6F802C6E8E2FBA32AB80E50D815
+A2327AF75580C9FCA9C9B4A00897E2AAC891EBCA72A97C46BC5817D501D60C510AE717A4B487BA
+B802B532D88A804952141270AD540DCE70BA80A3B22791212528EFA7C8249453E022E6C32747AD
+0BA7799600EC1AA70932C5827FA8F882E20BA82720B8809F1E22B8B4203A882208C089F6085D51
+7747DD0DACAA24F5C3A9209EC580A24BA1EF282220E7A4E2C2620A4AE20D79596C05E2BF5EA829
+DB5952AC25A85C258A590A6CA63A107AF88352E5178259CC263AAE1928A32B826468E822E6D424
+6CAB0EA4A40D654F8025E2BB8EA8B80CCB260B478B501E508025DC90AC12B95B16005844ACAE28
+8835C299988815DBC281DA403855B07CA882AB9DCF26E2CEFC133389B888964B8D2952987BF040
+044ADDE503602382CC8A7865E56B9682BC2282EF26424091E258255AE069A5B07306B5C2B2603D
+7EDEB0BD2159180A6C18DEA47B7618AA76B80FB0C5AE08E5AF1798CA1202156E89FC7927E33E0F
+FACBE3B128CAEA21C20B8AD94ADD3A2D06BA8C51DFC3E7A8F705EA56C35AB4A84BB7A6A4BF87AA
+6B65D5022C1A299582BF5D2668E80D99822EC0A4C2A27E1EE222137624A8602DA9F2E35A6B162E
+82A5B674DA3009C55AA304A7CDD5508BD1361AA2BFA45D8EDA74D135EA9E882B542AFA9EF654F0
+2EB1B89EAF481B6E212F6B5735364A64A20F88A37B572C62285A8E84859EBB14BEDD948A4D9EAC
+9CEDEA1A3099E024DC266094174238BDD51D6228AC2354D0812BAF8CA5ABBB0BB2E393C2785AC7
+0C8D8ADF8'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                location
+                  int {
+                    from 0 ,
+                    to 3099 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_076102" } } } } } } } } }

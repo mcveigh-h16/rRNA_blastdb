@@ -1,0 +1,325 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Thermoanaerobacterium saccharolyticum JW/SL-YS485" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 1094508 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Thermoanaerobacterium" ,
+              species "saccharolyticum" } ,
+          mod {
+            {
+              subtype strain ,
+              subname "JW/SL-YS485" } ,
+            {
+              subtype culture-collection ,
+              subname "DSMZ:DSM 8691" } } ,
+          lineage "Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales;
+ Thermoanaerobacterales Family III. Incertae Sedis; Thermoanaerobacterium" ,
+          gcode 11 ,
+          div "BCT" } } } ,
+    pub {
+      pub {
+        gen {
+          cit "Unpublished" ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Brown" ,
+                      first "Steven" ,
+                      initials "S.D." } } ,
+                {
+                  name
+                    name {
+                      last "Land" ,
+                      first "Miriam" ,
+                      initials "M.L." } } ,
+                {
+                  name
+                    name {
+                      last "Herring" ,
+                      first "Christopher" ,
+                      initials "C.D." } } } ,
+            affil
+              std {
+                affil "Mascoma Corporation" ,
+                city "Lebanon" ,
+                sub "NH" ,
+                country "USA" ,
+                street "67 Etna Roead, Suite 300" ,
+                email "cherring@mascoma.com" ,
+                fax "603-676-3321" ,
+                phone "603-676-3320" ,
+                postal-code "03766" } } ,
+          title "Thermoanaerobacterium saccharolyticum JW/SL-YS485" } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Brown" ,
+                      first "Steven" ,
+                      initials "S.D." } } ,
+                {
+                  name
+                    name {
+                      last "Land" ,
+                      first "Miriam" ,
+                      initials "M.L." } } ,
+                {
+                  name
+                    name {
+                      last "Herring" ,
+                      first "Christopher" ,
+                      initials "C.D." } } } ,
+            affil
+              std {
+                affil "Mascoma Corporation" ,
+                city "Lebanon" ,
+                sub "NH" ,
+                country "USA" ,
+                street "67 Etna Road, Suite 300" ,
+                email "cherring@mascoma.com" ,
+                fax "603-676-3321" ,
+                phone "603-676-3320" ,
+                postal-code "03766" } } ,
+          medium other ,
+          date
+            std {
+              year 2011 ,
+              month 12 ,
+              day 8 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2013 ,
+              month 5 ,
+              day 9 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA33175" } } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_041964" } ,
+        general {
+          db "REF_16S_RNA" ,
+          tag
+            str "CP003184:1079376-1080922" } } ,
+      descr {
+        title "Thermoanaerobacterium saccharolyticum JW/SL-YS485 strain
+ JW/SL-YS485 16S ribosomal RNA, complete sequence" ,
+        molinfo {
+          biomol rRNA ,
+          completeness complete } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "CP003184:1079376-1080922" } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        user {
+          type
+            str "GenomeProjectsDB" ,
+          data {
+            {
+              label
+                str "ProjectID" ,
+              data
+                int 33175 } } } ,
+        create-date
+          std {
+            year 2013 ,
+            month 5 ,
+            day 24 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 2 } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 26 } } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 1547 ,
+        strand ss ,
+        seq-data
+          ncbi2na '22FE35E9D286067A69B97044E42D898D691D07099F1200222200E2C0640
+BE2E5A3269A1AB8B066E843715ECB7A8C117602AB9C3168C3B420BA4D1FFE080A20359CCA38B59
+B54F272FA6AB00951429863AB2DA5E22AE069447A078846B521D71A8A492EA833EE43AA8057844
+98659B89820A5F6ADB027432CEA08CB86B14C60255A7071B949259AC31B2AA626FB5A0F1EA6C08
+91B29A7B00B48EE0017A9D058ABB9378070127E2D0A22889A0F5EBB26B80E6C88D2820C52E9809
+A777A1F81E19E2B9809BAA2404A3C8C57ACB5196C063A31CAEEAE0934D6E5A2F06430B3565EA8B
+1A590AF80740A0F86AA5644249A24EEBF0F6090660817C52A7E135120D2B203148B97602289EE2
+12BAE4EBEDB49DBB6E23BEAF0B5641899055EFACBC526C086A8771621E5BA20468A0A6A8E1B40D
+34E57F395EA7111B9C43A5E048A9260A2635A260D52004AD52F48F929E4159793821A2F9CB0D9A
+3493966B831BD5A97EC44595B445188BF104560B4B85C1602A289E582BAAC0E3EAB82DB042B25B
+3682B9A7A345C'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "16S ribosomal RNA" } ,
+                product
+                  whole
+                    other {
+                      accession "NR_102792" } ,
+                location
+                  int {
+                    from 0 ,
+                    to 1546 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_041964" } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 73 ,
+                    to 111 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_041964" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_102792" } } ,
+      descr {
+        molinfo {
+          biomol rRNA } ,
+        title "Thermoanaerobacterium saccharolyticum JW/SL-YS485 16S ribosomal
+ RNA, rRNA." ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_041964" } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "PROVISIONAL" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 1547 ,
+        seq-data
+          ncbi2na '22FE35E9D286067A69B97044E42D898D691D07099F1200222200E2C0640
+BE2E5A3269A1AB8B066E843715ECB7A8C117602AB9C3168C3B420BA4D1FFE080A20359CCA38B59
+B54F272FA6AB00951429863AB2DA5E22AE069447A078846B521D71A8A492EA833EE43AA8057844
+98659B89820A5F6ADB027432CEA08CB86B14C60255A7071B949259AC31B2AA626FB5A0F1EA6C08
+91B29A7B00B48EE0017A9D058ABB9378070127E2D0A22889A0F5EBB26B80E6C88D2820C52E9809
+A777A1F81E19E2B9809BAA2404A3C8C57ACB5196C063A31CAEEAE0934D6E5A2F06430B3565EA8B
+1A590AF80740A0F86AA5644249A24EEBF0F6090660817C52A7E135120D2B203148B97602289EE2
+12BAE4EBEDB49DBB6E23BEAF0B5641899055EFACBC526C086A8771621E5BA20468A0A6A8E1B40D
+34E57F395EA7111B9C43A5E048A9260A2635A260D52004AD52F48F929E4159793821A2F9CB0D9A
+3493966B831BD5A97EC44595B445188BF104560B4B85C1602A289E582BAAC0E3EAB82DB042B25B
+3682B9A7A345C'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "16S ribosomal RNA" } ,
+                location
+                  int {
+                    from 0 ,
+                    to 1546 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_102792" } } } } } } } } }

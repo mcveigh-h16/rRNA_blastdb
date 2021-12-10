@@ -1,0 +1,570 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Helicobacter typhlonius" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 76936 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Helicobacter" ,
+              species "typhlonius" } ,
+          attrib "nomodforward" ,
+          mod {
+            {
+              subtype strain ,
+              subname "MIT 97-6810" } ,
+            {
+              subtype culture-collection ,
+              subname "ATCC:BAA-367" } } ,
+          lineage "Bacteria; Proteobacteria; Epsilonproteobacteria;
+ Campylobacterales; Helicobacteraceae; Helicobacter" ,
+          gcode 11 ,
+          div "BCT" } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Dewhirst" ,
+                      initials "F.D." } } ,
+                {
+                  name
+                    name {
+                      last "Paster" ,
+                      initials "B.J." } } ,
+                {
+                  name
+                    name {
+                      last "Fox" ,
+                      initials "J.G." } } ,
+                {
+                  name
+                    name {
+                      last "Ward" ,
+                      initials "J.M." } } } ,
+            affil
+              std {
+                affil "Forsyth Dental Center" ,
+                div "Molecular Genetics" ,
+                city "Boston" ,
+                sub "MA" ,
+                country "USA" ,
+                street "140 The Fenway" ,
+                postal-code "02115" } } ,
+          medium email ,
+          date
+            std {
+              year 1999 ,
+              month 2 ,
+              day 12 } } } } ,
+    pub {
+      pub {
+        pmid 10085015 ,
+        muid 99184999 ,
+        article {
+          title {
+            name "A novel urease-negative Helicobacter species associated with
+ colitis and typhlitis in IL-10-deficient mice." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Fox" ,
+                      initials "J.G." } } ,
+                {
+                  name
+                    name {
+                      last "Gorelick" ,
+                      initials "P.L." } } ,
+                {
+                  name
+                    name {
+                      last "Kullberg" ,
+                      initials "M.C." } } ,
+                {
+                  name
+                    name {
+                      last "Ge" ,
+                      initials "Z." } } ,
+                {
+                  name
+                    name {
+                      last "Dewhirst" ,
+                      initials "F.E." } } ,
+                {
+                  name
+                    name {
+                      last "Ward" ,
+                      initials "J.M." } } } ,
+            affil
+              str "Division of Comparative Medicine, Massachusetts Institute
+ of Technology, Cambridge, Massachusetts 02139, USA. jgfox@mit.edu" } ,
+          from
+            journal {
+              title {
+                iso-jta "Infect. Immun." ,
+                ml-jta "Infect Immun" ,
+                issn "0019-9567" ,
+                name "Infection and immunity." } ,
+              imp {
+                date
+                  std {
+                    year 1999 ,
+                    month 4 } ,
+                volume "67" ,
+                issue "4" ,
+                pages "1757-1762" ,
+                language "eng" } } ,
+          ids {
+            pubmed 10085015 ,
+            medline 99184999 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2011 ,
+              month 8 ,
+              day 8 } } } } ,
+    pub {
+      pub {
+        pmid 11682508 ,
+        article {
+          title {
+            name "Helicobacter typhlonius sp. nov., a Novel Murine
+ Urease-Negative Helicobacter Species." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Franklin" ,
+                      first "C" ,
+                      initials "C.L." } } ,
+                {
+                  name
+                    name {
+                      last "Gorelick" ,
+                      first "P" ,
+                      initials "P.L." } } ,
+                {
+                  name
+                    name {
+                      last "Riley" ,
+                      first "L" ,
+                      initials "L.K." } } ,
+                {
+                  name
+                    name {
+                      last "Dewhirst" ,
+                      first "F" ,
+                      initials "F.E." } } ,
+                {
+                  name
+                    name {
+                      last "Livingston" ,
+                      first "R" ,
+                      initials "R.S." } } ,
+                {
+                  name
+                    name {
+                      last "Ward" ,
+                      first "J" ,
+                      initials "J.M." } } ,
+                {
+                  name
+                    name {
+                      last "Beckwith" ,
+                      first "C" ,
+                      initials "C.S." } } ,
+                {
+                  name
+                    name {
+                      last "Fox" ,
+                      first "J" ,
+                      initials "J.G." } } } ,
+            affil
+              str "Research Animal Diagnostic and Investigative Laboratory,
+ Department of Veterinary Pathobiology, University of Missouri, Columbia,
+ Missouri 65211, USA." } ,
+          from
+            journal {
+              title {
+                iso-jta "J. Clin. Microbiol." } ,
+              imp {
+                date
+                  std {
+                    year 2001 ,
+                    month 11 } ,
+                volume "39" ,
+                issue "11" ,
+                pages "3920-3926" ,
+                pubstatus ppublish } } ,
+          ids {
+            doi "10.1128/JCM.39.11.3920-3926.2001" ,
+            pubmed 11682508 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA33175" } } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_042883" } ,
+        general {
+          db "REF_SSU16S" ,
+          tag
+            str "AF127912:1-1614" } } ,
+      descr {
+        title "Helicobacter typhlonius strain MIT 97-6810 16S ribosomal RNA
+ gene, partial sequence." ,
+        molinfo {
+          biomol genomic } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 9 ,
+                  day 29 } } } } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "accession" ,
+                          data
+                            str "AF127912" } ,
+                        {
+                          label
+                            str "gi" ,
+                          data
+                            int 4574717 } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        user {
+          type
+            str "GenomeProjectsDB" ,
+          data {
+            {
+              label
+                str "ProjectID" ,
+              data
+                int 33175 } ,
+            {
+              label
+                str "ParentID" ,
+              data
+                int 0 } } } ,
+        user {
+          class "1.0" ,
+          type
+            str "AutodefOptions" ,
+          data {
+            {
+              label
+                str "SpecifyNuclearProduct" ,
+              data
+                bool TRUE } ,
+            {
+              label
+                str "MiscFeatRule" ,
+              data
+                str "NoncodingProductFeat" } ,
+            {
+              label
+                str "FeatureListType" ,
+              data
+                str "List All Features" } ,
+            {
+              label
+                str "ModifierList" ,
+              data
+                fields {
+                  {
+                    label
+                      str "OrgMods" ,
+                    num 1 ,
+                    data
+                      strs {
+                        "Strain" } } } } ,
+            {
+              label
+                str "HIVRule" ,
+              data
+                str "WantBoth" } ,
+            {
+              label
+                str "DoNotApplyToSp" ,
+              data
+                bool TRUE } ,
+            {
+              label
+                str "LeaveParenthetical" ,
+              data
+                bool TRUE } ,
+            {
+              label
+                str "MaxMods" ,
+              data
+                int -99 } ,
+            {
+              label
+                str "UseLabels" ,
+              data
+                bool TRUE } } } ,
+        create-date
+          std {
+            year 2011 ,
+            month 8 ,
+            day 10 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 3 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 1614 ,
+        seq-data
+          ncbi2na 'D22E067A69B970C4E42D818E09FF27E720BA3CBA646AE2C3932BCEE57F2
+DEA3251E806B8F0C7A31D5C6AA02A1DF0339D722CFFC01082D9B8B802803EC829F30030B4010FE
+193D0118E0FFF83F0233DCAACCFC22DD67028D25CED7349FBEB8AC3A7450A7386ACD69788AB8DA
+111E81E211AD4875C6A2924B2A0CF9D0EAA015E09241966E8A382BFCA3EC075FFB88823CE1ACDD
+18309169C1D6E524966B0C68AB909BC768347A9B022E64A6ABAC2D23B80D7B27C1C481E4FE01CD
+1DC8B3A88ACAE83DFAECAAC035B223422831D3E60A6171E813C78674E46026EA890128F2315EB2
+D4657018E0E72FBE579FB4A92C3927064F093D65EA8B1AD908F00740A0C86A8564426BA24EEBF0
+F608C660817C5CA7E13E320D732233A8B95F6A89F8012B9E469EDB49DBB6E23BEAF0B564189905
+76D7CBE7249DA7891DC288797DB0A28A0AE2861B42D34E95F1972A7111B9C43AA4C438A2431662
+BA240DDC03B774BDA3ECB790761C4E09E83672C3640D243BE6B831BD5AB7EC74595B4453A8BECF
+65F0B6A31C0FAF165469A39261EAB82DB042B05B2B81790'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "16S ribosomal RNA" } ,
+                partial TRUE ,
+                product
+                  whole
+                    other {
+                      accession "NR_041748" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 175 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042883" } ,
+                      fuzz-from
+                        lim lt } ,
+                    int {
+                      from 334 ,
+                      to 1613 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042883" } ,
+                      fuzz-to
+                        lim gt } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 176 ,
+                    to 333 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_042883" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_041748" } } ,
+      descr {
+        title "Helicobacter typhlonius strain MIT 97-6810 16S ribosomal RNA,
+ partial sequence." ,
+        molinfo {
+          biomol rRNA ,
+          completeness no-ends } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_042883" } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "PROVISIONAL" } } } ,
+        user {
+          class "1.0" ,
+          type
+            str "AutodefOptions" ,
+          data {
+            {
+              label
+                str "SpecifyNuclearProduct" ,
+              data
+                bool TRUE } ,
+            {
+              label
+                str "MiscFeatRule" ,
+              data
+                str "NoncodingProductFeat" } ,
+            {
+              label
+                str "FeatureListType" ,
+              data
+                str "List All Features" } ,
+            {
+              label
+                str "ModifierList" ,
+              data
+                fields {
+                  {
+                    label
+                      str "OrgMods" ,
+                    num 1 ,
+                    data
+                      strs {
+                        "Strain" } } } } ,
+            {
+              label
+                str "HIVRule" ,
+              data
+                str "WantBoth" } ,
+            {
+              label
+                str "DoNotApplyToSp" ,
+              data
+                bool TRUE } ,
+            {
+              label
+                str "LeaveParenthetical" ,
+              data
+                bool TRUE } ,
+            {
+              label
+                str "MaxMods" ,
+              data
+                int -99 } ,
+            {
+              label
+                str "UseLabels" ,
+              data
+                bool TRUE } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 1456 ,
+        seq-data
+          ncbi2na 'D22E067A69B970C4E42D818E09FF27E720BA3CBA646AE2C3932BCEE57F2
+DEA3251E806B8F0C7A31D5C6AA02ADD67028D25CED7349FBEB8AC3A7450A7386ACD69788AB8DA1
+11E81E211AD4875C6A2924B2A0CF9D0EAA015E09241966E8A382BFCA3EC075FFB88823CE1ACDD1
+8309169C1D6E524966B0C68AB909BC768347A9B022E64A6ABAC2D23B80D7B27C1C481E4FE01CD1
+DC8B3A88ACAE83DFAECAAC035B223422831D3E60A6171E813C78674E46026EA890128F2315EB2D
+4657018E0E72FBE579FB4A92C3927064F093D65EA8B1AD908F00740A0C86A8564426BA24EEBF0F
+608C660817C5CA7E13E320D732233A8B95F6A89F8012B9E469EDB49DBB6E23BEAF0B5641899057
+6D7CBE7249DA7891DC288797DB0A28A0AE2861B42D34E95F1972A7111B9C43AA4C438A2431662B
+A240DDC03B774BDA3ECB790761C4E09E83672C3640D243BE6B831BD5AB7EC74595B4453A8BECF6
+5F0B6A31C0FAF165469A39261EAB82DB042B05B2B8179'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "16S ribosomal RNA" } ,
+                partial TRUE ,
+                location
+                  int {
+                    from 0 ,
+                    to 1455 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_041748" } ,
+                    fuzz-from
+                      lim lt ,
+                    fuzz-to
+                      lim gt } } } } } } } }

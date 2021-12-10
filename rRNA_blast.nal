@@ -1,0 +1,8 @@
+#
+# Alias file created 9/20/2016 by Rich McVeigh
+#
+#
+TITLE Structural RNA BLAST
+#
+DBLIST LSU_chloro_rRNA LSU_eukaryote_rRNA LSU_mito_rRNA LSU_prokaryote_rRNA SSU_chloro_rRNA SSU_eukaryote_rRNA SSU_mito_rRNA
+#

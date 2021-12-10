@@ -1,0 +1,294 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Campylobacter fetus subsp. fetus" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 32019 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Campylobacter" ,
+              species "fetus" ,
+              subspecies "fetus" } ,
+          mod {
+            {
+              subtype strain ,
+              subname "82-40" } ,
+            {
+              subtype sub-species ,
+              subname "fetus" } } ,
+          lineage "Bacteria; Proteobacteria; Epsilonproteobacteria;
+ Campylobacterales; Campylobacteraceae; Campylobacter" ,
+          gcode 11 ,
+          div "BCT" } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Fouts" ,
+                      first "Derrick" ,
+                      initials "D." } } ,
+                {
+                  name
+                    name {
+                      last "Nelson" ,
+                      first "Karen" ,
+                      initials "K." } } } ,
+            affil
+              std {
+                affil "The Institute for Genomic Research" ,
+                city "Rockville" ,
+                sub "MD" ,
+                country "USA" ,
+                street "9712 Medical Center Dr" ,
+                postal-code "20850" } } ,
+          date
+            std {
+              year 2006 ,
+              month 11 ,
+              day 22 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2013 ,
+              month 2 ,
+              day 14 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA188943" } } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_042014" } ,
+        general {
+          db "REF_23S_RNA" ,
+          tag
+            str "CP000487:135869-138892" } } ,
+      descr {
+        title "Campylobacter fetus subsp. fetus strain 82-40 23S ribosomal RNA
+ gene, complete sequence." ,
+        molinfo {
+          biomol genomic } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 26 } } } } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "CP000487:135869-138892" } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        create-date
+          std {
+            year 2013 ,
+            month 3 ,
+            day 25 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 2 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 3024 ,
+        seq-data
+          ncbi2na 'C271C2240EBA397E9CB2298E021B94A798C2DDAA25B42A9FE35A83F783A
+A4152CCCB8CCC716439A2706FA83E0137CB14128020340223C672C9A626066C22A405BCBF1C1AA
+FB287904C87C04070C8305E80AF85322AE32D5B3380B9BF31F24B35E2CA9A846E035EDE09EA885
+1DD415C0C71C721632E442C5B8A80AE0081E2B8D22E03205E014FE7C434F48918F7F386EE3A1E5
+FF930E25E62FBAEDE98AF0A015A25B260262DF0CA9B32D239E4856018EE37353892BE01EBB0894
+9A2858121A5BE00A75E387EE8CAAE02943404DB8C9EBDDD60333F2B326FBB6C3CC2AB224783A9C
+A933143B1405734075831F30EC34492D29A62E300D6DB422A8105487049C2B570374FC2E8018EE
+8BC780414A2BE9F2092535FC0809B0C9D1EB72E3DE66803306A9C038B1609FC87E47C3DC3CC0FE
+9CE27FC2F33F74C3F0F91D3303C0F388032FC9C030F20B0F20F0B90BACA226F73D26F82B316B0A
+2E7A268C82E24E4A4E2C98C3E3B8834D06580150AFD7198E76D36CABCB6AD70902D602AB398E80
+3EBC33D43143CF3B98E82867C0BCBA27268E82E72DC2AECAF8BCCA40D6C1DFCD621700A74E19DF
+68B23E20D4E31CD894200BF70BF2C30F95B16C05844AEAEA38B3DC299BA081DDFC281DE403245B
+37DACC2BB9707FB3C23D1D5024082BC41022D5D587BF14C04491DE7046C2E8ECCABB865E56B9D8
+2BC3E38EF2739824FE360958B01A696C1CC1AD70AC980F5FB6BC0C585E4E0E9B0623A89EDD022A
+352E03ECBA2B803D75C566908680855BA17F1C49F8479CFE8C08E64A32BA8A7F8D4C857AFCEB89
+4FBE231477DFCF62C9C1C970BCD7CACA10EDEBAB2FE1EA9AD975403B068A7C40AFA7481AFA036F
+6C8B302930949F079084C46D0922180B6B7CB8D6BAF7BBA0A94D9D028C02B156A8C129E3755422
+744D86A8AFE91763B69D364D7AA7A24AD50AB3A7BD94FC09AC6627ABD206DB884BDAD5CDE5BA9B
+0823E288BE15CB188A16AD81C947AEC52FBDE5089367AB2709CA388C2278093709D82507508E0D
+F7FC22772C871CBF8CA7ABBB0E8E02D7F27852C70C9DBF9F3'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                product
+                  whole
+                    other {
+                      accession "NR_076105" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 1199 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042014" } } ,
+                    int {
+                      from 1279 ,
+                      to 3023 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042014" } } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 1200 ,
+                    to 1278 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_042014" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_076105" } } ,
+      descr {
+        title "Campylobacter fetus subsp. fetus strain 82-40 23S ribosomal
+ RNA, complete sequence." ,
+        molinfo {
+          biomol rRNA } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "Status" ,
+              data
+                str "Reviewed" } ,
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_042014" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 2945 ,
+        seq-data
+          ncbi2na 'C271C2240EBA397E9CB2298E021B94A798C2DDAA25B42A9FE35A83F783A
+A4152CCCB8CCC716439A2706FA83E0137CB14128020340223C672C9A626066C22A405BCBF1C1AA
+FB287904C87C04070C8305E80AF85322AE32D5B3380B9BF31F24B35E2CA9A846E035EDE09EA885
+1DD415C0C71C721632E442C5B8A80AE0081E2B8D22E03205E014FE7C434F48918F7F386EE3A1E5
+FF930E25E62FBAEDE98AF0A015A25B260262DF0CA9B32D239E4856018EE37353892BE01EBB0894
+9A2858121A5BE00A75E387EE8CAAE02943404DB8C9EBDDD60333F2B326FBB6C3CC2AB224783A9C
+A933143B1405734075831F30EC34492D29A62E300D6DB422A8105487049C2B570374FC2E8018EE
+8BC780414A2BE9F2092535FC0809B0C9D1EB72E3DE66803306A9C038B1609FC87E47C3DC3BF270
+0C3C82C3C83C2E42EB2889BDCF49BE0ACC5AC28B9E89A320B89392938B2630F8EE20D341960054
+2BF5C6639DB4DB2AF2DAB5C240B580AACE63A00FAF0CF50C50F3CEE63A0A19F02F2E89C9A3A0B9
+CB70ABB2BE2F329035B077F35885C029D38677DA2C8F883538C736250802FDC2FCB0C3E56C5B01
+6112BABA8E2CF70A66E820777F0A077900C916CDF6B30AEE5C1FECF08F475409020AF10408B575
+61EFC5301124779C11B0BA3B32AEE19795AE760AF0F8E3BC9CE6093F8D82562C069A5B07306B5C
+2B2603D7EDAF0316179383A6C188EA27B7408A8D4B80FB2E8AE00F5D7159A421A02156E85FC712
+7E11E73FA30239928CAEA29FE353215EBF3AE253EF88C51DF7F3D8B270725C2F35F2B2843B7AEA
+CBF87AA6B65D500EC1A29F102BE9D206BE80DBDB22CC0A4C2527C1E421311B42488602DADF2E35
+AEBDEEE82A536740A300AC55AA304A78DD55089D1361AA2BFA45D8EDA74D935EA9E892B542ACE9
+EF653F026B1989EAF481B6E212F6B573796EA6C208F8A22F8572C62285AB607251EBB14BEF7942
+24D9EAC9C2728E23089E024DC2760941D423837DFF089DCB21C72FE329EAEEC3A380B5FC9E14B1
+C3276FE7CC0'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                location
+                  int {
+                    from 0 ,
+                    to 2944 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_076105" } } } } } } } } }

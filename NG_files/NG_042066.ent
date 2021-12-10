@@ -1,0 +1,423 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Aeropyrum camini" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 229980 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Aeropyrum" ,
+              species "camini" } ,
+          attrib "nomodforward" ,
+          mod {
+            {
+              subtype strain ,
+              subname "SY1" } ,
+            {
+              subtype culture-collection ,
+              subname "JCM:12091" } } ,
+          lineage "Archaea; Crenarchaeota; Thermoprotei; Desulfurococcales;
+ Desulfurococcaceae; Aeropyrum" ,
+          gcode 11 ,
+          div "BCT" } } } ,
+    pub {
+      pub {
+        pmid 23872576 ,
+        article {
+          title {
+            name "Variation of the virus-related elements within syntenic
+ genomes of the hyperthermophilic Archaeon Aeropyrum." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Daifuku" ,
+                      initials "T." } ,
+                  affil
+                    str "Graduate School of Agriculture, Kyoto University,
+ Kyoto, Japan." } ,
+                {
+                  name
+                    name {
+                      last "Yoshida" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Kitamura" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Kawaichi" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Inoue" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Nomura" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Yoshida" ,
+                      initials "Y." } } ,
+                {
+                  name
+                    name {
+                      last "Kuno" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Sako" ,
+                      initials "Y." } } } } ,
+          from
+            journal {
+              title {
+                iso-jta "Appl. Environ. Microbiol." ,
+                ml-jta "Appl Environ Microbiol" ,
+                issn "1098-5336" ,
+                name "Applied and environmental microbiology" } ,
+              imp {
+                date
+                  std {
+                    year 2013 ,
+                    month 10 } ,
+                volume "79" ,
+                issue "19" ,
+                pages "5891-5898" ,
+                language "eng" ,
+                pubstatus ppublish ,
+                history {
+                  {
+                    pubstatus aheadofprint ,
+                    date
+                      std {
+                        year 2013 ,
+                        month 7 ,
+                        day 19 } } ,
+                  {
+                    pubstatus other ,
+                    date
+                      std {
+                        year 2013 ,
+                        month 7 ,
+                        day 23 ,
+                        hour 6 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus pubmed ,
+                    date
+                      std {
+                        year 2013 ,
+                        month 7 ,
+                        day 23 ,
+                        hour 6 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus medline ,
+                    date
+                      std {
+                        year 2014 ,
+                        month 3 ,
+                        day 8 ,
+                        hour 6 ,
+                        minute 0 } } } } } ,
+          ids {
+            pii "AEM.01089-13" ,
+            doi "10.1128/AEM.01089-13" ,
+            pubmed 23872576 ,
+            other {
+              db "pmc" ,
+              tag
+                str "PMC3811351" } ,
+            other {
+              db "ELocationID doi" ,
+              tag
+                str "10.1128/AEM.01089-13" } } } } ,
+      comment "DOI:10.1128/AEM.01089-13" ,
+      reftype no-target } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Sako" ,
+                      initials "Y." } } ,
+                {
+                  name
+                    name {
+                      last "Daifuku" ,
+                      initials "T." } } } ,
+            affil
+              str "Contact:Yoshihiko Sako Kyoto University, Graduate school of
+ Agriculture; Kitashirakawa Oiwake-cyo, Kyoto, Kyoto 606-8502, Japan" } ,
+          medium other ,
+          date
+            std {
+              year 2012 ,
+              month 6 ,
+              day 28 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2014 ,
+              month 6 ,
+              day 20 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA33317" } } } } ,
+    user {
+      type
+        str "NcbiCleanup" ,
+      data {
+        {
+          label
+            str "method" ,
+          data
+            str "SequinCleanup" } ,
+        {
+          label
+            str "version" ,
+          data
+            int 8 } ,
+        {
+          label
+            str "month" ,
+          data
+            int 4 } ,
+        {
+          label
+            str "day" ,
+          data
+            int 1 } ,
+        {
+          label
+            str "year" ,
+          data
+            int 2015 } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_042066" } ,
+        general {
+          db "REF_16S_RNA" ,
+          tag
+            str "AP012489:1165170-1166817" } } ,
+      descr {
+        title "Aeropyrum camini strain SY1 16S ribosomal RNA gene, complete
+ sequence." ,
+        molinfo {
+          biomol genomic } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 26 } } } } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "AP012489:1165170-1166817" } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        create-date
+          std {
+            year 2014 ,
+            month 6 ,
+            day 25 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 2 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 1648 ,
+        seq-data
+          ncbi2na '1D6BE35E5A15859CDAACA9C253A8B606559679AA6E9A1A78B046E9C1715
+DA86A8C1576A01EA9C3558CA6AAB97A0AB5D6580AA59AAAF36566B5958A3AA79A54D1ACBE9AAC3
+A565097186ACAA5B889A895523A91E210A95295C6A9914A66007590E6A416E1AA71562E555FAAA
+9FF559EC2CA6AA0C26AA9087AED25966B0C5255989ADAAE7C7A9702656C969D842D565C0956A74
+15AA2E9AA31EDA9CAA9A88A58AB1D5AACAA60353C356A28514BA60A6769E8199586B8AA6025AA8
+98168F2315AB2D7A7B018E6A72BBEA6A6E625654B964A825BC256597AA2C696429E02B5BA8AABD
+D1BAF0B20FB45755A952407C0A0FA6AA24510AAE8979A7C3E8B4196A05D45AA984928E1A529E0A
+5F9586678AA2B93A5B652169ECA65646919E0CCC00C03280120B3CA00DF0BD5FC7BF0138F0C066
+5B9AB97A9EA981DB96E2BB5EF0B4A41898855655CBE5355AA615AAA4472AA1E59670A68A0A2AA4
+1A4AD24E55C0556A7919A9C43A6A849AB9615602AA290D5D01565D2FA8D8A9E41D95DB81BA0D5C
+B0599B4D3666B831B5795F9111E56D9D5562AA882DB042B25B2A8179A7A345D'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "16S ribosomal RNA" } ,
+                product
+                  whole
+                    other {
+                      accession "NR_121692" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 1110 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042066" } } ,
+                    int {
+                      from 1237 ,
+                      to 1647 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042066" } } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 1111 ,
+                    to 1236 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_042066" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_121692" } } ,
+      descr {
+        title "Aeropyrum camini strain SY1 16S ribosomal RNA, complete
+ sequence." ,
+        molinfo {
+          biomol rRNA } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "Status" ,
+              data
+                str "Reviewed" } ,
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_042066" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 1522 ,
+        seq-data
+          ncbi2na '1D6BE35E5A15859CDAACA9C253A8B606559679AA6E9A1A78B046E9C1715
+DA86A8C1576A01EA9C3558CA6AAB97A0AB5D6580AA59AAAF36566B5958A3AA79A54D1ACBE9AAC3
+A565097186ACAA5B889A895523A91E210A95295C6A9914A66007590E6A416E1AA71562E555FAAA
+9FF559EC2CA6AA0C26AA9087AED25966B0C5255989ADAAE7C7A9702656C969D842D565C0956A74
+15AA2E9AA31EDA9CAA9A88A58AB1D5AACAA60353C356A28514BA60A6769E8199586B8AA6025AA8
+98168F2315AB2D7A7B018E6A72BBEA6A6E625654B964A825BC256597AA2C696429E02B5BA8AABD
+D1BAF0B20FB45755A952407C0A0FA6AA24510AAE8979A7C3E8B4196A05D45AA984928E1A529E0A
+5F9586678AA2B93A5B652169ECA65DB96E2BB5EF0B4A41898855655CBE5355AA615AAA4472AA1E
+59670A68A0A2AA41A4AD24E55C0556A7919A9C43A6A849AB9615602AA290D5D01565D2FA8D8A9E
+41D95DB81BA0D5CB0599B4D3666B831B5795F9111E56D9D5562AA882DB042B25B2A8179A7A345D
+0'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "16S ribosomal RNA" } ,
+                location
+                  int {
+                    from 0 ,
+                    to 1521 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_121692" } } } } } } } } }

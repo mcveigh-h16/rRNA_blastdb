@@ -1,0 +1,580 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Bradyrhizobium diazoefficiens" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 1355477 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Bradyrhizobium" ,
+              species "diazoefficiens" } ,
+          attrib "nomodforward" ,
+          mod {
+            {
+              subtype strain ,
+              subname "USDA 110" } } ,
+          lineage "Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales;
+ Bradyrhizobiaceae; Bradyrhizobium" ,
+          gcode 11 ,
+          div "BCT" } } } ,
+    pub {
+      pub {
+        pmid 12597279 ,
+        article {
+          title {
+            name "Complete genomic sequence of nitrogen-fixing symbiotic
+ bacterium Bradyrhizobium japonicum USDA110 (supplement)." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Kaneko" ,
+                      initials "T." } ,
+                  affil
+                    str "Kazusa DNA Research Institute, 2-6-7 Kazusa-kamatari,
+ Kisarazu, Chiba 292-0812, Japan." } ,
+                {
+                  name
+                    name {
+                      last "Nakamura" ,
+                      initials "Y." } } ,
+                {
+                  name
+                    name {
+                      last "Sato" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Minamisawa" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Uchiumi" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Sasamoto" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Watanabe" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Idesawa" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Iriguchi" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Kawashima" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Kohara" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Matsumoto" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Shimpo" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Tsuruoka" ,
+                      initials "H." } } ,
+                {
+                  name
+                    name {
+                      last "Wada" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Yamada" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Tabata" ,
+                      initials "S." } } } } ,
+          from
+            journal {
+              title {
+                iso-jta "DNA Res." ,
+                ml-jta "DNA Res" ,
+                issn "1340-2838" ,
+                name "DNA research : an international journal for rapid
+ publication of reports on genes and genomes" } ,
+              imp {
+                date
+                  std {
+                    year 2002 ,
+                    month 12 ,
+                    day 31 } ,
+                volume "9" ,
+                issue "6" ,
+                pages "225-256" ,
+                language "eng" ,
+                pubstatus ppublish ,
+                history {
+                  {
+                    pubstatus pubmed ,
+                    date
+                      std {
+                        year 2003 ,
+                        month 2 ,
+                        day 25 ,
+                        hour 4 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus medline ,
+                    date
+                      std {
+                        year 2003 ,
+                        month 9 ,
+                        day 27 ,
+                        hour 5 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus other ,
+                    date
+                      std {
+                        year 2003 ,
+                        month 2 ,
+                        day 25 ,
+                        hour 4 ,
+                        minute 0 } } } } } ,
+          ids {
+            pubmed 12597279 } } } ,
+      reftype no-target } ,
+    pub {
+      pub {
+        pmid 12597275 ,
+        article {
+          title {
+            name "Complete genomic sequence of nitrogen-fixing symbiotic
+ bacterium Bradyrhizobium japonicum USDA110." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Kaneko" ,
+                      initials "T." } ,
+                  affil
+                    str "Kazusa DNA Research Institute, 2-6-7 Kazusa-kamatari,
+ Kisarazu, Chiba 292-0812, Japan." } ,
+                {
+                  name
+                    name {
+                      last "Nakamura" ,
+                      initials "Y." } } ,
+                {
+                  name
+                    name {
+                      last "Sato" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Minamisawa" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Uchiumi" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Sasamoto" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Watanabe" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Idesawa" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Iriguchi" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Kawashima" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Kohara" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Matsumoto" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Shimpo" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Tsuruoka" ,
+                      initials "H." } } ,
+                {
+                  name
+                    name {
+                      last "Wada" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Yamada" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Tabata" ,
+                      initials "S." } } } } ,
+          from
+            journal {
+              title {
+                iso-jta "DNA Res." ,
+                ml-jta "DNA Res" ,
+                issn "1340-2838" ,
+                name "DNA research : an international journal for rapid
+ publication of reports on genes and genomes" } ,
+              imp {
+                date
+                  std {
+                    year 2002 ,
+                    month 12 ,
+                    day 31 } ,
+                volume "9" ,
+                issue "6" ,
+                pages "189-197" ,
+                language "eng" ,
+                pubstatus ppublish ,
+                history {
+                  {
+                    pubstatus pubmed ,
+                    date
+                      std {
+                        year 2003 ,
+                        month 2 ,
+                        day 25 ,
+                        hour 4 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus medline ,
+                    date
+                      std {
+                        year 2003 ,
+                        month 9 ,
+                        day 27 ,
+                        hour 5 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus other ,
+                    date
+                      std {
+                        year 2003 ,
+                        month 2 ,
+                        day 25 ,
+                        hour 4 ,
+                        minute 0 } } } } } ,
+          ids {
+            pubmed 12597275 } } } ,
+      reftype no-target } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Sato" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Kaneko" ,
+                      initials "T." } } } ,
+            affil
+              str "Contact:Shusei Sato Kazusa DNA Research Institute,
+ Department of Plant Genome Research; 2-6-7 Kazusa-kamatari, Kisarazu, Chiba
+ 292-0812, Japan URL :http://www.kazusa.or.jp/rhizobase/" } ,
+          medium other ,
+          date
+            std {
+              year 2002 ,
+              month 11 ,
+              day 20 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2013 ,
+              month 2 ,
+              day 14 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA188943" } } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_042019" } ,
+        general {
+          db "REF_23S_RNA" ,
+          tag
+            str "BA000040:1530527-1533393" } } ,
+      descr {
+        title "Bradyrhizobium diazoefficiens 23S ribosomal RNA gene, complete
+ sequence." ,
+        molinfo {
+          biomol genomic } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 26 } } } } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "BA000040:1530527-1533393" } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        create-date
+          std {
+            year 2013 ,
+            month 3 ,
+            day 25 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 2 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 2867 ,
+        seq-data
+          ncbi2na '42E5F0ABBDAE8E5FA6788A638286E719E63096EA89E60827F8D668FD60E
+A80545F6325A075085FED8084DAEEABD85230E82397297F23F63608AFFA3F5AF34220ACE21F783
+1328AFD090152A07804DC2C5E8A0284D048875BCB2E989819A14A52E313408436814B4A027A974
+8AB8C956C62C398E3B3518B0A6A11B90D7B7819AAA145750970B1D749858CB814B16E2A02B8024
+55862A8B80C85E016845C4048E89508F6F7AB84DB17FECF3A94987C3F062427C258CA60A6C9809
+8B7832A6D0BDBECF215805CB8DC94E24AF82B8AC11D1E8A1606AE5EF800A758E1FBAF2AB80A50D
+01EA0327AF759808CFCACD9768E0C5D2AAC891E8EA72AA1F16DF1405414075831788B1CD6A2D11
+A6AE706D6DBA22A0105685C49C29570F6E9C2EA028EE80D500414A2BE9F2092535FC0809B049D1
+EB7030ABF799608EC1AA7425189609F2AEE3590AB466B2689BDEC25E60A9876E2265E8ACD20B98
+39E938B061011EE0212ED9602D42AF5E6C0BC37D92AF25AD5C298A580A6CB63A8392E0CF79252E
+8EB860D5BBBED617C3A3EBEA7D82ABD4A0325D44F216C56016112BA1EB22CC50A67E22073BE0A0
+7690FC5D6C1F6A30A2953E766426A4BAA91214AABA41EFC100112A77980D908E1B32ADE19795AE
+5A0AF08A22B9097E0D8255AC069A5B07306B5C2B2603D7EDAB0BD6179183A6C387D567B7504C87
+4B80F83D56E08E6ABD79AD21A02156E45FC7B27F99EB3DB87BFBB20CAEB29FE096E99494EBA258
+0EE0314570EBCE8CDC166F5749A816A1264EBA92FE1EA9AD975408B068A6E60ACA7481ADA036F6
+D8B30E930979787988DC60D8922180B6B4CB8D6BAD59BA3A94D9D068C02B196A8C129E3865422D
+4CD869B6FE91763B69D344D7AA7A20AD50ABDA7BD963C0BAC6E27ABD206DB884BDAD5CDE5BABBE
+83BE228FE55CB188A16AB81B177AE89EFB6652692E493273B1A1A8C1678093709A80545D00624F
+57E205BA085146F8CA5A3BA0B92C393927C5AC70DBD8FA7E0'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                product
+                  whole
+                    other {
+                      accession "NR_076097" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 170 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042019" } } ,
+                    int {
+                      from 227 ,
+                      to 2866 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042019" } } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 171 ,
+                    to 226 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_042019" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_076097" } } ,
+      descr {
+        title "Bradyrhizobium diazoefficiens 23S ribosomal RNA, complete
+ sequence." ,
+        molinfo {
+          biomol rRNA } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "Status" ,
+              data
+                str "Reviewed" } ,
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_042019" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 2811 ,
+        seq-data
+          ncbi2na '42E5F0ABBDAE8E5FA6788A638286E719E63096EA89E60827F8D668FD60E
+A80545F6325A075085FED8084D8AFFA3F5AF34220ACE21F7831328AFD090152A07804DC2C5E8A0
+284D048875BCB2E989819A14A52E313408436814B4A027A9748AB8C956C62C398E3B3518B0A6A1
+1B90D7B7819AAA145750970B1D749858CB814B16E2A02B802455862A8B80C85E016845C4048E89
+508F6F7AB84DB17FECF3A94987C3F062427C258CA60A6C98098B7832A6D0BDBECF215805CB8DC9
+4E24AF82B8AC11D1E8A1606AE5EF800A758E1FBAF2AB80A50D01EA0327AF759808CFCACD9768E0
+C5D2AAC891E8EA72AA1F16DF1405414075831788B1CD6A2D11A6AE706D6DBA22A0105685C49C29
+570F6E9C2EA028EE80D500414A2BE9F2092535FC0809B049D1EB7030ABF799608EC1AA74251896
+09F2AEE3590AB466B2689BDEC25E60A9876E2265E8ACD20B9839E938B061011EE0212ED9602D42
+AF5E6C0BC37D92AF25AD5C298A580A6CB63A8392E0CF79252E8EB860D5BBBED617C3A3EBEA7D82
+ABD4A0325D44F216C56016112BA1EB22CC50A67E22073BE0A07690FC5D6C1F6A30A2953E766426
+A4BAA91214AABA41EFC100112A77980D908E1B32ADE19795AE5A0AF08A22B9097E0D8255AC069A
+5B07306B5C2B2603D7EDAB0BD6179183A6C387D567B7504C874B80F83D56E08E6ABD79AD21A021
+56E45FC7B27F99EB3DB87BFBB20CAEB29FE096E99494EBA2580EE0314570EBCE8CDC166F5749A8
+16A1264EBA92FE1EA9AD975408B068A6E60ACA7481ADA036F6D8B30E930979787988DC60D89221
+80B6B4CB8D6BAD59BA3A94D9D068C02B196A8C129E3865422D4CD869B6FE91763B69D344D7AA7A
+20AD50ABDA7BD963C0BAC6E27ABD206DB884BDAD5CDE5BABBE83BE228FE55CB188A16AB81B177A
+E89EFB6652692E493273B1A1A8C1678093709A80545D00624F57E205BA085146F8CA5A3BA0B92C
+393927C5AC70DBD8FA7E0'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                location
+                  int {
+                    from 0 ,
+                    to 2810 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_076097" } } } } } } } } }

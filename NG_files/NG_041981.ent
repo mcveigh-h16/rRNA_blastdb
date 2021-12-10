@@ -1,0 +1,591 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Mycobacterium rhodesiae" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 36814 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Mycobacterium" ,
+              species "rhodesiae" } ,
+          attrib "nomodforward" ,
+          mod {
+            {
+              subtype strain ,
+              subname "NBB3" } } ,
+          lineage "Bacteria; Actinobacteria; Actinobacteridae;
+ Actinomycetales; Corynebacterineae; Mycobacteriaceae; Mycobacterium" ,
+          gcode 11 ,
+          div "BCT" } } ,
+      subtype {
+        {
+          subtype country ,
+          name "Australia: Sydney" } ,
+        {
+          subtype isolation-source ,
+          name "estuarine sediment from Garrison Point, Georges Hall" } ,
+        {
+          subtype lat-lon ,
+          name "33.91 S 150.97 E" } ,
+        {
+          subtype collected-by ,
+          name "N. Coleman" } } } ,
+    pub {
+      pub {
+        gen {
+          cit "Unpublished" ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Lucas" ,
+                      first "Susan" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Han" ,
+                      first "James" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Lapidus" ,
+                      first "Alla" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Cheng" ,
+                      first "Jan-Fang" ,
+                      initials "J.-F." } } ,
+                {
+                  name
+                    name {
+                      last "Goodwin" ,
+                      first "Lynne" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Pitluck" ,
+                      first "Samuel" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Peters" ,
+                      first "Lin" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Mikhailova" ,
+                      first "Natalia" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Gu" ,
+                      first "Wei" ,
+                      initials "W." } } ,
+                {
+                  name
+                    name {
+                      last "Detter" ,
+                      first "John" ,
+                      initials "J.C." } } ,
+                {
+                  name
+                    name {
+                      last "Han" ,
+                      first "Cliff" ,
+                      initials "C." } } ,
+                {
+                  name
+                    name {
+                      last "Tapia" ,
+                      first "Roxanne" ,
+                      initials "R." } } ,
+                {
+                  name
+                    name {
+                      last "Land" ,
+                      first "Miriam" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Hauser" ,
+                      first "Loren" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Kyrpides" ,
+                      first "Nikos" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Ivanova" ,
+                      first "Natalia" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Pagani" ,
+                      first "Ioanna" ,
+                      initials "I." } } ,
+                {
+                  name
+                    name {
+                      last "Mattes" ,
+                      first "Timothy" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Holmes" ,
+                      first "Andrew" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Rutledge" ,
+                      first "Peter" ,
+                      initials "P." } } ,
+                {
+                  name
+                    name {
+                      last "Paulsen" ,
+                      first "Ian" ,
+                      initials "I." } } ,
+                {
+                  name
+                    name {
+                      last "Coleman" ,
+                      first "Nicholas" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Woyke" ,
+                      first "Tanja" ,
+                      initials "T." } } ,
+                {
+                  name
+                    consortium "US DOE Joint Genome Institute" } } ,
+            affil
+              std {
+                affil "US DOE Joint Genome Institute" ,
+                city "Walnut Creek" ,
+                sub "CA" ,
+                country "USA" ,
+                street "2800 Mitchell Drive B310" ,
+                postal-code "94598-1698" } } ,
+          title "Complete sequence of Mycobacterium rhodesiae NBB3" } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Lucas" ,
+                      first "Susan" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Han" ,
+                      first "James" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Lapidus" ,
+                      first "Alla" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Cheng" ,
+                      first "Jan-Fang" ,
+                      initials "J.-F." } } ,
+                {
+                  name
+                    name {
+                      last "Goodwin" ,
+                      first "Lynne" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Pitluck" ,
+                      first "Samuel" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Peters" ,
+                      first "Lin" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Mikhailova" ,
+                      first "Natalia" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Gu" ,
+                      first "Wei" ,
+                      initials "W." } } ,
+                {
+                  name
+                    name {
+                      last "Detter" ,
+                      first "John" ,
+                      initials "J.C." } } ,
+                {
+                  name
+                    name {
+                      last "Han" ,
+                      first "Cliff" ,
+                      initials "C." } } ,
+                {
+                  name
+                    name {
+                      last "Tapia" ,
+                      first "Roxanne" ,
+                      initials "R." } } ,
+                {
+                  name
+                    name {
+                      last "Land" ,
+                      first "Miriam" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Hauser" ,
+                      first "Loren" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Kyrpides" ,
+                      first "Nikos" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Ivanova" ,
+                      first "Natalia" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Pagani" ,
+                      first "Ioanna" ,
+                      initials "I." } } ,
+                {
+                  name
+                    name {
+                      last "Mattes" ,
+                      first "Timothy" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Holmes" ,
+                      first "Andrew" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Rutledge" ,
+                      first "Peter" ,
+                      initials "P." } } ,
+                {
+                  name
+                    name {
+                      last "Paulsen" ,
+                      first "Ian" ,
+                      initials "I." } } ,
+                {
+                  name
+                    name {
+                      last "Coleman" ,
+                      first "Nicholas" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Woyke" ,
+                      first "Tanja" ,
+                      initials "T." } } ,
+                {
+                  name
+                    consortium "US DOE Joint Genome Institute" } } ,
+            affil
+              std {
+                affil "US DOE Joint Genome Institute" ,
+                city "Walnut Creek" ,
+                sub "CA" ,
+                country "USA" ,
+                street "2800 Mitchell Drive B310" ,
+                postal-code "94598-1698" } } ,
+          date
+            std {
+              year 2011 ,
+              month 12 ,
+              day 8 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2013 ,
+              month 5 ,
+              day 9 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA188943" } } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_041981" } ,
+        general {
+          db "REF_23S_RNA" ,
+          tag
+            str "CP003169:3837270-3840401" } } ,
+      descr {
+        title "Mycobacterium rhodesiae strain NBB3 23S ribosomal RNA gene,
+ complete sequence." ,
+        molinfo {
+          biomol genomic } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 26 } } } } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "CP003169:3837270-3840401" } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        create-date
+          std {
+            year 2013 ,
+            month 5 ,
+            day 24 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 2 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 3132 ,
+        seq-data
+          ncbi2na 'C2EFC2A64EBA397E91EA258E0A1BA8A79BCE5DAA27B41626E8D628ED60E
+A8056918B8EDBB45471E0C4CACBAAA066A82E01374B15B282200402E3D6E2CBA6260268A3A7016
+EE4EE315A6AAFBBB9AEFBAA5EEF5F8D658D2A412E3024BBBCAE0BADEA3A5E5B22AE2255B05801D
+3E5EFB64A3558B249A95B80DE7B8379621476B097831F54B858C9A3CB16E2A0EB802C55A8AA2E0
+22C5E016EE5C435B4897D87FB6EAB8E9B97FE08389798B4A84ED98AF056A2AB259260262DE0CA9
+B350F4CA0FAECBAEEF7A158268B8DC54E94AB82492C23BEE8A560547CAF821E2A8E2FBAB2AB80A
+50D01D6E327AF75580E4FCAE49B64FFDFBE8AC89C7A3A58EA571CAF1E1B494075839610848CB9A
+4B8869AA8C275B9B622A012548D969C295709BB9C2E8028EE4B6608414A2BE9F2092515F808B9B
+0C9D1EB42E3EE658C3B26A9D0911658259A4185357DAAB86FAB2A89B5E4D6B825122E372EBA2AE
+EA2E20E4A4E2C98C290B8817E56580850ABD7A94A52D654AB8B6A170A6296129B2D8E841ABE33D
+5B15BB349B578E0D22B1C16540539BC58D17DABB8A3E4E6799A85F7FACB2D098EAB864A0A496C5
+2D2EB0C7AA405ECA1818CA40D6DBD13B788AE393258B8A60F6B8D739ED88025DC989A311A56C55
+014112BAD2B220C50A6C62E073AF0A076900E556C1F6A20AA854451B8485766B7E26E6EAE91014
+B88261EFC700112B5B982D90863B31A1E19795AE7A0AF08A15BC1576AB826883F0954B01A6BAC1
+CC14D70AC980F5FB6AC2F585E460E9B061F749EDD05321DA603E4F18B0239DBC666928600855A8
+5F47107EB3EB9D8C6BFBB28CAEA21CE092D194B8FBA2DBEF80C51DE36CFA97705D816CCD6BD2A1
+2E5EBAB2FC1EA9AF975C00B068A6540AF57417A1A434AEF8BB0B910A89F879885C46D092A180B6
+A1CB8D691558BA0AAED9D068C02B156A8C129E37D5422D4CD86A3AFE91763B69DB64D7AA7A24AD
+50ABEA7BD953C09A46627ABF206DB884BDADDCD65999B4827E2805ED5CB188A16A1A18177AD452
+FB5452A9167A3251BDA128C1678093709A80557508529F7454F42EA30A55592146A36321485C46
+4590AEF4A81E91C1696007C44'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                product
+                  whole
+                    other {
+                      accession "NR_102996" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 1566 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041981" } } ,
+                    int {
+                      from 1623 ,
+                      to 3131 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041981" } } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 1567 ,
+                    to 1622 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_041981" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_102996" } } ,
+      descr {
+        title "Mycobacterium rhodesiae strain NBB3 23S ribosomal RNA, complete
+ sequence." ,
+        molinfo {
+          biomol rRNA } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "Status" ,
+              data
+                str "Reviewed" } ,
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_041981" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 3076 ,
+        seq-data
+          ncbi2na 'C2EFC2A64EBA397E91EA258E0A1BA8A79BCE5DAA27B41626E8D628ED60E
+A8056918B8EDBB45471E0C4CACBAAA066A82E01374B15B282200402E3D6E2CBA6260268A3A7016
+EE4EE315A6AAFBBB9AEFBAA5EEF5F8D658D2A412E3024BBBCAE0BADEA3A5E5B22AE2255B05801D
+3E5EFB64A3558B249A95B80DE7B8379621476B097831F54B858C9A3CB16E2A0EB802C55A8AA2E0
+22C5E016EE5C435B4897D87FB6EAB8E9B97FE08389798B4A84ED98AF056A2AB259260262DE0CA9
+B350F4CA0FAECBAEEF7A158268B8DC54E94AB82492C23BEE8A560547CAF821E2A8E2FBAB2AB80A
+50D01D6E327AF75580E4FCAE49B64FFDFBE8AC89C7A3A58EA571CAF1E1B494075839610848CB9A
+4B8869AA8C275B9B622A012548D969C295709BB9C2E8028EE4B6608414A2BE9F2092515F808B9B
+0C9D1EB42E3EE658C3B26A9D0911658259A4185357DAAB86FAB2A89B5E4D6B825122E372EBA2AE
+EA2E20E4A4E2C98C290B8817E56580850ABD7A94A52D654AB8B6A170A6296129B2D8E841ABE33D
+5B15BB349B578E0D22B1C1685F7FACB2D098EAB864A0A496C52D2EB0C7AA405ECA1818CA40D6DB
+D13B788AE393258B8A60F6B8D739ED88025DC989A311A56C55014112BAD2B220C50A6C62E073AF
+0A076900E556C1F6A20AA854451B8485766B7E26E6EAE91014B88261EFC700112B5B982D90863B
+31A1E19795AE7A0AF08A15BC1576AB826883F0954B01A6BAC1CC14D70AC980F5FB6AC2F585E460
+E9B061F749EDD05321DA603E4F18B0239DBC666928600855A85F47107EB3EB9D8C6BFBB28CAEA2
+1CE092D194B8FBA2DBEF80C51DE36CFA97705D816CCD6BD2A12E5EBAB2FC1EA9AF975C00B068A6
+540AF57417A1A434AEF8BB0B910A89F879885C46D092A180B6A1CB8D691558BA0AAED9D068C02B
+156A8C129E37D5422D4CD86A3AFE91763B69DB64D7AA7A24AD50ABEA7BD953C09A46627ABF206D
+B884BDADDCD65999B4827E2805ED5CB188A16A1A18177AD452FB5452A9167A3251BDA128C16780
+93709A80557508529F7454F42EA30A55592146A36321485C464590AEF4A81E91C1696007C44'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                location
+                  int {
+                    from 0 ,
+                    to 3075 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_102996" } } } } } } } } }

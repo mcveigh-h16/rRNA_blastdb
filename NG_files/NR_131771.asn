@@ -1,0 +1,523 @@
+Seq-entry ::= seq {
+  id {
+    general {
+      db "REF_SSU16S" ,
+      tag
+        str "DQ166169:1-1483" } ,
+    other {
+      accession "NR_131771" } } ,
+  descr {
+    title "Chryseobacterium xinjiangense strain TSBY-67 16S ribosomal RNA,
+ partial sequence." ,
+    source {
+      genome genomic ,
+      org {
+        taxname "Chryseobacterium xinjiangense" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 343412 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Chryseobacterium" ,
+              species "xinjiangense" } ,
+          mod {
+            {
+              subtype strain ,
+              subname "TSBY-67" } ,
+            {
+              subtype old-name ,
+              subname "Chryseobacterium sp. TSBY-67" } } ,
+          lineage "Bacteria; Bacteroidetes; Flavobacteriia; Flavobacteriales;
+ Flavobacteriaceae; Chryseobacterium" ,
+          gcode 11 ,
+          div "BCT" } } ,
+      subtype {
+        {
+          subtype country ,
+          name "China: Tianshan Mountains" } ,
+        {
+          subtype isolation-source ,
+          name "frozen soil" } } } ,
+    molinfo {
+      biomol rRNA } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Bai" ,
+                      first "yu" ,
+                      initials "y." } } ,
+                {
+                  name
+                    name {
+                      last "An" ,
+                      first "Lizhe" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Yang" ,
+                      first "DaQun" ,
+                      initials "D." } } ,
+                {
+                  name
+                    name {
+                      last "Wang" ,
+                      first "JianHui" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Xu" ,
+                      first "ShiJian" ,
+                      initials "S." } } } ,
+            affil
+              std {
+                affil "Lanzhou University" ,
+                div "School of Life Science" ,
+                city "Lanzhou" ,
+                sub "Gansu" ,
+                country "China" ,
+                street "Tianshui South Road 222" ,
+                postal-code "730000" } } ,
+          medium email ,
+          date
+            std {
+              year 2005 ,
+              month 8 ,
+              day 14 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Bai" ,
+                      first "yu" ,
+                      initials "y." } } ,
+                {
+                  name
+                    name {
+                      last "An" ,
+                      first "LiZhe" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Yang" ,
+                      first "DaQun" ,
+                      initials "D." } } ,
+                {
+                  name
+                    name {
+                      last "Wang" ,
+                      first "JianHui" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Xu" ,
+                      first "ShiJian" ,
+                      initials "S." } } } ,
+            affil
+              std {
+                affil "Lanzhou University" ,
+                div "School of Life Science" ,
+                city "Lanzhou" ,
+                sub "Gansu" ,
+                country "China" ,
+                street "Tianshui South Road 222" ,
+                postal-code "730000" } } ,
+          medium email ,
+          date
+            std {
+              year 2006 ,
+              month 3 ,
+              day 8 } ,
+          descr "Sequence update by submitter" } } } ,
+    pub {
+      pub {
+        article {
+          title {
+            name "Phylogenetic diversity of culturable bacteria from alpine
+ permafrost in the Tianshan Mountains, northwestern China." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Bai" ,
+                      initials "Y." } } ,
+                {
+                  name
+                    name {
+                      last "Yang" ,
+                      initials "D." } } ,
+                {
+                  name
+                    name {
+                      last "Wang" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Xu" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Wang" ,
+                      initials "X." } } ,
+                {
+                  name
+                    name {
+                      last "An" ,
+                      initials "L." } } } ,
+            affil
+              str "Key Laboratory of Arid and Grassland Agroecology of
+ Ministry of Education, School of Life Sciences, Lanzhou University, Lanzhou
+ Gansu 730000, PR China." } ,
+          from
+            journal {
+              title {
+                iso-jta "Res. Microbiol." ,
+                ml-jta "Res Microbiol" ,
+                issn "0923-2508" ,
+                name "Research in microbiology" } ,
+              imp {
+                date
+                  std {
+                    year 2006 ,
+                    month 10 } ,
+                volume "157" ,
+                issue "8" ,
+                pages "741-751" ,
+                language "eng" ,
+                pubstatus ppublish ,
+                history {
+                  {
+                    pubstatus received ,
+                    date
+                      std {
+                        year 2005 ,
+                        month 10 ,
+                        day 24 } } ,
+                  {
+                    pubstatus revised ,
+                    date
+                      std {
+                        year 2006 ,
+                        month 3 ,
+                        day 6 } } ,
+                  {
+                    pubstatus accepted ,
+                    date
+                      std {
+                        year 2006 ,
+                        month 3 ,
+                        day 20 } } ,
+                  {
+                    pubstatus aheadofprint ,
+                    date
+                      std {
+                        year 2006 ,
+                        month 4 ,
+                        day 5 } } ,
+                  {
+                    pubstatus pubmed ,
+                    date
+                      std {
+                        year 2006 ,
+                        month 5 ,
+                        day 13 ,
+                        hour 9 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus medline ,
+                    date
+                      std {
+                        year 2006 ,
+                        month 12 ,
+                        day 12 ,
+                        hour 9 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus other ,
+                    date
+                      std {
+                        year 2006 ,
+                        month 5 ,
+                        day 13 ,
+                        hour 9 ,
+                        minute 0 } } } } } ,
+          ids {
+            pii "S0923-2508(06)00084-2" ,
+            doi "10.1016/j.resmic.2006.03.006" ,
+            pubmed 16690258 } } ,
+        pmid 16690258 } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Bai" ,
+                      first "yu" ,
+                      initials "y." } } ,
+                {
+                  name
+                    name {
+                      last "An" ,
+                      first "LiZhe" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Yang" ,
+                      first "DaQun" ,
+                      initials "D." } } ,
+                {
+                  name
+                    name {
+                      last "Wang" ,
+                      first "JianHui" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Xu" ,
+                      first "ShiJian" ,
+                      initials "S." } } } ,
+            affil
+              std {
+                affil "Lanzhou University" ,
+                div "School of Life Science" ,
+                city "Lanzhou" ,
+                sub "Gansu" ,
+                country "China" ,
+                street "Tianshui South Road 222" ,
+                postal-code "730000" } } ,
+          medium email ,
+          date
+            std {
+              year 2010 ,
+              month 2 ,
+              day 3 } ,
+          descr "Sequence update by submitter" } } } ,
+    pub {
+      pub {
+        article {
+          title {
+            name "Chryseobacterium xinjiangense sp. nov., isolated from alpine
+ permafrost." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Zhao" ,
+                      first "Q" ,
+                      initials "Q." } } ,
+                {
+                  name
+                    name {
+                      last "Bai" ,
+                      first "Y" ,
+                      initials "Y." } } ,
+                {
+                  name
+                    name {
+                      last "Zhang" ,
+                      first "G" ,
+                      initials "G." } } ,
+                {
+                  name
+                    name {
+                      last "Zhu" ,
+                      first "S" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Sheng" ,
+                      first "H" ,
+                      initials "H." } } ,
+                {
+                  name
+                    name {
+                      last "Sun" ,
+                      first "Y" ,
+                      initials "Y." } } ,
+                {
+                  name
+                    name {
+                      last "An" ,
+                      first "L" ,
+                      initials "L." } } } } ,
+          from
+            journal {
+              title {
+                iso-jta "Int. J. Syst. Evol. Microbiol." } ,
+              imp {
+                date
+                  std {
+                    year 2011 ,
+                    month 6 } ,
+                volume "61" ,
+                issue "PT 6" ,
+                pages "1397-1401" ,
+                pubstatus ppublish } } ,
+          ids {
+            doi "10.1099/ijs.0.024141-0" ,
+            pubmed 20584811 } } ,
+        pmid 20584811 } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2015 ,
+              month 4 ,
+              day 23 } } } } ,
+    user {
+      type
+        str "RefGeneTracking" ,
+      data {
+        {
+          label
+            str "IdenticalTo" ,
+          data
+            fields {
+              {
+                label
+                  id 0 ,
+                data
+                  fields {
+                    {
+                      label
+                        str "name" ,
+                      data
+                        str "DQ166169:1-1483" } } } } } ,
+        {
+          label
+            str "Status" ,
+          data
+            str "REVIEWED" } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA33175" } } } } ,
+    user {
+      type
+        str "GenomeProjectsDB" ,
+      data {
+        {
+          label
+            str "ProjectID" ,
+          data
+            int 33175 } } } ,
+    create-date
+      std {
+        year 2005 ,
+        month 9 ,
+        day 11 } ,
+    update-date
+      std {
+        year 2015 ,
+        month 4 ,
+        day 23 } } ,
+  inst {
+    repr raw ,
+    mol rna ,
+    length 1483 ,
+    seq-data
+      ncbi2na 'C8BF8D7A74A3819C9A8A5C113909626B28FDF680DE226991AB9A046EE41717F
+34AA8C97F602823C3154C333E0E934FC33E0075AE8C88EA466423C8CBEB8AC1A7450B438DFCAA9
+788AB8D5511EB1E211A14875C6A2924B8A0CFA10EAE025E35253566E0A1C295CEAFB01F7FCC7A0
+C05CFC6EC0C9E0AC4B38309169C1D6E524966B0C68AB909BCD68FCFABF02AD6CA6876C2D2EB80D
+D327C1CE01E53E31E6ADF8B02C82E9E830B2EC9AE0393233C7C81143E60A4AD1CEFF078678E860
+26EA898128F2315EB2E465B018E7076FFEA1F6BF48870980B8C2F2517AA2C6F6420E01D0283E1A
+A959109AE8F3BAFC3D8E3198A05F1429F03A80E12BF203235F7DA13FF42B9E4EBEDB49DB96E2BB
+CAF0B5E41899055ED1CBE534F0BEA8772E21E5C642C88A0AEA861B40D34695F197EA5111B0C43A
+52448A92714A61E8E60DD809EB74BDA3E8B790761DCE09E83672C3664D253A66B831BD5A97EC44
+595B4253A0B7AAC5E0B6B85B00A27972AC012B072A70B6C10AC96C0'H ,
+    hist {
+      assembly {
+        {
+          type partial ,
+          dim 2 ,
+          segs
+            denseg {
+              dim 2 ,
+              numseg 1 ,
+              ids {
+                other {
+                  accession "NR_131771" } ,
+                gi 285809843 } ,
+              starts {
+                0 ,
+                0 } ,
+              lens {
+                1483 } ,
+              strands {
+                plus ,
+                plus } } } } } } ,
+  annot {
+    {
+      data
+        ftable {
+          {
+            data
+              rna {
+                type rRNA ,
+                ext
+                  name "16S ribosomal RNA" } ,
+            partial TRUE ,
+            location
+              int {
+                from 0 ,
+                to 1482 ,
+                strand plus ,
+                id
+                  other {
+                    accession "NR_131771" } ,
+                fuzz-from
+                  lim lt ,
+                fuzz-to
+                  lim gt } } } } } }

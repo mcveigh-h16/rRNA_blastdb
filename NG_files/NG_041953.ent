@@ -1,0 +1,339 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Pyrobaculum islandicum DSM 4184" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 384616 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Pyrobaculum" ,
+              species "islandicum" } ,
+          attrib "nomodforward" ,
+          mod {
+            {
+              subtype strain ,
+              subname "GEO3" } ,
+            {
+              subtype culture-collection ,
+              subname "DSM:4184" } ,
+            {
+              subtype old-name ,
+              subname "Pyrobaculum islandicum" ,
+              attrib "(2)strain=GEO3" } } ,
+          lineage "Archaea; Crenarchaeota; Thermoprotei; Thermoproteales;
+ Thermoproteaceae; Pyrobaculum" ,
+          gcode 11 ,
+          div "BCT" } } } ,
+    pub {
+      pub {
+        article {
+          title {
+            name "An intron within the 16S ribosomal RNA gene of the archaeon
+ Pyrobaculum aerophilum." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Burggraf" ,
+                      initials "S." } ,
+                  affil
+                    str "Lehrstuhl fur Mikrobiologie, Universitat Regensburg,
+ Germany." } ,
+                {
+                  name
+                    name {
+                      last "Larsen" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Woese" ,
+                      initials "C.R." } } ,
+                {
+                  name
+                    name {
+                      last "Stetter" ,
+                      initials "K.O." } } } } ,
+          from
+            journal {
+              title {
+                iso-jta "Proc. Natl. Acad. Sci. U.S.A." ,
+                ml-jta "Proc Natl Acad Sci U S A" ,
+                issn "0027-8424" ,
+                name "Proceedings of the National Academy of Sciences of the
+ United States of America" } ,
+              imp {
+                date
+                  std {
+                    year 1993 ,
+                    month 3 ,
+                    day 15 } ,
+                volume "90" ,
+                issue "6" ,
+                pages "2547-2550" ,
+                language "eng" ,
+                pubstatus ppublish ,
+                history {
+                  {
+                    pubstatus pubmed ,
+                    date
+                      std {
+                        year 1993 ,
+                        month 3 ,
+                        day 15 } } ,
+                  {
+                    pubstatus medline ,
+                    date
+                      std {
+                        year 1993 ,
+                        month 3 ,
+                        day 15 ,
+                        hour 0 ,
+                        minute 1 } } ,
+                  {
+                    pubstatus other ,
+                    date
+                      std {
+                        year 1993 ,
+                        month 3 ,
+                        day 15 ,
+                        hour 0 ,
+                        minute 0 } } } } } ,
+          ids {
+            pubmed 8460170 ,
+            other {
+              db "pmc" ,
+              tag
+                str "PMC46125" } } } ,
+        pmid 8460170 } ,
+      comment "full staff_review" } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2014 ,
+              month 4 ,
+              day 28 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA33175" } } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_041953" } ,
+        general {
+          db "REF_16S_RNA" ,
+          tag
+            str "L07511:1-1474" } } ,
+      descr {
+        title "Pyrobaculum islandicum strain GEO3 16S ribosomal RNA gene,
+ partial sequence." ,
+        molinfo {
+          biomol genomic } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "Status" ,
+              data
+                str "Reviewed" } ,
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "L07511:24-1474" } } } } } } } ,
+        create-date
+          std {
+            year 1993 ,
+            month 5 ,
+            day 20 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 2 } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 26 } } } } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 1451 ,
+        seq-data
+          ncbi4na '241224281824444814442811422184241482F2424222444242424441424
+424212442821481121248422811228122282444144444181222224441112844448211822222181
+44441444484284411442222282222F1114441842241822422422182242224144184444F2124422
+218214481488442444881114422242211422411412444814444244841414224841422224141824
+421284141211444224144222812444424214214424241181282242118424442112242412444428
+122224148422444241141422244288884222448281111242244424118114244444421148284484
+821422422424481181221421224241484482444484888188444288111424222481422442224421
+148242822841118222244428211222444442444444241812842244428144444244414144224224
+481282244444814444241118224881182222441441221221484424111424442442214112424222
+412448414444241114224444414211144441881418122228481482224422481112418424442814
+284824422444288144422244224484424114441112248811422242242284444148124422421144
+28F111288111441188442444444421221211444484114288424428811884414821124224411122
+821222444424121421441841144221442811241228842244124142841414414484218442248248
+214282484224841448482244881148224421124142414122222122228148842812222482281244
+442444444212128144444128422442481142244144114414444422124421448214818422224111
+222244442842124241428421184424444121424441822412222411144444144211822248111222
+242222148144418241444284211282422282484112484411822281481122424848212211242424
+4841181248222842222884212121224222482421221222F1444142222282F41442222824224124
+1448444444124142144444282221144444484114824811211448142248144441120'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "16S ribosomal RNA" } ,
+                partial TRUE ,
+                product
+                  whole
+                    other {
+                      accession "NR_118661" } ,
+                location
+                  int {
+                    from 0 ,
+                    to 1450 ,
+                    id
+                      other {
+                        accession "NG_041953" } ,
+                    fuzz-from
+                      lim lt ,
+                    fuzz-to
+                      lim gt } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_118661" } } ,
+      descr {
+        molinfo {
+          biomol rRNA ,
+          completeness no-ends } ,
+        title "Pyrobaculum islandicum DSM 4184 16S ribosomal RNA, rRNA." ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_041953" } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "PROVISIONAL" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 1451 ,
+        seq-data
+          ncbi4na '241224281824444814442811422184241482F2424222444242424441424
+424212442821481121248422811228122282444144444181222224441112844448211822222181
+44441444484284411442222282222F1114441842241822422422182242224144184444F2124422
+218214481488442444881114422242211422411412444814444244841414224841422224141824
+421284141211444224144222812444424214214424241181282242118424442112242412444428
+122224148422444241141422244288884222448281111242244424118114244444421148284484
+821422422424481181221421224241484482444484888188444288111424222481422442224421
+148242822841118222244428211222444442444444241812842244428144444244414144224224
+481282244444814444241118224881182222441441221221484424111424442442214112424222
+412448414444241114224444414211144441881418122228481482224422481112418424442814
+284824422444288144422244224484424114441112248811422242242284444148124422421144
+28F111288111441188442444444421221211444484114288424428811884414821124224411122
+821222444424121421441841144221442811241228842244124142841414414484218442248248
+214282484224841448482244881148224421124142414122222122228148842812222482281244
+442444444212128144444128422442481142244144114414444422124421448214818422224111
+222244442842124241428421184424444121424441822412222411144444144211822248111222
+242222148144418241444284211282422282484112484411822281481122424848212211242424
+4841181248222842222884212121224222482421221222F1444142222282F41442222824224124
+1448444444124142144444282221144444484114824811211448142248144441120'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "16S ribosomal RNA" } ,
+                partial TRUE ,
+                location
+                  int {
+                    from 0 ,
+                    to 1450 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_118661" } ,
+                    fuzz-from
+                      lim lt ,
+                    fuzz-to
+                      lim gt } } } } } } } }

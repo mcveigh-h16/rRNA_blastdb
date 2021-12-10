@@ -1,0 +1,324 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Mycobacterium avium" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 1764 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Mycobacterium" ,
+              species "avium" } ,
+          attrib "nomodforward" ,
+          mod {
+            {
+              subtype strain ,
+              subname "104" } } ,
+          lineage "Bacteria; Actinobacteria; Actinobacteridae;
+ Actinomycetales; Corynebacterineae; Mycobacteriaceae; Mycobacterium;
+ Mycobacterium avium complex (MAC)" ,
+          gcode 11 ,
+          div "BCT" } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Fleischmann" ,
+                      first "Robert" ,
+                      middle "D." ,
+                      initials "R.D." } } ,
+                {
+                  name
+                    name {
+                      last "Dodson" ,
+                      first "Robert" ,
+                      middle "J." ,
+                      initials "R.J." } } ,
+                {
+                  name
+                    name {
+                      last "Haft" ,
+                      first "Daniel" ,
+                      middle "H." ,
+                      initials "D.H." } } ,
+                {
+                  name
+                    name {
+                      last "Merkel" ,
+                      first "Janie" ,
+                      middle "S." ,
+                      initials "J.S." } } ,
+                {
+                  name
+                    name {
+                      last "Nelson" ,
+                      first "William" ,
+                      middle "C." ,
+                      initials "W.C." } } ,
+                {
+                  name
+                    name {
+                      last "Fraser" ,
+                      first "Claire" ,
+                      middle "M." ,
+                      initials "C.M." } } } ,
+            affil
+              std {
+                affil "The Institute for Genomic Research" ,
+                city "Rockville" ,
+                sub "MD" ,
+                country "USA" ,
+                street "9712 Medical Center Dr" ,
+                postal-code "20850" } } ,
+          medium other ,
+          date
+            std {
+              year 2006 ,
+              month 10 ,
+              day 19 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2013 ,
+              month 5 ,
+              day 9 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA188943" } } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_041979" } ,
+        general {
+          db "REF_23S_RNA" ,
+          tag
+            str "CP000479:1489339-1492450" } } ,
+      descr {
+        title "Mycobacterium avium strain 104 23S ribosomal RNA gene, complete
+ sequence." ,
+        molinfo {
+          biomol genomic } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 26 } } } } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "CP000479:1489339-1492450" } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        create-date
+          std {
+            year 2013 ,
+            month 5 ,
+            day 24 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 2 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 3112 ,
+        seq-data
+          ncbi2na 'EEEC2C2EFC2A64EBA397E9362258E0A1BA8A798CE5DAA27B41624F8D628
+FD60EA8054918B8EDBBC56CDE0CCCAB9A8AC19AA0B804DD2C56CA208010FB8F5B4B2E989819A04
+A70164E4E8416ACAAFBBB9AAFBA8F8CEDD27717A78AACB480BB6EBC9A0BA5EA1A565B21AE2256B
+198015A45E5F3341158B249A95BA0DE7B83796A1456B097031F763858C9A3CB16E2A0EB802C55A
+8AA2E032C5E016EE5C435B48975DBAAE3A6E5FF820E25E62D2A11B662BC15B9AAC96498098B783
+2A64D57FAAECBA6EF7A158268B8DC54E94AB8266AC2166E8A560547CAF821E2A8E27BAB2AB80A5
+0D01D6E327AF75580E4FCAE49BE6EBD1468AC89C7A3A58EA571CAF1E1B4940758396EBB026E92E
+21A6AA309D6C6D80A804952365A70A55C26EE70BA00A3BB2D92210528AFA7C8249457E022E6C32
+747AD0B8F399630EC9AA742445960966913D37F1AE8EEACAA26D553D260975AB85AEBA2AEAA2E2
+0E4A4E2C98C290B8817E565B0850ABD7A94A52D654AB8B6A170A6296129B2D8E841ABE33D5B15B
+B3A9B578E0D26B1C14540168D853D57DAA9BA63DAA79BA85F67ACB2D090EAB864A0A496C52D2EB
+0C7AA4256CA8898CA40D6D9D1C35E22B8E4C96BE2983DAE35DE79420097726244C4695B1540504
+4AEB4AC8831429B188C1CEBC281DA403955B07DA882AA968316E0457E6BA89A8F69648052EAC98
+7BF1C0044AD6E60B64218ECC687865E56B9E82BC22856F056C2AE09A20FC2552C069AEB0730535
+C2B2603D7EDAB0BD6179183A6C187D507B7414C876980F91C62C08E76F199A4A1802156A17D1C4
+1FACFAEF6B1AFEECA32BA887F82448652FEEE8B6FBE0314778DB3E845C1B6057CDABD1A12E5E9A
+B2FC1EA9AF975C03B068A6540AF57417A1A434AE98BB0B910A89F879887C42D092A180B6A1CB8D
+691558BA0AAED9D068C02B156A8C129E37D5422D4CD86A3AFE91763B69DB64D7AA7A24AD50ABEA
+7BD953C09A46627ABF206DB884BDADDCD65999B4807E2805ED5CB188A16A1A18177ACC52FB5452
+A91A7A3251BDA128C1678093709A805F7508D2BF7457FC8A8C295564851A8F8CA5217A09D2C38B
+92A07A4705A5801'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                product
+                  whole
+                    other {
+                      accession "NR_103001" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 1547 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041979" } } ,
+                    int {
+                      from 1615 ,
+                      to 3111 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041979" } } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 1548 ,
+                    to 1614 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_041979" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_103001" } } ,
+      descr {
+        title "Mycobacterium avium strain 104 23S ribosomal RNA, complete
+ sequence." ,
+        molinfo {
+          biomol rRNA } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "Status" ,
+              data
+                str "Reviewed" } ,
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_041979" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 3045 ,
+        seq-data
+          ncbi2na 'EEEC2C2EFC2A64EBA397E9362258E0A1BA8A798CE5DAA27B41624F8D628
+FD60EA8054918B8EDBBC56CDE0CCCAB9A8AC19AA0B804DD2C56CA208010FB8F5B4B2E989819A04
+A70164E4E8416ACAAFBBB9AAFBA8F8CEDD27717A78AACB480BB6EBC9A0BA5EA1A565B21AE2256B
+198015A45E5F3341158B249A95BA0DE7B83796A1456B097031F763858C9A3CB16E2A0EB802C55A
+8AA2E032C5E016EE5C435B48975DBAAE3A6E5FF820E25E62D2A11B662BC15B9AAC96498098B783
+2A64D57FAAECBA6EF7A158268B8DC54E94AB8266AC2166E8A560547CAF821E2A8E27BAB2AB80A5
+0D01D6E327AF75580E4FCAE49BE6EBD1468AC89C7A3A58EA571CAF1E1B4940758396EBB026E92E
+21A6AA309D6C6D80A804952365A70A55C26EE70BA00A3BB2D92210528AFA7C8249457E022E6C32
+747AD0B8F399630EC9AA742445960966913D37F1AE8EEACAA26D553D260975AB85AEBA2AEAA2E2
+0E4A4E2C98C290B8817E565B0850ABD7A94A52D654AB8B6A170A6296129B2D8E841ABE33D5B15B
+B3A9B578E0D2617D9EB2CB4243AAE19282925B14B4BAC31EA9095B2A226329035B67470D788AE3
+9325AF8A60F6B8D779E508025DC9891311A56C55014112BAD2B220C50A6C623073AF0A076900E5
+56C1F6A20AAA5A0C5B8115F9AEA26A3DA592014BAB261EFC700112B5B982D90863B31A1E19795A
+E7A0AF08A15BC15B0AB826883F0954B01A6BAC1CC14D70AC980F5FB6AC2F585E460E9B061F541E
+DD05321DA603E4718B0239DBC666928600855A85F47107EB3EBBDAC6BFBB28CAEA21FE0912194B
+FBBA2DBEF80C51DE36CFA11706D815F36AF4684B97A6ACBF07AA6BE5D700EC1A299502BD5D05E8
+690D2BA62EC2E442A27E1E621F10B424A8602DA872E35A45562E82ABB6741A300AC55AA304A78D
+F5508B53361A8EBFA45D8EDA76D935EA9E892B542AFA9EF654F02691989EAFC81B6E212F6B7735
+96666D201F8A017B572C62285A868605DEB314BED514AA469E8C946F684A3059E024DC26A017DD
+4234AFDD15FF22A30A55592146A3E329485E8274B0E2E4A81E91C16960040'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                location
+                  int {
+                    from 0 ,
+                    to 3044 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_103001" } } } } } } } } }

@@ -1,0 +1,472 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Finegoldia magna" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 1260 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Finegoldia" ,
+              species "magna" } ,
+          attrib "nomodforward" ,
+          mod {
+            {
+              subtype strain ,
+              subname "ATCC 29328" } ,
+            {
+              subtype culture-collection ,
+              subname "ATCC:29328" } } ,
+          lineage "Bacteria; Firmicutes; Clostridia; Clostridiales;
+ Peptoniphilaceae; Finegoldia" ,
+          gcode 11 ,
+          div "BCT" } } } ,
+    pub {
+      pub {
+        pmid 18263572 ,
+        article {
+          title {
+            name "Complete genome sequence of Finegoldia magna, an anaerobic
+ opportunistic pathogen." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Goto" ,
+                      initials "T." } ,
+                  affil
+                    str "Department of Microbiology, Wakayama Medical
+ University, 811-1 Kimiidera, Wakayama, Wakayama 641-0012, Japan.
+ t-goto@wakayama-med.ac.jp" } ,
+                {
+                  name
+                    name {
+                      last "Yamashita" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Hirakawa" ,
+                      initials "H." } } ,
+                {
+                  name
+                    name {
+                      last "Matsutani" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Todo" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Ohshima" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Toh" ,
+                      initials "H." } } ,
+                {
+                  name
+                    name {
+                      last "Miyamoto" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Kuhara" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Hattori" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Shimizu" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Akimoto" ,
+                      initials "S." } } } } ,
+          from
+            journal {
+              title {
+                iso-jta "DNA Res." ,
+                ml-jta "DNA Res" ,
+                issn "1756-1663" ,
+                name "DNA research : an international journal for rapid
+ publication of reports on genes and genomes" } ,
+              imp {
+                date
+                  std {
+                    year 2008 ,
+                    month 2 ,
+                    day 29 } ,
+                volume "15" ,
+                issue "1" ,
+                pages "39-47" ,
+                language "eng" ,
+                pubstatus ppublish ,
+                history {
+                  {
+                    pubstatus aheadofprint ,
+                    date
+                      std {
+                        year 2008 ,
+                        month 2 ,
+                        day 7 } } ,
+                  {
+                    pubstatus pubmed ,
+                    date
+                      std {
+                        year 2008 ,
+                        month 2 ,
+                        day 12 ,
+                        hour 9 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus medline ,
+                    date
+                      std {
+                        year 2008 ,
+                        month 8 ,
+                        day 2 ,
+                        hour 9 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus other ,
+                    date
+                      std {
+                        year 2008 ,
+                        month 2 ,
+                        day 12 ,
+                        hour 9 ,
+                        minute 0 } } } } } ,
+          ids {
+            pii "dsm030" ,
+            doi "10.1093/dnares/dsm030" ,
+            pubmed 18263572 ,
+            other {
+              db "pmc" ,
+              tag
+                str "PMC2650633" } ,
+            other {
+              db "ELocationID doi" ,
+              tag
+                str "10.1093/dnares/dsm030" } } } } ,
+      reftype no-target } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Hattori" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Yamashita" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Toh" ,
+                      initials "H." } } ,
+                {
+                  name
+                    name {
+                      last "Oshima" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Shiba" ,
+                      initials "T." } } } ,
+            affil
+              str "Contact:Masahira Hattori University of Tokyo, Graduate
+ School of Frontier Sciences; 5-1-5 Kashiwanoha, Kashiwa, Chiba 277-8561,
+ Japan URL :http://www.cb.k.u-tokyo.ac.jp/hattorilab/" } ,
+          medium other ,
+          date
+            std {
+              year 2005 ,
+              month 4 ,
+              day 14 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2013 ,
+              month 2 ,
+              day 14 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA188943" } } } } ,
+    user {
+      type
+        str "NcbiCleanup" ,
+      data {
+        {
+          label
+            str "method" ,
+          data
+            str "SequinCleanup" } ,
+        {
+          label
+            str "version" ,
+          data
+            int 8 } ,
+        {
+          label
+            str "month" ,
+          data
+            int 4 } ,
+        {
+          label
+            str "day" ,
+          data
+            int 22 } ,
+        {
+          label
+            str "year" ,
+          data
+            int 2015 } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_042023" } ,
+        general {
+          db "REF_23S_RNA" ,
+          tag
+            str "AP008971:199621-202615" } } ,
+      descr {
+        title "Finegoldia magna 23S ribosomal RNA gene, complete sequence." ,
+        molinfo {
+          biomol genomic } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 26 } } } } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "AP008971:199621-202615" } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        create-date
+          std {
+            year 2013 ,
+            month 3 ,
+            day 25 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 2 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 2995 ,
+        seq-data
+          ncbi2na '4201C2A6429A397E914A29860A1B84241801762CA240CD4B876AA0D60EA
+805C72111DCB3531B031326CE8260EF781E01370B28108020200763DD42C9A62604881254F02C2
+1C078C840DF3A020814080B04B7ECB6034832211FC208B146891B80F7BA8232AA145570A7031C5
+EB858C9832C5B8A80AE008156A2A8B804817805F997109212282087DC3B6C7FFB206A5262F18C6
+C908F013F08EE0B6CA8058B7C32A402F9BBEC856016AE37353A922E0AC0B00FC7A29D816AC9BF0
+09CDA385EE8CAAE0094360768CC9EBDD760327F2A725FBFC8F128AC891E0CB72A82C3DC5807CD0
+1D60E5E00D8E04A2D214E2A309F4CB402A012548514BC2B5403123C2EA028EC31C748414A3BE9D
+20925313F022E6C32747AD0BAC399608E06A9C0DE31601EEA320090F39882CEBC234A033341CB0
+2C222021300403FB8011026C01CF018C43F70047C104C41E930C9FF736B2289BECCE20824009B0
+90FBA3CCC42E20E7A4E2C9802A3B8834D56D80950A3D7890A76D774AB0B6A170A6296029B2D8E8
+412B203D7B1C423EE3E220B1E1920A00B626E78EBEE46D40C1094833129035B33DB41B0BCE3AA2
+4808E609848F40794200AE7360C37EC56C59016112B2908220F7086668205FEF0A076900E356C2
+F2620A8E5C203CAD9220CA54261EFC500110B379C0D808E0B32B9E11795AE7A0AD0AA1FBC890D8
+24181F0954B01A696C1CC1AD70AC980F5FB6AC2F58564602BB063FA99EDD040A35AE03ECB2DB82
+3987C546B28680855BA27F1E4AF84F83FEA3C0EC4A32BA8860824276522FE48B47BEA31457FC3D
+C0BDC1CBC53827AC32847B4B6A4BF87AA6B65D4002C1A29BD02BD9D20EBE80D3D022C40A402627
+C1E621312B62488602DA1F2E35AEB162E82A536741A3009C55AA304A7CDD5508B51361AA2BFA45
+D8EDA76DD35E89E8B2BD42AFA9EF654F02291989EAF481B6E212F6B573516EA6E203F88A37B5F2
+C62285A8E84859EBB18BEC7942E449DAC9C6DEA0A30B9E0A4DC2460141762308FDCE23C7E08010
+8C8CAD22BB0232C33409C1E31C3036007E0'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                product
+                  whole
+                    other {
+                      accession "NR_076091" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 1248 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042023" } } ,
+                    int {
+                      from 1299 ,
+                      to 2994 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042023" } } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 1249 ,
+                    to 1298 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_042023" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_076091" } } ,
+      descr {
+        title "Finegoldia magna 23S ribosomal RNA, complete sequence." ,
+        molinfo {
+          biomol rRNA } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "Status" ,
+              data
+                str "Reviewed" } ,
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_042023" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 2945 ,
+        seq-data
+          ncbi2na '4201C2A6429A397E914A29860A1B84241801762CA240CD4B876AA0D60EA
+805C72111DCB3531B031326CE8260EF781E01370B28108020200763DD42C9A62604881254F02C2
+1C078C840DF3A020814080B04B7ECB6034832211FC208B146891B80F7BA8232AA145570A7031C5
+EB858C9832C5B8A80AE008156A2A8B804817805F997109212282087DC3B6C7FFB206A5262F18C6
+C908F013F08EE0B6CA8058B7C32A402F9BBEC856016AE37353A922E0AC0B00FC7A29D816AC9BF0
+09CDA385EE8CAAE0094360768CC9EBDD760327F2A725FBFC8F128AC891E0CB72A82C3DC5807CD0
+1D60E5E00D8E04A2D214E2A309F4CB402A012548514BC2B5403123C2EA028EC31C748414A3BE9D
+20925313F022E6C32747AD0BAC399608E06A9C0DE31601EEA320090F39882CEBC234A033341CB0
+2C222021300403FB801041E930C9FF736B2289BECCE20824009B090FBA3CCC42E20E7A4E2C9802
+A3B8834D56D80950A3D7890A76D774AB0B6A170A6296029B2D8E8412B203D7B1C423EE3E220B1E
+1920A00B626E78EBEE46D40C1094833129035B33DB41B0BCE3AA24808E609848F40794200AE736
+0C37EC56C59016112B2908220F7086668205FEF0A076900E356C2F2620A8E5C203CAD9220CA542
+61EFC500110B379C0D808E0B32B9E11795AE7A0AD0AA1FBC890D824181F0954B01A696C1CC1AD7
+0AC980F5FB6AC2F58564602BB063FA99EDD040A35AE03ECB2DB823987C546B28680855BA27F1E4
+AF84F83FEA3C0EC4A32BA8860824276522FE48B47BEA31457FC3DC0BDC1CBC53827AC32847B4B6
+A4BF87AA6B65D4002C1A29BD02BD9D20EBE80D3D022C40A402627C1E621312B62488602DA1F2E3
+5AEB162E82A536741A3009C55AA304A7CDD5508B51361AA2BFA45D8EDA76DD35E89E8B2BD42AFA
+9EF654F02291989EAF481B6E212F6B573516EA6E203F88A37B5F2C62285A8E84859EBB18BEC794
+2E449DAC9C6DEA0A30B9E0A4DC2460141762308FDCE23C7E080108C8CAD22BB0232C33409C1E31
+C3036007E00'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                location
+                  int {
+                    from 0 ,
+                    to 2944 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_076091" } } } } } } } } }

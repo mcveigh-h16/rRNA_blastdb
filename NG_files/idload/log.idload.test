@@ -1,0 +1,128 @@
+
+========================[ Oct 2, 2015  8:10 AM ]========================
+NOTE: [103.000] CTLibConnect: Connected to IDPROD_OS..idload as mcveigh :: spid 0
+NOTE: [103.000] Setting override <AllowGiFarPtr>
+NOTE: [103.000] Setting override <TrialNoLoad>
+NOTE: [103.000] Setting override <AllowSought>
+NOTE: [103.000] Setting override <AllowAlignFarPtr>
+NOTE: [103.000] Setting override <UseIdDates>
+NOTE: [103.000] Setting OWNER=<27> owner_type=<N> sat=<4> aa_type=<DEPENDENT> aa_accessions=<DO NOT ASSIGN> nt_accessions=<DO NOT ASSIGN NUC> hup_mode=<FALSE> hup_date=<Jan 1 1900> seqver_class=<int>
+NOTE: [103.000] BY OWNER| Setting override <AllowAlignFarPtr>
+NOTE: [103.000] BY OWNER| Setting override <AllowNAlignFarPtr>
+NOTE: [103.000] Effective overrides <AllowGiFarPtr,AllowSought,AllowAlignFarPtr,UseIdDates,TrialNoLoadAllowNAlignFarPtr>
+NOTE: [103.000] INPUT FILE </home/mcveigh/rRNA_blastdb/NG_files/test>
+NOTE: [103.000] START : /home/mcveigh/rRNA_blastdb/NG_files/test.1 >>>>>>>>>>>>>>>> Seq_entry(2464 bytes)
+NOTE: [103.000] START LOADING SEQ-ENTRY
+WARNING: [105.000] Submitted blob was not processed by SSEC, which is going to become mandatory soon
+NOTE: [103.000] Bioseq (d=0,i=1,h=506029242) has primary oslt (p=100,t=7,<NG_042880.0>) subblob -1
+ERROR: [105.21200] Invalid NUCORE3 accession <NG_042880> for owner <27>
+ERROR: [105.21200] PubSeqOS_ProcessIdGatherInfo error code = -12
+ERROR: [105.21200] LOAD FAILED
+ERROR: [103.000] REJECT ERROR 
+NOTE: [103.000] STOP : /home/mcveigh/rRNA_blastdb/NG_files/test.1 <<<<<<<<<<<<<<<<
+NOTE: [103.000] START : /home/mcveigh/rRNA_blastdb/NG_files/test.2 >>>>>>>>>>>>>>>> Seq_entry(1626 bytes)
+NOTE: [103.000] START LOADING SEQ-ENTRY
+WARNING: [105.000] Submitted blob was not processed by SSEC, which is going to become mandatory soon
+NOTE: [103.000] Bioseq (d=0,i=1,h=-2003524661) has primary oslt (p=100,t=7,<NR_114604.0>) subblob -1
+NOTE: [103.000] New Bioseq(0,1) setting create date to <5/20/2014>
+NOTE: [103.000] Bioseq (d=0,i=1,h=0) is mapped to ch=629821187,gi=636558547(4,133621089)
+NOTE: [103.000] Blob (4,133621089) with size 3137 was downloaded
+NOTE: [103.000] Adding replaces history to New Bioseq(0,1) old_gi<636558547>
+NOTE: [103.000] MATCH_BY_OSLT|CHANGED_SEQ:New Bioseq(0,1) was matched by oslt<7,NR_114604> to Old Bioseq(4,133621089:0,1)
+NOTE: [103.000] Got sat key=<150216242> for sat=<4>. SUBBLOB 0
+NOTE: [103.000] BLOB_STAT| SAT=4 SAT_KEY=150216242 DATE_ASN1='Oct  2 2015  8:10:51:966AM' SUBBLOB 0
+NOTE: [103.000] Bioseq(0,1) is being processed in IdMain
+NOTE: [103.000] IDLOAD_STAT| mol=2 repr=2 OSLT=<7,NR_114604> NEW_VERSION=2 NEW_GI=933594570 OLD_GI=636558547 DB[] NUC_ACC[] SUBBLOB -1
+NOTE: [103.000] USER_REPLY_PARSED: NR_114604.2 -->> 933594570[] (same seq)
+NOTE: [103.000] Bioseq(0,1) has been assigned a new gi <933594570>, new_version <2>
+NOTE: [103.000] PubSeqOS_RunIdMainProcs retcode -205, rc 1, got 2 result sets [0,1]
+NOTE: [103.000] NOLOAD: IdMain database transaction rolled back... Exiting
+NOTE: [103.000] LOAD SUCCEEDED
+NOTE: [103.000] STOP : /home/mcveigh/rRNA_blastdb/NG_files/test.2 <<<<<<<<<<<<<<<<
+
+========================[ Oct 2, 2015  8:13 AM ]========================
+NOTE: [103.000] CTLibConnect: Connected to IDPROD_OS..idload as mcveigh :: spid 0
+NOTE: [103.000] Setting override <AllowGiFarPtr>
+NOTE: [103.000] Setting override <AllowSought>
+NOTE: [103.000] Setting override <AllowAlignFarPtr>
+NOTE: [103.000] Setting override <UseIdDates>
+NOTE: [103.000] Setting OWNER=<27> owner_type=<N> sat=<4> aa_type=<DEPENDENT> aa_accessions=<DO NOT ASSIGN> nt_accessions=<DO NOT ASSIGN NUC> hup_mode=<FALSE> hup_date=<Jan 1 1900> seqver_class=<int>
+NOTE: [103.000] BY OWNER| Setting override <AllowAlignFarPtr>
+NOTE: [103.000] BY OWNER| Setting override <AllowNAlignFarPtr>
+NOTE: [103.000] Effective overrides <AllowGiFarPtr,AllowSought,AllowAlignFarPtr,UseIdDatesAllowNAlignFarPtr>
+NOTE: [103.000] INPUT FILE </home/mcveigh/rRNA_blastdb/NG_files/test>
+NOTE: [103.000] START : /home/mcveigh/rRNA_blastdb/NG_files/test.1 >>>>>>>>>>>>>>>> Seq_entry(2464 bytes)
+NOTE: [103.000] START LOADING SEQ-ENTRY
+WARNING: [105.000] Submitted blob was not processed by SSEC, which is going to become mandatory soon
+NOTE: [103.000] Bioseq (d=0,i=1,h=506029242) has primary oslt (p=100,t=7,<NG_042880.0>) subblob -1
+ERROR: [105.21200] Invalid NUCORE3 accession <NG_042880> for owner <27>
+ERROR: [105.21200] PubSeqOS_ProcessIdGatherInfo error code = -12
+ERROR: [105.21200] LOAD FAILED
+ERROR: [103.000] REJECT ERROR 
+NOTE: [103.000] STOP : /home/mcveigh/rRNA_blastdb/NG_files/test.1 <<<<<<<<<<<<<<<<
+NOTE: [103.000] START : /home/mcveigh/rRNA_blastdb/NG_files/test.2 >>>>>>>>>>>>>>>> Seq_entry(1626 bytes)
+NOTE: [103.000] START LOADING SEQ-ENTRY
+WARNING: [105.000] Submitted blob was not processed by SSEC, which is going to become mandatory soon
+NOTE: [103.000] Bioseq (d=0,i=1,h=-2003524661) has primary oslt (p=100,t=7,<NR_114604.0>) subblob -1
+NOTE: [103.000] New Bioseq(0,1) setting create date to <5/20/2014>
+NOTE: [103.000] Bioseq (d=0,i=1,h=0) is mapped to ch=629821187,gi=636558547(4,133621089)
+NOTE: [103.000] Blob (4,133621089) with size 3137 was downloaded
+NOTE: [103.000] Adding replaces history to New Bioseq(0,1) old_gi<636558547>
+NOTE: [103.000] MATCH_BY_OSLT|CHANGED_SEQ:New Bioseq(0,1) was matched by oslt<7,NR_114604> to Old Bioseq(4,133621089:0,1)
+NOTE: [103.000] Got sat key=<150216243> for sat=<4>. SUBBLOB 0
+NOTE: [103.000] BLOB_STAT| SAT=4 SAT_KEY=150216243 DATE_ASN1='Oct  2 2015  8:13:10:063AM' SUBBLOB 0
+NOTE: [103.000] Bioseq(0,1) is being processed in IdMain
+NOTE: [103.000] IDLOAD_STAT| mol=2 repr=2 OSLT=<7,NR_114604> NEW_VERSION=2 NEW_GI=933596621 OLD_GI=636558547 DB[] NUC_ACC[] SUBBLOB -1
+NOTE: [103.000] USER_REPLY_PARSED: NR_114604.2 -->> 933596621[] (same seq)
+NOTE: [103.000] Bioseq(0,1) has been assigned a new gi <933596621>, new_version <2>
+NOTE: [103.000] PubSeqOS_RunIdMainProcs retcode -205, rc 1, got 2 result sets [0,1]
+NOTE: [103.000] IdMain database loaded
+NOTE: [103.000] Adding replaced_by history to Old Bioseq(4,133621089:0,1) gi<933596621> old_gi<636558547>
+NOTE: [103.000] Loading satellite <4> with sat_key=<150216243> div=<CGR> size=1051 bytes (zipped)
+NOTE: [103.000] Storing 1051/1766 bytes of asn data to database for sat_key = 150216243. (page 16200)
+NOTE: [103.000] Updating old sat_key in Satellite blob (4,133621089), new sat_key 150216243
+NOTE: [103.000] Storing 1695/3205 bytes of asn data to database for sat_key = 133621089. (page 16200)
+NOTE: [103.000] UPDATE_IN_PLACE: The old blob (4,133621089) was updated
+NOTE: [103.000] IdBlob database loaded
+NOTE: [103.000] LOAD SUCCEEDED
+NOTE: [103.000] STOP : /home/mcveigh/rRNA_blastdb/NG_files/test.2 <<<<<<<<<<<<<<<<
+
+========================[ Oct 2, 2015  8:16 AM ]========================
+NOTE: [103.000] CTLibConnect: Connected to IDPROD_OS..idload as mcveigh :: spid 0
+NOTE: [103.000] Setting override <AllowGiFarPtr>
+NOTE: [103.000] Setting override <AllowSought>
+NOTE: [103.000] Setting override <AllowAlignFarPtr>
+NOTE: [103.000] Setting override <UseIdDates>
+NOTE: [103.000] Setting OWNER=<23> owner_type=<N> sat=<4> aa_type=<DEPENDENT> aa_accessions=<DO NOT ASSIGN> nt_accessions=<DO NOT ASSIGN NUC> hup_mode=<FALSE> hup_date=<Jan 1 1900> seqver_class=<int>
+NOTE: [103.000] BY OWNER| Setting override <AllowAlignFarPtr>
+NOTE: [103.000] BY OWNER| Setting override <AllowNAlignFarPtr>
+NOTE: [103.000] Effective overrides <AllowGiFarPtr,AllowSought,AllowAlignFarPtr,UseIdDatesAllowNAlignFarPtr>
+NOTE: [103.000] INPUT FILE </home/mcveigh/rRNA_blastdb/NG_files/test>
+NOTE: [103.000] START : /home/mcveigh/rRNA_blastdb/NG_files/test.1 >>>>>>>>>>>>>>>> Seq_entry(2464 bytes)
+NOTE: [103.000] START LOADING SEQ-ENTRY
+WARNING: [105.000] Submitted blob was not processed by SSEC, which is going to become mandatory soon
+NOTE: [103.000] Bioseq (d=0,i=1,h=506029242) has primary oslt (p=100,t=7,<NG_042880.0>) subblob -1
+NOTE: [103.000] Bioseq (d=0,i=1,h=506029242) will be assigned a new gi
+NOTE: [103.000] FAR_POINTER_GI| gi=<933596621> type_conclusion=<2>
+NOTE: [103.000] Got sat key=<150216244> for sat=<4>. SUBBLOB 0
+NOTE: [103.000] BLOB_STAT| SAT=4 SAT_KEY=150216244 DATE_ASN1='Oct  2 2015  8:16:55:316AM' SUBBLOB 0
+NOTE: [103.000] New Bioseq(0,1) setting create date to <10/2/2015>
+NOTE: [103.000] Bioseq(0,1) is being processed in IdMain
+ERROR: [105.000] NG_042880 : Synonym 14999:REF_SSU16S|AF348746:1-1676 points to different chain (NR_114604) but attempt to reuse of reserved name is not supported by inheritance or takeover request
+NOTE: [103.000] PubSeqOS_RunIdMainProcs retcode -205, rc 0, got 1 result sets [1,0]
+WARNING: [105.000] Failed to load id main database
+ERROR: [105.21200] LOAD FAILED
+ERROR: [103.000] REJECT ERROR 
+NOTE: [103.000] STOP : /home/mcveigh/rRNA_blastdb/NG_files/test.1 <<<<<<<<<<<<<<<<
+NOTE: [103.000] START : /home/mcveigh/rRNA_blastdb/NG_files/test.2 >>>>>>>>>>>>>>>> Seq_entry(1626 bytes)
+NOTE: [103.000] START LOADING SEQ-ENTRY
+WARNING: [105.000] Submitted blob was not processed by SSEC, which is going to become mandatory soon
+NOTE: [103.000] Bioseq (d=0,i=1,h=-2003524661) has primary oslt (p=100,t=7,<NR_114604.0>) subblob -1
+NOTE: [103.000] New Bioseq(0,1) setting create date to <5/20/2014>
+NOTE: [103.000] Bioseq (d=0,i=1,h=0) is mapped to ch=629821187,gi=933596621(4,150216243)
+NOTE: [103.000] Blob (4,150216243) with size 1766 was downloaded
+NOTE: [103.000] MATCH_BY_OSLT|SAME_SEQ:New Bioseq(0,1) was matched by oslt<7,NR_114604> to Old Bioseq(4,150216243:0,1)
+ERROR: [105.22000] BYTE_BY_BYTE_EQUAL:TAKEOVER ERROR: Not allowed the ownership change from <27> to <23>. SUBBLOB 0
+ERROR: [105.21200] LOAD FAILED
+ERROR: [103.000] REJECT ERROR 
+NOTE: [103.000] STOP : /home/mcveigh/rRNA_blastdb/NG_files/test.2 <<<<<<<<<<<<<<<<

@@ -1,0 +1,19 @@
+
+========================[ Oct 2, 2015  8:07 AM ]========================
+NOTE: [103.000] CTLibConnect: Connected to IDPROD_OS..idload as mcveigh :: spid 0
+NOTE: [103.000] Setting override <AllowGiFarPtr>
+NOTE: [103.000] Setting override <TrialNoLoad>
+NOTE: [103.000] Setting override <AllowSought>
+NOTE: [103.000] Setting override <AllowAlignFarPtr>
+NOTE: [103.000] Setting override <UseIdDates>
+NOTE: [103.000] Setting OWNER=<27> owner_type=<N> sat=<4> aa_type=<DEPENDENT> aa_accessions=<DO NOT ASSIGN> nt_accessions=<DO NOT ASSIGN NUC> hup_mode=<FALSE> hup_date=<Jan 1 1900> seqver_class=<int>
+NOTE: [103.000] BY OWNER| Setting override <AllowAlignFarPtr>
+NOTE: [103.000] BY OWNER| Setting override <AllowNAlignFarPtr>
+NOTE: [103.000] Effective overrides <AllowGiFarPtr,AllowSought,AllowAlignFarPtr,UseIdDates,TrialNoLoadAllowNAlignFarPtr>
+NOTE: [103.000] INPUT FILE </home/mcveigh/rRNA_blastdb/NG_files/NG_042880>
+NOTE: [103.000] START : /home/mcveigh/rRNA_blastdb/NG_files/NG_042880.1 >>>>>>>>>>>>>>>> Seq_entry(5678 bytes)
+NOTE: [103.000] START LOADING SEQ-ENTRY
+ERROR: [105.21200] Unsupported type of Bioseq-set <17>
+ERROR: [105.21200] LOAD FAILED
+ERROR: [103.000] REJECT ERROR 
+NOTE: [103.000] STOP : /home/mcveigh/rRNA_blastdb/NG_files/NG_042880.1 <<<<<<<<<<<<<<<<

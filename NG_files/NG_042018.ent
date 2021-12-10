@@ -1,0 +1,480 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Rhizobium etli" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 29449 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Rhizobium" ,
+              species "etli" } ,
+          attrib "nomodforward" ,
+          mod {
+            {
+              subtype strain ,
+              subname "CFN 42" } ,
+            {
+              subtype culture-collection ,
+              subname "ATCC:51251" } } ,
+          lineage "Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales;
+ Rhizobiaceae; Rhizobium/Agrobacterium group; Rhizobium" ,
+          gcode 11 ,
+          div "BCT" } } } ,
+    pub {
+      pub {
+        article {
+          title {
+            name "The partitioned Rhizobium etli genome: genetic and metabolic
+ redundancy in seven interacting replicons." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Gonzalez" ,
+                      first "V" ,
+                      initials "V." } } ,
+                {
+                  name
+                    name {
+                      last "Santamaria" ,
+                      first "R" ,
+                      initials "R.I." } } ,
+                {
+                  name
+                    name {
+                      last "Bustos" ,
+                      first "P" ,
+                      initials "P." } } ,
+                {
+                  name
+                    name {
+                      last "Hernandez-Gonzalez" ,
+                      first "I" ,
+                      initials "I." } } ,
+                {
+                  name
+                    name {
+                      last "Medrano-Soto" ,
+                      first "A" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Moreno-Hagelsieb" ,
+                      first "G" ,
+                      initials "G." } } ,
+                {
+                  name
+                    name {
+                      last "Janga" ,
+                      first "S" ,
+                      initials "S.C." } } ,
+                {
+                  name
+                    name {
+                      last "Ramirez" ,
+                      first "M" ,
+                      initials "M.A." } } ,
+                {
+                  name
+                    name {
+                      last "Jimenez-Jacinto" ,
+                      first "V" ,
+                      initials "V." } } ,
+                {
+                  name
+                    name {
+                      last "Collado-Vides" ,
+                      first "J" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Davila" ,
+                      first "G" ,
+                      initials "G." } } } ,
+            affil
+              str "Centro de Ciencias Genomicas, Universidad Nacional Autonoma
+ de Mexico, AP565-A Cuernavaca, Morelos, 62210, Mexico." } ,
+          from
+            journal {
+              title {
+                iso-jta "Proc. Natl. Acad. Sci. U.S.A." ,
+                ml-jta "Proc Natl Acad Sci U S A" ,
+                issn "0027-8424" ,
+                name "Proceedings of the National Academy of Sciences of the
+ United States of America" } ,
+              imp {
+                date
+                  std {
+                    year 2006 ,
+                    month 3 ,
+                    day 7 } ,
+                volume "103" ,
+                issue "10" ,
+                pages "3834-3839" ,
+                language "eng" ,
+                pubstatus ppublish ,
+                history {
+                  {
+                    pubstatus aheadofprint ,
+                    date
+                      std {
+                        year 2006 ,
+                        month 2 ,
+                        day 27 } } ,
+                  {
+                    pubstatus pubmed ,
+                    date
+                      std {
+                        year 2006 ,
+                        month 3 ,
+                        day 1 ,
+                        hour 9 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus medline ,
+                    date
+                      std {
+                        year 2006 ,
+                        month 4 ,
+                        day 18 ,
+                        hour 9 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus other ,
+                    date
+                      std {
+                        year 2006 ,
+                        month 3 ,
+                        day 1 ,
+                        hour 9 ,
+                        minute 0 } } } } } ,
+          ids {
+            pii "0508502103" ,
+            doi "10.1073/pnas.0508502103" ,
+            pubmed 16505379 ,
+            other {
+              db "pmc" ,
+              tag
+                str "PMC1383491" } } } ,
+        pmid 16505379 } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Gonzalez" ,
+                      first "Victor" ,
+                      initials "V." } } ,
+                {
+                  name
+                    name {
+                      last "Santamaria" ,
+                      first "Rosa" ,
+                      initials "R.I." } } ,
+                {
+                  name
+                    name {
+                      last "Bustos" ,
+                      first "Patricia" ,
+                      initials "P." } } ,
+                {
+                  name
+                    name {
+                      last "Hernandez-Gonzalez" ,
+                      first "Ismael" ,
+                      initials "I." } } ,
+                {
+                  name
+                    name {
+                      last "Medrano-Soto" ,
+                      first "Arturo" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Moreno-Hagelsieb" ,
+                      first "Gabriel" ,
+                      initials "G." } } ,
+                {
+                  name
+                    name {
+                      last "Chandra-Janga" ,
+                      first "Sarath" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Ramirez-Romero" ,
+                      first "Miguel" ,
+                      initials "M.A." } } ,
+                {
+                  name
+                    name {
+                      last "Collado-Vides" ,
+                      first "Julio" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Davila" ,
+                      first "Guillermo" ,
+                      initials "G." } } } ,
+            affil
+              std {
+                affil "Centro de Ciencias Genomicas, UNAM" ,
+                city "Col. Chamilpa" ,
+                sub "Cuernavaca" ,
+                country "Mexico" ,
+                street "Av. Universidad S/N" ,
+                postal-code "62210" } } ,
+          medium other ,
+          date
+            std {
+              year 2005 ,
+              month 9 ,
+              day 7 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2013 ,
+              month 2 ,
+              day 14 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA188943" } } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_042018" } ,
+        general {
+          db "REF_23S_RNA" ,
+          tag
+            str "CP000133:65215-68085" } } ,
+      descr {
+        title "Rhizobium etli 23S ribosomal RNA gene, complete sequence." ,
+        molinfo {
+          biomol genomic } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 26 } } } } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "CP000133:65215-68085" } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        create-date
+          std {
+            year 2013 ,
+            month 3 ,
+            day 25 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 2 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 2871 ,
+        seq-data
+          ncbi2na 'C2EDB0A93FAE8E5FA4E44A638286E319E60096EA89E60E27F8D4E8DD60E
+A90545F039FA837A659299660CA0C983260C83F001EF671D9C5073D949B66098652BD424FB8C2B
+3791783132AEC2098192A07804DC2C5E4A0284D05887590B2E989819A14A52E90FB8F02E819DE8
+0B9A5B2EAE1255B19B233463ED722CA9A8462035EDE04EA8851DD425C2C76E4E16326042C5B8A8
+0AE00915610AA2E03205E0168E5C404B689590AB869B17FECC3AB4187CBB042427C25ACAECA649
+8098B7812A6332FEF93C8560162E37253892BE0AFAB04507A285815937BE4323EA387EE9CAAE02
+943407680C9EBDD660373F2B226D8983155AAB2247A3A9CEA8745B7C78D70501D60C5AA2C71DA4
+84469AB9C1B5B6E00A90415C175270AD542D3A70BA80A3B8A354010528EFA7C82494D3F02026C1
+2747ADC0C2ADFE65803B06A9E094E458278A3BB24311BAC9A26F5B09E382A315B8AAD7A2B3682E
+60EF84E2C18C08AB8885776580850ABD79F02F0DE24ABC9695708629A119B2D8EA051BC33DBA97
+AEB2E1A3E442FBDEBF3E8F34A92689AF5280C9D45B3216C56016112BAD2B22CC50A67E22073BE0
+A076903E466C1F68209B8553FCA41CE3AAE91214AAB261EFCD00112A77982D90861B32ADE19795
+AE7A0AF08A22B909FE0D82552C069A5B07306B5C2B2603D7EDAB0BD6179183A6C187D567B7504C
+874B80F83D56E08E6ABD79AD21A02156E45FC7327F11E93DBB693BB28CAEB29FE09AA194BF5BA2
+535F80C515F36D3A3B7059A56D35AB5A84BB3AEACBF87AA6B65D6022C1A29998EBA9D216B680DA
+DB62E43A4C2565E1E621E10B62488602DAD32E35AEB566E82A536741A300AC65AA304A78E15508
+B53361AAFBFA45D8EDA74D935EA9E892B542AFE9EF650F026B1B89EAF481B6E212F6B573796EAE
+CA0CF84A37B572C62285A8E84CDDEBA17BED7942A4C92AC9CCCE86A3059E0A4DC26A015178018B
+BD5CD225BA086146F8CA5ABBA0B9A4193827C5AC70C9D8DA7E0'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                product
+                  whole
+                    other {
+                      accession "NR_076098" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 206 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042018" } } ,
+                    int {
+                      from 256 ,
+                      to 2870 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042018" } } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 207 ,
+                    to 255 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_042018" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_076098" } } ,
+      descr {
+        title "Rhizobium etli 23S ribosomal RNA, complete sequence." ,
+        molinfo {
+          biomol rRNA } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "Status" ,
+              data
+                str "Reviewed" } ,
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_042018" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 2822 ,
+        seq-data
+          ncbi2na 'C2EDB0A93FAE8E5FA4E44A638286E319E60096EA89E60E27F8D4E8DD60E
+A90545F039FA837A659299660CA0C983260C83F001EF5093EE30ACDE45E0C4CABB0826064A81E0
+1370B179280A1341621D642CBA62606685294BA43EE3C0BA0677A02E696CBAB84956C66C8CD18F
+B5C8B2A6A11880D7B7813AA2147750970B1DB93858C9810B16E2A02B802455842A8B80C817805A
+3971012DA25642AE1A6C5FFB30EAD061F2EC10909F096B2BB299260262DE04A98CCBFBE4F21580
+58B8DC94E24AF82BEAC1141E8A160564DEF90C8FA8E1FBA72AB80A50D01DA0327AF75980DCFCAC
+89B6260C556AAC891E8EA73AA1D16DF1E35C140758316A8B1C7692111A6AE706D6DB802A410570
+5D49C2B550B4E9C2EA028EE28D500414A3BE9F2092534FC0809B049D1EB7030AB7F99600EC1AA7
+825391609E28EEC90C46EB2689BD6C278E0A8C56E2AB5E8ACDA0B983BE138B063022AE2215DD96
+02142AF5E7C0BC37892AF25A55C218A68466CB63A8146F0CF6EA5EBACB868F910BEF7AFCFA3CD2
+A49A26BD4A0327516CC85B15805844AEB4AC8B314299F8881CEF8281DA40F919B07DA0826E154F
+F290738EABA44852AAC987BF340044A9DE60B642186CCAB7865E56B9E82BC2288AE427F8360954
+B01A696C1CC1AD70AC980F5FB6AC2F585E460E9B061F559EDD41321D2E03E0F55B8239AAF5E6B4
+8680855B917F1CC9FC47A4F6EDA4EECA32BACA7F826A8652FD6E894D7E031457CDB4E8EDC16695
+B4D6AD6A12ECEBAB2FE1EA9AD975808B068A6663AEA7485ADA036B6D8B90E9309597879887842D
+8922180B6B4CB8D6BAD59BA0A94D9D068C02B196A8C129E3855422D4CD86ABEFE91763B69D364D
+7AA7A24AD50ABFA7BD943C09AC6E27ABD206DB884BDAD5CDE5BABB2833E128DED5CB188A16A3A1
+3377AE85EFB5E50A9324AB27333A1A8C1678293709A80545E0062EF5734896E821851BE3296AEE
+82E69064E09F16B1C3276369F80'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                location
+                  int {
+                    from 0 ,
+                    to 2821 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_076098" } } } } } } } } }

@@ -1,0 +1,645 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Sinorhizobium meliloti" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 382 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Sinorhizobium" ,
+              species "meliloti" } ,
+          mod {
+            {
+              subtype strain ,
+              subname "1021" } ,
+            {
+              subtype gb-synonym ,
+              subname "Rhizobium meliloti" } } ,
+          lineage "Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales;
+ Rhizobiaceae; Sinorhizobium/Ensifer group; Sinorhizobium" ,
+          gcode 11 ,
+          div "BCT" } } } ,
+    pub {
+      pub {
+        pmid 11481430 ,
+        article {
+          title {
+            name "Analysis of the chromosome sequence of the legume symbiont
+ Sinorhizobium meliloti strain 1021." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Capela" ,
+                      initials "D." } ,
+                  affil
+                    str "Laboratoire de Biologie Moleculaire des Relations
+ Plantes-Microorganismes, Unite Mixte de Recherche (UMR) 215 Centre National
+ de la Recherche Scientifique (CNRS), Institut National de la Recherche
+ Agronomique, Castanet Tolosan Cedex, France." } ,
+                {
+                  name
+                    name {
+                      last "Barloy-Hubler" ,
+                      initials "F." } } ,
+                {
+                  name
+                    name {
+                      last "Gouzy" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Bothe" ,
+                      initials "G." } } ,
+                {
+                  name
+                    name {
+                      last "Ampe" ,
+                      initials "F." } } ,
+                {
+                  name
+                    name {
+                      last "Batut" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Boistard" ,
+                      initials "P." } } ,
+                {
+                  name
+                    name {
+                      last "Becker" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Boutry" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Cadieu" ,
+                      initials "E." } } ,
+                {
+                  name
+                    name {
+                      last "Dreano" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Gloux" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Godrie" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Goffeau" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Kahn" ,
+                      initials "D." } } ,
+                {
+                  name
+                    name {
+                      last "Kiss" ,
+                      initials "E." } } ,
+                {
+                  name
+                    name {
+                      last "Lelaure" ,
+                      initials "V." } } ,
+                {
+                  name
+                    name {
+                      last "Masuy" ,
+                      initials "D." } } ,
+                {
+                  name
+                    name {
+                      last "Pohl" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Portetelle" ,
+                      initials "D." } } ,
+                {
+                  name
+                    name {
+                      last "Puhler" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Purnelle" ,
+                      initials "B." } } ,
+                {
+                  name
+                    name {
+                      last "Ramsperger" ,
+                      initials "U." } } ,
+                {
+                  name
+                    name {
+                      last "Renard" ,
+                      initials "C." } } ,
+                {
+                  name
+                    name {
+                      last "Thebault" ,
+                      initials "P." } } ,
+                {
+                  name
+                    name {
+                      last "Vandenbol" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Weidner" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Galibert" ,
+                      initials "F." } } } } ,
+          from
+            journal {
+              title {
+                iso-jta "Proc. Natl. Acad. Sci. U.S.A." ,
+                ml-jta "Proc Natl Acad Sci U S A" ,
+                issn "0027-8424" ,
+                name "Proceedings of the National Academy of Sciences of the
+ United States of America" } ,
+              imp {
+                date
+                  std {
+                    year 2001 ,
+                    month 8 ,
+                    day 14 } ,
+                volume "98" ,
+                issue "17" ,
+                pages "9877-9882" ,
+                language "eng" ,
+                pubstatus ppublish ,
+                history {
+                  {
+                    pubstatus pubmed ,
+                    date
+                      std {
+                        year 2001 ,
+                        month 8 ,
+                        day 2 ,
+                        hour 10 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus medline ,
+                    date
+                      std {
+                        year 2001 ,
+                        month 9 ,
+                        day 21 ,
+                        hour 10 ,
+                        minute 1 } } ,
+                  {
+                    pubstatus aheadofprint ,
+                    date
+                      std {
+                        year 2001 ,
+                        month 7 ,
+                        day 31 } } ,
+                  {
+                    pubstatus other ,
+                    date
+                      std {
+                        year 2001 ,
+                        month 8 ,
+                        day 2 ,
+                        hour 10 ,
+                        minute 0 } } } } } ,
+          ids {
+            pubmed 11481430 ,
+            doi "10.1073/pnas.161294398" ,
+            pii "161294398" ,
+            other {
+              db "pmc" ,
+              tag
+                str "PMC55546" } } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "MELILO EU Consortium" } ,
+                {
+                  name
+                    name {
+                      last "Gouzy" ,
+                      initials "J." } } } ,
+            affil
+              str "Gouzy J., Submitted on behalf of the MELILO EU Consortium" } ,
+          medium other ,
+          date
+            std {
+              year 2001 ,
+              month 7 ,
+              day 26 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2013 ,
+              month 2 ,
+              day 14 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA188943" } } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_042026" } ,
+        general {
+          db "REF_23S_RNA" ,
+          tag
+            str "AL591688:84409-87260" } } ,
+      descr {
+        title "Sinorhizobium meliloti 23S ribosomal RNA gene, complete
+ sequence." ,
+        molinfo {
+          biomol genomic } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 26 } } } } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "AL591688:84409-87260" } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        embl {
+          div pro ,
+          creation-date
+            std {
+              year 2002 ,
+              month 7 ,
+              day 18 } ,
+          update-date
+            std {
+              year 2008 ,
+              month 5 ,
+              day 6 } ,
+          xref {
+            {
+              dbname
+                name "GOA" ,
+              id {
+                str "P18854" } } ,
+            {
+              dbname
+                name "GR" ,
+              id {
+                str "AL591688_GR" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00001" ,
+                str "5S_rRNA" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00005" ,
+                str "tRNA" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00010" ,
+                str "RNaseP_bact_a" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00013" ,
+                str "6S" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00050" ,
+                str "FMN" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00059" ,
+                str "TPP" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00169" ,
+                str "SRP_bact" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00174" ,
+                str "Cobalamin" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00177" ,
+                str "SSU_rRNA_5" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00504" ,
+                str "Glycine" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00517" ,
+                str "serC" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00518" ,
+                str "speF" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00519" ,
+                str "suhB" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00520" ,
+                str "ybhL" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00521" ,
+                str "SAM_alpha" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF01086" ,
+                str "LR-PK1" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF01118" ,
+                str "PK-G12rRNA" } } ,
+            {
+              dbname
+                name "SILVA-LSU" ,
+              id {
+                str "AL591688" } } ,
+            {
+              dbname
+                name "SILVA-SSU" ,
+              id {
+                str "AL591688" } } ,
+            {
+              dbname
+                name "StrainInfo" ,
+              id {
+                str "115196" ,
+                str "0" } } ,
+            {
+              dbname
+                name "UniProtKB/Swiss-Prot" ,
+              id {
+                str "P18854" ,
+                str "LPW_RHIME" } } } } ,
+        create-date
+          std {
+            year 2013 ,
+            month 3 ,
+            day 25 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 2 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 2852 ,
+        seq-data
+          ncbi2na '42E020A93FAE8E5FA4E44A638286E319E60096EA89E60E27F8D4E8DD60E
+A90545F239FA00D3FEBE937AD5825B0A7D90A52296D96BCD69B420140BAFD424FBE02B37CF7831
+32A30826064A81E01370B179280A1341621D642CBA62606685294BA438A0C0BA0637A02F696C9A
+B8C956C46C811D3ED7E2C29A846E035EDE04EA8851DD425C2C76E4E16326042C5B8A80AE009156
+10AA2E03205E0168E5C404B689590AB869B17FECC3AB4187CBBA4E427C25ACAE8A6C98098B7812
+A67F2CED93C8560162E37253892BE0AFAB04507A285815937BE4323EA387EE9CAAE02943407680
+C9EBDD660073F2B2E6D858315DAAB2247A3A9CEA8745B7C78D70501D60C58A2C72DA484469AB9C
+1B5B6E00A90415E175270AD542D3A70BA80A3B8A354010528EFA7C82494D3F02026C12747ADC0C
+2ADFE65803B06A9E094E458278A31B6C21BBAC9A26F5B094B82A315B8AAD7A2B3682E60EF84E2C
+18C08AB8885776580850ABD79F02F0DE24ABC9695708629A119B2D8EA051BC33DBA97AEB2E1A3E
+741FB5A1F3E8FB5A9AA19AF5280C9D45B3216C56016112BAD2B22CC50A67E22073BE0A076903E4
+66C1F68209B857FDC642CA3AAE91214AAB261EFCD00112A77982D90861B32ADE19795AE7A0AF08
+A2AB909DE0D82552C069A5B07306B5C2B2603D7EDAB0BD6179183A6C187D567B7504C874B80F83
+D56E08E6ABD79AD21A02156E45FC7327F11E93DBB693BB28CAEB29FE09AA194BDDBA2535F80C51
+5F36D3A3B7059AD6D35A35A84BB3AEACBF87AA6B65D6022C1A29998EBA9D226B680D9DB62E43A4
+C2565E1E621E10B62488602DAD32E35AEB566E82A536741A300AC65AA304A78E15508B53361AAF
+BFA45D8EDA74D935EA9E892B542AFE9EF650F026B1B89EAF481B6E212F6B573796EAECA0CF84A3
+7B572C62285A8E84CDDEBA17BED7942A4C92AC9CCCE82A3059E0A4DC26A015178018B3D5F8816E
+821851BE3296AEE82E69064E09F16B1C36F63E9F8'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                product
+                  whole
+                    other {
+                      accession "NR_076086" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 165 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042026" } } ,
+                    int {
+                      from 204 ,
+                      to 2851 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042026" } } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 166 ,
+                    to 203 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_042026" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_076086" } } ,
+      descr {
+        title "Sinorhizobium meliloti 23S ribosomal RNA, complete sequence." ,
+        molinfo {
+          biomol rRNA } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_042026" } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "PROVISIONAL" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 2814 ,
+        seq-data
+          ncbi2na '42E020A93FAE8E5FA4E44A638286E319E60096EA89E60E27F8D4E8DD60E
+A90545F239FA00D3FEBE937A96BCD69B420140BAFD424FBE02B37CF783132A30826064A81E0137
+0B179280A1341621D642CBA62606685294BA438A0C0BA0637A02F696C9AB8C956C46C811D3ED7E
+2C29A846E035EDE04EA8851DD425C2C76E4E16326042C5B8A80AE00915610AA2E03205E0168E5C
+404B689590AB869B17FECC3AB4187CBBA4E427C25ACAE8A6C98098B7812A67F2CED93C8560162E
+37253892BE0AFAB04507A285815937BE4323EA387EE9CAAE02943407680C9EBDD660073F2B2E6D
+858315DAAB2247A3A9CEA8745B7C78D70501D60C58A2C72DA484469AB9C1B5B6E00A90415E1752
+70AD542D3A70BA80A3B8A354010528EFA7C82494D3F02026C12747ADC0C2ADFE65803B06A9E094
+E458278A31B6C21BBAC9A26F5B094B82A315B8AAD7A2B3682E60EF84E2C18C08AB888577658085
+0ABD79F02F0DE24ABC9695708629A119B2D8EA051BC33DBA97AEB2E1A3E741FB5A1F3E8FB5A9AA
+19AF5280C9D45B3216C56016112BAD2B22CC50A67E22073BE0A076903E466C1F68209B857FDC64
+2CA3AAE91214AAB261EFCD00112A77982D90861B32ADE19795AE7A0AF08A2AB909DE0D82552C06
+9A5B07306B5C2B2603D7EDAB0BD6179183A6C187D567B7504C874B80F83D56E08E6ABD79AD21A0
+2156E45FC7327F11E93DBB693BB28CAEB29FE09AA194BDDBA2535F80C515F36D3A3B7059AD6D35
+A35A84BB3AEACBF87AA6B65D6022C1A29998EBA9D226B680D9DB62E43A4C2565E1E621E10B6248
+8602DAD32E35AEB566E82A536741A300AC65AA304A78E15508B53361AAFBFA45D8EDA74D935EA9
+E892B542AFE9EF650F026B1B89EAF481B6E212F6B573796EAECA0CF84A37B572C62285A8E84CDD
+EBA17BED7942A4C92AC9CCCE82A3059E0A4DC26A015178018B3D5F8816E821851BE3296AEE82E6
+9064E09F16B1C36F63E9F80'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                location
+                  int {
+                    from 0 ,
+                    to 2813 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_076086" } } } } } } } } }

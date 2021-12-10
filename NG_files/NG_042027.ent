@@ -1,0 +1,459 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Salmonella enterica subsp. enterica serovar Choleraesuis" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 119912 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Salmonella" ,
+              species "enterica" ,
+              subspecies "enterica" } ,
+          attrib "nomodforward" ,
+          mod {
+            {
+              subtype strain ,
+              subname "SC-B67" } ,
+            {
+              subtype serovar ,
+              subname "Choleraesuis" } ,
+            {
+              subtype sub-species ,
+              subname "enterica" } } ,
+          lineage "Bacteria; Proteobacteria; Gammaproteobacteria;
+ Enterobacteriales; Enterobacteriaceae; Salmonella" ,
+          gcode 11 ,
+          div "BCT" } } } ,
+    pub {
+      pub {
+        article {
+          title {
+            name "The genome sequence of Salmonella enterica serovar
+ Choleraesuis, a highly invasive and resistant zoonotic pathogen." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Chiu" ,
+                      initials "C.H." } ,
+                  affil
+                    str "Department of Pediatrics, Chang Gung Children's
+ Hospital Taoyuan, Taiwan. chchiu@adm.cgmh.org.tw" } ,
+                {
+                  name
+                    name {
+                      last "Tang" ,
+                      initials "P." } } ,
+                {
+                  name
+                    name {
+                      last "Chu" ,
+                      initials "C." } } ,
+                {
+                  name
+                    name {
+                      last "Hu" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Bao" ,
+                      initials "Q." } } ,
+                {
+                  name
+                    name {
+                      last "Yu" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Chou" ,
+                      initials "Y.Y." } } ,
+                {
+                  name
+                    name {
+                      last "Wang" ,
+                      initials "H.S." } } ,
+                {
+                  name
+                    name {
+                      last "Lee" ,
+                      initials "Y.S." } } } } ,
+          from
+            journal {
+              title {
+                iso-jta "Nucleic Acids Res." ,
+                ml-jta "Nucleic Acids Res" ,
+                issn "1362-4962" ,
+                name "Nucleic acids research" } ,
+              imp {
+                date
+                  std {
+                    year 2005 ,
+                    month 3 ,
+                    day 21 } ,
+                volume "33" ,
+                issue "5" ,
+                pages "1690-1698" ,
+                language "eng" ,
+                retract {
+                  type in-error ,
+                  exp "Nucleic Acids Res. 2005;33(7):2351" } ,
+                pubstatus epublish ,
+                history {
+                  {
+                    pubstatus ppublish ,
+                    date
+                      str "2005" } ,
+                  {
+                    pubstatus pubmed ,
+                    date
+                      std {
+                        year 2005 ,
+                        month 3 ,
+                        day 23 ,
+                        hour 9 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus medline ,
+                    date
+                      std {
+                        year 2005 ,
+                        month 3 ,
+                        day 29 ,
+                        hour 9 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus other ,
+                    date
+                      std {
+                        year 2005 ,
+                        month 3 ,
+                        day 23 ,
+                        hour 9 ,
+                        minute 0 } } } } } ,
+          ids {
+            pii "33/5/1690" ,
+            doi "10.1093/nar/gki297" ,
+            pubmed 15781495 ,
+            other {
+              db "pmc" ,
+              tag
+                str "PMC1069006" } } } ,
+        pmid 15781495 } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Chiu" ,
+                      first "Cheng-Hsun" ,
+                      initials "C.-H." } } ,
+                {
+                  name
+                    name {
+                      last "Tang" ,
+                      first "Petrus" ,
+                      initials "P." } } ,
+                {
+                  name
+                    name {
+                      last "Chu" ,
+                      first "Chishih" ,
+                      initials "C." } } ,
+                {
+                  name
+                    name {
+                      last "Bao" ,
+                      first "Qiyu" ,
+                      initials "Q." } } ,
+                {
+                  name
+                    name {
+                      last "Hu" ,
+                      first "Songnian" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Yu" ,
+                      first "Jun" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Chou" ,
+                      first "Yun-Ying" ,
+                      initials "Y.-Y." } } ,
+                {
+                  name
+                    name {
+                      last "Wang" ,
+                      first "Hsin-Shih" ,
+                      initials "H.-S." } } ,
+                {
+                  name
+                    name {
+                      last "Lee" ,
+                      first "Ying-Shiung" ,
+                      initials "Y.-S." } } } ,
+            affil
+              std {
+                affil "Chang Gung Genomic Medical Center" ,
+                city "Taoyuan" ,
+                country "Taiwan" ,
+                street "No. 5, Fu-Shing St., Kweishan" ,
+                postal-code "333" } } ,
+          medium other ,
+          date
+            std {
+              year 2004 ,
+              month 9 ,
+              day 3 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2013 ,
+              month 2 ,
+              day 14 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA188943" } } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_042027" } ,
+        general {
+          db "REF_23S_RNA" ,
+          tag
+            str "AE017220:287227-290227" } } ,
+      descr {
+        title "Salmonella enterica subsp. enterica serovar Choleraesuis 23S
+ ribosomal RNA gene, complete sequence." ,
+        molinfo {
+          biomol genomic } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 26 } } } } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "AE017220:287227-290227" } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        create-date
+          std {
+            year 2013 ,
+            month 3 ,
+            day 25 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 2 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 3001 ,
+        seq-data
+          ncbi2na 'C261C26C46BA395E92D2298E0A9B9C3798C265AC2B8CE05BCC1698C560E
+A8054BB876D11CD3C1E0D4CAF0E29816AA07804DC2C558A0080D0588F554B2698981AA2895225E
+0D24EEEF2E826DE80A666312AE1255B1100993B9EE27638B2A6A11BACD7B7833AAA14D750A7031
+D787858CB814B16E2A029802055A62A8B800817805BB1B1092EA255145024F77AEF8295E40924D
+9AE9A26DBF9865411100426B8B9FEABAAE1E6C5FFB30EAD261F33DEC90AF05B32A896CA8058B7C
+16A6F0BE4AB32158056B8DC94EA4AF82BEAC11C1E8A1605870EF800F268E17BA7AAB80A50D016A
+2327AF755809CFCAC9976E0F4DD6AAC891EFDA72AA53569F14158E40798316883BCD1A884469AB
+9C1B5B6E08A804152165270AD502D3AF0BA8063BA8295212528EFA7C82494D3F02026C32747AD8
+B69799A08EC1AA7014E458279A498678E6FBEACAA26F7B097B82BA5EE2AF9E8ACD20B9839E130B
+063026AE00959D9682142AF5ED41BC36A92AE2D855C298A580A6CB63A806AF0CF56C7EBBC7982A
+A868829CEFA5A986BED5AFC26ECAEEEF52B035AF47F0478A6E386291C6B9E09040E579F528025D
+C24D2B04D036C55016112BAD2B220C50A67E22076AE0A072900EB96C1F6A20A467846CAE0B8FC7
+4E89E0B4B608C527A7907BF3C004491EE404602E86CC6BB865E56B9682BC3E3AAD2642609D78D8
+255AC069A5B07306B5C2B2603D7EDAB0BD6179183A6C38E94A7B75158874B80F81D9EE08E4BB15
+9A421A02156E05FC7327E11E04F897E3BB28CAEA29FE09BA194B793A25A5F80C515FC3BF8EF706
+E856E35ABE684BB7AEACBF87AA6B75D7022C1A289182BE9C35EB684D28AF2E43A4C2527E1E626E
+1A6624AE6024AD32E35AEBDE0E82A536741A300AC75AA304A78C59508BD3361A6BBFA45D8EDA74
+D135EA9E0B2B542ACE9EF653F02EB1989EAFC81B6E212F6B573796EA67A2078AAA79D72C62285A
+2E864D1EBBDABED3943A4795AC9C0E682230B9E024DC24601F956238BDD5E21F22DD78281BE086
+186F8CA5ABBB0992639BE2705AC70E05B8A7C00'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                product
+                  whole
+                    other {
+                      accession "NR_076085" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 554 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042027" } } ,
+                    int {
+                      from 616 ,
+                      to 3000 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042027" } } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 555 ,
+                    to 615 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_042027" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_076085" } } ,
+      descr {
+        title "Salmonella enterica subsp. enterica serovar Choleraesuis 23S
+ ribosomal RNA, complete sequence." ,
+        molinfo {
+          biomol rRNA } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "Status" ,
+              data
+                str "Reviewed" } ,
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_042027" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 2940 ,
+        seq-data
+          ncbi2na 'C261C26C46BA395E92D2298E0A9B9C3798C265AC2B8CE05BCC1698C560E
+A8054BB876D11CD3C1E0D4CAF0E29816AA07804DC2C558A0080D0588F554B2698981AA2895225E
+0D24EEEF2E826DE80A666312AE1255B1100993B9EE27638B2A6A11BACD7B7833AAA14D750A7031
+D787858CB814B16E2A029802055A62A8B800817805BB1B1092EA255145024F44440109AE2E7FAA
+EAB879B17FECC3AB4987CCF7B242BC16CCAA25B2A0162DF05A9BC2F92ACC856015AE37253A92BE
+0AFAB04707A2858161C3BE003C9A385EE9EAAE02943405A88C9EBDD560273F2B265DB83D375AAB
+2247BF69CAA94D5A7C50563901E60C5A20EF346A2111A6AE706D6DB822A0105485949C2B540B4E
+BC2EA018EEA0A548494A3BE9F2092534FC0809B0C9D1EB62DA5E66823B06A9C05391609E692619
+E39BEFAB2A89BDEC25EE0AE97B8ABE7A2B3482E60E784C2C18C09AB80256765A0850ABD7B506F0
+DAA4AB8B61570A6296029B2D8EA01ABC33D5B1FAEF1E60AAA1A20A73BE96A61AFB56BF09BB2BBB
+BD4AC0D6BD1FC11E29B8E18A471AE782410395E7D4A009770934AC1340DB15405844AEB4AC8831
+4299F8881DAB8281CA403AE5B07DA882919E11B2B82E3F1D3A2782D2D823149E9E41EFCF001124
+7B901180BA1B31AEE19795AE5A0AF0F8EAB499098275E360956B01A696C1CC1AD70AC980F5FB6A
+C2F585E460E9B0E3A529EDD45621D2E03E0767B82392EC566908680855B817F1CC9F847813E25F
+8EECA32BA8A7F826E8652DE4E89697E031457F0EFE3BDC1BA15B8D6AF9A12EDEBAB2FE1EA9ADD7
+5C08B068A2460AFA70D7ADA134A2BCB90E930949F87989B8699892B98092B4CB8D6BAF783A0A94
+D9D068C02B1D6A8C129E3165422F4CD869AEFE91763B69D344D7AA782CAD50AB3A7BD94FC0BAC6
+627ABF206DB884BDAD5CDE5BA99E881E2AA9E75CB188A168BA19347AEF6AFB4E50E91E56B27039
+A088C2E780937091807E5588E2F757887C8B75E0A06F821861BE3296AEEC26498E6F89C16B1C38
+16E29F0'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                location
+                  int {
+                    from 0 ,
+                    to 2939 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_076085" } } } } } } } } }

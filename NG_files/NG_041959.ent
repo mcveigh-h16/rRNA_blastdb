@@ -1,0 +1,424 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Caedibacter caryophilus" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 28906 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Caedibacter" ,
+              species "caryophilus" } ,
+          mod {
+            {
+              subtype strain ,
+              subname "221" } ,
+            {
+              subtype nat-host ,
+              subname "Paramecium caudatum C221 ATCC 50168" } } ,
+          lineage "Bacteria; Proteobacteria; Alphaproteobacteria;
+ Rickettsiales; Caedibacter" ,
+          gcode 11 ,
+          div "BCT" } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Ludwig" ,
+                      initials "W." } } } ,
+            affil
+              str "W. Ludwig, Lehrst. f. Mikrobiologie TU Muenchen, Arcisstr.
+ 21, 8000 Muenchen 2, FRG" } ,
+          medium other ,
+          date
+            std {
+              year 1993 ,
+              month 5 ,
+              day 5 } } } } ,
+    pub {
+      pub {
+        pmid 8234331 ,
+        article {
+          title {
+            name "Occurrence of fragmented 16S rRNA in an obligate bacterial
+ endosymbiont of Paramecium caudatum." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Springer" ,
+                      initials "N." } ,
+                  affil
+                    str "Lehrstuhl fur Mikrobiologie, Technische Universitat,
+ Munich, Federal Republic of Germany." } ,
+                {
+                  name
+                    name {
+                      last "Ludwig" ,
+                      initials "W." } } ,
+                {
+                  name
+                    name {
+                      last "Amann" ,
+                      initials "R." } } ,
+                {
+                  name
+                    name {
+                      last "Schmidt" ,
+                      initials "H.J." } } ,
+                {
+                  name
+                    name {
+                      last "Gortz" ,
+                      initials "H.D." } } ,
+                {
+                  name
+                    name {
+                      last "Schleifer" ,
+                      initials "K.H." } } } } ,
+          from
+            journal {
+              title {
+                iso-jta "Proc. Natl. Acad. Sci. U.S.A." ,
+                ml-jta "Proc Natl Acad Sci U S A" ,
+                issn "0027-8424" ,
+                name "Proceedings of the National Academy of Sciences of the
+ United States of America" } ,
+              imp {
+                date
+                  std {
+                    year 1993 ,
+                    month 11 ,
+                    day 1 } ,
+                volume "90" ,
+                issue "21" ,
+                pages "9892-9895" ,
+                language "eng" ,
+                pubstatus ppublish ,
+                history {
+                  {
+                    pubstatus pubmed ,
+                    date
+                      std {
+                        year 1993 ,
+                        month 11 ,
+                        day 1 } } ,
+                  {
+                    pubstatus medline ,
+                    date
+                      std {
+                        year 1993 ,
+                        month 11 ,
+                        day 1 ,
+                        hour 0 ,
+                        minute 1 } } ,
+                  {
+                    pubstatus other ,
+                    date
+                      std {
+                        year 1993 ,
+                        month 11 ,
+                        day 1 ,
+                        hour 0 ,
+                        minute 0 } } } } } ,
+          ids {
+            pubmed 8234331 ,
+            other {
+              db "pmc" ,
+              tag
+                str "PMC47678" } } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2011 ,
+              month 8 ,
+              day 8 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA33175" } } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_041959" } ,
+        general {
+          db "REF_16S_RNA" ,
+          tag
+            str "X71837:1-1692" } } ,
+      descr {
+        title "Caedibacter caryophilus strain 221 16S ribosomal RNA gene,
+ partial sequence." ,
+        molinfo {
+          biomol genomic } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 26 } } } } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "accession" ,
+                          data
+                            str "X71837" } ,
+                        {
+                          label
+                            str "gi" ,
+                          data
+                            int 436063 } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        embl {
+          div pro ,
+          creation-date
+            std {
+              year 1993 ,
+              month 12 ,
+              day 20 } ,
+          update-date
+            std {
+              year 1999 ,
+              month 5 ,
+              day 20 } ,
+          xref {
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00177" ,
+                str "SSU_rRNA_5" } } ,
+            {
+              dbname
+                name "SILVA-SSU" ,
+              id {
+                str "X71837" } } ,
+            {
+              dbname
+                name "StrainInfo" ,
+              id {
+                str "278108" ,
+                str "0" } } } } ,
+        create-date
+          std {
+            year 2011 ,
+            month 8 ,
+            day 10 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 2 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 1692 ,
+        seq-data
+          ncbi4na '1414888418FF84428214112411242844244212422811212184211482411
+241444218828882444418488228148442441244484148112424844411828422841814844444181
+128488441112412142811812242181242844141481411114141142144111441114481224144411
+182888844818882848888284188444841144111444228841111228888248888228211414141148
+844411144484821188288822441888288284444414144888841111228882842188488828888882
+822828221441114188818242818214184142224248214188144814884484144811144282122114
+221184182848142844828414144184122142212128444128414121244222141282281244414421
+421484444118188441211844444211222841822142418422424841184114114422881444884811
+148828882122248412418118412448142444141141142222442811282248422142142242448114
+124414444428142488488244118412844424811144424848144284884182114821142484111422
+824442881122241411284248884181284488412884144124141414411148441188224148481414
+484111882481418188244144112182141442411442442888284428248182841242841442424111
+424844441421112144188141812228448148221242848111241841484281412488444444882222
+882148482421428112421881142128224228444414812448242114188111128211144118841244
+444222421211424484414218484488811882411421124242141122881221428288412184444188
+184414144141418828882288214882442844182224212144842842184428482482142824848248
+414184884448811482224211241424211222821888881488422182144888442844481282811141
+112842244841811122441441144844441841248211482282184422288184442844428121212484
+281211844244841214141441421114444241228441424118288811114224828214882441884212
+828421128241484218411488441182428148118242441821421842242448411812488212444228
+848121212242224821812218444148841882112288114424484142811224111444142142241221
+2448444482118412844448111482481121144814224814444112284244284418212282288'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "16S ribosomal RNA" } ,
+                partial TRUE ,
+                product
+                  whole
+                    other {
+                      accession "NR_044847" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 176 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041959" } ,
+                      fuzz-from
+                        lim lt } ,
+                    int {
+                      from 372 ,
+                      to 1691 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041959" } ,
+                      fuzz-to
+                        lim gt } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 177 ,
+                    to 371 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_041959" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_044847" } } ,
+      descr {
+        title "Caedibacter caryophilus strain 221 16S ribosomal RNA, partial
+ sequence." ,
+        molinfo {
+          biomol rRNA ,
+          completeness no-ends } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "Status" ,
+              data
+                str "Reviewed" } ,
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_041959" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 1497 ,
+        seq-data
+          ncbi4na '1414888418FF84428214112411242844244212422811212184211482411
+241444218828882444418488228148442441244484148112424844411828422841814844444181
+128488441112412142811812242181242844141422828221441114188818242818214184142224
+248214188144814884484144811144282122114221184182848142844828414144184122142212
+128444128414121244222141282281244414421421484444118188441211844444211222841822
+142418422424841184114114422881444884811148828882122248412418118412448142444141
+141142222442811282248422142142242448114124414444428142488488244118412844424811
+144424848144284884182114821142484111422824442881122241411284248884181284488412
+884144124141414411148441188224148481414484111882481418188244144112182141442411
+442442888284428248182841242841442424111424844441421112144188141812228448148221
+242848111241841484281412488444444882222882148482421428112421881142128224228444
+414812448242114188111128211144118841244444222421211424484414218484488811882411
+421124242141122881221428288412184444188184414144141418828882288214882442844182
+224212144842842184428482482142824848248414184884448811482224211241424211222821
+888881488422182144888442844481282811141112842244841811122441441144844441841248
+211482282184422288184442844428121212484281211844244841214141441421114444241228
+441424118288811114224828214882441884212828421128241484218411488441182428148118
+242441821421842242448411812488212444228848121212242224821812218444148841882112
+288114424484142811224111444142142241221244844448211841284444811148248112114481
+42248144441122842442844182122822880'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "16S ribosomal RNA" } ,
+                partial TRUE ,
+                location
+                  int {
+                    from 0 ,
+                    to 1496 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_044847" } ,
+                    fuzz-from
+                      lim lt ,
+                    fuzz-to
+                      lim gt } } } } } } } }

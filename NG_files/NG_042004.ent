@@ -1,0 +1,446 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Brucella canis" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 36855 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Brucella" ,
+              species "canis" } ,
+          attrib "nomodforward" ,
+          mod {
+            {
+              subtype strain ,
+              subname "ATCC 23365" } ,
+            {
+              subtype gb-synonym ,
+              subname "Brucella melitensis biovar Canis" } ,
+            {
+              subtype culture-collection ,
+              subname "ATCC:23365" } } ,
+          lineage "Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales;
+ Brucellaceae; Brucella" ,
+          gcode 11 ,
+          div "BCT" } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Setubal" ,
+                      first "Joao" ,
+                      initials "J.C." } } ,
+                {
+                  name
+                    name {
+                      last "Bowns" ,
+                      first "Christopher" ,
+                      initials "C." } } ,
+                {
+                  name
+                    name {
+                      last "Boyle" ,
+                      first "Stephen" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Crasta" ,
+                      first "Oswald" ,
+                      initials "O.R." } } ,
+                {
+                  name
+                    name {
+                      last "Czar" ,
+                      first "Michael" ,
+                      initials "M.J." } } ,
+                {
+                  name
+                    name {
+                      last "Dharmanolla" ,
+                      first "Chitti" ,
+                      initials "C." } } ,
+                {
+                  name
+                    name {
+                      last "Gillespie" ,
+                      first "Joseph" ,
+                      initials "J.J." } } ,
+                {
+                  name
+                    name {
+                      last "Kenyon" ,
+                      first "Ron" ,
+                      initials "R.W." } } ,
+                {
+                  name
+                    name {
+                      last "Lu" ,
+                      first "Jian" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Mane" ,
+                      first "Shrinivasrao" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Mohapatra" ,
+                      first "Saroj" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Nagrani" ,
+                      first "Sohan" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Purkayastha" ,
+                      first "Anjan" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Rajasimha" ,
+                      first "Harsha" ,
+                      initials "H.K." } } ,
+                {
+                  name
+                    name {
+                      last "Shallom" ,
+                      first "Joshua" ,
+                      initials "J.M." } } ,
+                {
+                  name
+                    name {
+                      last "Shallom" ,
+                      first "Shamira" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Shukla" ,
+                      first "Maulik" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Snyder" ,
+                      first "Eric" ,
+                      initials "E.E." } } ,
+                {
+                  name
+                    name {
+                      last "Sobral" ,
+                      first "Bruno" ,
+                      initials "B.W." } } ,
+                {
+                  name
+                    name {
+                      last "Wattam" ,
+                      first "A Rebecca" ,
+                      initials "A.R." } } ,
+                {
+                  name
+                    name {
+                      last "Will" ,
+                      first "Rebecca" ,
+                      initials "R." } } ,
+                {
+                  name
+                    name {
+                      last "Williams" ,
+                      first "Kelly" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Yoo" ,
+                      first "Hyunseung" ,
+                      initials "H." } } ,
+                {
+                  name
+                    name {
+                      last "Bruce" ,
+                      first "David" ,
+                      initials "D." } } ,
+                {
+                  name
+                    name {
+                      last "Detter" ,
+                      first "Chris" ,
+                      initials "C." } } ,
+                {
+                  name
+                    name {
+                      last "Munk" ,
+                      first "Chris" ,
+                      initials "C." } } ,
+                {
+                  name
+                    name {
+                      last "Brettin" ,
+                      first "Thomas" ,
+                      initials "T.S." } } } ,
+            affil
+              std {
+                affil "Virginia Bioinformatics Institute at Virginia
+ Polytechnic Institute and State University" ,
+                div "The Pathosystems Resource Integration Center (PATRIC)" ,
+                city "Blacksburg" ,
+                sub "VA" ,
+                country "USA" ,
+                street "Bioinformatics I, Washington Street" ,
+                postal-code "24061" } } ,
+          medium other ,
+          date
+            std {
+              year 2007 ,
+              month 10 ,
+              day 16 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2013 ,
+              month 2 ,
+              day 14 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA188943" } } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_042004" } ,
+        general {
+          db "REF_23S_RNA" ,
+          tag
+            str "CP000872:1583760-1586663" } } ,
+      descr {
+        title "Brucella canis 23S ribosomal RNA gene, complete sequence." ,
+        molinfo {
+          biomol genomic } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 26 } } } } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "CP000872:1583760-1586663" } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        create-date
+          std {
+            year 2013 ,
+            month 3 ,
+            day 25 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 2 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 2904 ,
+        seq-data
+          ncbi2na '42EDF0A93FAE8E5FA4E44A638286E319E6309B6A8AE60C57F8D618FD60E
+A90545F2387200DEFFBE89067A3ABF1153121672B6DA54EEA59559A26524F5DE839B1A66E26204
+9127F72D34C0C2B3705F83132ABC82605EA81E01370B152280A1340621D672CBA62606685294BA
+7FEE0C0BA062FA0076160BAB8CB56C46C832482D7E2CA9A846E035EDE04EAD8518D425C2C76E4E
+16326052C5B8A80AE00915618AA2E012C5E0168E5C404BE8950AFED7AB849B17FECC3AB4987CBB
+362427C25ACAECA6498098B7812A6F4BD8E4F2158050B8DC94E24AF82B1AC11B1E8A16054CDEF9
+0C8DA8E1FBA72AB80A50D01FA2327AF75980DCFCAC89B6160C556AAC891E8EA73AA1D16DF1E35C
+140758316A8B1C3692111A6AE706D6DBA22A410578514DC2B570BCE9C2EA028EE28D500414A3BE
+9F2092534FC0809B049D1EB7030AB7F99600EC5AA7425311609EE8E46CEE6EB2689BD6C25EE0A8
+4B6E2135E8ACDA0B8839E138B06302A2E221D5D9602D42AF5E7C0BC37892AF25A55C298A580A6C
+B63A8146F0CF6EA5E4ACB868D9BBBEE2B7CFA3E37E49826BD4A03275E4CC85B15C05847AE87AC8
+8314299F8881E6F8281DA403919B07DA0826E17473A90532AABA44852AAC987BF140044A9DE60B
+642186CCAB7865E56B9E82BC2288AE425F83E0954B01A696C1CC1AD70AC980F5FB6AC2F585E460
+E9B061F559EDD41921D2E03E0F55B8239AAF5E6BC8680855B917F1CC9FC47A4F6E184EECA32BAC
+87F824AA6525FEE8B457E031457EFFCE8EDC1E695BCD6AD4A16ECEBAB2FE1EA9AD975C08B068A6
+663ACA7481ADA036F6D8B90E9309797879087842D8922180B6B4CB8D6BAD59BA0A94D9D068C02B
+196A8C129E3855422D4CD86ABEFE91763B61D364D7AA7A24AD50AB3A7BD94FC09AC6E2FABD206D
+B884BDAF5CDE5BABB2833E128DED5CB188A16A3A1B377AE85EFBA65259324AB27331A1A8C16782
+93709A80545E0062CF5734896E821451BE3296AEE82E69064E49F16B1C3276361F8'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                product
+                  whole
+                    other {
+                      accession "NR_076119" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 172 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042004" } } ,
+                    int {
+                      from 288 ,
+                      to 2903 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042004" } } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 173 ,
+                    to 287 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_042004" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_076119" } } ,
+      descr {
+        title "Brucella canis 23S ribosomal RNA, complete sequence." ,
+        molinfo {
+          biomol rRNA } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "Status" ,
+              data
+                str "Reviewed" } ,
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_042004" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 2789 ,
+        seq-data
+          ncbi2na '42EDF0A93FAE8E5FA4E44A638286E319E6309B6A8AE60C57F8D618FD60E
+A90545F2387200DEFFBE89067A3B4D3030ACDC17E0C4CAAF209817AA07804DC2C548A0284D0188
+759CB2E989819A14A52E9FFB8302E818BE801D8582EAE32D5B11B20C920B5F8B2A6A11B80D7B78
+13AB6146350970B1DB93858C9814B16E2A02B802455862A8B804B17805A3971012FA2542BFB5EA
+E126C5FFB30EAD261F2ECD8909F096B2BB299260262DE04A9BD2F6393C8560142E37253892BE0A
+C6B046C7A285815337BE43236A387EE9CAAE02943407E88C9EBDD660373F2B226D8583155AAB22
+47A3A9CEA8745B7C78D70501D60C5AA2C70DA484469AB9C1B5B6E88A90415E145370AD5C2F3A70
+BA80A3B8A354010528EFA7C82494D3F02026C12747ADC0C2ADFE65803B16A9D094C45827BA391B
+3B9BAC9A26F5B097B82A12DB884D7A2B3682E20E784E2C18C0A8B8887576580B50ABD79F02F0DE
+24ABC969570A6296029B2D8EA051BC33DBA9792B2E1A366EEFB8ADF3E8F8DF92609AF5280C9D79
+33216C5701611EBA1EB220C50A67E22079BE0A076900E466C1F68209B85D1CEA414CAAAE91214A
+AB261EFC500112A77982D90861B32ADE19795AE7A0AF08A22B9097E0F82552C069A5B07306B5C2
+B2603D7EDAB0BD6179183A6C187D567B75064874B80F83D56E08E6ABD79AF21A02156E45FC7327
+F11E93DB8613BB28CAEB21FE092A99497FBA2D15F80C515FBFF3A3B7079A56F35AB5285BB3AEAC
+BF87AA6B65D7022C1A29998EB29D206B680DBDB62E43A4C25E5E1E421E10B62488602DAD32E35A
+EB566E82A536741A300AC65AA304A78E15508B53361AAFBFA45D8ED874D935EA9E892B542ACE9E
+F653F026B1B8BEAF481B6E212F6BD73796EAECA0CF84A37B572C62285A8E86CDDEBA17BEE99496
+4C92AC9CCC686A3059E0A4DC26A015178018B3D5CD225BA085146F8CA5ABBA0B9A4193927C5AC7
+0C9D8D87E00'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                location
+                  int {
+                    from 0 ,
+                    to 2788 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_076119" } } } } } } } } }

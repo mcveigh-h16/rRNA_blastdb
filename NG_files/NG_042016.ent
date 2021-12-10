@@ -1,0 +1,523 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Leptospira borgpetersenii serovar Hardjo-bovis" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 338217 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Leptospira" ,
+              species "borgpetersenii" } ,
+          attrib "nomodforward" ,
+          mod {
+            {
+              subtype strain ,
+              subname "L550" } ,
+            {
+              subtype serovar ,
+              subname "Hardjo-bovis" } } ,
+          lineage "Bacteria; Spirochaetes; Spirochaetales; Leptospiraceae;
+ Leptospira" ,
+          gcode 11 ,
+          div "BCT" } } } ,
+    pub {
+      pub {
+        article {
+          title {
+            name "Genome reduction in Leptospira borgpetersenii reflects
+ limited transmission potential." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Bulach" ,
+                      initials "D.M." } ,
+                  affil
+                    str "Australian Bacterial Pathogenesis Program, Victorian
+ Bioinformatics Consortium, Department of Microbiology, Monash University,
+ Victoria 3800, Australia." } ,
+                {
+                  name
+                    name {
+                      last "Zuerner" ,
+                      initials "R.L." } } ,
+                {
+                  name
+                    name {
+                      last "Wilson" ,
+                      initials "P." } } ,
+                {
+                  name
+                    name {
+                      last "Seemann" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "McGrath" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Cullen" ,
+                      initials "P.A." } } ,
+                {
+                  name
+                    name {
+                      last "Davis" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Johnson" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Kuczek" ,
+                      initials "E." } } ,
+                {
+                  name
+                    name {
+                      last "Alt" ,
+                      initials "D.P." } } ,
+                {
+                  name
+                    name {
+                      last "Peterson-Burch" ,
+                      initials "B." } } ,
+                {
+                  name
+                    name {
+                      last "Coppel" ,
+                      initials "R.L." } } ,
+                {
+                  name
+                    name {
+                      last "Rood" ,
+                      initials "J.I." } } ,
+                {
+                  name
+                    name {
+                      last "Davies" ,
+                      initials "J.K." } } ,
+                {
+                  name
+                    name {
+                      last "Adler" ,
+                      initials "B." } } } } ,
+          from
+            journal {
+              title {
+                iso-jta "Proc. Natl. Acad. Sci. U.S.A." ,
+                ml-jta "Proc Natl Acad Sci U S A" ,
+                issn "0027-8424" ,
+                name "Proceedings of the National Academy of Sciences of the
+ United States of America" } ,
+              imp {
+                date
+                  std {
+                    year 2006 ,
+                    month 9 ,
+                    day 26 } ,
+                volume "103" ,
+                issue "39" ,
+                pages "14560-14565" ,
+                language "eng" ,
+                pubstatus ppublish ,
+                history {
+                  {
+                    pubstatus aheadofprint ,
+                    date
+                      std {
+                        year 2006 ,
+                        month 9 ,
+                        day 14 } } ,
+                  {
+                    pubstatus pubmed ,
+                    date
+                      std {
+                        year 2006 ,
+                        month 9 ,
+                        day 16 ,
+                        hour 9 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus medline ,
+                    date
+                      std {
+                        year 2006 ,
+                        month 10 ,
+                        day 31 ,
+                        hour 9 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus other ,
+                    date
+                      std {
+                        year 2006 ,
+                        month 9 ,
+                        day 16 ,
+                        hour 9 ,
+                        minute 0 } } } } } ,
+          ids {
+            pii "0603979103" ,
+            doi "10.1073/pnas.0603979103" ,
+            pubmed 16973745 ,
+            other {
+              db "pmc" ,
+              tag
+                str "PMC1599999" } } } ,
+        pmid 16973745 } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Bulach" ,
+                      first "Dieter" ,
+                      initials "D.M." } } ,
+                {
+                  name
+                    name {
+                      last "Zuerner" ,
+                      first "Richard" ,
+                      initials "R.L." } } ,
+                {
+                  name
+                    name {
+                      last "Wilson" ,
+                      first "Peter" ,
+                      initials "P." } } ,
+                {
+                  name
+                    name {
+                      last "Seemann" ,
+                      first "Torsten" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "McGrath" ,
+                      first "Annette" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Cullen" ,
+                      first "Paul" ,
+                      initials "P." } } ,
+                {
+                  name
+                    name {
+                      last "Davies" ,
+                      first "John" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Kuczek" ,
+                      first "Elizabeth" ,
+                      initials "E." } } ,
+                {
+                  name
+                    name {
+                      last "Alt" ,
+                      first "David" ,
+                      initials "D." } } ,
+                {
+                  name
+                    name {
+                      last "Peterson-Burch" ,
+                      first "Brooke" ,
+                      initials "B." } } ,
+                {
+                  name
+                    name {
+                      last "Coppel" ,
+                      first "Ross" ,
+                      initials "R." } } ,
+                {
+                  name
+                    name {
+                      last "Rood" ,
+                      first "Julian" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Davis" ,
+                      first "John" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Adler" ,
+                      first "Ben" ,
+                      initials "B." } } } ,
+            affil
+              std {
+                affil "Monash University" ,
+                div "Department of Microbiology" ,
+                city "Clayton" ,
+                sub "Victoria" ,
+                country "Australia" ,
+                street "Building 53" ,
+                postal-code "3800" } } ,
+          medium other ,
+          date
+            std {
+              year 2006 ,
+              month 1 ,
+              day 30 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2013 ,
+              month 2 ,
+              day 14 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA188943" } } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_042016" } ,
+        general {
+          db "REF_23S_RNA" ,
+          tag
+            str "CP000348:2654258-2657873" } } ,
+      descr {
+        title "Leptospira borgpetersenii serovar Hardjo-bovis 23S ribosomal
+ RNA gene, complete sequence." ,
+        molinfo {
+          biomol genomic } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 26 } } } } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "CP000348:2654258-2657873" } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        create-date
+          std {
+            year 2013 ,
+            month 3 ,
+            day 25 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 2 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 3616 ,
+        seq-data
+          ncbi2na '42C202A6C6AA395A934A198E0A1BA7F798C261AA2FB09093E35BE3F583A
+A415DD2B07788190398902DAA0F804DF2C56830080B0018F5B4B26B89819A18970177971B048DC
+3D9EC92AABECA1E928B23C839D640BC501108F2481ACFA009614C8AB80B56C2600FFBB7FA52CD7
+8B146811BB0F4BA8379AA1455B0A7012C5E3858C8810B1662A02B802C5AA85A2E032C5E016CE7C
+42B34895FC1AB8EBB97FEC8389498BCFF1BE427C292E2396CA6098098B7832A6FC2C9BA0C85609
+7B627353B52BE0AE2B00747A285815FFDBE0083EA38AEE8CAAE02973429298C9EBDDD6032BF297
+26D2FBF2F9AAB227780A1CAA95109F140573407D8316C1D4087A4B4871AA8C275BAD00A8049521
+6DBF0A5502F4E70BA40A3BAAB93310528AFA7C8249457F022E6C32747AD8B9D599600EC36A1C24
+E9960A46AE48A123868212284BFB270279FA7F5E1A02EC04B243A100D202CE28FC82CCDB0B5CFC
+B37FA23D300213C83F5C0820431A3C90B49F603D74036379A03326828FEA010D90D424A0FDB23F
+70B386369DA4860100B7A781C640A3FA8CCC160D7CCC5DFA02A1F1B6332508E7F5AFECC22FA8B8
+358F71FF03D00CFF83A088E23B53C6027907AFFD83784B0D0CB833C1ED0368C807880C06122100
+9BC2643F428560EA5C032DF7B5D2DF7B5DE66B2889BDFDF5BE0A6C5B0A267A28B082E08E7A4E2C
+9B02A8B88F7D5458C970AFD56A0A50D65AABCB695708629C20E6CB63A824AF4CF5E458B03EE63A
+261928A32F2E69F3EBE5BE6EEB29BE22E3E8035B47E27881D9A8D7060EF29B27F60D4279420327
+DC2FCAFCF616C59016112B290B220C70AEF6230776F0A076903C75EC1F6A30A885A231FC95E6B0
+22CD02BA4400EAAC987BF140044A1DE40368238ECCAB7845E56B9E82B42286AF2490E609DA0FC2
+552C069A5B07386B5C2B2603D7EDAB0BD6179183AEC187D547B74188B76980FB2C56E08E6AF179
+8CA1A02156E05FC7B05E93E07FAD7B3BB28CAEA29CE037A194B7A3A2586F80C515F1F8542F7058
+380413D8843B4AEA4BF87AA6B65D7022C1A299502BD5D2668680D99422EC0A4C2A27C1EE21210B
+624AC602CA9F2E35AEBDEEE82A536741A300AC75AA304A78D9B508B53361866BFA45D8EDA76D93
+5EA9E092B542ACE9EF653F026B1989EAF481B6E212F6B5735364A6FA23F86837B572C62285A8E8
+605DEBB34BEFD9482419E2C9CEF696A3059E024CC2EA015F782308DD5EA24355C0855082387EBE
+32B448EC2EEB044F4B62E31C36B6E29F8'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                product
+                  whole
+                    other {
+                      accession "NR_076101" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 1318 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042016" } } ,
+                    int {
+                      from 1859 ,
+                      to 3615 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042016" } } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 1319 ,
+                    to 1858 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_042016" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_076101" } } ,
+      descr {
+        title "Leptospira borgpetersenii serovar Hardjo-bovis 23S ribosomal
+ RNA, complete sequence." ,
+        molinfo {
+          biomol rRNA } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "Status" ,
+              data
+                str "Reviewed" } ,
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_042016" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 3076 ,
+        seq-data
+          ncbi2na '42C202A6C6AA395A934A198E0A1BA7F798C261AA2FB09093E35BE3F583A
+A415DD2B07788190398902DAA0F804DF2C56830080B0018F5B4B26B89819A18970177971B048DC
+3D9EC92AABECA1E928B23C839D640BC501108F2481ACFA009614C8AB80B56C2600FFBB7FA52CD7
+8B146811BB0F4BA8379AA1455B0A7012C5E3858C8810B1662A02B802C5AA85A2E032C5E016CE7C
+42B34895FC1AB8EBB97FEC8389498BCFF1BE427C292E2396CA6098098B7832A6FC2C9BA0C85609
+7B627353B52BE0AE2B00747A285815FFDBE0083EA38AEE8CAAE02973429298C9EBDDD6032BF297
+26D2FBF2F9AAB227780A1CAA95109F140573407D8316C1D4087A4B4871AA8C275BAD00A8049521
+6DBF0A5502F4E70BA40A3BAAB93310528AFA7C8249457F022E6C32747AD8B9D599600EC36A1C24
+E9960A46AE48A123868212284BFB270279FA7F5E1A02EC04B243A120EA5C032DF7B5D2DF7B5DE6
+6B2889BDFDF5BE0A6C5B0A267A28B082E08E7A4E2C9B02A8B88F7D5458C970AFD56A0A50D65AAB
+CB695708629C20E6CB63A824AF4CF5E458B03EE63A261928A32F2E69F3EBE5BE6EEB29BE22E3E8
+035B47E27881D9A8D7060EF29B27F60D4279420327DC2FCAFCF616C59016112B290B220C70AEF6
+230776F0A076903C75EC1F6A30A885A231FC95E6B022CD02BA4400EAAC987BF140044A1DE40368
+238ECCAB7845E56B9E82B42286AF2490E609DA0FC2552C069A5B07386B5C2B2603D7EDAB0BD617
+9183AEC187D547B74188B76980FB2C56E08E6AF1798CA1A02156E05FC7B05E93E07FAD7B3BB28C
+AEA29CE037A194B7A3A2586F80C515F1F8542F7058380413D8843B4AEA4BF87AA6B65D7022C1A2
+99502BD5D2668680D99422EC0A4C2A27C1EE21210B624AC602CA9F2E35AEBDEEE82A536741A300
+AC75AA304A78D9B508B53361866BFA45D8EDA76D935EA9E092B542ACE9EF653F026B1989EAF481
+B6E212F6B5735364A6FA23F86837B572C62285A8E8605DEBB34BEFD9482419E2C9CEF696A3059E
+024CC2EA015F782308DD5EA24355C0855082387EBE32B448EC2EEB044F4B62E31C36B6E29F8'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                location
+                  int {
+                    from 0 ,
+                    to 3075 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_076101" } } } } } } } } }

@@ -1,0 +1,566 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Desulfotomaculum reducens MI-1" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 349161 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Desulfotomaculum" ,
+              species "reducens" } ,
+          mod {
+            {
+              subtype strain ,
+              subname "MI-1" } } ,
+          lineage "Bacteria; Firmicutes; Clostridia; Clostridiales;
+ Peptococcaceae; Desulfotomaculum" ,
+          gcode 11 ,
+          div "BCT" } } } ,
+    pub {
+      pub {
+        gen {
+          cit "Unpublished" ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Copeland" ,
+                      first "Alex" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Lucas" ,
+                      first "Susan" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Lapidus" ,
+                      first "Alla" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Barry" ,
+                      first "Kerrie" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Detter" ,
+                      first "John" ,
+                      initials "J.C." } } ,
+                {
+                  name
+                    name {
+                      last "Glavina del Rio" ,
+                      first "Tijana" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Hammon" ,
+                      first "Nancy" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Israni" ,
+                      first "Sanjay" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Dalin" ,
+                      first "Eileen" ,
+                      initials "E." } } ,
+                {
+                  name
+                    name {
+                      last "Tice" ,
+                      first "Hope" ,
+                      initials "H." } } ,
+                {
+                  name
+                    name {
+                      last "Pitluck" ,
+                      first "Samuel" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Sims" ,
+                      first "David" ,
+                      initials "D." } } ,
+                {
+                  name
+                    name {
+                      last "Brettin" ,
+                      first "Thomas" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Bruce" ,
+                      first "David" ,
+                      initials "D." } } ,
+                {
+                  name
+                    name {
+                      last "Han" ,
+                      first "Cliff" ,
+                      initials "C." } } ,
+                {
+                  name
+                    name {
+                      last "Tapia" ,
+                      first "Roxanne" ,
+                      initials "R." } } ,
+                {
+                  name
+                    name {
+                      last "Schmutz" ,
+                      first "Jeremy" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Larimer" ,
+                      first "Frank" ,
+                      initials "F." } } ,
+                {
+                  name
+                    name {
+                      last "Land" ,
+                      first "Miriam" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Hauser" ,
+                      first "Loren" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Kyrpides" ,
+                      first "Nikos" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Kim" ,
+                      first "Edwin" ,
+                      initials "E." } } ,
+                {
+                  name
+                    name {
+                      last "Tebo" ,
+                      first "Bradley" ,
+                      initials "B.M." } } ,
+                {
+                  name
+                    name {
+                      last "Richardson" ,
+                      first "Paul" ,
+                      initials "P." } } ,
+                {
+                  name
+                    consortium "US DOE Joint Genome Institute" } } ,
+            affil
+              std {
+                affil "US DOE Joint Genome Institute" ,
+                city "Walnut Creek" ,
+                sub "CA" ,
+                country "USA" ,
+                street "2800 Mitchell Drive B100" ,
+                postal-code "94598-1698" } } ,
+          title "Complete sequence of Desulfotomaculum reducens MI-1" } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Copeland" ,
+                      first "Alex" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Lucas" ,
+                      first "Susan" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Lapidus" ,
+                      first "Alla" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Barry" ,
+                      first "Kerrie" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Detter" ,
+                      first "John" ,
+                      initials "J.C." } } ,
+                {
+                  name
+                    name {
+                      last "Glavina del Rio" ,
+                      first "Tijana" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Hammon" ,
+                      first "Nancy" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Israni" ,
+                      first "Sanjay" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Dalin" ,
+                      first "Eileen" ,
+                      initials "E." } } ,
+                {
+                  name
+                    name {
+                      last "Tice" ,
+                      first "Hope" ,
+                      initials "H." } } ,
+                {
+                  name
+                    name {
+                      last "Pitluck" ,
+                      first "Samuel" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Sims" ,
+                      first "David" ,
+                      initials "D." } } ,
+                {
+                  name
+                    name {
+                      last "Brettin" ,
+                      first "Thomas" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Bruce" ,
+                      first "David" ,
+                      initials "D." } } ,
+                {
+                  name
+                    name {
+                      last "Han" ,
+                      first "Cliff" ,
+                      initials "C." } } ,
+                {
+                  name
+                    name {
+                      last "Tapia" ,
+                      first "Roxanne" ,
+                      initials "R." } } ,
+                {
+                  name
+                    name {
+                      last "Schmutz" ,
+                      first "Jeremy" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Larimer" ,
+                      first "Frank" ,
+                      initials "F." } } ,
+                {
+                  name
+                    name {
+                      last "Land" ,
+                      first "Miriam" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Hauser" ,
+                      first "Loren" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Kyrpides" ,
+                      first "Nikos" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Kim" ,
+                      first "Edwin" ,
+                      initials "E." } } ,
+                {
+                  name
+                    name {
+                      last "Richardson" ,
+                      first "Paul" ,
+                      initials "P." } } ,
+                {
+                  name
+                    consortium "US DOE Joint Genome Institute" } } ,
+            affil
+              std {
+                affil "US DOE Joint Genome Institute" ,
+                city "Walnut Creek" ,
+                sub "CA" ,
+                country "USA" ,
+                street "2800 Mitchell Drive B100" ,
+                postal-code "94598-1698" } } ,
+          date
+            std {
+              year 2007 ,
+              month 3 ,
+              day 14 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2013 ,
+              month 5 ,
+              day 9 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA33175" } } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_042071" } ,
+        general {
+          db "REF_16S_RNA" ,
+          tag
+            str "CP000612:10048-11659" } } ,
+      descr {
+        title "Desulfotomaculum reducens MI-1 strain MI-1 16S ribosomal RNA,
+ complete sequence" ,
+        molinfo {
+          biomol rRNA ,
+          completeness complete } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "CP000612:10048-11659" } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        user {
+          type
+            str "GenomeProjectsDB" ,
+          data {
+            {
+              label
+                str "ProjectID" ,
+              data
+                int 33175 } } } ,
+        create-date
+          std {
+            year 2013 ,
+            month 5 ,
+            day 24 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 2 } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 26 } } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 1612 ,
+        strand ss ,
+        seq-data
+          ncbi2na '22FE35E9D286067A69B9F044E42D81ADF62BD84F62BD83FE2F62C09F0AB
+4FC02154080E7E8D83460FD81B607D8232E981AB8B066E8C17978C85A8C127A01A79C3168C67E6
+8B64E9DE42809CFB9CD23A359B54F272FAEBB06851429863AB25A5E22A6069447A8788469521D7
+1A8A492EA837D643A9809786890659B8A820A5F6AFB0177BFD2A0810386B17822C275A7071B949
+259AC31B2A2626FB5A3F1EA6C0A99B2BAE4F0BC8AE02F6A9D055B8F9778C7AE87E2E4A22A8920F
+54BB26B80E6C8CFA8A0C52E9829A777A1EC1E11E299809BAA2604A3C8C57ACB5196C0638B9CAEF
+9AB3615792E592C0443091D65EA8B1AD908780740A0F86AA564426BA2CEEBF0F6190660817C52A
+7E135C601D32233897CD7DA8C1B2212BAE4EBEDB49DBB6E23BEAF0B5641899055C13CBE524EC0A
+EA0770EE1E5BE10068A0AEA8E1B40D34E55F3B5EA7111B1C43A5AC486826096E2BA2405E2025AD
+52F68FB2DE41D871382DA0D9CB0D92B4931E6B831BD5A97EC44595B445180BE10456096B89C164
+28A496D82BAA58E3EAB82DB042B25B3682B9A7A345D7F'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "16S ribosomal RNA" } ,
+                product
+                  whole
+                    other {
+                      accession "NR_102770" } ,
+                location
+                  int {
+                    from 0 ,
+                    to 1611 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_042071" } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 87 ,
+                    to 154 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_042071" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_102770" } } ,
+      descr {
+        molinfo {
+          biomol rRNA } ,
+        title "Desulfotomaculum reducens MI-1 16S ribosomal RNA, rRNA." ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_042071" } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "PROVISIONAL" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 1612 ,
+        seq-data
+          ncbi2na '22FE35E9D286067A69B9F044E42D81ADF62BD84F62BD83FE2F62C09F0AB
+4FC02154080E7E8D83460FD81B607D8232E981AB8B066E8C17978C85A8C127A01A79C3168C67E6
+8B64E9DE42809CFB9CD23A359B54F272FAEBB06851429863AB25A5E22A6069447A8788469521D7
+1A8A492EA837D643A9809786890659B8A820A5F6AFB0177BFD2A0810386B17822C275A7071B949
+259AC31B2A2626FB5A3F1EA6C0A99B2BAE4F0BC8AE02F6A9D055B8F9778C7AE87E2E4A22A8920F
+54BB26B80E6C8CFA8A0C52E9829A777A1EC1E11E299809BAA2604A3C8C57ACB5196C0638B9CAEF
+9AB3615792E592C0443091D65EA8B1AD908780740A0F86AA564426BA2CEEBF0F6190660817C52A
+7E135C601D32233897CD7DA8C1B2212BAE4EBEDB49DBB6E23BEAF0B5641899055C13CBE524EC0A
+EA0770EE1E5BE10068A0AEA8E1B40D34E55F3B5EA7111B1C43A5AC486826096E2BA2405E2025AD
+52F68FB2DE41D871382DA0D9CB0D92B4931E6B831BD5A97EC44595B445180BE10456096B89C164
+28A496D82BAA58E3EAB82DB042B25B3682B9A7A345D7F'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "16S ribosomal RNA" } ,
+                location
+                  int {
+                    from 0 ,
+                    to 1611 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_102770" } } } } } } } } }

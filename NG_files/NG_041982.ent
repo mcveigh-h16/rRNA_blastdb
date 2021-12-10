@@ -1,0 +1,830 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Mycobacterium tuberculosis" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 1773 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Mycobacterium" ,
+              species "tuberculosis" } ,
+          attrib "nomodforward" ,
+          mod {
+            {
+              subtype strain ,
+              subname "H37Rv" } ,
+            {
+              subtype culture-collection ,
+              subname "ATCC:25618" } } ,
+          lineage "Bacteria; Actinobacteria; Actinobacteridae;
+ Actinomycetales; Corynebacterineae; Mycobacteriaceae; Mycobacterium;
+ Mycobacterium tuberculosis complex" ,
+          gcode 11 ,
+          div "BCT" } } } ,
+    pub {
+      pub {
+        pmid 9634230 ,
+        article {
+          title {
+            name "Deciphering the biology of Mycobacterium tuberculosis from
+ the complete genome sequence." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Cole" ,
+                      initials "S.T." } ,
+                  affil
+                    str "Sanger Centre, Wellcome Trust Genome Campus, Hinxton,
+ UK. stcole@pasteur.fr" } ,
+                {
+                  name
+                    name {
+                      last "Brosch" ,
+                      initials "R." } } ,
+                {
+                  name
+                    name {
+                      last "Parkhill" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Garnier" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Churcher" ,
+                      initials "C." } } ,
+                {
+                  name
+                    name {
+                      last "Harris" ,
+                      initials "D." } } ,
+                {
+                  name
+                    name {
+                      last "Gordon" ,
+                      initials "S.V." } } ,
+                {
+                  name
+                    name {
+                      last "Eiglmeier" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Gas" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Barry" ,
+                      initials "C.E." ,
+                      suffix "3rd" } } ,
+                {
+                  name
+                    name {
+                      last "Tekaia" ,
+                      initials "F." } } ,
+                {
+                  name
+                    name {
+                      last "Badcock" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Basham" ,
+                      initials "D." } } ,
+                {
+                  name
+                    name {
+                      last "Brown" ,
+                      initials "D." } } ,
+                {
+                  name
+                    name {
+                      last "Chillingworth" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Connor" ,
+                      initials "R." } } ,
+                {
+                  name
+                    name {
+                      last "Davies" ,
+                      initials "R." } } ,
+                {
+                  name
+                    name {
+                      last "Devlin" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Feltwell" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Gentles" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Hamlin" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Holroyd" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Hornsby" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Jagels" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Krogh" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "McLean" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Moule" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Murphy" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Oliver" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Osborne" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Quail" ,
+                      initials "M.A." } } ,
+                {
+                  name
+                    name {
+                      last "Rajandream" ,
+                      initials "M.A." } } ,
+                {
+                  name
+                    name {
+                      last "Rogers" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Rutter" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Seeger" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Skelton" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Squares" ,
+                      initials "R." } } ,
+                {
+                  name
+                    name {
+                      last "Squares" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Sulston" ,
+                      initials "J.E." } } ,
+                {
+                  name
+                    name {
+                      last "Taylor" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Whitehead" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Barrell" ,
+                      initials "B.G." } } } } ,
+          from
+            journal {
+              title {
+                iso-jta "Nature" ,
+                ml-jta "Nature" ,
+                issn "0028-0836" ,
+                name "Nature" } ,
+              imp {
+                date
+                  std {
+                    year 1998 ,
+                    month 6 ,
+                    day 11 } ,
+                volume "393" ,
+                issue "6685" ,
+                pages "537-544" ,
+                language "eng" ,
+                retract {
+                  type in-error ,
+                  exp "Nature 1998 Nov 12;396(6707):190" } ,
+                pubstatus ppublish ,
+                history {
+                  {
+                    pubstatus pubmed ,
+                    date
+                      std {
+                        year 1998 ,
+                        month 6 ,
+                        day 20 ,
+                        hour 2 ,
+                        minute 18 } } ,
+                  {
+                    pubstatus medline ,
+                    date
+                      std {
+                        year 2001 ,
+                        month 3 ,
+                        day 23 ,
+                        hour 10 ,
+                        minute 1 } } ,
+                  {
+                    pubstatus other ,
+                    date
+                      std {
+                        year 1998 ,
+                        month 6 ,
+                        day 20 ,
+                        hour 2 ,
+                        minute 18 } } } } } ,
+          ids {
+            pubmed 9634230 ,
+            doi "10.1038/31159" } } } ,
+      reftype no-target } ,
+    pub {
+      pub {
+        pmid 20980199 ,
+        article {
+          title {
+            name "TubercuList--10 years after." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Lew" ,
+                      initials "J.M." } ,
+                  affil
+                    str "Ecole Polytechnique Federale de Lausanne, Global
+ Health Institute, Station 19, CH-1015 Lausanne, Switzerland.
+ jocelyne.lew@epfl.ch" } ,
+                {
+                  name
+                    name {
+                      last "Kapopoulou" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Jones" ,
+                      initials "L.M." } } ,
+                {
+                  name
+                    name {
+                      last "Cole" ,
+                      initials "S.T." } } } } ,
+          from
+            journal {
+              title {
+                iso-jta "Tuberculosis (Edinb)" ,
+                ml-jta "Tuberculosis (Edinb)" ,
+                issn "1873-281X" ,
+                name "Tuberculosis (Edinburgh, Scotland)" } ,
+              imp {
+                date
+                  std {
+                    year 2011 ,
+                    month 1 } ,
+                volume "91" ,
+                issue "1" ,
+                pages "1-7" ,
+                language "eng" ,
+                pubstatus ppublish ,
+                history {
+                  {
+                    pubstatus received ,
+                    date
+                      std {
+                        year 2010 ,
+                        month 6 ,
+                        day 21 } } ,
+                  {
+                    pubstatus revised ,
+                    date
+                      std {
+                        year 2010 ,
+                        month 9 ,
+                        day 6 } } ,
+                  {
+                    pubstatus accepted ,
+                    date
+                      std {
+                        year 2010 ,
+                        month 9 ,
+                        day 30 } } ,
+                  {
+                    pubstatus aheadofprint ,
+                    date
+                      std {
+                        year 2010 ,
+                        month 10 ,
+                        day 25 } } ,
+                  {
+                    pubstatus other ,
+                    date
+                      std {
+                        year 2010 ,
+                        month 10 ,
+                        day 29 ,
+                        hour 6 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus pubmed ,
+                    date
+                      std {
+                        year 2010 ,
+                        month 10 ,
+                        day 29 ,
+                        hour 6 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus medline ,
+                    date
+                      std {
+                        year 2011 ,
+                        month 12 ,
+                        day 13 ,
+                        hour 0 ,
+                        minute 0 } } } } } ,
+          ids {
+            pii "S1472-9792(10)00111-3" ,
+            doi "10.1016/j.tube.2010.09.008" ,
+            pubmed 20980199 ,
+            other {
+              db "ELocationID doi" ,
+              tag
+                str "10.1016/j.tube.2010.09.008" } } } } ,
+      reftype no-target } ,
+    pub {
+      pub {
+        pmid 12368430 ,
+        article {
+          title {
+            name "Re-annotation of the genome sequence of Mycobacterium
+ tuberculosis H37Rv." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Camus" ,
+                      initials "J.C." } ,
+                  affil
+                    str "Unite de Genetique Moleculaire Bacterienne, Institut
+ Pasteur, 28 rue du Docteur Roux, 75724 Paris Cedex, France." } ,
+                {
+                  name
+                    name {
+                      last "Pryor" ,
+                      initials "M.J." } } ,
+                {
+                  name
+                    name {
+                      last "Medigue" ,
+                      initials "C." } } ,
+                {
+                  name
+                    name {
+                      last "Cole" ,
+                      initials "S.T." } } } } ,
+          from
+            journal {
+              title {
+                iso-jta "Microbiology (Reading, Engl.)" ,
+                ml-jta "Microbiology" ,
+                issn "1350-0872" ,
+                name "Microbiology (Reading, England)" } ,
+              imp {
+                date
+                  std {
+                    year 2002 ,
+                    month 10 } ,
+                volume "148" ,
+                issue "PT 10" ,
+                pages "2967-2973" ,
+                language "eng" ,
+                pubstatus ppublish ,
+                history {
+                  {
+                    pubstatus pubmed ,
+                    date
+                      std {
+                        year 2002 ,
+                        month 10 ,
+                        day 9 ,
+                        hour 4 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus medline ,
+                    date
+                      std {
+                        year 2003 ,
+                        month 1 ,
+                        day 11 ,
+                        hour 4 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus other ,
+                    date
+                      std {
+                        year 2002 ,
+                        month 10 ,
+                        day 9 ,
+                        hour 4 ,
+                        minute 0 } } } } } ,
+          ids {
+            pubmed 12368430 } } } ,
+      reftype no-target } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Lew" ,
+                      initials "J.M." } } } ,
+            affil
+              str "Lew J., Ecole Polytechnique Federale de Lausanne, CH-1015,
+ Lausanne, Switzerland, and the Swiss Institute of Bioinformatics, CMU - Rue
+ Michel-Servet 1, 1211 Geneva 4, SWITZERLAND" } ,
+          medium other ,
+          date
+            std {
+              year 2012 ,
+              month 12 ,
+              day 18 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2013 ,
+              month 5 ,
+              day 9 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Parkhill" ,
+                      initials "J." } } } ,
+            affil
+              str "Submitted on behalf of the Mycobacterium tuberculosis
+ sequencing and mapping teams, Sanger Centre, Wellcome Trust Genome Campus,
+ Hinxton, Cambridge CB10 1SA Unite de Genetique Moleculaire Bacterienne,
+ Institut Pasteur, 28 rue du Docteur Roux, 75724 Paris Cedex 15, France
+ E-mail: parkhill@sanger.ac.uk" } ,
+          medium email ,
+          date
+            std {
+              year 1998 ,
+              month 6 ,
+              day 11 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA188943" } } } } ,
+    user {
+      type
+        str "NcbiCleanup" ,
+      data {
+        {
+          label
+            str "method" ,
+          data
+            str "SequinCleanup" } ,
+        {
+          label
+            str "version" ,
+          data
+            int 8 } ,
+        {
+          label
+            str "month" ,
+          data
+            int 4 } ,
+        {
+          label
+            str "day" ,
+          data
+            int 17 } ,
+        {
+          label
+            str "year" ,
+          data
+            int 2015 } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_041982" } ,
+        general {
+          db "REF_23S_RNA" ,
+          tag
+            str "AL123456:1473658-1476795" } } ,
+      descr {
+        title "Mycobacterium tuberculosis strain H37Rv 23S ribosomal RNA gene,
+ complete sequence." ,
+        molinfo {
+          biomol genomic } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 26 } } } } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "AL123456:1473658-1476795" } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        embl {
+          div pro ,
+          creation-date
+            std {
+              year 2002 ,
+              month 7 ,
+              day 18 } ,
+          update-date
+            std {
+              year 2013 ,
+              month 1 ,
+              day 31 } ,
+          xref {
+            {
+              dbname
+                name "GR" ,
+              id {
+                str "AL123456_GR" } } } } ,
+        create-date
+          std {
+            year 2013 ,
+            month 5 ,
+            day 24 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 2 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 3138 ,
+        seq-data
+          ncbi2na 'FB0BB70A993AE8E5FA4D889638286EA29E633976A89ED0589BA358A3F58
+3AA0152462E3B6E71593783332AE6A2A066A82E01374B15B28A20043EE3D642CBA6260668129C0
+59193AB05AB2ABEEEE6ABEEA28CEDD26715A788A4B480BB6EBC9A0BA5EA3ADE5B21AE2256B1980
+15A45E5CB343D58B249A95BA0D67B83596A1456B097031D763858C9A3CB16E2A0EB802C55A8AA2
+E022C5E016EE5C435B48975FF5DD68A2AEB8E9B97FE08389798B4A84ED90AF056EEAB259260262
+DE0CA98544664C666EE0CBA6EF7A158268B8DC54E94AB8266AC2166E8A560547CAF821E2A8E27B
+AB2AB80A50D01D6E327AF75580E4FCAE49BE6EBD1668AC89C7A3A58EA571CAF1E1B4940758396E
+BB026E92E21A6AA309D6C6D80A804952365A70A55426EE70BA80A3B92D90210528AFA7C8249457
+E022E6C32747AD0B8FB99630EC9AA742445960966913517EEBABBAB2A89B574F4982516AE16BAE
+8ABAA8B88392938B2610A42E205F959602142AF5EA5294B5952AE2DA85C298A584A6CB63A106AF
+8CF56C56EEEA656E18349AC70515005A3634755F6AAEE8BDEA9E6EA07D9EB2CB4260AAE19282B2
+5B14B4BAC11EA9096B2A226329035B67470D788AE19325AF8A60F6B8D779E508025DC9891111A5
+6C55016112BAD2B224C50A6C623073AF0A076900E556C1F6A20AA85A0CDB8115F9AEA26A35AD92
+014B8A261EFC700112B5B982D90863B31A1E19795AE7A0AF08A15BC1590AB826883F0954B01A6B
+AC1CC14D70AC980F5FB6AC2F585E460E9B061F741EDD05321DA603E4718B0239DBC66692860085
+5A85F47107EB3E3BDAC6BFBB28CAEA21EE0176194BEA9A2DBEF80C51DE36CFA93705D815E0DABF
+2A12E5E9AB2FC1EA9AF975C03B068A6540AF57417A1A434AE98BB03910A89F879887C42D092A18
+0B6A3CB8D691558BA0AAED9D068C02B156A8C129E37D5422D4CD86A3AFE91763B69DB64D7AA7A2
+4AD50ABEA7BD953C09A46627ABF206DB884BDADDCD65999B4807E2805ED5CB188A16A1A18177AE
+452FB5652A9167A3251BDAD28C1678093709A805F7508D2BF74547EBA8C295564811ABD0CAD217
+A09D2C3ABB2A07AE705A5801F1040'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                product
+                  whole
+                    other {
+                      accession "NR_102995" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 1590 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041982" } } ,
+                    int {
+                      from 1632 ,
+                      to 3137 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041982" } } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 1591 ,
+                    to 1631 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_041982" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_102995" } } ,
+      descr {
+        title "Mycobacterium tuberculosis strain H37Rv 23S ribosomal RNA,
+ complete sequence." ,
+        molinfo {
+          biomol rRNA } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "Status" ,
+              data
+                str "Reviewed" } ,
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_041982" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 3097 ,
+        seq-data
+          ncbi2na 'FB0BB70A993AE8E5FA4D889638286EA29E633976A89ED0589BA358A3F58
+3AA0152462E3B6E71593783332AE6A2A066A82E01374B15B28A20043EE3D642CBA6260668129C0
+59193AB05AB2ABEEEE6ABEEA28CEDD26715A788A4B480BB6EBC9A0BA5EA3ADE5B21AE2256B1980
+15A45E5CB343D58B249A95BA0D67B83596A1456B097031D763858C9A3CB16E2A0EB802C55A8AA2
+E022C5E016EE5C435B48975FF5DD68A2AEB8E9B97FE08389798B4A84ED90AF056EEAB259260262
+DE0CA98544664C666EE0CBA6EF7A158268B8DC54E94AB8266AC2166E8A560547CAF821E2A8E27B
+AB2AB80A50D01D6E327AF75580E4FCAE49BE6EBD1668AC89C7A3A58EA571CAF1E1B4940758396E
+BB026E92E21A6AA309D6C6D80A804952365A70A55426EE70BA80A3B92D90210528AFA7C8249457
+E022E6C32747AD0B8FB99630EC9AA742445960966913517EEBABBAB2A89B574F4982516AE16BAE
+8ABAA8B88392938B2610A42E205F959602142AF5EA5294B5952AE2DA85C298A584A6CB63A106AF
+8CF56C56EEEA656E18349AC70515005A3601F67ACB2D0982AB864A0AC96C52D2EB047AA425ACA8
+898CA40D6D9D1C35E22B864C96BE2983DAE35DE7942009772624444695B15405844AEB4AC89314
+29B188C1CEBC281DA403955B07DA882AA168336E0457E6BA89A8D6B648052E28987BF1C0044AD6
+E60B64218ECC687865E56B9E82BC22856F05642AE09A20FC2552C069AEB0730535C2B2603D7EDA
+B0BD6179183A6C187DD07B7414C876980F91C62C08E76F199A4A1802156A17D1C41FACF8EF6B1A
+FEECA32BA887B805D8652FAA68B6FBE0314778DB3EA4DC176057836AFCA84B97A6ACBF07AA6BE5
+D700EC1A299502BD5D05E8690D2BA62EC0E442A27E1E621F10B424A8602DA8F2E35A45562E82AB
+B6741A300AC55AA304A78DF5508B53361A8EBFA45D8EDA76D935EA9E892B542AFA9EF654F02691
+989EAFC81B6E212F6B773596666D201F8A017B572C62285A868605DEB914BED594AA459E8C946F
+6B4A3059E024DC26A017DD4234AFDD151FAEA30A55592046AF432B485E8274B0EAECA81EB9C169
+6007C4100'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                location
+                  int {
+                    from 0 ,
+                    to 3096 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_102995" } } } } } } } } }

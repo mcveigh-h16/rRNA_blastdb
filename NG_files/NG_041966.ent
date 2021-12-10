@@ -1,0 +1,1039 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Coxiella burnetii" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 777 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Coxiella" ,
+              species "burnetii" } ,
+          mod {
+            {
+              subtype strain ,
+              subname "RSA 493" } } ,
+          lineage "Bacteria; Proteobacteria; Gammaproteobacteria;
+ Legionellales; Coxiellaceae; Coxiella" ,
+          gcode 11 ,
+          div "BCT" } } } ,
+    pub {
+      pub {
+        article {
+          title {
+            name "Complete genome sequence of the Q-fever pathogen Coxiella
+ burnetii." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Seshadri" ,
+                      initials "R." } ,
+                  affil
+                    str "The Institute for Genomic Research, 9712 Medical
+ Center Drive, Rockville, MD 20850, USA." } ,
+                {
+                  name
+                    name {
+                      last "Paulsen" ,
+                      initials "I.T." } } ,
+                {
+                  name
+                    name {
+                      last "Eisen" ,
+                      initials "J.A." } } ,
+                {
+                  name
+                    name {
+                      last "Read" ,
+                      initials "T.D." } } ,
+                {
+                  name
+                    name {
+                      last "Nelson" ,
+                      initials "K.E." } } ,
+                {
+                  name
+                    name {
+                      last "Nelson" ,
+                      initials "W.C." } } ,
+                {
+                  name
+                    name {
+                      last "Ward" ,
+                      initials "N.L." } } ,
+                {
+                  name
+                    name {
+                      last "Tettelin" ,
+                      initials "H." } } ,
+                {
+                  name
+                    name {
+                      last "Davidsen" ,
+                      initials "T.M." } } ,
+                {
+                  name
+                    name {
+                      last "Beanan" ,
+                      initials "M.J." } } ,
+                {
+                  name
+                    name {
+                      last "Deboy" ,
+                      initials "R.T." } } ,
+                {
+                  name
+                    name {
+                      last "Daugherty" ,
+                      initials "S.C." } } ,
+                {
+                  name
+                    name {
+                      last "Brinkac" ,
+                      initials "L.M." } } ,
+                {
+                  name
+                    name {
+                      last "Madupu" ,
+                      initials "R." } } ,
+                {
+                  name
+                    name {
+                      last "Dodson" ,
+                      initials "R.J." } } ,
+                {
+                  name
+                    name {
+                      last "Khouri" ,
+                      initials "H.M." } } ,
+                {
+                  name
+                    name {
+                      last "Lee" ,
+                      initials "K.H." } } ,
+                {
+                  name
+                    name {
+                      last "Carty" ,
+                      initials "H.A." } } ,
+                {
+                  name
+                    name {
+                      last "Scanlan" ,
+                      initials "D." } } ,
+                {
+                  name
+                    name {
+                      last "Heinzen" ,
+                      initials "R.A." } } ,
+                {
+                  name
+                    name {
+                      last "Thompson" ,
+                      initials "H.A." } } ,
+                {
+                  name
+                    name {
+                      last "Samuel" ,
+                      initials "J.E." } } ,
+                {
+                  name
+                    name {
+                      last "Fraser" ,
+                      initials "C.M." } } ,
+                {
+                  name
+                    name {
+                      last "Heidelberg" ,
+                      initials "J.F." } } } } ,
+          from
+            journal {
+              title {
+                iso-jta "Proc. Natl. Acad. Sci. U.S.A." ,
+                ml-jta "Proc Natl Acad Sci U S A" ,
+                issn "0027-8424" ,
+                name "Proceedings of the National Academy of Sciences of the
+ United States of America" } ,
+              imp {
+                date
+                  std {
+                    year 2003 ,
+                    month 4 ,
+                    day 29 } ,
+                volume "100" ,
+                issue "9" ,
+                pages "5455-5460" ,
+                language "eng" ,
+                pubstatus ppublish ,
+                history {
+                  {
+                    pubstatus pubmed ,
+                    date
+                      std {
+                        year 2003 ,
+                        month 4 ,
+                        day 22 ,
+                        hour 5 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus medline ,
+                    date
+                      std {
+                        year 2003 ,
+                        month 6 ,
+                        day 12 ,
+                        hour 5 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus aheadofprint ,
+                    date
+                      std {
+                        year 2003 ,
+                        month 4 ,
+                        day 18 } } ,
+                  {
+                    pubstatus other ,
+                    date
+                      std {
+                        year 2003 ,
+                        month 4 ,
+                        day 22 ,
+                        hour 5 ,
+                        minute 0 } } } } } ,
+          ids {
+            pubmed 12704232 ,
+            doi "10.1073/pnas.0931379100" ,
+            pii "0931379100" ,
+            other {
+              db "pmc" ,
+              tag
+                str "PMC154366" } } } ,
+        pmid 12704232 } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Seshadri" ,
+                      first "Rekha" ,
+                      initials "R." } } ,
+                {
+                  name
+                    name {
+                      last "Paulsen" ,
+                      first "Ian" ,
+                      middle "T." ,
+                      initials "I.T." } } ,
+                {
+                  name
+                    name {
+                      last "Eisen" ,
+                      first "Jonathan" ,
+                      middle "A." ,
+                      initials "J.A." } } ,
+                {
+                  name
+                    name {
+                      last "Read" ,
+                      first "Timothy" ,
+                      middle "D." ,
+                      initials "T.D." } } ,
+                {
+                  name
+                    name {
+                      last "Nelson" ,
+                      first "Karen" ,
+                      middle "E." ,
+                      initials "K.E." } } ,
+                {
+                  name
+                    name {
+                      last "Nelson" ,
+                      first "William" ,
+                      middle "C." ,
+                      initials "W.C." } } ,
+                {
+                  name
+                    name {
+                      last "Ward" ,
+                      first "Naomi" ,
+                      middle "L." ,
+                      initials "N.L." } } ,
+                {
+                  name
+                    name {
+                      last "Tettelin" ,
+                      first "Herve" ,
+                      initials "H." } } ,
+                {
+                  name
+                    name {
+                      last "Fraser" ,
+                      first "Claire" ,
+                      middle "M." ,
+                      initials "C.M." } } ,
+                {
+                  name
+                    name {
+                      last "Davidsen" ,
+                      first "Tanja" ,
+                      middle "M." ,
+                      initials "T.M." } } ,
+                {
+                  name
+                    name {
+                      last "Beanan" ,
+                      first "Maureen" ,
+                      middle "J." ,
+                      initials "M.J." } } ,
+                {
+                  name
+                    name {
+                      last "DeBoy" ,
+                      first "Robert" ,
+                      middle "T." ,
+                      initials "R.T." } } ,
+                {
+                  name
+                    name {
+                      last "Daugherty" ,
+                      first "Sean" ,
+                      middle "C." ,
+                      initials "S.C." } } ,
+                {
+                  name
+                    name {
+                      last "Madupu" ,
+                      first "Ramana" ,
+                      initials "R." } } ,
+                {
+                  name
+                    name {
+                      last "Dodson" ,
+                      first "Robert" ,
+                      middle "J." ,
+                      initials "R.J." } } ,
+                {
+                  name
+                    name {
+                      last "Khouri" ,
+                      first "Hoda" ,
+                      middle "M." ,
+                      initials "H.M." } } ,
+                {
+                  name
+                    name {
+                      last "Lee" ,
+                      first "Kathy" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Carty" ,
+                      first "Heather" ,
+                      middle "A." ,
+                      initials "H.A." } } ,
+                {
+                  name
+                    name {
+                      last "Scanlan" ,
+                      first "David" ,
+                      initials "D." } } ,
+                {
+                  name
+                    name {
+                      last "Heinzen" ,
+                      first "Robert" ,
+                      middle "A." ,
+                      initials "R.A." } } ,
+                {
+                  name
+                    name {
+                      last "Thompson" ,
+                      first "Herbert" ,
+                      middle "A" ,
+                      initials "H.A." } } ,
+                {
+                  name
+                    name {
+                      last "Heidelberg" ,
+                      first "John" ,
+                      middle "F." ,
+                      initials "J.F." } } ,
+                {
+                  name
+                    name {
+                      last "Brinkac" ,
+                      first "Lauren" ,
+                      middle "M." ,
+                      initials "L.M." } } } ,
+            affil
+              std {
+                affil "The Institute for Genomic Research" ,
+                city "Rockville" ,
+                sub "MD" ,
+                country "USA" ,
+                street "9712 Medical Center Dr" ,
+                postal-code "20850" } } ,
+          medium other ,
+          date
+            std {
+              year 2005 ,
+              month 7 ,
+              day 13 } } } } ,
+    pub {
+      pub {
+        article {
+          title {
+            name "Comparative genomics reveal extensive transposon-mediated
+ genomic plasticity and diversity among potential effector proteins within the
+ genus Coxiella." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Beare" ,
+                      initials "P.A." } ,
+                  affil
+                    str "Coxiella Pathogenesis Section, Laboratory of
+ Intracellular Parasites, Rocky Mountain Laboratories, National Institute of
+ Allergy and Infectious Diseases, 903 S. 4th Street, Hamilton, MT 59840, USA." } ,
+                {
+                  name
+                    name {
+                      last "Unsworth" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Andoh" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Voth" ,
+                      initials "D.E." } } ,
+                {
+                  name
+                    name {
+                      last "Omsland" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Gilk" ,
+                      initials "S.D." } } ,
+                {
+                  name
+                    name {
+                      last "Williams" ,
+                      initials "K.P." } } ,
+                {
+                  name
+                    name {
+                      last "Sobral" ,
+                      initials "B.W." } } ,
+                {
+                  name
+                    name {
+                      last "Kupko" ,
+                      initials "J.J." ,
+                      suffix "3rd" } } ,
+                {
+                  name
+                    name {
+                      last "Porcella" ,
+                      initials "S.F." } } ,
+                {
+                  name
+                    name {
+                      last "Samuel" ,
+                      initials "J.E." } } ,
+                {
+                  name
+                    name {
+                      last "Heinzen" ,
+                      initials "R.A." } } } } ,
+          from
+            journal {
+              title {
+                iso-jta "Infect. Immun." ,
+                ml-jta "Infect Immun" ,
+                issn "1098-5522" ,
+                name "Infection and immunity" } ,
+              imp {
+                date
+                  std {
+                    year 2009 ,
+                    month 2 } ,
+                volume "77" ,
+                issue "2" ,
+                pages "642-656" ,
+                language "eng" ,
+                pubstatus ppublish ,
+                history {
+                  {
+                    pubstatus aheadofprint ,
+                    date
+                      std {
+                        year 2008 ,
+                        month 12 ,
+                        day 1 } } ,
+                  {
+                    pubstatus pubmed ,
+                    date
+                      std {
+                        year 2008 ,
+                        month 12 ,
+                        day 3 ,
+                        hour 9 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus medline ,
+                    date
+                      std {
+                        year 2009 ,
+                        month 2 ,
+                        day 21 ,
+                        hour 9 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus other ,
+                    date
+                      std {
+                        year 2008 ,
+                        month 12 ,
+                        day 3 ,
+                        hour 9 ,
+                        minute 0 } } } } } ,
+          ids {
+            pii "IAI.01141-08" ,
+            doi "10.1128/IAI.01141-08" ,
+            pubmed 19047403 ,
+            other {
+              db "pmc" ,
+              tag
+                str "PMC2632050" } ,
+            other {
+              db "ELocationID doi" ,
+              tag
+                str "10.1128/IAI.01141-08" } } } ,
+        pmid 19047403 } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2013 ,
+              month 2 ,
+              day 14 } } } } ,
+    pub {
+      pub {
+        article {
+          title {
+            name "The unusual 23S rRNA gene of Coxiella burnetii: two
+ self-splicing group I introns flank a 34-base-pair exon, and one element
+ lacks the canonical omegaG." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Raghavan" ,
+                      initials "R." } ,
+                  affil
+                    str "Division of Biological Sciences, The University of
+ Montana, Missoula, MT 59812, USA." } ,
+                {
+                  name
+                    name {
+                      last "Miller" ,
+                      initials "S.R." } } ,
+                {
+                  name
+                    name {
+                      last "Hicks" ,
+                      initials "L.D." } } ,
+                {
+                  name
+                    name {
+                      last "Minnick" ,
+                      initials "M.F." } } } } ,
+          from
+            journal {
+              title {
+                iso-jta "J. Bacteriol." ,
+                ml-jta "J Bacteriol" ,
+                issn "0021-9193" ,
+                name "Journal of bacteriology" } ,
+              imp {
+                date
+                  std {
+                    year 2007 ,
+                    month 9 } ,
+                volume "189" ,
+                issue "18" ,
+                pages "6572-6579" ,
+                language "eng" ,
+                pubstatus ppublish ,
+                history {
+                  {
+                    pubstatus aheadofprint ,
+                    date
+                      std {
+                        year 2007 ,
+                        month 7 ,
+                        day 20 } } ,
+                  {
+                    pubstatus pubmed ,
+                    date
+                      std {
+                        year 2007 ,
+                        month 7 ,
+                        day 24 ,
+                        hour 9 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus medline ,
+                    date
+                      std {
+                        year 2007 ,
+                        month 10 ,
+                        day 20 ,
+                        hour 9 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus other ,
+                    date
+                      std {
+                        year 2007 ,
+                        month 7 ,
+                        day 24 ,
+                        hour 9 ,
+                        minute 0 } } } } } ,
+          ids {
+            pii "JB.00812-07" ,
+            doi "10.1128/JB.00812-07" ,
+            pubmed 17644584 ,
+            other {
+              db "pmc" ,
+              tag
+                str "PMC2045182" } } } ,
+        pmid 17644584 } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA188943" } } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_041966" } ,
+        general {
+          db "REF_23S_RNA" ,
+          tag
+            str "AE016828:167580-171911" } } ,
+      descr {
+        title "Coxiella burnetii 23S ribosomal RNA (rrlA) genes, partial
+ sequence." ,
+        molinfo {
+          biomol genomic ,
+          tech standard } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 26 } } } } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "Status" ,
+              data
+                str "Reviewed" } ,
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "AE016828:167577-171915" } } } } } } } ,
+        create-date
+          std {
+            year 2013 ,
+            month 3 ,
+            day 25 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 2 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 4339 ,
+        seq-data
+          ncbi2na 'AD0B8309933AE8E5FA4B08A638286CB25E6309F6A89E901098E35A23F58
+3AA01505FD8AF36CC783D32B318A605EA81E01370B15228020341623D6D2C9A62602681254BC70
+34F3FBDC920EF7A02F494C9AB8C956C66022C0C3BAB0638B2B6A11BACDF87813AAA14D750A7031
+D7C7858C9814B16E2A02B802055A62A8B80C817805B39B1092CA24FDF680EE1E6C5FFB30EAD261
+F1FBEC989F05B72A8A6CA8058B580EA6FCBE418B215805898DCDCE94AB82B4AC11E1E8A5605470
+EF800F2A8E27BA328B80A70D09DA2327AF75D809CFCAC9976ECE1DFAAB2247BF69CAA94D5A5C50
+162901D60C5082FF246A2111E6AE30AD6EBA02A012548D949C2B540344BC2E8018EEA0A748494A
+2BE9F2092535FC0809B0C9D1EB62DB5E66823F06A9D01EEC58279A4D20848E1238480CE00080CD
+C9FE08FCBAFFD2026CC27F7F027D301C1FC2CE5C0822433A3E90940D6D090B0343F99833E782AF
+E80922EFDC69E0FC263F3FC3E43ABDA48E239BBBAF18CFBFE3F2BCFE0E0005EAC87D6430734A33
+E600E702AFE44027A2F0FFCDFDED74B7DE537B7DE3AB2289BDEC25EE0AE0D88AFE7A2B3482E60E
+784C2C18C3BAB8005446580B70AFD79906F0D864AB8B69570A6292039B2D8EA01ABC33D5B1FCC3
+1E63A8A1A20A72B494563AFBAEBF0BBB282AF7FA40D6A0743D62138E182C607EF6E40B8F8E519F
+52802D5C27D2B3EC016C73016112BA12B220C50A67E2207EAE0A072900E916C1F6A20AE657EB0B
+82B5F987A27802AF92314AE9E61EFC700112477901DB08A1B32AEE19795AE5A0AF0B8EABC95DA9
+8277E360956B01A696C1CC0F05BECBC6C0C07E9CCE7A01D62CD752C74DD0700F8ACB003798AE68
+4349280870DFFE3C835D221C319626C7C800353DC2EE38C8B58DDCC98CC8ABFD00805EF0D3CD53
+8F04C1B4301AD70AC980F5FB6AC003E559C07B02FCB8C0B49D336AA0575E7FF240A90D58A82DF0
+3855B061E3580AE29193FBB90C6787DF95FABF31D082C2E1CE883F3F3B3F13F2253ACEC2EBF048
+2882AEFFD8CD3F07D2000BC00FACF804214DFFD4D1BC0D0223F1777C022313DBFFE0EE890F23FD
+18AA36C6CC0CE0B5BD6C0237EE09830F511F630735DF228AC04008FF633FF780DEC000C4C50FF4
+FC0C0413F0F80C3003A7CDE383534AC06CA4E03038DD70AF9FAE200EB32DC7573A0132808B82F5
+85E460E9B0632519EDD45421D2E03E0367B823926C5669C8680855B817F1C49FC4781FE0CE5EEC
+A32BA8A7F827A2672752E89417E031457A6EFE2BDC15ED5B0D6ADA812ECEBAB2FE1EA9ADD75008
+B068A2C40AC57491ADA036E4FBB902930AB9F879887842D892B180B2B7CB8D6BAD7F3A0A94D9D0
+68C02B1D6A8C129E3145422F4CD86BAEFE91763B69D344D7AA7B25AD50AB3A7BD94FC0BAC6E27A
+BF206DB884BDAD5CDE5BA9BE88FE2289E75CB188A168BA1B177AEF5AFB4652E93E5AB270B1A1A8
+C1678093709A82555D08E2375685FC2B57023DBE086106F8CA4ABBA09D2C38B82705EC70F0DB98
+7E1CC'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                partial TRUE ,
+                product
+                  whole
+                    other {
+                      accession "NR_076084" } ,
+                location
+                  mix {
+                    int {
+                      from 1602 ,
+                      to 2344 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041966" } ,
+                      fuzz-from
+                        lim lt } ,
+                    int {
+                      from 2633 ,
+                      to 2666 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041966" } } ,
+                    int {
+                      from 3387 ,
+                      to 4338 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041966" } } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                comment "Cbu.L1917 self-splicing group I intron" ,
+                location
+                  int {
+                    from 2345 ,
+                    to 2632 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_041966" } } ,
+                qual {
+                  {
+                    qual "experiment" ,
+                    val "EXISTENCE:[17644584]" } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                comment "Cbu.L1951 self-splicing group I intron" ,
+                location
+                  int {
+                    from 2667 ,
+                    to 3386 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_041966" } } ,
+                qual {
+                  {
+                    qual "experiment" ,
+                    val "EXISTENCE:[17644584]" } } } ,
+              {
+                data
+                  imp {
+                    key "misc_feature" } ,
+                comment "intervening sequence; IVS; disruptes 23S rRNA and
+ results in fragmentation of mature 23S rRNA" ,
+                location
+                  int {
+                    from 1164 ,
+                    to 1601 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_041966" } } } ,
+              {
+                data
+                  gene {
+                    locus "rrlA" } ,
+                location
+                  int {
+                    from 0 ,
+                    to 4338 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_041966" } } } ,
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                partial TRUE ,
+                product
+                  whole
+                    other {
+                      accession "NR_131209" } ,
+                location
+                  int {
+                    from 0 ,
+                    to 1163 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_041966" } ,
+                    fuzz-to
+                      lim gt } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_131209" } } ,
+      descr {
+        title "Coxiella burnetii 23S ribosomal RNA (rrlA) gene, partial
+ sequence." ,
+        molinfo {
+          biomol rRNA } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_041966" } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "PROVISIONAL" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 1164 ,
+        seq-data
+          ncbi2na 'AD0B8309933AE8E5FA4B08A638286CB25E6309F6A89E901098E35A23F58
+3AA01505FD8AF36CC783D32B318A605EA81E01370B15228020341623D6D2C9A62602681254BC70
+34F3FBDC920EF7A02F494C9AB8C956C66022C0C3BAB0638B2B6A11BACDF87813AAA14D750A7031
+D7C7858C9814B16E2A02B802055A62A8B80C817805B39B1092CA24FDF680EE1E6C5FFB30EAD261
+F1FBEC989F05B72A8A6CA8058B580EA6FCBE418B215805898DCDCE94AB82B4AC11E1E8A5605470
+EF800F2A8E27BA328B80A70D09DA2327AF75D809CFCAC9976ECE1DFAAB2247BF69CAA94D5A5C50
+162901D60C5082FF246A2111E6AE30AD6EBA02A012548D949C2B540344BC2E8018EEA0A748494A
+2BE9F2092535FC0809B0C9D1EB62DB5E66823F06A9D01EEC58279A4'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  gene {
+                    locus "rrlA" } ,
+                partial TRUE ,
+                location
+                  int {
+                    from 0 ,
+                    to 1163 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_131209" } ,
+                    fuzz-to
+                      lim gt } } ,
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                partial TRUE ,
+                comment "disrupted by intervening sequence results in
+ fragmentation of mature 23S rRNA" ,
+                location
+                  int {
+                    from 0 ,
+                    to 1163 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_131209" } ,
+                    fuzz-to
+                      lim gt } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_076084" } } ,
+      descr {
+        title "Coxiella burnetii 23S ribosomal RNA (rrlA) gene, partial
+ sequence." ,
+        molinfo {
+          biomol rRNA } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_041966" } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "PROVISIONAL" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 1728 ,
+        seq-data
+          ncbi2na '8EAC8A26F7B097B82B83622BF9E8ACD20B9839E130B0630EEAE00151196
+02DC2BF5E641BC36192AE2DA55C298A480E6CB63A806AF0CF56C7F30C798EA2868829CAD25158E
+BEEBAFC2EECA0ABDFE9035A81D0F5884E3860B181FBDB902E3E39467D4A00B5709F4ACFB005B1C
+C05844AE84AC88314299F8881FAB8281CA403A45B07DA882B995FAC2E0AD7E61E89E00ABE48C52
+BA7987BF1C004491DE4076C2286CCABB865E56B9682BC2E3AAF2576A609DF8D8255AC069A5B073
+06B5C2B2603D7EDAB0BD6179183A6C18C9467B75150874B80F80D9EE08E49B159A721A02156E05
+FC7127F11E07F83397BB28CAEA29FE09E899C9D4BA2505F80C515E9BBF8AF7057B56C35AB6A04B
+B3AEACBF87AA6B75D4022C1A28B102B15D246B680DB93EEE40A4C2AE7E1E621E10B624AC602CAD
+F2E35AEB5FCE82A536741A300AC75AA304A78C51508BD3361AEBBFA45D8EDA74D135EA9EC96B54
+2ACE9EF653F02EB1B89EAFC81B6E212F6B573796EA6FA23F88A279D72C62285A2E86C5DEBBD6BE
+D194BA4F96AC9C2C686A3059E024DC26A0955742388DD5A17F0AD5C08F6F821841BE3292AEE827
+4B0E2E09C17B1C3C36E61F873'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  gene {
+                    locus "rrlA" } ,
+                partial TRUE ,
+                location
+                  int {
+                    from 0 ,
+                    to 1727 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_076084" } ,
+                    fuzz-from
+                      lim lt } } ,
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                partial TRUE ,
+                comment "disrupted by intervening sequence results in
+ fragmentation of mature 23S rRNA" ,
+                location
+                  int {
+                    from 0 ,
+                    to 1727 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_076084" } ,
+                    fuzz-from
+                      lim lt } } } } } } } }

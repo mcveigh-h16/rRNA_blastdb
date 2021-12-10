@@ -1,0 +1,594 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Caldivirga maquilingensis" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 76887 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Caldivirga" ,
+              species "maquilingensis" } ,
+          attrib "nomodforward" ,
+          mod {
+            {
+              subtype strain ,
+              subname "IC-167" } } ,
+          lineage "Archaea; Crenarchaeota; Thermoprotei; Thermoproteales;
+ Thermoproteaceae; Caldivirga" ,
+          gcode 11 ,
+          div "BCT" } } } ,
+    pub {
+      pub {
+        gen {
+          cit "Unpublished" ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Copeland" ,
+                      first "Alex" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Lucas" ,
+                      first "Susan" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Lapidus" ,
+                      first "Alla" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Barry" ,
+                      first "Kerrie" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Glavina del Rio" ,
+                      first "Tijana" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Dalin" ,
+                      first "Eileen" ,
+                      initials "E." } } ,
+                {
+                  name
+                    name {
+                      last "Tice" ,
+                      first "Hope" ,
+                      initials "H." } } ,
+                {
+                  name
+                    name {
+                      last "Pitluck" ,
+                      first "Samuel" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Saunders" ,
+                      first "Elizabeth" ,
+                      initials "E." } } ,
+                {
+                  name
+                    name {
+                      last "Brettin" ,
+                      first "Thomas" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Bruce" ,
+                      first "David" ,
+                      initials "D." } } ,
+                {
+                  name
+                    name {
+                      last "Detter" ,
+                      first "John" ,
+                      initials "J.C." } } ,
+                {
+                  name
+                    name {
+                      last "Han" ,
+                      first "Cliff" ,
+                      initials "C." } } ,
+                {
+                  name
+                    name {
+                      last "Schmutz" ,
+                      first "Jeremy" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Larimer" ,
+                      first "Frank" ,
+                      initials "F." } } ,
+                {
+                  name
+                    name {
+                      last "Land" ,
+                      first "Miriam" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Hauser" ,
+                      first "Loren" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Kyrpides" ,
+                      first "Nikos" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Ivanova" ,
+                      first "Natalia" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Biddle" ,
+                      first "Jennifer" ,
+                      initials "J.F." } } ,
+                {
+                  name
+                    name {
+                      last "Zhang" ,
+                      first "Zhidan" ,
+                      initials "Z." } } ,
+                {
+                  name
+                    name {
+                      last "Fitz-Gibbon" ,
+                      first "Sorel" ,
+                      initials "S.T." } } ,
+                {
+                  name
+                    name {
+                      last "Lowe" ,
+                      first "Todd" ,
+                      initials "T.M." } } ,
+                {
+                  name
+                    name {
+                      last "Saltikov" ,
+                      first "Chad" ,
+                      initials "C." } } ,
+                {
+                  name
+                    name {
+                      last "House" ,
+                      first "Christopher" ,
+                      initials "C.H." } } ,
+                {
+                  name
+                    name {
+                      last "Richardson" ,
+                      first "Paul" ,
+                      initials "P." } } ,
+                {
+                  name
+                    consortium "US DOE Joint Genome Institute" } } ,
+            affil
+              std {
+                affil "US DOE Joint Genome Institute" ,
+                city "Walnut Creek" ,
+                sub "CA" ,
+                country "USA" ,
+                street "2800 Mitchell Drive B100" ,
+                postal-code "94598-1698" } } ,
+          title "Complete sequence of Caldivirga maquilingensis IC-167" } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Copeland" ,
+                      first "Alex" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Lucas" ,
+                      first "Susan" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Lapidus" ,
+                      first "Alla" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Barry" ,
+                      first "Kerrie" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Glavina del Rio" ,
+                      first "Tijana" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Dalin" ,
+                      first "Eileen" ,
+                      initials "E." } } ,
+                {
+                  name
+                    name {
+                      last "Tice" ,
+                      first "Hope" ,
+                      initials "H." } } ,
+                {
+                  name
+                    name {
+                      last "Pitluck" ,
+                      first "Samuel" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Saunders" ,
+                      first "Elizabeth" ,
+                      initials "E." } } ,
+                {
+                  name
+                    name {
+                      last "Brettin" ,
+                      first "Thomas" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Bruce" ,
+                      first "David" ,
+                      initials "D." } } ,
+                {
+                  name
+                    name {
+                      last "Detter" ,
+                      first "John" ,
+                      initials "J.C." } } ,
+                {
+                  name
+                    name {
+                      last "Han" ,
+                      first "Cliff" ,
+                      initials "C." } } ,
+                {
+                  name
+                    name {
+                      last "Schmutz" ,
+                      first "Jeremy" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Larimer" ,
+                      first "Frank" ,
+                      initials "F." } } ,
+                {
+                  name
+                    name {
+                      last "Land" ,
+                      first "Miriam" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Hauser" ,
+                      first "Loren" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Kyrpides" ,
+                      first "Nikos" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Ivanova" ,
+                      first "Natalia" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Biddle" ,
+                      first "Jennifer" ,
+                      initials "J.F." } } ,
+                {
+                  name
+                    name {
+                      last "Zhang" ,
+                      first "Zhidan" ,
+                      initials "Z." } } ,
+                {
+                  name
+                    name {
+                      last "Fitz-Gibbon" ,
+                      first "Sorel" ,
+                      initials "S.T." } } ,
+                {
+                  name
+                    name {
+                      last "Lowe" ,
+                      first "Todd" ,
+                      initials "T.M." } } ,
+                {
+                  name
+                    name {
+                      last "Saltikov" ,
+                      first "Chad" ,
+                      initials "C." } } ,
+                {
+                  name
+                    name {
+                      last "House" ,
+                      first "Christopher" ,
+                      initials "C.H." } } ,
+                {
+                  name
+                    name {
+                      last "Richardson" ,
+                      first "Paul" ,
+                      initials "P." } } ,
+                {
+                  name
+                    consortium "US DOE Joint Genome Institute" } } ,
+            affil
+              std {
+                affil "US DOE Joint Genome Institute" ,
+                city "Walnut Creek" ,
+                sub "CA" ,
+                country "USA" ,
+                street "2800 Mitchell Drive B100" ,
+                postal-code "94598-1698" } } ,
+          date
+            std {
+              year 2007 ,
+              month 10 ,
+              day 2 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2013 ,
+              month 5 ,
+              day 9 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA33175" } } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_042069" } ,
+        general {
+          db "REF_16S_RNA" ,
+          tag
+            str "CP000852:129150-130825" } } ,
+      descr {
+        title "Caldivirga maquilingensis strain IC-167 16S ribosomal RNA gene,
+ complete sequence." ,
+        molinfo {
+          biomol genomic } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "Status" ,
+              data
+                str "Reviewed" } ,
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "CP000852:129150-130825" } } } } } } } ,
+        create-date
+          std {
+            year 2013 ,
+            month 5 ,
+            day 24 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 2 } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 26 } } } } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 1676 ,
+        seq-data
+          ncbi2na '5AF8D79685616736ABAA7C94E62D09954A8567AAE6991A74B046E941715
+DA8AA8C156A01EA9C3554CAA0AB9E82955D56008946D6B15A669D958A3AA71A54D3AC9E9AAC1A5
+65296086AEAA5B889A895623A91E210A95295CEAB924A760C7590E6B05661AA51562E5958E2A69
+FF556EC2C9EAA0C26AA90B7AED25966B0C527598BADAAEFC7A9702656C9695AC2D15780D4EA741
+53A96AAE31E5A9FAABA88A58AB1D5AACAA60358C356A28514BA6826769E8119586B8AA6027AA89
+02A8F23157B2D527B018E6A727BEAEA7CB95952E9B2A096F095965EA8B1A59017A47A944254A5A
+A6829E029A6A5B968BD561A81C8CD4102C4B01D20575FFF24744D741FC57A47F15691A59654931
+F0283E9AAA91442AB827E69F0FA2D065A017456A984928E0A529C185F96862788A2B93A5B65276
+E5B8AED4BC2DE9062661559D5EF9C5715F6ABAAA444A8A1E5A6C25A2828AA94692B4B39560156A
+9E4662790E9AA126AF585580AA8A4356C055954B28362A7B076576E06E83572C166ED14199AE0C
+6D5E55F9111656D994562A8D7C18A557AB07AAAD8BEAAD542AA982DB042BA5B2A8179A5A345D7'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "16S ribosomal RNA" } ,
+                product
+                  whole
+                    other {
+                      accession "NR_102972" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 912 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042069" } } ,
+                    int {
+                      from 1054 ,
+                      to 1675 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042069" } } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 913 ,
+                    to 1053 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_042069" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_102972" } } ,
+      descr {
+        molinfo {
+          biomol rRNA } ,
+        title "Caldivirga maquilingensis 16S ribosomal RNA, rRNA." ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_042069" } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "PROVISIONAL" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 1535 ,
+        seq-data
+          ncbi2na '5AF8D79685616736ABAA7C94E62D09954A8567AAE6991A74B046E941715
+DA8AA8C156A01EA9C3554CAA0AB9E82955D56008946D6B15A669D958A3AA71A54D3AC9E9AAC1A5
+65296086AEAA5B889A895623A91E210A95295CEAB924A760C7590E6B05661AA51562E5958E2A69
+FF556EC2C9EAA0C26AA90B7AED25966B0C527598BADAAEFC7A9702656C9695AC2D15780D4EA741
+53A96AAE31E5A9FAABA88A58AB1D5AACAA60358C356A28514BA6826769E8119586B8AA6027AA89
+02A8F23157B2D527B018E6A727BEAEA7CB95952E9B2A096F095965EA8B1A59017A47A944254A5A
+A6829E03C0A0FA6AAA4510AAE09F9A7C3E8B4196805D15AA6124A38294A70617E5A189E228AE4E
+96D949DB96E2BB52F0B7A418998556757BE715C57DAAEAA9112A287969B0968A0A2AA51A4AD2CE
+558055AA791989E43A6A849ABD615602AA290D5B0156552CA0D8A9EC1D95DB81BA0D5CB059BB45
+0666B831B57957E444595B665158AA35F062955EAC1EAAB62FAAB550AAA60B6C10AE96CAA05E69
+68D175C'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "16S ribosomal RNA" } ,
+                location
+                  int {
+                    from 0 ,
+                    to 1534 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_102972" } } } } } } } } }

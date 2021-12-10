@@ -1,0 +1,549 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Candidatus Desulforudis audaxviator" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 471827 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Desulforudis" ,
+              species "audaxviator" } ,
+          attrib "nomodforward" ,
+          mod {
+            {
+              subtype strain ,
+              subname "MP104C" } } ,
+          lineage "Bacteria; Firmicutes; Clostridia; Clostridiales;
+ Peptococcaceae; Candidatus Desulforudis" ,
+          gcode 11 ,
+          div "BCT" } } } ,
+    pub {
+      pub {
+        article {
+          title {
+            name "Environmental genomics reveals a single-species ecosystem
+ deep within Earth." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Chivian" ,
+                      initials "D." } ,
+                  affil
+                    str "Physical Biosciences Division, Lawrence Berkeley
+ National Laboratory, Berkeley, CA 94720, USA. DCChivian@lbl.gov" } ,
+                {
+                  name
+                    name {
+                      last "Brodie" ,
+                      initials "E.L." } } ,
+                {
+                  name
+                    name {
+                      last "Alm" ,
+                      initials "E.J." } } ,
+                {
+                  name
+                    name {
+                      last "Culley" ,
+                      initials "D.E." } } ,
+                {
+                  name
+                    name {
+                      last "Dehal" ,
+                      initials "P.S." } } ,
+                {
+                  name
+                    name {
+                      last "DeSantis" ,
+                      initials "T.Z." } } ,
+                {
+                  name
+                    name {
+                      last "Gihring" ,
+                      initials "T.M." } } ,
+                {
+                  name
+                    name {
+                      last "Lapidus" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Lin" ,
+                      initials "L.H." } } ,
+                {
+                  name
+                    name {
+                      last "Lowry" ,
+                      initials "S.R." } } ,
+                {
+                  name
+                    name {
+                      last "Moser" ,
+                      initials "D.P." } } ,
+                {
+                  name
+                    name {
+                      last "Richardson" ,
+                      initials "P.M." } } ,
+                {
+                  name
+                    name {
+                      last "Southam" ,
+                      initials "G." } } ,
+                {
+                  name
+                    name {
+                      last "Wanger" ,
+                      initials "G." } } ,
+                {
+                  name
+                    name {
+                      last "Pratt" ,
+                      initials "L.M." } } ,
+                {
+                  name
+                    name {
+                      last "Andersen" ,
+                      initials "G.L." } } ,
+                {
+                  name
+                    name {
+                      last "Hazen" ,
+                      initials "T.C." } } ,
+                {
+                  name
+                    name {
+                      last "Brockman" ,
+                      initials "F.J." } } ,
+                {
+                  name
+                    name {
+                      last "Arkin" ,
+                      initials "A.P." } } ,
+                {
+                  name
+                    name {
+                      last "Onstott" ,
+                      initials "T.C." } } } } ,
+          from
+            journal {
+              title {
+                iso-jta "Science" ,
+                ml-jta "Science" ,
+                issn "1095-9203" ,
+                name "Science (New York, N.Y.)" } ,
+              imp {
+                date
+                  std {
+                    year 2008 ,
+                    month 10 ,
+                    day 10 } ,
+                volume "322" ,
+                issue "5899" ,
+                pages "275-278" ,
+                language "eng" ,
+                pubstatus ppublish ,
+                history {
+                  {
+                    pubstatus pubmed ,
+                    date
+                      std {
+                        year 2008 ,
+                        month 10 ,
+                        day 11 ,
+                        hour 9 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus medline ,
+                    date
+                      std {
+                        year 2008 ,
+                        month 10 ,
+                        day 28 ,
+                        hour 9 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus other ,
+                    date
+                      std {
+                        year 2008 ,
+                        month 10 ,
+                        day 11 ,
+                        hour 9 ,
+                        minute 0 } } } } } ,
+          ids {
+            pii "322/5899/275" ,
+            doi "10.1126/science.1155495" ,
+            pubmed 18845759 ,
+            other {
+              db "ELocationID doi" ,
+              tag
+                str "10.1126/science.1155495" } } } ,
+        pmid 18845759 } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Copeland" ,
+                      first "Alex" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Lucas" ,
+                      first "Susan" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Lapidus" ,
+                      first "Alla" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Barry" ,
+                      first "Kerrie" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Glavina del Rio" ,
+                      first "Tijana" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Dalin" ,
+                      first "Eileen" ,
+                      initials "E." } } ,
+                {
+                  name
+                    name {
+                      last "Tice" ,
+                      first "Hope" ,
+                      initials "H." } } ,
+                {
+                  name
+                    name {
+                      last "Bruce" ,
+                      first "David" ,
+                      initials "D." } } ,
+                {
+                  name
+                    name {
+                      last "Pitluck" ,
+                      first "Samuel" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Lowry" ,
+                      first "Stephen" ,
+                      initials "S.R." } } ,
+                {
+                  name
+                    name {
+                      last "Larimer" ,
+                      first "Frank" ,
+                      initials "F." } } ,
+                {
+                  name
+                    name {
+                      last "Land" ,
+                      first "Miriam" ,
+                      initials "M.L." } } ,
+                {
+                  name
+                    name {
+                      last "Hauser" ,
+                      first "Loren" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Kyrpides" ,
+                      first "Nikos" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Ivanova" ,
+                      first "Natalia" ,
+                      initials "N.N." } } ,
+                {
+                  name
+                    name {
+                      last "Richardson" ,
+                      first "Paul" ,
+                      initials "P." } } ,
+                {
+                  name
+                    consortium "US DOE Joint Genome Institute (JGI-PGF)" } } ,
+            affil
+              std {
+                affil "US DOE Joint Genome Institute" ,
+                city "Walnut Creek" ,
+                sub "CA" ,
+                country "USA" ,
+                street "2800 Mitchell Drive B100" ,
+                postal-code "94598-1698" } } ,
+          medium other ,
+          date
+            std {
+              year 2007 ,
+              month 10 ,
+              day 17 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2013 ,
+              month 2 ,
+              day 14 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA188943" } } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_042005" } ,
+        general {
+          db "REF_23S_RNA" ,
+          tag
+            str "CP000860:144515-147883" } } ,
+      descr {
+        title "Candidatus Desulforudis audaxviator 23S ribosomal RNA gene,
+ complete sequence." ,
+        molinfo {
+          biomol genomic } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 26 } } } } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "CP000860:144515-147883" } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        create-date
+          std {
+            year 2013 ,
+            month 3 ,
+            day 25 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 2 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 3369 ,
+        seq-data
+          ncbi2na '42F3C2A6C6BA397E99E2258E0A9BAC2798C25DAA2590929FE35AA31583A
+A415B6AA20556135EE78113291262A916AE07804DF2C958A088090B981554B26989802A9895016
+EC6EF02DE5A6F9B39AAC8A886BCEA8A69A6D56BA389A5F2B82687A02D596C8AB00956C3600AE6F
+C96785B4D50B166A11BA0559A835A8A145D70A7031DD261632E472C5B8A80AE009156A2A8B8048
+17805B3971092DA2473FADB6B6D21618582EE1A6C7FFB206A5A62F1EF9298AF0A8880D5A25B260
+262D705A9A3CB79ACB215805AB8DC54ED4AB82662C2BE6E8A560585B6F8029A68E2BBAB26B80E5
+0D815A2327AF75580C9DCA9C974AC222CBAEB22478FA9CAA5F45AF16054F407583166C7EF97A8B
+4879AA8C27DB2D88A80495216D270AD540D29E2E8828EE09E780494A3BE9F2092514FC08B9B0C9
+D1EB72697E65803D06A9C25E31609C68FF22BE88522B482DA02894A638F68BF5B85E02CC528A6C
+5AFACF9AB31D4C15AC8E5A0CE26988BEA334BE6C292633635690136782BC696408358248BF011F
+DC6C195FA760EC45D02318AC7680907F11FE3426FAD02DE13585D69F585DC03ACAA26F54BEBE09
+4C5B0A2EBA1A7A82E20E5A4C2C2620A4AE20D79596025C2BF5EA829DB5952AC25A85C258A582A6
+CA63A109AF88F59E516AE96FE28E8986680ACA7899B8FAC899B5096B2AEEA129035B566F25E22B
+8EA8A80D52C58249615CE5942009F70628452B95B16405844ACA6AB8805C299988815DBC281DA4
+0F055B07DA882AB156F26E02CFC712C9B8AAB64885295E987BF140044AD5E5036C2382CCAA7865
+E54B9682BC2A8AEF2AB05E091E058255AC069A5B07306B5C2B2603D7EDAB0BD6159180A6C187AA
+47B7418AA76B80FB2C5AC08E5AF15124A1202156E89FC7B05E13E87FACFF3B128CAEA29FA0A4A9
+9497E7A25A6BA8C515F0ACF82F705FA95E81ABFAA12ED29A92FE1EA9AD975409B068A6540AC576
+99A3A03667F22EC0A402AE7E12621710B627AE6024A9F2E35A6BD62E82A5B6741A3009C55AA304
+A7CDD5508B51361AA2BFA45D8EDA74D935E89EC92BD42AFA9EF654F026B1B89EAF481B6E212F6B
+57359EEA64A01F88A27B572C62285A8E86459EBB14BEDD948A459EAC94EE686A3099E024DC2660
+95577238AFD516AC05AB0855EB20C52B23296A6EC27A9052F49A16B1C36B62A7E00'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                product
+                  whole
+                    other {
+                      accession "NR_076118" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 1340 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042005" } } ,
+                    int {
+                      from 1593 ,
+                      to 3368 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042005" } } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 1341 ,
+                    to 1592 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_042005" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_076118" } } ,
+      descr {
+        title "Candidatus Desulforudis audaxviator 23S ribosomal RNA, complete
+ sequence." ,
+        molinfo {
+          biomol rRNA } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_042005" } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "PROVISIONAL" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 3117 ,
+        seq-data
+          ncbi2na '42F3C2A6C6BA397E99E2258E0A9BAC2798C25DAA2590929FE35AA31583A
+A415B6AA20556135EE78113291262A916AE07804DF2C958A088090B981554B26989802A9895016
+EC6EF02DE5A6F9B39AAC8A886BCEA8A69A6D56BA389A5F2B82687A02D596C8AB00956C3600AE6F
+C96785B4D50B166A11BA0559A835A8A145D70A7031DD261632E472C5B8A80AE009156A2A8B8048
+17805B3971092DA2473FADB6B6D21618582EE1A6C7FFB206A5A62F1EF9298AF0A8880D5A25B260
+262D705A9A3CB79ACB215805AB8DC54ED4AB82662C2BE6E8A560585B6F8029A68E2BBAB26B80E5
+0D815A2327AF75580C9DCA9C974AC222CBAEB22478FA9CAA5F45AF16054F407583166C7EF97A8B
+4879AA8C27DB2D88A80495216D270AD540D29E2E8828EE09E780494A3BE9F2092514FC08B9B0C9
+D1EB72697E65803D06A9C25E31609C68FF22BE88522B482DA02894A638F68BF5BA3426FAD02DE1
+3585D69F585DC03ACAA26F54BEBE094C5B0A2EBA1A7A82E20E5A4C2C2620A4AE20D79596025C2B
+F5EA829DB5952AC25A85C258A582A6CA63A109AF88F59E516AE96FE28E8986680ACA7899B8FAC8
+99B5096B2AEEA129035B566F25E22B8EA8A80D52C58249615CE5942009F70628452B95B1640584
+4ACA6AB8805C299988815DBC281DA40F055B07DA882AB156F26E02CFC712C9B8AAB64885295E98
+7BF140044AD5E5036C2382CCAA7865E54B9682BC2A8AEF2AB05E091E058255AC069A5B07306B5C
+2B2603D7EDAB0BD6159180A6C187AA47B7418AA76B80FB2C5AC08E5AF15124A1202156E89FC7B0
+5E13E87FACFF3B128CAEA29FA0A4A99497E7A25A6BA8C515F0ACF82F705FA95E81ABFAA12ED29A
+92FE1EA9AD975409B068A6540AC57699A3A03667F22EC0A402AE7E12621710B627AE6024A9F2E3
+5A6BD62E82A5B6741A3009C55AA304A7CDD5508B51361AA2BFA45D8EDA74D935E89EC92BD42AFA
+9EF654F026B1B89EAF481B6E212F6B57359EEA64A01F88A27B572C62285A8E86459EBB14BEDD94
+8A459EAC94EE686A3099E024DC266095577238AFD516AC05AB0855EB20C52B23296A6EC27A9052
+F49A16B1C36B62A7E00'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                location
+                  int {
+                    from 0 ,
+                    to 3116 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_076118" } } } } } } } } }

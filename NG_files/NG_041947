@@ -1,0 +1,540 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "[Clostridium] cellulolyticum" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 1521 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Clostridium" ,
+              species "[Clostridium] cellulolyticum" } ,
+          attrib "nomodforward" ,
+          mod {
+            {
+              subtype strain ,
+              subname "H10; ATCC 35319" } ,
+            {
+              subtype culture-collection ,
+              subname "ATCC:35319" } ,
+            {
+              subtype old-name ,
+              subname "Clostridium cellulolyticum" } } ,
+          lineage "Bacteria; Firmicutes; Clostridia; Clostridiales;
+ Clostridiaceae; Clostridium" ,
+          gcode 11 ,
+          div "BCT" } } } ,
+    pub {
+      pub {
+        gen {
+          cit "Unpublished" ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Lucas" ,
+                      first "Susan" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Copeland" ,
+                      first "Alex" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Lapidus" ,
+                      first "Alla" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Glavina del Rio" ,
+                      first "Tijana" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Dalin" ,
+                      first "Eileen" ,
+                      initials "E." } } ,
+                {
+                  name
+                    name {
+                      last "Tice" ,
+                      first "Hope" ,
+                      initials "H." } } ,
+                {
+                  name
+                    name {
+                      last "Bruce" ,
+                      first "David" ,
+                      initials "D." } } ,
+                {
+                  name
+                    name {
+                      last "Goodwin" ,
+                      first "Lynne" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Pitluck" ,
+                      first "Samuel" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Chertkov" ,
+                      first "Olga" ,
+                      initials "O." } } ,
+                {
+                  name
+                    name {
+                      last "Saunders" ,
+                      first "Elizabeth" ,
+                      initials "E." } } ,
+                {
+                  name
+                    name {
+                      last "Brettin" ,
+                      first "Thomas" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Detter" ,
+                      first "John" ,
+                      initials "J.C." } } ,
+                {
+                  name
+                    name {
+                      last "Han" ,
+                      first "Cliff" ,
+                      initials "C." } } ,
+                {
+                  name
+                    name {
+                      last "Larimer" ,
+                      first "Frank" ,
+                      initials "F." } } ,
+                {
+                  name
+                    name {
+                      last "Land" ,
+                      first "Miriam" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Hauser" ,
+                      first "Loren" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Kyrpides" ,
+                      first "Nikos" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Ivanova" ,
+                      first "Natalia" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Zhou" ,
+                      first "Jizhong" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Richardson" ,
+                      first "Paul" ,
+                      initials "P." } } ,
+                {
+                  name
+                    consortium "US DOE Joint Genome Institute" } } ,
+            affil
+              std {
+                affil "US DOE Joint Genome Institute" ,
+                city "Walnut Creek" ,
+                sub "CA" ,
+                country "USA" ,
+                street "2800 Mitchell Drive B100" ,
+                postal-code "94598-1698" } } ,
+          title "Complete sequence of Clostridium cellulolyticum H10" } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Lucas" ,
+                      first "Susan" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Copeland" ,
+                      first "Alex" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Lapidus" ,
+                      first "Alla" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Glavina del Rio" ,
+                      first "Tijana" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Dalin" ,
+                      first "Eileen" ,
+                      initials "E." } } ,
+                {
+                  name
+                    name {
+                      last "Tice" ,
+                      first "Hope" ,
+                      initials "H." } } ,
+                {
+                  name
+                    name {
+                      last "Bruce" ,
+                      first "David" ,
+                      initials "D." } } ,
+                {
+                  name
+                    name {
+                      last "Goodwin" ,
+                      first "Lynne" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Pitluck" ,
+                      first "Samuel" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Chertkov" ,
+                      first "Olga" ,
+                      initials "O." } } ,
+                {
+                  name
+                    name {
+                      last "Saunders" ,
+                      first "Elizabeth" ,
+                      initials "E." } } ,
+                {
+                  name
+                    name {
+                      last "Brettin" ,
+                      first "Thomas" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Detter" ,
+                      first "John" ,
+                      initials "J.C." } } ,
+                {
+                  name
+                    name {
+                      last "Han" ,
+                      first "Cliff" ,
+                      initials "C." } } ,
+                {
+                  name
+                    name {
+                      last "Larimer" ,
+                      first "Frank" ,
+                      initials "F." } } ,
+                {
+                  name
+                    name {
+                      last "Land" ,
+                      first "Miriam" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Hauser" ,
+                      first "Loren" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Kyrpides" ,
+                      first "Nikos" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Ivanova" ,
+                      first "Natalia" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Zhou" ,
+                      first "Jizhong" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Richardson" ,
+                      first "Paul" ,
+                      initials "P." } } ,
+                {
+                  name
+                    consortium "US DOE Joint Genome Institute" } } ,
+            affil
+              std {
+                affil "US DOE Joint Genome Institute" ,
+                city "Walnut Creek" ,
+                sub "CA" ,
+                country "USA" ,
+                street "2800 Mitchell Drive B100" ,
+                postal-code "94598-1698" } } ,
+          medium other ,
+          date
+            std {
+              year 2009 ,
+              month 1 ,
+              day 6 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2013 ,
+              month 5 ,
+              day 9 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA33175" } } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_041947" } ,
+        general {
+          db "REF_SSU16S" ,
+          tag
+            str "CP001348:453791-455431" } } ,
+      descr {
+        title "[Clostridium] cellulolyticum strain H10 16S ribosomal RNA gene,
+ complete sequence." ,
+        molinfo {
+          biomol genomic } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "CP001348:453791-455431" } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        create-date
+          std {
+            year 2013 ,
+            month 5 ,
+            day 24 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 2 } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 25 } } } } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 1641 ,
+        seq-data
+          ncbi2na '22FE35E9D286067A69B97044E42D89A2F17F2478B3DFA338E785849B4E4
+00417C383EFCBE8BFF93466FF3C0BB41130CB20883BD2E782B07C9A686AE2C19BA905E5EF12AA3
+044A807EE70C593044182093F7FBED02890F6B848EA566D43C9CBEB8EC1A3450A618FAC960788A
+F8DA513EA1E211A54875C6A2924BAA0CF910EAA015E39241966E0A382BFDA3EC07DFCB4A860003
+86B17820C251A7071B949259AC31B2BA426FB5A0F1EAEC0A9BB29A83B0B48EE0354A9F057A2793
+78073BF7E2E5A22809A0F5CBB26B80E6C8CF28A0452E9829A7F7A1AC1E19E299809BAA2404A3C8
+C57ACB519EC063A31CAECA2B36157DEE5A2F04430B3545EA8B1A590AF80740A0F86AA564424BA2
+CEEBF0F6090660817C50A7E13326831A488EDB2D7DA879CC4AEB93AFB6D276EDB88EFABC2D5906
+264157BE72F8C12C238D1DC988796B840DA282BAA186D034D3957CEDFA9C446C710E9CC122A09C
+27902E8903550032D52F48FBA9E415951382DA0F9CB0E92B4931E5B831BD5A97EC44595B445388
+B7904560B632DC16428A1B6582BAA58E3EAB82DB042B25B3682B9A7A345C0'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "16S ribosomal RNA" } ,
+                product
+                  whole
+                    other {
+                      accession "NR_102768" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 70 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041947" } } ,
+                    int {
+                      from 210 ,
+                      to 1640 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041947" } } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 71 ,
+                    to 209 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_041947" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_102768" } } ,
+      descr {
+        molinfo {
+          biomol rRNA } ,
+        title "[Clostridium] cellulolyticum 16S ribosomal RNA, rRNA." ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_041947" } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "PROVISIONAL" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 1502 ,
+        seq-data
+          ncbi2na '22FE35E9D286067A69B97044E42D89A2F17DE0AC1F269A1AB8B066EA417
+97BC4AA8C112A01FB9C3164C11060824FDFEFB40A243DAE123A959B50F272FAE3B068D1429863E
+B2581E22BE36944FA8788469521D71A8A492EA833E443AA80578E490659B828E0AFF68FB01F7F2
+D2A18000E1AC5E08309469C1C6E524966B0C6CAE909BED683C7ABB02A6ECA6A0EC2D23B80D52A7
+C15E89E4DE01CEFDF8B9688A02683D72EC9AE039B233CA28114BA60A69FDE86B078678A66026EA
+890128F2315EB2D467B018E8C72BB28ACD855F7B968BC110C2CD517AA2C69642BE01D0283E1AA9
+591092E8B3BAFC3D824198205F1429F84CC9A0C69223B6CB5F6A1E7312BAE4EBEDB49DBB6E23BE
+AF0B5641899055EF9CBE304B08E34772621E5AE10368A0AEA861B40D34E55F3B7EA7111B1C43A7
+3048A82709E40BA240D5400CB54BD23EEA79056544E0B683E72C3A4AD24C796E0C6F56A5FB1116
+56D114E22DE411582D8CB70590A286D960AEA9638FAAE0B6C10AC96CDA0AE69E8D170'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "16S ribosomal RNA" } ,
+                location
+                  int {
+                    from 0 ,
+                    to 1501 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_102768" } } } } } } } } }

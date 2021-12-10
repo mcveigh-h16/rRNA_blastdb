@@ -1,0 +1,374 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Gallibacterium anatis" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 750 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Gallibacterium" ,
+              species "anatis" } ,
+          attrib "nomodforward" ,
+          mod {
+            {
+              subtype strain ,
+              subname "UMN179" } ,
+            {
+              subtype nat-host ,
+              subname "Gallus gallus" } } ,
+          lineage "Bacteria; Proteobacteria; Gammaproteobacteria;
+ Pasteurellales; Pasteurellaceae; Gallibacterium" ,
+          gcode 11 ,
+          div "BCT" } } ,
+      subtype {
+        {
+          subtype country ,
+          name "USA: Iowa" } ,
+        {
+          subtype isolation-source ,
+          name "lesion of a laying hen affected by peritonitis" } } } ,
+    pub {
+      pub {
+        article {
+          title {
+            name "Complete Genome Sequence of Gallibacterium anatis Strain
+ UMN179, Isolated from a Laying Hen with Peritonitis." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Johnson" ,
+                      first "T" ,
+                      initials "T.J." } } ,
+                {
+                  name
+                    name {
+                      last "Fernandez-Alarcon" ,
+                      first "C" ,
+                      initials "C." } } ,
+                {
+                  name
+                    name {
+                      last "Bojesen" ,
+                      first "A" ,
+                      initials "A.M." } } ,
+                {
+                  name
+                    name {
+                      last "Nolan" ,
+                      first "L" ,
+                      initials "L.K." } } ,
+                {
+                  name
+                    name {
+                      last "Trampel" ,
+                      first "D" ,
+                      initials "D.W." } } ,
+                {
+                  name
+                    name {
+                      last "Seemann" ,
+                      first "T" ,
+                      initials "T." } } } ,
+            affil
+              str "University of Minnesota, 1971 Commonwealth Ave., 205
+ Veterinary Science, Saint Paul, MN 55108. joh04207@umn.edu." } ,
+          from
+            journal {
+              title {
+                iso-jta "J. Bacteriol." } ,
+              imp {
+                date
+                  std {
+                    year 2011 ,
+                    month 7 } ,
+                volume "193" ,
+                issue "14" ,
+                pages "3676-3677" ,
+                pubstatus ppublish } } ,
+          ids {
+            doi "10.1128/JB.05177-11" ,
+            pubmed 21602325 } } ,
+        pmid 21602325 } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Johnson" ,
+                      first "Timothy" ,
+                      initials "T.J." } } ,
+                {
+                  name
+                    name {
+                      last "Bojesen" ,
+                      first "Anders" ,
+                      initials "A.M." } } ,
+                {
+                  name
+                    name {
+                      last "Seemann" ,
+                      first "Torsten" ,
+                      initials "T." } } } ,
+            affil
+              std {
+                affil "University of Minnesota" ,
+                div "Veterinary and Biomedical Sciences" ,
+                city "Saint Paul" ,
+                sub "MN" ,
+                country "USA" ,
+                street "1971 Commonwealth Ave" ,
+                postal-code "55108" } } ,
+          medium other ,
+          date
+            std {
+              year 2011 ,
+              month 4 ,
+              day 12 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2013 ,
+              month 2 ,
+              day 14 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA188943" } } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_041993" } ,
+        general {
+          db "REF_23S_RNA" ,
+          tag
+            str "CP002667:1149976-1152963" } } ,
+      descr {
+        title "Gallibacterium anatis strain UMN179 23S ribosomal RNA gene,
+ complete sequence." ,
+        molinfo {
+          biomol genomic } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 26 } } } } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "CP002667:1149976-1152963" } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        create-date
+          std {
+            year 2013 ,
+            month 3 ,
+            day 25 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 2 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 2988 ,
+        seq-data
+          ncbi2na 'C2E1C26C46BA397E90D229820A1B9C3798026EAA278C28990354633583A
+A0158C8E083734FBEDE0F4CA90429016A207804DC2C558A0080D0588F798B26989809A289498B8
+C930BFCA20FB7A82909888AB84956CD600868EEB1C272420B2A6A118A0D7BF820AAA14D750A703
+1D78F858CB814B16E2A029802055A8AA2E02205E016EC6C424BA897B0AB879B17FECC3AB4987CC
+FFB262BC168CAA2582A0162DF07A9AF2F908CC856015AE37253A92820AFAB04707A2A58161C7BE
+002C9A385EE9EAAE02943405A88C9EBDD560373F2B225F338317DAAB2247BF69CAAD4D5A3C5056
+3901E60C5822C3B32884469AB9C1BDB6E88A804152165270AD502DCCF0BA8060BA029F212728EF
+A7C82494D3F02026C327472D8B6B799A08EC1AA700CC91609E6934A6CD113197C63C117E4090AE
+B4261F113E2BB8BA0D8222833BB8C6DEFAB2A89BEEC27820ACBD88A9E7A2B3442E60E784C2C18C
+09AB80A56765A0850AFD7B506F0DAA4AB8B69570A629E209B2D8EA03ABC33D531FA301E63BAA1A
+24AF2BC9B1A3A08B1BF0BEB2B8AEFCA40D6A45E3047888E38629C6B9E0B078C541F5280251C262
+2BF37016C7A016112BAD2B220C70A67E22076AE0A072900C916C1F6A20AE67A6CBB82F7D983A24
+6052D826189E9E41EFC300112477901180BA1B32AEE39795AE7A0AF0F8EBBCD8088245E360954B
+01A696C1CC1AD70AC980F5FB6AC2F585E460E930E3A529EDD45621D2E03E0365B8239AEC5669C8
+680855B817F1CC9F847817E0FF0EECA32BA8870826B0652F36E8B63BE031457F06FE3BDC18A45E
+A12BBDA12EDEBAB2FE1EA9ADD75409B068A2460AFA70E1ADA136D2BCB90EB20949F079886842D8
+92B180B2B4CB8D6BAF783A0A94D9D068C02B1D6A8C129E3165422F4CD869AEFE91763B69D344D7
+AA782CAD50AB3A7BD94FC0BAC6627ABF206DB884BDAD5CDE5BA9BE8A3E2AABE75CB188A168B819
+167AEF52FBF652093E7AB270B9A088C2E780937091807E5588E2F7578488B4B0ABEF821861B232
+BAAEEC26BB896F89C1531C3E56229F0'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                product
+                  whole
+                    other {
+                      accession "NR_076146" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 1171 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041993" } } ,
+                    int {
+                      from 1228 ,
+                      to 2987 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041993" } } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 1172 ,
+                    to 1227 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_041993" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_076146" } } ,
+      descr {
+        title "Gallibacterium anatis strain UMN179 23S ribosomal RNA, complete
+ sequence." ,
+        molinfo {
+          biomol rRNA } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "Status" ,
+              data
+                str "Reviewed" } ,
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_041993" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 2932 ,
+        seq-data
+          ncbi2na 'C2E1C26C46BA397E90D229820A1B9C3798026EAA278C28990354633583A
+A0158C8E083734FBEDE0F4CA90429016A207804DC2C558A0080D0588F798B26989809A289498B8
+C930BFCA20FB7A82909888AB84956CD600868EEB1C272420B2A6A118A0D7BF820AAA14D750A703
+1D78F858CB814B16E2A029802055A8AA2E02205E016EC6C424BA897B0AB879B17FECC3AB4987CC
+FFB262BC168CAA2582A0162DF07A9AF2F908CC856015AE37253A92820AFAB04707A2A58161C7BE
+002C9A385EE9EAAE02943405A88C9EBDD560373F2B225F338317DAAB2247BF69CAAD4D5A3C5056
+3901E60C5822C3B32884469AB9C1BDB6E88A804152165270AD502DCCF0BA8060BA029F212728EF
+A7C82494D3F02026C327472D8B6B799A08EC1AA700CC91609E6934A6CD1E2BB8BA0D8222833BB8
+C6DEFAB2A89BEEC27820ACBD88A9E7A2B3442E60E784C2C18C09AB80A56765A0850AFD7B506F0D
+AA4AB8B69570A629E209B2D8EA03ABC33D531FA301E63BAA1A24AF2BC9B1A3A08B1BF0BEB2B8AE
+FCA40D6A45E3047888E38629C6B9E0B078C541F5280251C2622BF37016C7A016112BAD2B220C70
+A67E22076AE0A072900C916C1F6A20AE67A6CBB82F7D983A246052D826189E9E41EFC300112477
+901180BA1B32AEE39795AE7A0AF0F8EBBCD8088245E360954B01A696C1CC1AD70AC980F5FB6AC2
+F585E460E930E3A529EDD45621D2E03E0365B8239AEC5669C8680855B817F1CC9F847817E0FF0E
+ECA32BA8870826B0652F36E8B63BE031457F06FE3BDC18A45EA12BBDA12EDEBAB2FE1EA9ADD754
+09B068A2460AFA70E1ADA136D2BCB90EB20949F079886842D892B180B2B4CB8D6BAF783A0A94D9
+D068C02B1D6A8C129E3165422F4CD869AEFE91763B69D344D7AA782CAD50AB3A7BD94FC0BAC662
+7ABF206DB884BDAD5CDE5BA9BE8A3E2AABE75CB188A168B819167AEF52FBF652093E7AB270B9A0
+88C2E780937091807E5588E2F7578488B4B0ABEF821861B232BAAEEC26BB896F89C1531C3E5622
+9F0'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                location
+                  int {
+                    from 0 ,
+                    to 2931 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_076146" } } } } } } } } }

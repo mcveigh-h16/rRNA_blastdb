@@ -1,0 +1,389 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Caldivirga maquilingensis" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 76887 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Caldivirga" ,
+              species "maquilingensis" } ,
+          mod {
+            {
+              subtype strain ,
+              subname "IC-167" } ,
+            {
+              subtype culture-collection ,
+              subname "ATCC:700844" } } ,
+          lineage "Archaea; Crenarchaeota; Thermoprotei; Thermoproteales;
+ Thermoproteaceae; Caldivirga" ,
+          gcode 11 ,
+          div "BCT" } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Itoh" ,
+                      initials "T." } } } ,
+            affil
+              str "Takashi Itoh, RIKEN BioResource Center, Japan Collection of
+ Microorganisms; 2-1 Hirosawa, Wako, Saitama 351-0198, Japan
+ (E-mail:ito@jcm.riken.jp, Tel:81-48-467-8440, Fax:81-48-462-4860)" } ,
+          medium email ,
+          date
+            std {
+              year 1998 ,
+              month 5 ,
+              day 14 } } } } ,
+    pub {
+      pub {
+        pmid 10425774 ,
+        article {
+          title {
+            name "Caldivirga maquilingensis gen. nov., sp. nov., a new genus
+ of rod-shaped crenarchaeote isolated from a hot spring in the Philippines." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Itoh" ,
+                      initials "T." } ,
+                  affil
+                    str "Japan Collection of Microorganisms, Institute of
+ Physical, and Chemical Research, RIKEN, Saitama, Japan. ito@jcm.riken.go.jp" } ,
+                {
+                  name
+                    name {
+                      last "Suzuki" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Sanchez" ,
+                      initials "P.C." } } ,
+                {
+                  name
+                    name {
+                      last "Nakase" ,
+                      initials "T." } } } } ,
+          from
+            journal {
+              title {
+                iso-jta "Int. J. Syst. Bacteriol." ,
+                ml-jta "Int J Syst Bacteriol" ,
+                issn "0020-7713" ,
+                name "International journal of systematic bacteriology" } ,
+              imp {
+                date
+                  std {
+                    year 1999 ,
+                    month 7 } ,
+                volume "49" ,
+                pages "1157-1163" ,
+                part-sup "PT 3" ,
+                language "eng" ,
+                pubstatus ppublish ,
+                history {
+                  {
+                    pubstatus pubmed ,
+                    date
+                      std {
+                        year 1999 ,
+                        month 7 ,
+                        day 30 } } ,
+                  {
+                    pubstatus medline ,
+                    date
+                      std {
+                        year 1999 ,
+                        month 7 ,
+                        day 30 ,
+                        hour 0 ,
+                        minute 1 } } ,
+                  {
+                    pubstatus other ,
+                    date
+                      std {
+                        year 1999 ,
+                        month 7 ,
+                        day 30 ,
+                        hour 0 ,
+                        minute 0 } } } } } ,
+          ids {
+            pubmed 10425774 } } } ,
+      reftype no-target } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2011 ,
+              month 8 ,
+              day 8 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA33317" } } } } ,
+    user {
+      type
+        str "NcbiCleanup" ,
+      data {
+        {
+          label
+            str "method" ,
+          data
+            str "SequinCleanup" } ,
+        {
+          label
+            str "version" ,
+          data
+            int 8 } ,
+        {
+          label
+            str "month" ,
+          data
+            int 4 } ,
+        {
+          label
+            str "day" ,
+          data
+            int 1 } ,
+        {
+          label
+            str "year" ,
+          data
+            int 2015 } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_041949" } ,
+        general {
+          db "REF_16S_RNA" ,
+          tag
+            str "AB013926:1-1642" } } ,
+      descr {
+        title "Caldivirga maquilingensis strain IC-167 16S ribosomal RNA gene,
+ partial sequence." ,
+        molinfo {
+          biomol genomic ,
+          completeness partial } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 26 } } } } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "accession" ,
+                          data
+                            str "AB013926" } ,
+                        {
+                          label
+                            str "gi" ,
+                          data
+                            int 3868862 } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        create-date
+          std {
+            year 2011 ,
+            month 8 ,
+            day 10 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 2 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 1642 ,
+        topology not-set ,
+        seq-data
+          ncbi2na '85616736ABAA7C94E62D09954A8567AAE6991A74B046E941715DA8AA8C1
+56A01EA9C3554CAA0AB9E82955D56008946D6B15A669D958A3AA71A54D3AC9E9AAC1A565296086
+AEAA5B889A895623A91E210A95295CEAB924A760C7590E6B05661AA51562E5958E2A69FF556EC2
+C9EAA0C26AA90B7AED25966B0C527598BADAAEFC7A9702656C9695AC2D15780D4EA74153A96AAE
+31E5A9FAABA88A58AB1D5AACAA60358C356A28514BA6826769E8119586B8AA6027AA8902A8F231
+57B2D527B018E6A727BEAEA7CB95952E9B2A096F095965EA8B1A59017A47A944254A5AA6829E02
+9A6A5B968BD561A81C8CD4102C4B01D20575FFF24744D741FC57A47F15691A59654931F0283E9A
+AA91442AB827E69F0FA2D065A017456A984928E0A529C185F96862788A2B93A5B65276E5B8AED4
+BC2DE9062661559D5EF9C5715F6ABAAA444A8A1E5A6C25A2828AA94692B4B39560156A9E466279
+0E9AA126AF585580AA8A4356C055954B28362A7B076576E06E83572C166ED14199AE0C6D5E55F9
+111656D994562A8D7C18A557AB07AAAD8BEAAD50AAA60B6C10AE96CAA05E0'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "16S ribosomal RNA" } ,
+                partial TRUE ,
+                product
+                  whole
+                    other {
+                      accession "NR_040790" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 896 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041949" } ,
+                      fuzz-from
+                        lim lt } ,
+                    int {
+                      from 1023 ,
+                      to 1641 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041949" } ,
+                      fuzz-to
+                        lim gt } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 897 ,
+                    to 1022 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_041949" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_040790" } } ,
+      descr {
+        title "Caldivirga maquilingensis 16S ribosomal RNA, rRNA." ,
+        molinfo {
+          biomol rRNA ,
+          completeness no-ends } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_041949" } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "PROVISIONAL" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 1516 ,
+        seq-data
+          ncbi2na '85616736ABAA7C94E62D09954A8567AAE6991A74B046E941715DA8AA8C1
+56A01EA9C3554CAA0AB9E82955D56008946D6B15A669D958A3AA71A54D3AC9E9AAC1A565296086
+AEAA5B889A895623A91E210A95295CEAB924A760C7590E6B05661AA51562E5958E2A69FF556EC2
+C9EAA0C26AA90B7AED25966B0C527598BADAAEFC7A9702656C9695AC2D15780D4EA74153A96AAE
+31E5A9FAABA88A58AB1D5AACAA60358C356A28514BA6826769E8119586B8AA6027AA8902A8F231
+57B2D527B018E6A727BEAEA7CB95952E9B2A096F095965EA8B1A59017A47A944254A5AA6829E01
+9654931F0283E9AAA91442AB827E69F0FA2D065A017456A984928E0A529C185F96862788A2B93A
+5B65276E5B8AED4BC2DE9062661559D5EF9C5715F6ABAAA444A8A1E5A6C25A2828AA94692B4B39
+560156A9E4662790E9AA126AF585580AA8A4356C055954B28362A7B076576E06E83572C166ED14
+199AE0C6D5E55F9111656D994562A8D7C18A557AB07AAAD8BEAAD50AAA60B6C10AE96CAA05E'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "16S ribosomal RNA" } ,
+                partial TRUE ,
+                location
+                  int {
+                    from 0 ,
+                    to 1515 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_040790" } ,
+                    fuzz-from
+                      lim lt ,
+                    fuzz-to
+                      lim gt } } } } } } } }

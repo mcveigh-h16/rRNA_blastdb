@@ -1,0 +1,9 @@
+[idloadseqentry] WARNING: Submitted blob was not processed by SSEC, which is going to become mandatory soon
+[idloadseqentry] ERROR: NG_042880 : Synonym 14999:REF_SSU16S|AF348746:1-1676 points to different chain (NR_114604) but attempt to reuse of reserved name is not supported by inheritance or takeover request
+[idloadseqentry] WARNING: Failed to load id main database
+[idloadseqentry] ERROR: LOAD FAILED
+[idloadseqentry] ERROR: REJECT ERROR 
+[idloadseqentry] WARNING: Submitted blob was not processed by SSEC, which is going to become mandatory soon
+[idloadseqentry] ERROR: BYTE_BY_BYTE_EQUAL:TAKEOVER ERROR: Not allowed the ownership change from <27> to <23>. SUBBLOB 0
+[idloadseqentry] ERROR: LOAD FAILED
+[idloadseqentry] ERROR: REJECT ERROR 

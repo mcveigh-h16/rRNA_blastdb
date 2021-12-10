@@ -1,0 +1,392 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      org {
+        taxname "Hippea jasoniae" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 944479 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Hippea" ,
+              species "jasoniae" } ,
+          mod {
+            {
+              subtype strain ,
+              subname "Mar08-272r" } ,
+            {
+              subtype old-name ,
+              subname "Hippea sp. Mar08-272r" ,
+              attrib "(2)strain=Mar08-272r" } } ,
+          lineage "Bacteria; Proteobacteria; Deltaproteobacteria;
+ Desulfurellales; Desulfurellaceae; Hippea" ,
+          gcode 11 ,
+          div "BCT" } } ,
+      subtype {
+        {
+          subtype country ,
+          name "Atlantic Ocean:Mid-Atlantic Ridge" } ,
+        {
+          subtype isolation-source ,
+          name "hydrothermal vent deposit" } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Flores" ,
+                      initials "G." } } } ,
+            affil
+              str "Flores G., Portland State University, Biology, PO Box 751,
+ Portland, OR, 97207, USA" } ,
+          medium other ,
+          date
+            std {
+              year 2011 ,
+              month 1 ,
+              day 3 } } } } ,
+    pub {
+      pub {
+        pmid 21764980 ,
+        article {
+          title {
+            name "Hippea jasoniae sp. nov. and Hippea alviniae sp. nov.,
+ thermoacidophilic members of the class Deltaproteobacteria isolated from
+ deep-sea hydrothermal vent deposits." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Flores" ,
+                      initials "G.E." } } ,
+                {
+                  name
+                    name {
+                      last "Hunter" ,
+                      initials "R.C." } } ,
+                {
+                  name
+                    name {
+                      last "Liu" ,
+                      initials "Y." } } ,
+                {
+                  name
+                    name {
+                      last "Mets" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Schouten" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Reysenbach" ,
+                      initials "A.L." } } } ,
+            affil
+              str "Department of Biology, Portland State University, Portland,
+ OR 97201, USA." } ,
+          from
+            journal {
+              title {
+                iso-jta "Int. J. Syst. Evol. Microbiol." ,
+                ml-jta "Int J Syst Evol Microbiol" ,
+                issn "1466-5034" ,
+                name "International journal of systematic and evolutionary
+ microbiology" } ,
+              imp {
+                date
+                  std {
+                    year 2012 ,
+                    month 6 } ,
+                volume "62" ,
+                issue "PT 6" ,
+                pages "1252-1258" ,
+                language "eng" ,
+                pubstatus ppublish ,
+                history {
+                  {
+                    pubstatus aheadofprint ,
+                    date
+                      std {
+                        year 2011 ,
+                        month 7 ,
+                        day 15 } } ,
+                  {
+                    pubstatus other ,
+                    date
+                      std {
+                        year 2011 ,
+                        month 7 ,
+                        day 19 ,
+                        hour 6 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus pubmed ,
+                    date
+                      std {
+                        year 2011 ,
+                        month 7 ,
+                        day 19 ,
+                        hour 6 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus medline ,
+                    date
+                      std {
+                        year 2011 ,
+                        month 7 ,
+                        day 19 ,
+                        hour 6 ,
+                        minute 0 } } } } } ,
+          ids {
+            pii "ijs.0.033001-0" ,
+            doi "10.1099/ijs.0.033001-0" ,
+            pubmed 21764980 } } } ,
+      reftype no-target } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA33175" } } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_041941" } } ,
+      descr {
+        title "Hippea jasoniae strain Mar08-272r 16S ribosomal RNA gene,
+ partial sequence." ,
+        molinfo {
+          biomol genomic } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 2 ,
+                  day 11 } } } } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "accession" ,
+                          data
+                            str "FR754498" } ,
+                        {
+                          label
+                            str "gi" ,
+                          data
+                            int 321399846 } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "PROVISIONAL" } } } ,
+        embl {
+          div pro ,
+          creation-date
+            std {
+              year 2011 ,
+              month 2 ,
+              day 3 } ,
+          update-date
+            std {
+              year 2012 ,
+              month 6 ,
+              day 11 } } ,
+        create-date
+          std {
+            year 2011 ,
+            month 2 ,
+            day 3 } ,
+        update-date
+          std {
+            year 2012 ,
+            month 6 ,
+            day 11 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 1447 ,
+        seq-data
+          ncbi2na '9D206067A69B97044E42DBA880775F6A228B016991AB8B046EAC1795E0B
+7A8C151602BA9C3168CBD5E5D108A4AA80AA9779F909DD9F4A3A959A5CD2B2FAEAB00971425C61
+AB27ADE228EB49447A478846A521D71A8A492EA833EA43A9809785498659BA28E0A5F6ADB01D7B
+48AA0829322A70C55FCE7E1AC5748A09169C1C6E524966B0C6CAB989BEF68347A9B026E6CA695E
+C2D43B8097EA7415083E4FA31E4A9D22E6A22909A0F56BA2AB80D6C8CDA8A045AE9829A7E7A064
+1E19E291809BAA2404A3C8C57ACB5195C063A19EAEDA8AC17D5AE5B09C19BC26D597AA2C696429
+C01D0283E1AA959109AE893BAFC3D8E3198205F17A9F84E7AEB2E0580AA06155917379FA2FEFFD
+3F57FECC2A3C22FCD7A48CAE6AA25244AE793A7B6D276EDB88EFABC2D590626415D95F2F9C1AB0
+E5891DC2A8594A8417A282BAA386D0B4D1A57CE54A9C446E710EABB102AF90D598AB89C3540091
+554BDA3E4B790761E4E09683672C364AD2711E6B8'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "16S ribosomal RNA" } ,
+                partial TRUE ,
+                product
+                  whole
+                    other {
+                      accession "NR_108510" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 1023 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041941" } ,
+                      fuzz-from
+                        lim lt } ,
+                    int {
+                      from 1105 ,
+                      to 1446 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041941" } ,
+                      fuzz-to
+                        lim gt } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 1024 ,
+                    to 1104 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_041941" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_108510" } } ,
+      descr {
+        title "Hippea jasoniae strain Mar08-272r 16S ribosomal RNA (16S rRNA),
+ partial sequence." ,
+        molinfo {
+          biomol rRNA ,
+          completeness no-ends } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_041941" } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "PROVISIONAL" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 1670 ,
+        seq-data
+          ncbi2na '9D206067A69B97044E42DBA880775F6A228B016991AB8B046EAC1795E0B
+7A8C151602BA9C3168CBD5E5D108A4AA80AA9779F909DD9F4A3A959A5CD2B2FAEAB00971425C61
+AB27ADE228EB49447A478846A521D71A8A492EA833EA43A9809785498659BA28E0A5F6ADB01D7B
+48AA0829322A70C55FCE7E1AC5748A09169C1C6E524966B0C6CAB989BEF68347A9B026E6CA695E
+C2D43B8097EA7415083E4FA31E4A9D22E6A22909A0F56BA2AB80D6C8CDA8A045AE9829A7E7A064
+1E19E291809BAA2404A3C8C57ACB5195C063A19EAEDA8AC17D5AE5B09C19BC26D597AA2C696429
+C01D0283E1AA959109AE893BAFC3D8E3198205F17A9F84E7AEB2E0580AA06155917379FA2FEFFD
+3F57FECC2A3C22FCD7A48CAE6AA25244AE793A7B6D276EDB88EFABC2D590626415D95F2F9C1AB0
+E5891DC2A8594A8417A282BAA386D0B4D1A57CE54A9C446E710EABB102AF90D598AB89C3540091
+554BDA3E4B790761E4E09683672C364AD2711E6B831BD5A97EC44595B4453A8B63D45A086B89C1
+625747C2FCE87F23FCDF0B3C77E4203177E90F022DEC8782E2A768A496D4EBAADA61EAB82D0'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  gene {
+                    locus "16S rRNA" } ,
+                partial TRUE ,
+                location
+                  int {
+                    from 0 ,
+                    to 1669 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_108510" } ,
+                    fuzz-from
+                      lim lt ,
+                    fuzz-to
+                      lim gt } } ,
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "16S ribosomal RNA" } ,
+                partial TRUE ,
+                location
+                  int {
+                    from 0 ,
+                    to 1669 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_108510" } ,
+                    fuzz-from
+                      lim lt ,
+                    fuzz-to
+                      lim gt } } } } } } } }

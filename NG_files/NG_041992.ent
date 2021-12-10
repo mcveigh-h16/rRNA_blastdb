@@ -1,0 +1,470 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      origin natural ,
+      org {
+        taxname "Taylorella asinigenitalis" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 84590 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Taylorella" ,
+              species "asinigenitalis" } ,
+          attrib "nomodforward" ,
+          mod {
+            {
+              subtype strain ,
+              subname "MCE3" } ,
+            {
+              subtype nat-host ,
+              subname "donkey" } } ,
+          lineage "Bacteria; Proteobacteria; Betaproteobacteria;
+ Burkholderiales; Alcaligenaceae; Taylorella" ,
+          gcode 11 ,
+          div "BCT" } } ,
+      subtype {
+        {
+          subtype country ,
+          name "France: Loir-et-Cher" } ,
+        {
+          subtype isolation-source ,
+          name "genital tract of 6 year-old jack from a stud farm" } ,
+        {
+          subtype collection-date ,
+          name "2004" } } } ,
+    pub {
+      pub {
+        article {
+          title {
+            name "Genomic characterization of the Taylorella genus." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Hebert" ,
+                      initials "L." } ,
+                  affil
+                    str "ANSES, Dozule Laboratory for Equine Diseases, Dozule,
+ France. laurent.hebert@anses.fr" } ,
+                {
+                  name
+                    name {
+                      last "Moumen" ,
+                      initials "B." } } ,
+                {
+                  name
+                    name {
+                      last "Pons" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Duquesne" ,
+                      initials "F." } } ,
+                {
+                  name
+                    name {
+                      last "Breuil" ,
+                      initials "M.F." } } ,
+                {
+                  name
+                    name {
+                      last "Goux" ,
+                      initials "D." } } ,
+                {
+                  name
+                    name {
+                      last "Batto" ,
+                      initials "J.M." } } ,
+                {
+                  name
+                    name {
+                      last "Laugier" ,
+                      initials "C." } } ,
+                {
+                  name
+                    name {
+                      last "Renault" ,
+                      initials "P." } } ,
+                {
+                  name
+                    name {
+                      last "Petry" ,
+                      initials "S." } } } } ,
+          from
+            journal {
+              title {
+                iso-jta "PLoS ONE" ,
+                ml-jta "PLoS One" ,
+                issn "1932-6203" ,
+                name "PloS one" } ,
+              imp {
+                date
+                  std {
+                    year 2012 } ,
+                volume "7" ,
+                issue "1" ,
+                pages "E29953" ,
+                language "eng" ,
+                pubstatus ppublish ,
+                history {
+                  {
+                    pubstatus received ,
+                    date
+                      std {
+                        year 2011 ,
+                        month 10 ,
+                        day 5 } } ,
+                  {
+                    pubstatus accepted ,
+                    date
+                      std {
+                        year 2011 ,
+                        month 12 ,
+                        day 7 } } ,
+                  {
+                    pubstatus epublish ,
+                    date
+                      std {
+                        year 2012 ,
+                        month 1 ,
+                        day 3 } } ,
+                  {
+                    pubstatus other ,
+                    date
+                      std {
+                        year 2012 ,
+                        month 1 ,
+                        day 12 ,
+                        hour 6 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus pubmed ,
+                    date
+                      std {
+                        year 2012 ,
+                        month 1 ,
+                        day 12 ,
+                        hour 6 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus medline ,
+                    date
+                      std {
+                        year 2012 ,
+                        month 5 ,
+                        day 15 ,
+                        hour 6 ,
+                        minute 0 } } } } } ,
+          ids {
+            doi "10.1371/journal.pone.0029953" ,
+            pii "PONE-D-11-19436" ,
+            pubmed 22235352 ,
+            other {
+              db "pmc" ,
+              tag
+                str "PMC3250509" } ,
+            other {
+              db "ELocationID doi" ,
+              tag
+                str "10.1371/journal.pone.0029953" } } } ,
+        pmid 22235352 } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Hebert" ,
+                      first "Laurent" ,
+                      initials "L." } } } ,
+            affil
+              std {
+                affil "Agence Nationale de Securite Sanitaire de
+ L'alimentation, de L'environnement et du Travail (Anses) Laboratoire de
+ Pathologie Equine de Dozule" ,
+                city "Goustranville" ,
+                sub "Dozule" ,
+                country "France" ,
+                street "Goustranville, 14430 Dozule, France" ,
+                postal-code "14430" } } ,
+          date
+            std {
+              year 2011 ,
+              month 9 ,
+              day 22 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2013 ,
+              month 2 ,
+              day 14 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA188943" } } } } ,
+    user {
+      type
+        str "NcbiCleanup" ,
+      data {
+        {
+          label
+            str "method" ,
+          data
+            str "SequinCleanup" } ,
+        {
+          label
+            str "version" ,
+          data
+            int 8 } ,
+        {
+          label
+            str "month" ,
+          data
+            int 4 } ,
+        {
+          label
+            str "day" ,
+          data
+            int 20 } ,
+        {
+          label
+            str "year" ,
+          data
+            int 2015 } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_041992" } ,
+        general {
+          db "REF_23S_RNA" ,
+          tag
+            str "CP003059:271579-274715" } } ,
+      descr {
+        title "Taylorella asinigenitalis strain MCE3 23S ribosomal RNA gene,
+ complete sequence." ,
+        molinfo {
+          biomol genomic } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 26 } } } } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "CP003059:271579-274715" } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        create-date
+          std {
+            year 2013 ,
+            month 3 ,
+            day 25 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 2 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 3137 ,
+        seq-data
+          ncbi2na '42E1C2E44EBA397E98D129820A1B0C9F980279AA2FA40E24F8D648CD60E
+A80545DFFCA2B35F3783132AE28A6058B81E01370B07628820341623DE02CBA60603E8E2590623
+2C3ECB2D81F1EA0B885B22AE32D7B2180732F3AC729BE410B2A6A11BB0D7BD823AAA14D750A703
+1DB8D858CB814B16E2A029802055A8AA2E03205E016EE4C404B6895C87C2AD790FCAAF7FB8E5F0
+A4D1C08CF502C0C836333F8C28070082E28397C293470233D40B0324263B0FC40FCB2ADFC2DEAB
+869B17FECC3AB4987C4F4BA427C160CAB29B260262D60CA9B732D9EAEC8560148E37353A52BE0A
+E5B04AC7A2854151C3BE003CAA389EE8CAAE029C040DE80C9EBDDD60073F2B2E5D38307BEAAC89
+1EF3A72AAD3A61F14053A4075831E10BD8D3A884891EAE706D487422A0105485949C2B5700FA70
+BA8060BA8293212D28AFA7C8249457F02026C327478D8B6D799A08EC1AA7094BC58279A39359DF
+F0BFFE00028302B08F05F0F83FD208FE02268E6EB2889BDEC25220AE0D88AFE7A2B3482E60E784
+E2C98C0A8B80275765B0B50A3D79906F4DA64ABCB69570AE292239B278EA0BABC33D71169FB8EE
+0AAA1A3E683BB1A9EFA339DACFB25082F8F29035AD028F429CE3D92087C2B7F82D1282EBD4A009
+7709BC0F10BE16C59016112BA1A8E0CF50A67E22074A20A076903E316C1F6A20ACE5FECEB8B252
+08A59220CAE9E61EFCF00132477901180BA0B32AEE19795AE7A0AF0F8EEB889CF8D82552C069A5
+B07306B5C2B2603D7EDAB0BD6179183A6C18E9447B75D78874982F82EFEE38E437559A721A0215
+4E05FC7B27F13E8DB81697BB28CAEA29820A2B19CB1FFA25B5F80C515EBFBFBAF705FA54E37ABE
+A84BB3AEA4BF87AA6B75D502EC1A28BD82B19CAC6B680DB9E32E4FA4026E7E1EE21210B604AE60
+24A102E35AEBDE0E82A536741A300AC77AA304A78C59508BD3361A6BBFA45D8EDA74DD35EA9EC9
+6B542ACE9EF653F022B1B89EAFC01B6E212FEB573796EA6FA31F868A79D72C62285A2E86C59EBB
+36BED3943A4F962C9C6C68223059E0A4DC26A01DB78230ACD5E26C09D7FC2ADBD887206F8CA7AB
+B80B92C393B27052C70F9588A7E00'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                product
+                  whole
+                    other {
+                      accession "NR_076150" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 568 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041992" } } ,
+                    int {
+                      from 706 ,
+                      to 3136 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041992" } } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 569 ,
+                    to 705 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_041992" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_076150" } } ,
+      descr {
+        title "Taylorella asinigenitalis strain MCE3 23S ribosomal RNA,
+ complete sequence." ,
+        molinfo {
+          biomol rRNA } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "Status" ,
+              data
+                str "Reviewed" } ,
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_041992" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 3000 ,
+        seq-data
+          ncbi2na '42E1C2E44EBA397E98D129820A1B0C9F980279AA2FA40E24F8D648CD60E
+A80545DFFCA2B35F3783132AE28A6058B81E01370B07628820341623DE02CBA60603E8E2590623
+2C3ECB2D81F1EA0B885B22AE32D7B2180732F3AC729BE410B2A6A11BB0D7BD823AAA14D750A703
+1DB8D858CB814B16E2A029802055A8AA2E03205E016EE4C404B6895C87C2AD790FCAAC3F103F2C
+AB7F0B7AAE1A6C5FFB30EAD261F13D2E909F05832ACA6C98098B5832A6DCCB67ABB215805238DC
+D4E94AF82B96C12B1E8A1505470EF800F2A8E27BA32AB80A701037A0327AF775801CFCACB974E0
+C1EFAAB2247BCE9CAAB4E987C5014E901D60C7842F634EA212247AB9C1B521D08A804152165270
+AD5C03E9C2EA0182EA0A4C84B4A2BE9F2092515FC0809B0C9D1E362DB5E66823B06A9C252F1609
+E68E4D677FC2FFF8000A0C0AC23C17C3E0FF4823F8089A39BACA226F7B094882B83622BF9E8ACD
+20B9839E138B26302A2E009D5D96C2D428F5E641BD36992AF2DA55C2B8A488E6C9E3A82EAF0CF5
+C45A7EE3B82AA868F9A0EEC6A7BE8CE76B3EC9420BE3CA40D6B40A3D0A738F64821F0ADFE0B44A
+0BAF528025DC26F03C42F85B16405844AE86A3833D4299F8881D288281DA40F8C5B07DA882B397
+FB3AE2C948229648832BA7987BF3C004C91DE404602E82CCABB865E56B9E82BC3E3BAE2273E360
+954B01A696C1CC1AD70AC980F5FB6AC2F585E460E9B063A511EDD75E21D260BE0BBFB8E390DD56
+69C86808553817F1EC9FC4FA36E05A5EECA32BA8A60828AC672C7FE896D7E031457AFEFEEBDC17
+E9538DEAFAA12ECEBA92FE1EA9ADD7540BB068A2F60AC672B1ADA036E78CB93E9009B9F87B8848
+42D812B98092840B8D6BAF783A0A94D9D068C02B1DEA8C129E3165422F4CD869AEFE91763B69D3
+74D7AA7B25AD50AB3A7BD94FC08AC6E27ABF006DB884BFAD5CDE5BA9BE8C7E1A29E75CB188A168
+BA1B167AECDAFB4E50E93E58B271B1A088C1678293709A8076DE08C2B35789B0275FF0AB6F621C
+81BE329EAEE02E4B0E4EC9C14B1C3E56229F8'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                location
+                  int {
+                    from 0 ,
+                    to 2999 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_076150" } } } } } } } } }

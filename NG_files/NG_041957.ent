@@ -1,0 +1,467 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Pyrobaculum oguniense" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 99007 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Pyrobaculum" ,
+              species "oguniense" } ,
+          attrib "nomodforward" ,
+          mod {
+            {
+              subtype strain ,
+              subname "TE7" } ,
+            {
+              subtype culture-collection ,
+              subname "DSM:13380" } } ,
+          lineage "Archaea; Crenarchaeota; Thermoprotei; Thermoproteales;
+ Thermoproteaceae; Pyrobaculum" ,
+          gcode 11 ,
+          div "BCT" } } ,
+      subtype {
+        {
+          subtype country ,
+          name "Japan: Tsuetate Hot Spring, Kumamoto prefecture" } } } ,
+    pub {
+      pub {
+        article {
+          title {
+            name "Complete genome sequence of Pyrobaculum oguniense." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Bernick" ,
+                      initials "D.L." } ,
+                  affil
+                    str "Biomolecular Engineering, University of California.,
+ Santa Cruz, California, USA." } ,
+                {
+                  name
+                    name {
+                      last "Karplus" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Lui" ,
+                      initials "L.M." } } ,
+                {
+                  name
+                    name {
+                      last "Coker" ,
+                      initials "J.K." } } ,
+                {
+                  name
+                    name {
+                      last "Murphy" ,
+                      initials "J.N." } } ,
+                {
+                  name
+                    name {
+                      last "Chan" ,
+                      initials "P.P." } } ,
+                {
+                  name
+                    name {
+                      last "Cozen" ,
+                      initials "A.E." } } ,
+                {
+                  name
+                    name {
+                      last "Lowe" ,
+                      initials "T.M." } } } } ,
+          from
+            journal {
+              title {
+                iso-jta "Stand Genomic Sci" ,
+                ml-jta "Stand Genomic Sci" ,
+                issn "1944-3277" ,
+                name "Standards in genomic sciences" } ,
+              imp {
+                date
+                  std {
+                    year 2012 ,
+                    month 7 ,
+                    day 30 } ,
+                volume "6" ,
+                issue "3" ,
+                pages "336-345" ,
+                language "eng" ,
+                pubstatus ppublish ,
+                history {
+                  {
+                    pubstatus epublish ,
+                    date
+                      std {
+                        year 2012 ,
+                        month 7 ,
+                        day 20 } } ,
+                  {
+                    pubstatus other ,
+                    date
+                      std {
+                        year 2013 ,
+                        month 2 ,
+                        day 15 ,
+                        hour 6 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus pubmed ,
+                    date
+                      std {
+                        year 2013 ,
+                        month 2 ,
+                        day 15 ,
+                        hour 6 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus medline ,
+                    date
+                      std {
+                        year 2013 ,
+                        month 2 ,
+                        day 15 ,
+                        hour 6 ,
+                        minute 1 } } } } } ,
+          ids {
+            doi "10.4056/sigs.2645906" ,
+            pii "sigs.2645906" ,
+            pubmed 23407329 ,
+            other {
+              db "pmc" ,
+              tag
+                str "PMC3558965" } ,
+            other {
+              db "ELocationID doi" ,
+              tag
+                str "10.4056/sigs.2645906" } } } ,
+        pmid 23407329 } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Bernick" ,
+                      first "David" ,
+                      initials "D.L." } } ,
+                {
+                  name
+                    name {
+                      last "Karplus" ,
+                      first "Kevin" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Lui" ,
+                      first "Lauren" ,
+                      initials "L.M." } } ,
+                {
+                  name
+                    name {
+                      last "Coker" ,
+                      first "Joanna" ,
+                      initials "J.K.C." } } ,
+                {
+                  name
+                    name {
+                      last "Murphy" ,
+                      first "Julie" ,
+                      initials "J.N." } } ,
+                {
+                  name
+                    name {
+                      last "Cozen" ,
+                      first "Aaron" ,
+                      initials "A.E." } } ,
+                {
+                  name
+                    name {
+                      last "Chan" ,
+                      first "Patricia" ,
+                      initials "P.P." } } ,
+                {
+                  name
+                    name {
+                      last "Lowe" ,
+                      first "Todd" ,
+                      initials "T.M." } } } ,
+            affil
+              std {
+                affil "University of California" ,
+                div "Biomolecular Engineering" ,
+                city "Santa Cruz" ,
+                sub "CA" ,
+                country "USA" ,
+                street "1156 High St" ,
+                postal-code "95064" } } ,
+          medium email ,
+          date
+            std {
+              year 2012 ,
+              month 1 ,
+              day 24 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2013 ,
+              month 5 ,
+              day 9 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA33317" } } } } ,
+    user {
+      type
+        str "NcbiCleanup" ,
+      data {
+        {
+          label
+            str "method" ,
+          data
+            str "SequinCleanup" } ,
+        {
+          label
+            str "version" ,
+          data
+            int 8 } ,
+        {
+          label
+            str "month" ,
+          data
+            int 4 } ,
+        {
+          label
+            str "day" ,
+          data
+            int 1 } ,
+        {
+          label
+            str "year" ,
+          data
+            int 2015 } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_041957" } ,
+        general {
+          db "REF_16S_RNA" ,
+          tag
+            str "CP003316:1430990-1433181" } } ,
+      descr {
+        title "Pyrobaculum oguniense strain TE7 16S ribosomal RNA gene,
+ complete sequence." ,
+        molinfo {
+          biomol genomic } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 26 } } } } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "CP003316:1430990-1433181" } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        create-date
+          std {
+            year 2013 ,
+            month 5 ,
+            day 24 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 2 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 2192 ,
+        seq-data
+          ncbi2na '016BE35E5A15859CDAACA9C25398B66656AA656A26991A74B046E541715
+DA8AA84556A01EA943554CAA0A99E82957D5602A1A69635B65B5958ABAAD1A54D2B2FA6AF02959
+425821AB2A9AE2259895623691E210A96295C6AB924A660C7590E6A41661AA71562E5A9822569F
+F95ADC0196A60C26AA90B7AED25966B0C525598BADAAEFC7A9F02656C9695A42D9D780D56A5415
+AA1AAA631E5A9CAA9A88A596B1D6AACAA6035BC355A28514BA6026A6948199586B8AA6025AA890
+2A8F23157B2D5A5B018E6A727B69EA7CA95A5AE982A016F095965EA8B1A590A7807C0A0FA6AAA4
+510AAE09F9A7C3E8B4196805D15AA6124A38294A70617E5A189E228AE4E96DB49DB96E2BB5AF0B
+5A41898855655CBE7156D71A86AA911CAA87969B0968A0A2AA51A4AD2CCAA5CD6428A95678A558
+096E9552B2A1FCC0089B02501B8217A871779A7CB26923A11361883A7130733548084223DB6208
+FBA27BC0219E9B92348D2DF718C28A6A6FE82300B4287157DCD1C7EB49069B965A920091364C09
+6509D24B2159EEB1324AFF321A21A7ABA042CB400A50A9285C71C4C64CA5C00508922175A87AB7
+C4257A5A5EA4D6A5440923000868C62B51321264865E9934D55D750054D537220A52B694A86121
+DC97D75E5717AA59A5A8855AA791989E43A6A849A81615602AA290D5B0156552CA8D8A9E41D95D
+B81BA0D5CB059BB450666B831B57957E444595B645158A89D5E62957E580AEAA8624AA9D50AAAE
+0B6C10AC96CAA05E69E8D17'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "16S ribosomal RNA" } ,
+                product
+                  whole
+                    other {
+                      accession "NR_102766" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 1170 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041957" } } ,
+                    int {
+                      from 1868 ,
+                      to 2191 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041957" } } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 1171 ,
+                    to 1867 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_041957" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_102766" } } ,
+      descr {
+        title "Pyrobaculum oguniense strain TE7 16S ribosomal RNA, complete
+ sequence." ,
+        molinfo {
+          biomol rRNA } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_041957" } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "PROVISIONAL" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 1495 ,
+        seq-data
+          ncbi2na '016BE35E5A15859CDAACA9C25398B66656AA656A26991A74B046E541715
+DA8AA84556A01EA943554CAA0A99E82957D5602A1A69635B65B5958ABAAD1A54D2B2FA6AF02959
+425821AB2A9AE2259895623691E210A96295C6AB924A660C7590E6A41661AA71562E5A9822569F
+F95ADC0196A60C26AA90B7AED25966B0C525598BADAAEFC7A9F02656C9695A42D9D780D56A5415
+AA1AAA631E5A9CAA9A88A596B1D6AACAA6035BC355A28514BA6026A6948199586B8AA6025AA890
+2A8F23157B2D5A5B018E6A727B69EA7CA95A5AE982A016F095965EA8B1A590A7807C0A0FA6AAA4
+510AAE09F9A7C3E8B4196805D15AA6124A38294A70617E5A189E228AE4E96DB49DB96E2BB5AF0B
+5A41898855655CBE7156D71A86AA911CAA87969B0968A0A2AA51A4AD2CD6A2156A9E4662790E9A
+A126A0585580AA8A4356C055954B2A362A79076576E06E83572C166ED14199AE0C6D5E55F91116
+56D914562A275798A55F9602BAAA1892AA7542AAB82DB042B25B2A8179A7A345C'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "16S ribosomal RNA" } ,
+                location
+                  int {
+                    from 0 ,
+                    to 1494 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_102766" } } } } } } } } }

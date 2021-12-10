@@ -1,0 +1,728 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Aeropyrum pernix" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 56636 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Aeropyrum" ,
+              species "pernix" } ,
+          attrib "nomodforward" ,
+          mod {
+            {
+              subtype strain ,
+              subname "K1" } ,
+            {
+              subtype culture-collection ,
+              subname "NBRC:100138" } } ,
+          lineage "Archaea; Crenarchaeota; Thermoprotei; Desulfurococcales;
+ Desulfurococcaceae; Aeropyrum" ,
+          gcode 11 ,
+          div "BCT" } } } ,
+    pub {
+      pub {
+        pmid 10382966 ,
+        article {
+          title {
+            name "Complete genome sequence of an aerobic hyper-thermophilic
+ crenarchaeon, Aeropyrum pernix K1." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Kawarabayasi" ,
+                      initials "Y." } } ,
+                {
+                  name
+                    name {
+                      last "Hino" ,
+                      initials "Y." } } ,
+                {
+                  name
+                    name {
+                      last "Horikawa" ,
+                      initials "H." } } ,
+                {
+                  name
+                    name {
+                      last "Yamazaki" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Haikawa" ,
+                      initials "Y." } } ,
+                {
+                  name
+                    name {
+                      last "Jin-no" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Takahashi" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Sekine" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Baba" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Ankai" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Kosugi" ,
+                      initials "H." } } ,
+                {
+                  name
+                    name {
+                      last "Hosoyama" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Fukui" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Nagai" ,
+                      initials "Y." } } ,
+                {
+                  name
+                    name {
+                      last "Nishijima" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Nakazawa" ,
+                      initials "H." } } ,
+                {
+                  name
+                    name {
+                      last "Takamiya" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Masuda" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Funahashi" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Tanaka" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Kudoh" ,
+                      initials "Y." } } ,
+                {
+                  name
+                    name {
+                      last "Yamazaki" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Kushida" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Oguchi" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Aoki" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Kubota" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Nakamura" ,
+                      initials "Y." } } ,
+                {
+                  name
+                    name {
+                      last "Nomura" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Sako" ,
+                      initials "Y." } } ,
+                {
+                  name
+                    name {
+                      last "Kikuchi" ,
+                      initials "H." } } } } ,
+          from
+            journal {
+              title {
+                iso-jta "DNA Res." ,
+                ml-jta "DNA Res" ,
+                issn "1340-2838" ,
+                name "DNA research : an international journal for rapid
+ publication of reports on genes and genomes" } ,
+              imp {
+                date
+                  std {
+                    year 1999 ,
+                    month 4 ,
+                    day 30 } ,
+                volume "6" ,
+                issue "2" ,
+                pages "83-101" ,
+                language "eng" ,
+                pubstatus ppublish ,
+                history {
+                  {
+                    pubstatus pubmed ,
+                    date
+                      std {
+                        year 1999 ,
+                        month 6 ,
+                        day 26 } } ,
+                  {
+                    pubstatus medline ,
+                    date
+                      std {
+                        year 1999 ,
+                        month 6 ,
+                        day 26 ,
+                        hour 0 ,
+                        minute 1 } } ,
+                  {
+                    pubstatus other ,
+                    date
+                      std {
+                        year 1999 ,
+                        month 6 ,
+                        day 26 ,
+                        hour 0 ,
+                        minute 0 } } } } } ,
+          ids {
+            pubmed 10382966 } } } ,
+      reftype no-target } ,
+    pub {
+      pub {
+        pmid 16455681 ,
+        article {
+          title {
+            name "Proteome analysis of an aerobic hyperthermophilic
+ crenarchaeon, Aeropyrum pernix K1." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Yamazaki" ,
+                      initials "S." } ,
+                  affil
+                    str "Department of Biotechnology, Genome Analysis
+ Division, National Institute of Technology and Evaluation, Shibuya, Tokyo
+ 151-0066, Japan. yamazaki-shuji@nite.go.jp" } ,
+                {
+                  name
+                    name {
+                      last "Yamazaki" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Nishijima" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Otsuka" ,
+                      initials "R." } } ,
+                {
+                  name
+                    name {
+                      last "Mise" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Ishikawa" ,
+                      initials "H." } } ,
+                {
+                  name
+                    name {
+                      last "Sasaki" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Tago" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Isono" ,
+                      initials "K." } } } } ,
+          from
+            journal {
+              title {
+                iso-jta "Mol. Cell Proteomics" ,
+                ml-jta "Mol Cell Proteomics" ,
+                issn "1535-9476" ,
+                name "Molecular & cellular proteomics : MCP" } ,
+              imp {
+                date
+                  std {
+                    year 2006 ,
+                    month 5 } ,
+                volume "5" ,
+                issue "5" ,
+                pages "811-823" ,
+                language "eng" ,
+                pubstatus ppublish ,
+                history {
+                  {
+                    pubstatus aheadofprint ,
+                    date
+                      std {
+                        year 2006 ,
+                        month 2 ,
+                        day 2 } } ,
+                  {
+                    pubstatus pubmed ,
+                    date
+                      std {
+                        year 2006 ,
+                        month 2 ,
+                        day 4 ,
+                        hour 9 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus medline ,
+                    date
+                      std {
+                        year 2006 ,
+                        month 7 ,
+                        day 19 ,
+                        hour 9 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus other ,
+                    date
+                      std {
+                        year 2006 ,
+                        month 2 ,
+                        day 4 ,
+                        hour 9 ,
+                        minute 0 } } } } } ,
+          ids {
+            pii "M500312-MCP200" ,
+            doi "10.1074/mcp.M500312-MCP200" ,
+            pubmed 16455681 } } } ,
+      reftype no-target } ,
+    pub {
+      pub {
+        pmid 16769697 ,
+        article {
+          title {
+            name "Characterization of a whole set of tRNA molecules in an
+ aerobic hyper-thermophilic Crenarchaeon, Aeropyrum pernix K1." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Yamazaki" ,
+                      initials "S." } ,
+                  affil
+                    str "National Institute of Technology and Evaluation,
+ Nishihara, Shibuya, Tokyo, Japan." } ,
+                {
+                  name
+                    name {
+                      last "Kikuchi" ,
+                      initials "H." } } ,
+                {
+                  name
+                    name {
+                      last "Kawarabayasi" ,
+                      initials "Y." } } } } ,
+          from
+            journal {
+              title {
+                iso-jta "DNA Res." ,
+                ml-jta "DNA Res" ,
+                issn "1756-1663" ,
+                name "DNA research : an international journal for rapid
+ publication of reports on genes and genomes" } ,
+              imp {
+                date
+                  std {
+                    year 2005 } ,
+                volume "12" ,
+                issue "6" ,
+                pages "403-416" ,
+                language "eng" ,
+                pubstatus ppublish ,
+                history {
+                  {
+                    pubstatus aheadofprint ,
+                    date
+                      std {
+                        year 2006 ,
+                        month 2 ,
+                        day 23 } } ,
+                  {
+                    pubstatus pubmed ,
+                    date
+                      std {
+                        year 2006 ,
+                        month 6 ,
+                        day 14 ,
+                        hour 9 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus medline ,
+                    date
+                      std {
+                        year 2007 ,
+                        month 10 ,
+                        day 13 ,
+                        hour 9 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus other ,
+                    date
+                      std {
+                        year 2006 ,
+                        month 6 ,
+                        day 14 ,
+                        hour 9 ,
+                        minute 0 } } } } } ,
+          ids {
+            pii "dsi023" ,
+            doi "10.1093/dnares/dsi023" ,
+            pubmed 16769697 } } } ,
+      reftype no-target } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Tanaka" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Hino" ,
+                      initials "Y." } } ,
+                {
+                  name
+                    name {
+                      last "Kawarabayasi" ,
+                      initials "Y." } } ,
+                {
+                  name
+                    name {
+                      last "Kikuchi" ,
+                      initials "H." } } ,
+                {
+                  name
+                    name {
+                      last "Tajima" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Sekigawa" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Oguchi" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Yamazaki" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Tanikawa" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Fujita" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Harayama" ,
+                      initials "S." } } } ,
+            affil
+              str "Contact:Director-General of Department of Biotechnology
+ National Institute of Technology and Evaluation (NITE), NITE Genome Analysis
+ Center (NGAC), Department of Biotechnology; 2-49-10 Nishihara, Shibuya-ku,
+ Tokyo 151-0066, Japan URL :http://www.bio.nite.go.jp/" } ,
+          medium other ,
+          date
+            std {
+              year 1998 ,
+              month 12 ,
+              day 14 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2013 ,
+              month 5 ,
+              day 9 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA33175" } } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_042068" } ,
+        general {
+          db "REF_16S_RNA" ,
+          tag
+            str "BA000002:1218715-1220911" } } ,
+      descr {
+        title "Aeropyrum pernix strain K1 16S ribosomal RNA gene, complete
+ sequence." ,
+        molinfo {
+          biomol genomic } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "BA000002:1218715-1220911" } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        create-date
+          std {
+            year 2013 ,
+            month 5 ,
+            day 24 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 2 } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 26 } } } } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 2197 ,
+        seq-data
+          ncbi2na 'D6BE35E5A15859CDAACA9C253A8B606559679AA6E9A1A78B046E9C1715D
+A86A8C1576A01EA9C3558CA6AAB97A0AB5D6580AA59AAAF36566B5958A3AA79A54D1ACBE9AAC3A
+565097186ACAA5B889A895523A91E210A95295C6A9914A66007590E6A416E1AA71562E555FAAA9
+FF559EC2CA6AA0C26AA9087AED25966B0C5255989ADAAE7C7A9702656C969D842D565C0956A741
+5AA2E9AA31EDA9CAA9A88A58AB1D5AACAA60353C356A28514BA60A6769E8199586B8AA6025AA89
+8168F2315AB2D5A7B018E6A72BBEA6A6E625654B964A825BC256597AA2C696429E02B59A8AADF7
+6C3A4E0EBEE332CF101DF8CBFAA7D03A3AB39FCFF1FAFAE774A869DECCCAC76283C73B8CEB1DB6
+0C08737A222F32DD007483DCAFD4C3B08BF143301AA25CC8B9A30BDC249DFD131CB034BF8915DC
+2442752801D6E9719740AB808E85DC91F40C833B02AFFBE1920ACBB8C037240A2F4AD8EFD9040F
+3A259C03F7A74AEF2202DA2F02C1693F17EB2E3A2FE8AF8A326D1D97578867F913C4CABF2135FB
+00B082F0389F7E8215755A952407C0A0FA6AA24510AAE8979A7C3E8B4196A05D45AA984928E1A5
+29E0A5F9586678AA2393A5B65276E5B8AED7BC2D29062621559572F94D56A9856AA911CAA87965
+9C29A2828AA90692B4939570155A9E466A710E9AA126AE585580AA8A43574055974BEA362A7907
+6576E06E83572C1666D34D99AE0C6D5E75F9111E56D9D4562AA8AAB8A577596A2AAD8155D5562A
+A882DB042B25B2A8179A7A345C0'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "16S ribosomal RNA" } ,
+                product
+                  whole
+                    other {
+                      accession "NR_102988" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 876 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042068" } } ,
+                    int {
+                      from 1576 ,
+                      to 2196 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042068" } } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 877 ,
+                    to 1575 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_042068" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_102988" } } ,
+      descr {
+        molinfo {
+          biomol rRNA } ,
+        title "Aeropyrum pernix 16S ribosomal RNA, rRNA." ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_042068" } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "PROVISIONAL" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 1498 ,
+        seq-data
+          ncbi2na 'D6BE35E5A15859CDAACA9C253A8B606559679AA6E9A1A78B046E9C1715D
+A86A8C1576A01EA9C3558CA6AAB97A0AB5D6580AA59AAAF36566B5958A3AA79A54D1ACBE9AAC3A
+565097186ACAA5B889A895523A91E210A95295C6A9914A66007590E6A416E1AA71562E555FAAA9
+FF559EC2CA6AA0C26AA9087AED25966B0C5255989ADAAE7C7A9702656C969D842D565C0956A741
+5AA2E9AA31EDA9CAA9A88A58AB1D5AACAA60353C356A28514BA60A6769E8199586B8AA6025AA89
+8168F2315AB2D5A7B018E6A72BBEA6A6E625654B964A825BC256597AA2C696429E01F0283E9AA8
+91442ABA25E69F0FA2D065A817516AA6124A38694A78297E56199E2A88E4E96D949DB96E2BB5EF
+0B4A41898855655CBE5355AA615AAA4472AA1E59670A68A0A2AA41A4AD24E55C0556A7919A9C43
+A6A849AB9615602AA290D5D01565D2FA8D8A9E41D95DB81BA0D5CB0599B4D3666B831B579D7E44
+4795B675158AAA2AAE295DD65A8AAB605575558AAA20B6C10AC96CAA05E69E8D170'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "16S ribosomal RNA" } ,
+                location
+                  int {
+                    from 0 ,
+                    to 1497 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_102988" } } } } } } } } }

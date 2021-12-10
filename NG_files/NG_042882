@@ -1,0 +1,520 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Helicobacter mastomyrinus" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 287948 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Helicobacter" ,
+              species "mastomyrinus" } ,
+          attrib "nomodforward" ,
+          mod {
+            {
+              subtype strain ,
+              subname "MIT 97-5574" } ,
+            {
+              subtype culture-collection ,
+              subname "MIT:97-5574" } } ,
+          lineage "Bacteria; Proteobacteria; Epsilonproteobacteria;
+ Campylobacterales; Helicobacteraceae; Helicobacter" ,
+          gcode 11 ,
+          div "BCT" } } } ,
+    pub {
+      pub {
+        pmid 15691316 ,
+        article {
+          title {
+            name "A novel enterohepatic Helicobacter species 'Helicobacter
+ mastomyrinus' isolated from the liver and intestine of rodents." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Shen" ,
+                      initials "Z." } } ,
+                {
+                  name
+                    name {
+                      last "Xu" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Dewhirst" ,
+                      initials "F.E." } } ,
+                {
+                  name
+                    name {
+                      last "Paster" ,
+                      initials "B.J." } } ,
+                {
+                  name
+                    name {
+                      last "Pena" ,
+                      initials "J.A." } } ,
+                {
+                  name
+                    name {
+                      last "Modlin" ,
+                      initials "I.M." } } ,
+                {
+                  name
+                    name {
+                      last "Kidd" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Fox" ,
+                      initials "J.G." } } } } ,
+          from
+            journal {
+              title {
+                iso-jta "Helicobacter" ,
+                ml-jta "Helicobacter" ,
+                issn "1083-4389" ,
+                name "Helicobacter" } ,
+              imp {
+                date
+                  std {
+                    year 2005 ,
+                    month 2 } ,
+                volume "10" ,
+                issue "1" ,
+                pages "59-70" ,
+                language "eng" ,
+                pubstatus ppublish ,
+                history {
+                  {
+                    pubstatus pubmed ,
+                    date
+                      std {
+                        year 2005 ,
+                        month 2 ,
+                        day 5 ,
+                        hour 9 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus medline ,
+                    date
+                      std {
+                        year 2005 ,
+                        month 4 ,
+                        day 29 ,
+                        hour 9 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus other ,
+                    date
+                      std {
+                        year 2005 ,
+                        month 2 ,
+                        day 5 ,
+                        hour 9 ,
+                        minute 0 } } } } } ,
+          ids {
+            pii "HEL292" ,
+            doi "10.1111/j.1523-5378.2005.00292.x" ,
+            pubmed 15691316 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Dewhirst" ,
+                      first "Floyd" ,
+                      middle "E" ,
+                      initials "F.E." } } ,
+                {
+                  name
+                    name {
+                      last "Paster" ,
+                      first "Bruce" ,
+                      middle "J" ,
+                      initials "B.J." } } ,
+                {
+                  name
+                    name {
+                      last "Fox" ,
+                      first "James" ,
+                      middle "G" ,
+                      initials "J.G." } } } ,
+            affil
+              std {
+                affil "The Forsyth Institute" ,
+                div "Molecular Genetics" ,
+                city "Boston" ,
+                sub "MA" ,
+                country "USA" ,
+                street "140 The Fenway" ,
+                postal-code "02115" } } ,
+          medium email ,
+          date
+            std {
+              year 2004 ,
+              month 9 ,
+              day 5 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2014 ,
+              month 4 ,
+              day 23 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA33175" } } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_042882" } ,
+        general {
+          db "REF_SSU16S" ,
+          tag
+            str "AY742307:1-1760" } } ,
+      descr {
+        title "Helicobacter mastomyrinus strain MIT 97-5574 16S ribosomal RNA
+ gene, partial sequence." ,
+        molinfo {
+          biomol genomic } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 9 ,
+                  day 29 } } } } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "AY742307:1-1760" } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        user {
+          type
+            str "GenomeProjectsDB" ,
+          data {
+            {
+              label
+                str "ProjectID" ,
+              data
+                int 33175 } } } ,
+        user {
+          class "1.0" ,
+          type
+            str "AutodefOptions" ,
+          data {
+            {
+              label
+                str "SpecifyNuclearProduct" ,
+              data
+                bool TRUE } ,
+            {
+              label
+                str "MiscFeatRule" ,
+              data
+                str "NoncodingProductFeat" } ,
+            {
+              label
+                str "FeatureListType" ,
+              data
+                str "List All Features" } ,
+            {
+              label
+                str "ModifierList" ,
+              data
+                fields {
+                  {
+                    label
+                      str "OrgMods" ,
+                    num 1 ,
+                    data
+                      strs {
+                        "Strain" } } } } ,
+            {
+              label
+                str "HIVRule" ,
+              data
+                str "WantBoth" } ,
+            {
+              label
+                str "DoNotApplyToSp" ,
+              data
+                bool TRUE } ,
+            {
+              label
+                str "LeaveParenthetical" ,
+              data
+                bool TRUE } ,
+            {
+              label
+                str "MaxMods" ,
+              data
+                int -99 } ,
+            {
+              label
+                str "UseLabels" ,
+              data
+                bool TRUE } } } ,
+        create-date
+          std {
+            year 2014 ,
+            month 5 ,
+            day 20 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 3 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 1760 ,
+        seq-data
+          ncbi2na '8BF8D7A748B819E9A6E5C31390B6063827DC9F9C82E8F2E991AB8B064CA
+F3B95FCB7A8C947A01AE3C31E8C75F18A80A87740C00F4BFBA5A7FF0A2E204F9F479A6CEFC3197
+4F64305D105F003D11105F20FFD0E7FB23FECA3DCABFC8E2031FBEE4A0036C9B24C75FB3B8988F
+FC40742CFCD9C00583DF3F88B759C0A34973B5CD27EFAE2B0E951429CE1AB35A5E22AE368447A0
+78846B521D71A8A492CA833E743AA805782490659BA28E0AFF28FB01D7FEE2208C386B37460C24
+5A7075B949259AC31A2AE426F1DA0D1EA6C08B9929A9FB0B48EE035EC9F07120793F80738B722E
+EA22B2BA0F7EBB2AB00D6C8CD08A0C74F982985C7A04F1E19D391809BAA2404A3C8C57ACB5195C
+063839CBEFBA27EDDE4B0E49C193C24F597AA2C6B6423C01D028321AA159109AE893BAFC3D8231
+98205F1729F84F8C8379C88C9A2E57FCA89F8012B9E469EDB49DBB6E23BEAF0B56418990576D7C
+BE724BDA7891DC288797DB0A28A0AE2861B42D34E95F1972A7111B9C43AAE440886431E60BA240
+DDC013774BDA3ECB790761C4E09E83672C3640D253BE6B831BD5AB7EC74595B4453A8BECF65F0B
+6831C0FAF165469A39261EAB82DB042B05B2B8179'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "16S ribosomal RNA" } ,
+                partial TRUE ,
+                product
+                  whole
+                    other {
+                      accession "NR_115314" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 190 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042882" } ,
+                      fuzz-from
+                        lim lt } ,
+                    int {
+                      from 479 ,
+                      to 1759 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042882" } ,
+                      fuzz-to
+                        lim gt } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 191 ,
+                    to 478 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_042882" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_115314" } } ,
+      descr {
+        title "Helicobacter mastomyrinus strain MIT 97-5574 16S ribosomal RNA,
+ partial sequence." ,
+        molinfo {
+          biomol rRNA ,
+          completeness no-ends } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_042882" } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "PROVISIONAL" } } } ,
+        user {
+          class "1.0" ,
+          type
+            str "AutodefOptions" ,
+          data {
+            {
+              label
+                str "SpecifyNuclearProduct" ,
+              data
+                bool TRUE } ,
+            {
+              label
+                str "MiscFeatRule" ,
+              data
+                str "NoncodingProductFeat" } ,
+            {
+              label
+                str "FeatureListType" ,
+              data
+                str "List All Features" } ,
+            {
+              label
+                str "ModifierList" ,
+              data
+                fields {
+                  {
+                    label
+                      str "OrgMods" ,
+                    num 1 ,
+                    data
+                      strs {
+                        "Strain" } } } } ,
+            {
+              label
+                str "HIVRule" ,
+              data
+                str "WantBoth" } ,
+            {
+              label
+                str "DoNotApplyToSp" ,
+              data
+                bool TRUE } ,
+            {
+              label
+                str "LeaveParenthetical" ,
+              data
+                bool TRUE } ,
+            {
+              label
+                str "MaxMods" ,
+              data
+                int -99 } ,
+            {
+              label
+                str "UseLabels" ,
+              data
+                bool TRUE } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 1472 ,
+        seq-data
+          ncbi2na '8BF8D7A748B819E9A6E5C31390B6063827DC9F9C82E8F2E991AB8B064CA
+F3B95FCB7A8C947A01AE3C31E8C75F18A80AB759C0A34973B5CD27EFAE2B0E951429CE1AB35A5E
+22AE368447A078846B521D71A8A492CA833E743AA805782490659BA28E0AFF28FB01D7FEE2208C
+386B37460C245A7075B949259AC31A2AE426F1DA0D1EA6C08B9929A9FB0B48EE035EC9F0712079
+3F80738B722EEA22B2BA0F7EBB2AB00D6C8CD08A0C74F982985C7A04F1E19D391809BAA2404A3C
+8C57ACB5195C063839CBEFBA27EDDE4B0E49C193C24F597AA2C6B6423C01D028321AA159109AE8
+93BAFC3D823198205F1729F84F8C8379C88C9A2E57FCA89F8012B9E469EDB49DBB6E23BEAF0B56
+418990576D7CBE724BDA7891DC288797DB0A28A0AE2861B42D34E95F1972A7111B9C43AAE44088
+6431E60BA240DDC013774BDA3ECB790761C4E09E83672C3640D253BE6B831BD5AB7EC74595B445
+3A8BECF65F0B6831C0FAF165469A39261EAB82DB042B05B2B8179'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "16S ribosomal RNA" } ,
+                partial TRUE ,
+                location
+                  int {
+                    from 0 ,
+                    to 1471 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_115314" } ,
+                    fuzz-from
+                      lim lt ,
+                    fuzz-to
+                      lim gt } } } } } } } }

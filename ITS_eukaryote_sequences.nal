@@ -1,0 +1,8 @@
+#
+# Alias file created 8/26/2020 by Rich McVeigh
+#
+#
+TITLE ITS eukaryote BLAST
+#
+DBLIST rRNA_blastdb/ITS-animal rRNA_blastdb/ITS-fungi.fsa rRNA_blastdb/ITS-plant rRNA_blastdb/ITS-protist-final
+#

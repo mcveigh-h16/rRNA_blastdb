@@ -1,0 +1,548 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Helicobacter macacae" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 398626 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Helicobacter" ,
+              species "macacae" } ,
+          attrib "nomodforward" ,
+          mod {
+            {
+              subtype strain ,
+              subname "MIT 99-5501" } ,
+            {
+              subtype nat-host ,
+              subname "Rhesus monkey" } ,
+            {
+              subtype culture-collection ,
+              subname "MIT:99-5501" } } ,
+          lineage "Bacteria; Proteobacteria; Epsilonproteobacteria;
+ Campylobacterales; Helicobacteraceae; Helicobacter" ,
+          gcode 11 ,
+          div "BCT" } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Dewhirst" ,
+                      first "Floyd" ,
+                      initials "F.E." } } ,
+                {
+                  name
+                    name {
+                      last "Fox" ,
+                      first "James" ,
+                      initials "J.G." } } ,
+                {
+                  name
+                    name {
+                      last "Paster" ,
+                      first "Bruce" ,
+                      initials "B.J." } } } ,
+            affil
+              std {
+                affil "The Forsyth Institute" ,
+                div "Molecular Genetics" ,
+                city "Boston" ,
+                sub "MA" ,
+                country "USA" ,
+                street "140 The Fenway" ,
+                postal-code "02115" } } ,
+          medium email ,
+          date
+            std {
+              year 2001 ,
+              month 1 ,
+              day 4 } } } } ,
+    pub {
+      pub {
+        pmid 11339249 ,
+        article {
+          title {
+            name "Novel Helicobacter species isolated from rhesus monkeys with
+ chronic idiopathic colitis." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Fox" ,
+                      initials "J.G." } } ,
+                {
+                  name
+                    name {
+                      last "Handt" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Xu" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Shen" ,
+                      initials "Z." } } ,
+                {
+                  name
+                    name {
+                      last "Dewhirst" ,
+                      initials "F.E." } } ,
+                {
+                  name
+                    name {
+                      last "Paster" ,
+                      initials "B.J." } } ,
+                {
+                  name
+                    name {
+                      last "Dangler" ,
+                      initials "C.A." } } ,
+                {
+                  name
+                    name {
+                      last "Lodge" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Motzel" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Klein" ,
+                      initials "H." } } } } ,
+          from
+            journal {
+              title {
+                iso-jta "J. Med. Microbiol." ,
+                ml-jta "J Med Microbiol" ,
+                issn "0022-2615" ,
+                name "Journal of medical microbiology" } ,
+              imp {
+                date
+                  std {
+                    year 2001 ,
+                    month 5 } ,
+                volume "50" ,
+                issue "5" ,
+                pages "421-429" ,
+                language "eng" ,
+                pubstatus ppublish ,
+                history {
+                  {
+                    pubstatus pubmed ,
+                    date
+                      std {
+                        year 2001 ,
+                        month 5 ,
+                        day 8 ,
+                        hour 10 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus medline ,
+                    date
+                      std {
+                        year 2001 ,
+                        month 6 ,
+                        day 15 ,
+                        hour 10 ,
+                        minute 1 } } ,
+                  {
+                    pubstatus other ,
+                    date
+                      std {
+                        year 2001 ,
+                        month 5 ,
+                        day 8 ,
+                        hour 10 ,
+                        minute 0 } } } } } ,
+          ids {
+            pubmed 11339249 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2014 ,
+              month 4 ,
+              day 23 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA33175" } } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_042884" } ,
+        general {
+          db "REF_SSU16S" ,
+          tag
+            str "AF333338:1-1654" } } ,
+      descr {
+        title "Helicobacter macacae strain MIT 99-5501 16S ribosomal RNA gene,
+ partial sequence." ,
+        molinfo {
+          biomol genomic } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 9 ,
+                  day 29 } } } } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "AF333338:1-1654" } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        user {
+          type
+            str "GenomeProjectsDB" ,
+          data {
+            {
+              label
+                str "ProjectID" ,
+              data
+                int 33175 } } } ,
+        user {
+          class "1.0" ,
+          type
+            str "AutodefOptions" ,
+          data {
+            {
+              label
+                str "SpecifyNuclearProduct" ,
+              data
+                bool TRUE } ,
+            {
+              label
+                str "MiscFeatRule" ,
+              data
+                str "NoncodingProductFeat" } ,
+            {
+              label
+                str "FeatureListType" ,
+              data
+                str "List All Features" } ,
+            {
+              label
+                str "ModifierList" ,
+              data
+                fields {
+                  {
+                    label
+                      str "OrgMods" ,
+                    num 1 ,
+                    data
+                      strs {
+                        "Strain" } } } } ,
+            {
+              label
+                str "HIVRule" ,
+              data
+                str "WantBoth" } ,
+            {
+              label
+                str "DoNotApplyToSp" ,
+              data
+                bool TRUE } ,
+            {
+              label
+                str "LeaveParenthetical" ,
+              data
+                bool TRUE } ,
+            {
+              label
+                str "MaxMods" ,
+              data
+                int -99 } ,
+            {
+              label
+                str "UseLabels" ,
+              data
+                bool TRUE } } } ,
+        create-date
+          std {
+            year 2014 ,
+            month 5 ,
+            day 20 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 3 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 1654 ,
+        seq-data
+          ncbi4na '41488841822844282141484112428442442484228118121842114824112
+418411422888142884281414484418814844242124448414811242181418112181222888148284
+441814221284411124484188118128141812822281244444111414421282111118428288141118
+421288142811428218141484841811484814448814188842114888188842181118421441411828
+142128121184188184281818481428818111848188888114148188888414842888242811144188
+448281848228182142884884484144811844282122114428184124448182244228414144484112
+441212128441128414121244822141282281244414421421481444118188428211844444111222
+841142142112422424844144184114488881441884811128228888488141411418818412448182
+811241181142122442811282248422142142242448118124414448421142488128244118212844
+424811141424248144244411148114821418484111842811442881122181411284218884111281
+288882814148184441414481448441188288448481444481111822481414182114144118128218
+842411442412284284411218812841242881142424111424844441421112144188141812228448
+148221242228111241841184281488488484144288482288421481184214281124218811421882
+242284444148124482421141881111282111441181412444412224212114244844142184844888
+118824114181242411411228812281442884121884181411822428141418148441484221288848
+441428841111214484284212442848248214282484824841418488444881148222421124142421
+122222481888148842814214888442841421282811181412842288248114414414411448444412
+412482114821821844222881242281444281212124842812118444484212111414884211818248
+114184414221182821111121228282148824418848148284211282412812184114284411824281
+481182421118214211848842448411812488222444828848128212242224821212218444148848
+188242288114824441812811188448812242221244244184214241284444841148248112114481
+1224814414112284244A844192122822882'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "16S ribosomal RNA" } ,
+                partial TRUE ,
+                product
+                  whole
+                    other {
+                      accession "NR_114600" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 190 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042884" } ,
+                      fuzz-from
+                        lim lt } ,
+                    int {
+                      from 355 ,
+                      to 1653 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042884" } ,
+                      fuzz-to
+                        lim gt } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 191 ,
+                    to 354 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_042884" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_114600" } } ,
+      descr {
+        title "Helicobacter macacae strain MIT 99-5501 16S ribosomal RNA,
+ partial sequence." ,
+        molinfo {
+          biomol rRNA ,
+          completeness no-ends } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_042884" } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "PROVISIONAL" } } } ,
+        user {
+          class "1.0" ,
+          type
+            str "AutodefOptions" ,
+          data {
+            {
+              label
+                str "SpecifyNuclearProduct" ,
+              data
+                bool TRUE } ,
+            {
+              label
+                str "MiscFeatRule" ,
+              data
+                str "NoncodingProductFeat" } ,
+            {
+              label
+                str "FeatureListType" ,
+              data
+                str "List All Features" } ,
+            {
+              label
+                str "ModifierList" ,
+              data
+                fields {
+                  {
+                    label
+                      str "OrgMods" ,
+                    num 1 ,
+                    data
+                      strs {
+                        "Strain" } } } } ,
+            {
+              label
+                str "HIVRule" ,
+              data
+                str "WantBoth" } ,
+            {
+              label
+                str "DoNotApplyToSp" ,
+              data
+                bool TRUE } ,
+            {
+              label
+                str "LeaveParenthetical" ,
+              data
+                bool TRUE } ,
+            {
+              label
+                str "MaxMods" ,
+              data
+                int -99 } ,
+            {
+              label
+                str "UseLabels" ,
+              data
+                bool TRUE } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 1475 ,
+        seq-data
+          ncbi4na '41488841822844282141484112428442442484228118121842114824112
+418411422888142884281414484418814844242124448414811242181418112181222888148284
+441814221284411124484188118128141812822288824281114418844828184822818214288488
+448414481184428212211442818412444818224422841414448411244121212844112841412124
+482214128228124441442142148144411818842821184444411122284114214211242242484414
+418411448888144188481112822888848814141141881841244818281124118114212244281128
+224842214214224244811812441444842114248812824411821284442481114142424814424441
+114811482141848411184281144288112218141128421888411128128888281414818444141448
+144844118828844848144448111182248141418211414411812821884241144241228428441121
+881284124288114242411142484444142111214418814181222844814822124222811124184118
+428148848848414428848228842148118421428112421881142188224228444414812448242114
+188111128211144118141244441222421211424484414218484488811882411418124241141122
+881228144288412188418141182242814141814844148422128884844142884111121448428421
+244284824821428248482484141848844488114822242112414242112222248188814884281421
+488844284142128281118141284228824811441441441144844441241248211482182184422288
+124228144428121212484281211844448421211141488421181824811418441422118282111112
+122828214882441884814828421128241281218411428441182428148118242111821421184884
+244841181248822244482884812821224222482121221844414884818824228811482444181281
+11884488122422212442441842142412844448411482481121144811224814414112284244A844
+1921228228820'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "16S ribosomal RNA" } ,
+                partial TRUE ,
+                location
+                  int {
+                    from 0 ,
+                    to 1474 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_114600" } ,
+                    fuzz-from
+                      lim lt ,
+                    fuzz-to
+                      lim gt } } } } } } } }

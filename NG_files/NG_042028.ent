@@ -1,0 +1,495 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      origin natural ,
+      org {
+        taxname "Bifidobacterium longum" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 216816 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Bifidobacterium" ,
+              species "longum" } ,
+          attrib "nomodforward" ,
+          mod {
+            {
+              subtype strain ,
+              subname "NCC2705" } } ,
+          lineage "Bacteria; Actinobacteria; Actinobacteridae;
+ Bifidobacteriales; Bifidobacteriaceae; Bifidobacterium" ,
+          gcode 11 ,
+          div "BCT" } } } ,
+    pub {
+      pub {
+        muid 22294977 ,
+        pmid 12381787 ,
+        article {
+          title {
+            name "The genome sequence of Bifidobacterium longum reflects its
+ adaptation to the human gastrointestinal tract." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Schell" ,
+                      initials "M.A." } ,
+                  affil
+                    str "Nestle Research Center, Vers-Chez-les-Blanc, Lausanne
+ 1000, Switzerland." } ,
+                {
+                  name
+                    name {
+                      last "Karmirantzou" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Snel" ,
+                      initials "B." } } ,
+                {
+                  name
+                    name {
+                      last "Vilanova" ,
+                      initials "D." } } ,
+                {
+                  name
+                    name {
+                      last "Berger" ,
+                      initials "B." } } ,
+                {
+                  name
+                    name {
+                      last "Pessi" ,
+                      initials "G." } } ,
+                {
+                  name
+                    name {
+                      last "Zwahlen" ,
+                      initials "M.C." } } ,
+                {
+                  name
+                    name {
+                      last "Desiere" ,
+                      initials "F." } } ,
+                {
+                  name
+                    name {
+                      last "Bork" ,
+                      initials "P." } } ,
+                {
+                  name
+                    name {
+                      last "Delley" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Pridmore" ,
+                      initials "R.D." } } ,
+                {
+                  name
+                    name {
+                      last "Arigoni" ,
+                      initials "F." } } } } ,
+          from
+            journal {
+              title {
+                iso-jta "Proc. Natl. Acad. Sci. U.S.A." ,
+                ml-jta "Proc Natl Acad Sci U S A" ,
+                issn "0027-8424" ,
+                name "Proceedings of the National Academy of Sciences of the
+ United States of America" } ,
+              imp {
+                date
+                  std {
+                    year 2002 ,
+                    month 10 ,
+                    day 29 } ,
+                volume "99" ,
+                issue "22" ,
+                pages "14422-14427" ,
+                language "eng" ,
+                retract {
+                  type in-error ,
+                  exp "Proc Natl Acad Sci U S A. 2005 Jun 28;102(26):9430" } ,
+                pubstatus ppublish ,
+                history {
+                  {
+                    pubstatus pubmed ,
+                    date
+                      std {
+                        year 2002 ,
+                        month 10 ,
+                        day 17 ,
+                        hour 4 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus medline ,
+                    date
+                      std {
+                        year 2002 ,
+                        month 12 ,
+                        day 10 ,
+                        hour 4 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus aheadofprint ,
+                    date
+                      std {
+                        year 2002 ,
+                        month 10 ,
+                        day 15 } } ,
+                  {
+                    pubstatus other ,
+                    date
+                      std {
+                        year 2002 ,
+                        month 10 ,
+                        day 17 ,
+                        hour 4 ,
+                        minute 0 } } } } } ,
+          ids {
+            pubmed 12381787 ,
+            doi "10.1073/pnas.212527599" ,
+            pii "212527599" ,
+            other {
+              db "pmc" ,
+              tag
+                str "PMC137899" } } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Schell" ,
+                      first "Mark" ,
+                      initials "M.A." } } ,
+                {
+                  name
+                    name {
+                      last "Karmirantzou" ,
+                      first "Maria" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Snel" ,
+                      first "Berend" ,
+                      initials "B." } } ,
+                {
+                  name
+                    name {
+                      last "Vilanova" ,
+                      first "David" ,
+                      initials "D." } } ,
+                {
+                  name
+                    name {
+                      last "Berger" ,
+                      first "Bernard" ,
+                      initials "B." } } ,
+                {
+                  name
+                    name {
+                      last "Pessi" ,
+                      first "Gabriella" ,
+                      initials "G." } } ,
+                {
+                  name
+                    name {
+                      last "Zwahlen" ,
+                      first "Marie-Camille" ,
+                      initials "M.-C." } } ,
+                {
+                  name
+                    name {
+                      last "Desiere" ,
+                      first "Frank" ,
+                      initials "F." } } ,
+                {
+                  name
+                    name {
+                      last "Bork" ,
+                      first "Peer" ,
+                      initials "P." } } ,
+                {
+                  name
+                    name {
+                      last "Delley" ,
+                      first "Michele" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Pridmore" ,
+                      first "David" ,
+                      initials "D." } } ,
+                {
+                  name
+                    name {
+                      last "Arigoni" ,
+                      first "Fabrizio" ,
+                      initials "F." } } } ,
+            affil
+              std {
+                affil "Nestle Research Center" ,
+                div "Bioscience" ,
+                city "Lausanne 26" ,
+                country "Switzerland" ,
+                street "P.O. Box 44" ,
+                email "fabrizio.arigoni@rdls.nestle.com" ,
+                fax "+ 41 21 785 8925" ,
+                phone "+ 41 21 785 8364" ,
+                postal-code "1000" } } ,
+          medium other ,
+          date
+            std {
+              year 2002 ,
+              month 8 ,
+              day 27 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2013 ,
+              month 2 ,
+              day 14 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA188943" } } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_042028" } ,
+        general {
+          db "REF_23S_RNA" ,
+          tag
+            str "AE014295:161208-164261" } } ,
+      descr {
+        title "Bifidobacterium longum 23S ribosomal RNA gene, complete
+ sequence." ,
+        molinfo {
+          biomol genomic ,
+          tech standard } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 26 } } } } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "AE014295:161208-164261" } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        create-date
+          std {
+            year 2013 ,
+            month 3 ,
+            day 25 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 2 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 3054 ,
+        seq-data
+          ncbi2na 'E7E42A6CEBA397E9212858E0A1BF8A798CE5DAA259412A7F8D628FD60EA
+A054585B4EADAC5A7DA5AAAC64A82E01374B179280A33D6E2CBA6260268E3A5017E66EE315B6AA
+F999AAEF9A8D9B9969D61A969692F920053BB4AA05ABE0C5A9648AB8A956C5E0664EB796366DD5
+0B246AD5BA055B983595216FAB097833D7B7858C9818B16E2A02B802C55A8AA2E012DDE016E65C
+435B6895FFBAAE1A6E5CD800E2DE62D2E93BA624C15BBAACE6C98298B7C029BF8B66ED7A15826A
+38DC95E24AF8266AC2166E8A160545EAF8016AA8E1FAA72AB80A50D03D6E327AF77580E4FEAE49
+B6AD3C6D5AAB2271E8E7E6A56CDAB14124140758316B866CD5A4B8B69AA8C27DB6D80A80495216
+DB70AD5826EE70BA80A3BA2D93212528AFA748249457E022E6C12747ADCBAF599610EC9AA74244
+516086692CFFB1EACA226D538AA609A5BB81996E87D3A8B88392138B26221AB82356D67A3850AB
+D4A946F4DB57AB8B6AD70A6296129B2D83A381AB633D5B169FD259401629FA2C705D6AD6A7C79D
+7DAA9A8E57A5EFA858D7ECB2B49928B86482AC969668AEB7D6EB42464A9BA84A40D6D593AB58AE
+638EAA5F3A56335AE3569E588027DA6D29D82595B15405847AEB4AC88314098D89835EB4281DA4
+0D1D5BD7DAFC2A21558EB8111F9EEA27FEAAE91214AAB261EFC500112B93982990967B3391E197
+95AE5A0AF08A35B497DAB826B83D0956B01A6BAC1CC14D70AC980F5FB6AC2F585E460E9B061F55
+1EDD85289DA603E4B18B0239DBC264828600855A85FC7317EB3E93DAEE8FBB24CA6A2962299AD9
+48599A25B0AE031677BD93E8EDC17604B4D7BD2A12E5E9AB2FC1EA9AF975408B068A6540AD6749
+5AFA436AE98B90B9109A9F8798A186B5892A180B6A1CB8D6B96BB1A19A4D9D068C02B156A8C129
+E34F5422D4CD86A3AFE91763B69DB64D7AA7A24AD50ABDA7BD963C09A46627ABD206DB884BFADD
+CD7799DBE839E28A5E54CB188A17ABA18177ACE5AFB4652E91A5AFA71BDA0A8C1678093709A825
+E7508C24F5BA05F62F5ECB55392046EB6329686E825598AAE89616B1C1A180A40'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                product
+                  whole
+                    other {
+                      accession "NR_076081" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 1536 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042028" } } ,
+                    int {
+                      from 1608 ,
+                      to 3053 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042028" } } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 1537 ,
+                    to 1607 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_042028" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_076081" } } ,
+      descr {
+        title "Bifidobacterium longum 23S ribosomal RNA, complete sequence." ,
+        molinfo {
+          biomol rRNA } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "Status" ,
+              data
+                str "Reviewed" } ,
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_042028" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 2983 ,
+        seq-data
+          ncbi2na 'E7E42A6CEBA397E9212858E0A1BF8A798CE5DAA259412A7F8D628FD60EA
+A054585B4EADAC5A7DA5AAAC64A82E01374B179280A33D6E2CBA6260268E3A5017E66EE315B6AA
+F999AAEF9A8D9B9969D61A969692F920053BB4AA05ABE0C5A9648AB8A956C5E0664EB796366DD5
+0B246AD5BA055B983595216FAB097833D7B7858C9818B16E2A02B802C55A8AA2E012DDE016E65C
+435B6895FFBAAE1A6E5CD800E2DE62D2E93BA624C15BBAACE6C98298B7C029BF8B66ED7A15826A
+38DC95E24AF8266AC2166E8A160545EAF8016AA8E1FAA72AB80A50D03D6E327AF77580E4FEAE49
+B6AD3C6D5AAB2271E8E7E6A56CDAB14124140758316B866CD5A4B8B69AA8C27DB6D80A80495216
+DB70AD5826EE70BA80A3BA2D93212528AFA748249457E022E6C12747ADCBAF599610EC9AA74244
+516086692CFFB1EACA226D538AA609A5BB81996E87D3A8B88392138B26221AB82356D67A3850AB
+D4A946F4DB57AB8B6AD70A6296129B2D83A381AB633D5B169FD259401629FA2C705D6AD6A7C79D
+7DAA9A8E2BADF5BAD09192A6EA129035B564EAD62B98E3AA97CE958CD6B8D5A7962009F69B4A76
+09656C5501611EBAD2B220C502636260D7AD0A0769034756F5F6BF0A885563AE0447E7BA89FFAA
+BA44852AAC987BF140044AE4E60A64259ECCE47865E56B9682BC228D6D25F6AE09AE0F4255AC06
+9AEB0730535C2B2603D7EDAB0BD6179183A6C187D547B7614A276980F92C62C08E76F09920A180
+2156A17F1CC5FACFA4F6BBA3EEC9329A8A588A66B6521666896C2B80C59DEF64FA3B705D812D35
+EF4A84B97A6ACBF07AA6BE5D5022C1A299502B59D256BE90DABA62E42E4426A7E1E62861AD624A
+8602DA872E35AE5AEC6866936741A300AC55AA304A78D3D508B53361A8EBFA45D8EDA76D935EA9
+E892B542AF69EF658F02691989EAF481B6E212FEB7735DE676FA0E78A2979532C62285EAE8605D
+EB396BED194BA4696BE9C6F682A3059E024DC26A0979D423093D6E817D8BD7B2D54E4811BAD8CA
+5A1BA095662ABA2585AC706860290'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                location
+                  int {
+                    from 0 ,
+                    to 2982 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_076081" } } } } } } } } }

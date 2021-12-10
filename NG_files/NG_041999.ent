@@ -1,0 +1,739 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Anaerococcus prevotii" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 33034 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Anaerococcus" ,
+              species "prevotii" } ,
+          attrib "nomodforward" ,
+          mod {
+            {
+              subtype strain ,
+              subname "DSM 20548" } ,
+            {
+              subtype culture-collection ,
+              subname "DSM:20548" } } ,
+          lineage "Bacteria; Firmicutes; Clostridia; Clostridiales;
+ Peptoniphilaceae; Anaerococcus" ,
+          gcode 11 ,
+          div "BCT" } } } ,
+    pub {
+      pub {
+        article {
+          title {
+            name "Complete genome sequence of Anaerococcus prevotii type
+ strain (PC1)." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Labutti" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Pukall" ,
+                      initials "R." } } ,
+                {
+                  name
+                    name {
+                      last "Steenblock" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Glavina Del Rio" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Tice" ,
+                      initials "H." } } ,
+                {
+                  name
+                    name {
+                      last "Copeland" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Cheng" ,
+                      initials "J.F." } } ,
+                {
+                  name
+                    name {
+                      last "Lucas" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Chen" ,
+                      initials "F." } } ,
+                {
+                  name
+                    name {
+                      last "Nolan" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Bruce" ,
+                      initials "D." } } ,
+                {
+                  name
+                    name {
+                      last "Goodwin" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Pitluck" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Ivanova" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Mavromatis" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Ovchinnikova" ,
+                      initials "G." } } ,
+                {
+                  name
+                    name {
+                      last "Pati" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Chen" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Palaniappan" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Land" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Hauser" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Chang" ,
+                      initials "Y.J." } } ,
+                {
+                  name
+                    name {
+                      last "Jeffries" ,
+                      initials "C.D." } } ,
+                {
+                  name
+                    name {
+                      last "Chain" ,
+                      initials "P." } } ,
+                {
+                  name
+                    name {
+                      last "Saunders" ,
+                      initials "E." } } ,
+                {
+                  name
+                    name {
+                      last "Brettin" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Detter" ,
+                      initials "J.C." } } ,
+                {
+                  name
+                    name {
+                      last "Han" ,
+                      initials "C." } } ,
+                {
+                  name
+                    name {
+                      last "Goker" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Bristow" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Eisen" ,
+                      initials "J.A." } } ,
+                {
+                  name
+                    name {
+                      last "Markowitz" ,
+                      initials "V." } } ,
+                {
+                  name
+                    name {
+                      last "Hugenholtz" ,
+                      initials "P." } } ,
+                {
+                  name
+                    name {
+                      last "Kyrpides" ,
+                      initials "N.C." } } ,
+                {
+                  name
+                    name {
+                      last "Klenk" ,
+                      initials "H.P." } } ,
+                {
+                  name
+                    name {
+                      last "Lapidus" ,
+                      initials "A." } } } } ,
+          from
+            journal {
+              title {
+                iso-jta "Stand Genomic Sci" ,
+                ml-jta "Stand Genomic Sci" ,
+                issn "1944-3277" ,
+                name "Standards in genomic sciences" } ,
+              imp {
+                date
+                  std {
+                    year 2009 } ,
+                volume "1" ,
+                issue "2" ,
+                pages "159-165" ,
+                language "eng" ,
+                pubstatus epublish ,
+                history {
+                  {
+                    pubstatus epublish ,
+                    date
+                      std {
+                        year 2009 ,
+                        month 9 ,
+                        day 24 } } ,
+                  {
+                    pubstatus other ,
+                    date
+                      std {
+                        year 2011 ,
+                        month 2 ,
+                        day 10 ,
+                        hour 6 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus pubmed ,
+                    date
+                      std {
+                        year 2009 ,
+                        month 1 ,
+                        day 1 ,
+                        hour 0 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus medline ,
+                    date
+                      std {
+                        year 2009 ,
+                        month 1 ,
+                        day 1 ,
+                        hour 0 ,
+                        minute 1 } } } } } ,
+          ids {
+            doi "10.4056/sigs.24194" ,
+            pubmed 21304652 ,
+            other {
+              db "pmc" ,
+              tag
+                str "PMC3035230" } ,
+            other {
+              db "ELocationID doi" ,
+              tag
+                str "10.4056/sigs.24194" } } } ,
+        pmid 21304652 } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Lucas" ,
+                      first "Susan" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Copeland" ,
+                      first "Alex" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Lapidus" ,
+                      first "Alla" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Glavina del Rio" ,
+                      first "Tijana" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Dalin" ,
+                      first "Eileen" ,
+                      initials "E." } } ,
+                {
+                  name
+                    name {
+                      last "Tice" ,
+                      first "Hope" ,
+                      initials "H." } } ,
+                {
+                  name
+                    name {
+                      last "Bruce" ,
+                      first "David" ,
+                      initials "D." } } ,
+                {
+                  name
+                    name {
+                      last "Goodwin" ,
+                      first "Lynne" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Pitluck" ,
+                      first "Samuel" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Kyrpides" ,
+                      first "Nikos" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Mavromatis" ,
+                      first "Konstantinos" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Ivanova" ,
+                      first "Natalia" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Mikhailova" ,
+                      first "Natalia" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Clum" ,
+                      first "Alicia" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "LaButti" ,
+                      first "Kurt" ,
+                      initials "K.M." } } ,
+                {
+                  name
+                    name {
+                      last "Brettin" ,
+                      first "Thomas" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Detter" ,
+                      first "John" ,
+                      initials "J.C." } } ,
+                {
+                  name
+                    name {
+                      last "Han" ,
+                      first "Cliff" ,
+                      initials "C." } } ,
+                {
+                  name
+                    name {
+                      last "Larimer" ,
+                      first "Frank" ,
+                      initials "F." } } ,
+                {
+                  name
+                    name {
+                      last "Land" ,
+                      first "Miriam" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Hauser" ,
+                      first "Loren" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Markowitz" ,
+                      first "Victor" ,
+                      initials "V." } } ,
+                {
+                  name
+                    name {
+                      last "Cheng" ,
+                      first "Jan-Fang" ,
+                      initials "J.-F." } } ,
+                {
+                  name
+                    name {
+                      last "Hugenholtz" ,
+                      first "Phil" ,
+                      initials "P." } } ,
+                {
+                  name
+                    name {
+                      last "Woyke" ,
+                      first "Tanja" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Wu" ,
+                      first "Dongying" ,
+                      initials "D." } } ,
+                {
+                  name
+                    name {
+                      last "Pukall" ,
+                      first "Rudiger" ,
+                      initials "R." } } ,
+                {
+                  name
+                    name {
+                      last "Klenk" ,
+                      first "Hans-Peter" ,
+                      initials "H.-P." } } ,
+                {
+                  name
+                    name {
+                      last "Eisen" ,
+                      first "Jonathan" ,
+                      initials "J.A." } } ,
+                {
+                  name
+                    consortium "US DOE Joint Genome Institute (JGI-PGF)" } } ,
+            affil
+              std {
+                affil "US DOE Joint Genome Institute" ,
+                city "Walnut Creek" ,
+                sub "CA" ,
+                country "USA" ,
+                street "2800 Mitchell Drive" ,
+                postal-code "94598-1698" } } ,
+          date
+            std {
+              year 2009 ,
+              month 8 ,
+              day 12 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2013 ,
+              month 2 ,
+              day 14 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA188943" } } } } ,
+    user {
+      type
+        str "NcbiCleanup" ,
+      data {
+        {
+          label
+            str "method" ,
+          data
+            str "SequinCleanup" } ,
+        {
+          label
+            str "version" ,
+          data
+            int 8 } ,
+        {
+          label
+            str "month" ,
+          data
+            int 4 } ,
+        {
+          label
+            str "day" ,
+          data
+            int 20 } ,
+        {
+          label
+            str "year" ,
+          data
+            int 2015 } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_041999" } ,
+        general {
+          db "REF_23S_RNA" ,
+          tag
+            str "CP001708:83356-86401" } } ,
+      descr {
+        title "Anaerococcus prevotii strain DSM 20548 23S ribosomal RNA gene,
+ complete sequence." ,
+        molinfo {
+          biomol genomic } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 26 } } } } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "CP001708:83356-86401" } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        create-date
+          std {
+            year 2013 ,
+            month 3 ,
+            day 25 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 2 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 3046 ,
+        seq-data
+          ncbi2na '420202A642BA397E9138298E0A1B0B81801CA889D100247855CADD60EA8
+0569EE82112D3C70B831327CB024215EE07804DC2C128A0080801D8FF50B26989802008970D4F8
+A0CDCBCB60D37A823814080B80B7EC8600703014A8A02C9168462835BEE08CAA85355C29C0C704
+EE16326042C5B8A80AE00815602A8B804817805CB97109222277022E376C5FFB20EA5262F36CCC
+90AF037F088E094098098B7C32A60CBC8E63215805AB8DCD4EB48B82B82C03D1E8A7605AB1AFC0
+1B368E07BA32A980050181DA3327AF75D80C9FCA9C97F8F08FC28AC891E0EB72A69F16C5005CD0
+1D60E5000D23428B487CAA8C27DC2D80A804952161270AD500DE8F0BA00A3B8171C2105286FA7C
+82494E4FC0839B0C9D1EB42EAFE6580381AA700D4B1609F68F8C883F00F9CD0740402200AC01F2
+1A033C000434230062F34301C3C64010B00AC2FB01C60345010D9302033907AF001B40B3F1490F
+F0FDDCD2EB22893ECEA60824C260246EE89931088839E938B2620A8EE20D355B6015C28F5E2429
+DB55D2AC2DA85C298A580A6C963A304AFC0F5EC59F02D9CC882E3864228C2709C9E3A39CB7002E
+29ED3B290359384429C27F8CACD80110B220B278FD03E50802D1CD08502656C5005844ACA8AC88
+3142199A0817FBC281DA403B55B07DA882A894898DE9448052950987BF1400442FDE403602382C
+CA27845E56B9E82BC2A829F24C260A7207C2552C069A5B07306B5C2B2603D7EDAB0BD6159180AE
+C18FEA47B741028D6B80FB2CB6E08E61F1519CA1A02156E89FC7B29E33E87F88F21B128CBEA21F
+E0119194BB3BA2D15FA8C505770CF02F7063857E0D2A4DA13ED2FA92FE1EA9AD975400B068A6F4
+0AF67483A1A014F6C8B102920989F079005C42F9922C80C687CB8D6BA4593A0A94D9D068C02715
+6A8C129F3755422D44D86A8AFE91763B69DB74D7AA782CAD50ABEA7BD953C08A46627ABD206DB8
+84BDAD5CD49BA9B080FE228DED5CB188A16A3A11167AEC52FBD65289327AB271BBA0F8C2C78093
+70B1824A5D08C23F748B2B0200C5FE32B50AEC2E4B0ECF09C3A31C07F1370'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                product
+                  whole
+                    other {
+                      accession "NR_076129" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 1170 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041999" } } ,
+                    int {
+                      from 1347 ,
+                      to 3045 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041999" } } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 1171 ,
+                    to 1346 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_041999" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_076129" } } ,
+      descr {
+        title "Anaerococcus prevotii strain DSM 20548 23S ribosomal RNA,
+ complete sequence." ,
+        molinfo {
+          biomol rRNA } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_041999" } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "PROVISIONAL" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 2870 ,
+        seq-data
+          ncbi2na '420202A642BA397E9138298E0A1B0B81801CA889D100247855CADD60EA8
+0569EE82112D3C70B831327CB024215EE07804DC2C128A0080801D8FF50B26989802008970D4F8
+A0CDCBCB60D37A823814080B80B7EC8600703014A8A02C9168462835BEE08CAA85355C29C0C704
+EE16326042C5B8A80AE00815602A8B804817805CB97109222277022E376C5FFB20EA5262F36CCC
+90AF037F088E094098098B7C32A60CBC8E63215805AB8DCD4EB48B82B82C03D1E8A7605AB1AFC0
+1B368E07BA32A980050181DA3327AF75D80C9FCA9C97F8F08FC28AC891E0EB72A69F16C5005CD0
+1D60E5000D23428B487CAA8C27DC2D80A804952161270AD500DE8F0BA00A3B8171C2105286FA7C
+82494E4FC0839B0C9D1EB42EAFE6580381AA700D4B1609F68F8C883F00C0B3F1490FF0FDDCD2EB
+22893ECEA60824C260246EE89931088839E938B2620A8EE20D355B6015C28F5E2429DB55D2AC2D
+A85C298A580A6C963A304AFC0F5EC59F02D9CC882E3864228C2709C9E3A39CB7002E29ED3B2903
+59384429C27F8CACD80110B220B278FD03E50802D1CD08502656C5005844ACA8AC883142199A08
+17FBC281DA403B55B07DA882A894898DE9448052950987BF1400442FDE403602382CCA27845E56
+B9E82BC2A829F24C260A7207C2552C069A5B07306B5C2B2603D7EDAB0BD6159180AEC18FEA47B7
+41028D6B80FB2CB6E08E61F1519CA1A02156E89FC7B29E33E87F88F21B128CBEA21FE0119194BB
+3BA2D15FA8C505770CF02F7063857E0D2A4DA13ED2FA92FE1EA9AD975400B068A6F40AF67483A1
+A014F6C8B102920989F079005C42F9922C80C687CB8D6BA4593A0A94D9D068C027156A8C129F37
+55422D44D86A8AFE91763B69DB74D7AA782CAD50ABEA7BD953C08A46627ABD206DB884BDAD5CD4
+9BA9B080FE228DED5CB188A16A3A11167AEC52FBD65289327AB271BBA0F8C2C7809370B1824A5D
+08C23F748B2B0200C5FE32B50AEC2E4B0ECF09C3A31C07F1370'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                location
+                  int {
+                    from 0 ,
+                    to 2869 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_076129" } } } } } } } } }

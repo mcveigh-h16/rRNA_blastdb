@@ -1,0 +1,584 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Thermotoga lettingae" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 177758 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Thermotoga" ,
+              species "lettingae" } ,
+          attrib "nomodforward" ,
+          mod {
+            {
+              subtype strain ,
+              subname "TMO" } ,
+            {
+              subtype culture-collection ,
+              subname "ATCC:BAA-301" } } ,
+          lineage "Bacteria; Thermotogae; Thermotogales; Thermotogaceae;
+ Thermotoga" ,
+          gcode 11 ,
+          div "BCT" } } } ,
+    pub {
+      pub {
+        article {
+          title {
+            name "On the chimeric nature, thermophilic origin, and
+ phylogenetic placement of the Thermotogales." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Zhaxybayeva" ,
+                      first "O" ,
+                      initials "O." } } ,
+                {
+                  name
+                    name {
+                      last "Swithers" ,
+                      first "K" ,
+                      initials "K.S." } } ,
+                {
+                  name
+                    name {
+                      last "Lapierre" ,
+                      first "P" ,
+                      initials "P." } } ,
+                {
+                  name
+                    name {
+                      last "Fournier" ,
+                      first "G" ,
+                      initials "G.P." } } ,
+                {
+                  name
+                    name {
+                      last "Bickhart" ,
+                      first "D" ,
+                      initials "D.M." } } ,
+                {
+                  name
+                    name {
+                      last "DeBoy" ,
+                      first "R" ,
+                      initials "R.T." } } ,
+                {
+                  name
+                    name {
+                      last "Nelson" ,
+                      first "K" ,
+                      initials "K.E." } } ,
+                {
+                  name
+                    name {
+                      last "Nesbo" ,
+                      first "C" ,
+                      initials "C.L." } } ,
+                {
+                  name
+                    name {
+                      last "Doolittle" ,
+                      first "W" ,
+                      initials "W.F." } } ,
+                {
+                  name
+                    name {
+                      last "Gogarten" ,
+                      first "J" ,
+                      initials "J.P." } } ,
+                {
+                  name
+                    name {
+                      last "Noll" ,
+                      first "K" ,
+                      initials "K.M." } } } ,
+            affil
+              str "Department of Biochemistry and Molecular Biology, Dalhousie
+ University, 5850 College Street, Halifax, Nova Scotia, Canada B3H 1X5." } ,
+          from
+            journal {
+              title {
+                iso-jta "Proc. Natl. Acad. Sci. U.S.A." ,
+                ml-jta "Proc Natl Acad Sci U S A" ,
+                issn "1091-6490" ,
+                name "Proceedings of the National Academy of Sciences of the
+ United States of America" } ,
+              imp {
+                date
+                  std {
+                    year 2009 ,
+                    month 4 ,
+                    day 7 } ,
+                volume "106" ,
+                issue "14" ,
+                pages "5865-5870" ,
+                language "eng" ,
+                pubstatus ppublish ,
+                history {
+                  {
+                    pubstatus aheadofprint ,
+                    date
+                      std {
+                        year 2009 ,
+                        month 3 ,
+                        day 23 } } ,
+                  {
+                    pubstatus other ,
+                    date
+                      std {
+                        year 2009 ,
+                        month 3 ,
+                        day 25 ,
+                        hour 9 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus pubmed ,
+                    date
+                      std {
+                        year 2009 ,
+                        month 3 ,
+                        day 25 ,
+                        hour 9 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus medline ,
+                    date
+                      std {
+                        year 2009 ,
+                        month 5 ,
+                        day 7 ,
+                        hour 9 ,
+                        minute 0 } } } } } ,
+          ids {
+            pii "0901260106" ,
+            doi "10.1073/pnas.0901260106" ,
+            pubmed 19307556 ,
+            other {
+              db "pmc" ,
+              tag
+                str "PMC2667022" } ,
+            other {
+              db "ELocationID doi" ,
+              tag
+                str "10.1073/pnas.0901260106" } } } ,
+        pmid 19307556 } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Copeland" ,
+                      first "Alex" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Lucas" ,
+                      first "Susan" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Lapidus" ,
+                      first "Alla" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Barry" ,
+                      first "Kerrie" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Glavina del Rio" ,
+                      first "Tijana" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Dalin" ,
+                      first "Eileen" ,
+                      initials "E." } } ,
+                {
+                  name
+                    name {
+                      last "Tice" ,
+                      first "Hope" ,
+                      initials "H." } } ,
+                {
+                  name
+                    name {
+                      last "Pitluck" ,
+                      first "Samuel" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Foster" ,
+                      first "Brian" ,
+                      initials "B." } } ,
+                {
+                  name
+                    name {
+                      last "Bruce" ,
+                      first "David" ,
+                      initials "D." } } ,
+                {
+                  name
+                    name {
+                      last "Schmutz" ,
+                      first "Jeremy" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Larimer" ,
+                      first "Frank" ,
+                      initials "F." } } ,
+                {
+                  name
+                    name {
+                      last "Land" ,
+                      first "Miriam" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Hauser" ,
+                      first "Loren" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Kyrpides" ,
+                      first "Nikos" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Mikhailova" ,
+                      first "Natalia" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Nelson" ,
+                      first "K" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Gogarten" ,
+                      first "J" ,
+                      initials "J.P." } } ,
+                {
+                  name
+                    name {
+                      last "Noll" ,
+                      first "Kenneth" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Richardson" ,
+                      first "Paul" ,
+                      initials "P." } } ,
+                {
+                  name
+                    consortium "US DOE Joint Genome Institute" } } ,
+            affil
+              std {
+                affil "US DOE Joint Genome Institute" ,
+                city "Walnut Creek" ,
+                sub "CA" ,
+                country "USA" ,
+                street "2800 Mitchell Drive B100" ,
+                postal-code "94598-1698" } } ,
+          date
+            std {
+              year 2007 ,
+              month 8 ,
+              day 23 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2013 ,
+              month 2 ,
+              day 14 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA188943" } } } } ,
+    user {
+      type
+        str "NcbiCleanup" ,
+      data {
+        {
+          label
+            str "method" ,
+          data
+            str "SequinCleanup" } ,
+        {
+          label
+            str "version" ,
+          data
+            int 8 } ,
+        {
+          label
+            str "month" ,
+          data
+            int 4 } ,
+        {
+          label
+            str "day" ,
+          data
+            int 21 } ,
+        {
+          label
+            str "year" ,
+          data
+            int 2015 } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_042007" } ,
+        general {
+          db "REF_23S_RNA" ,
+          tag
+            str "CP000812:2007261-2011020" } } ,
+      descr {
+        title "Thermotoga lettingae strain TMO 23S ribosomal RNA gene,
+ complete sequence." ,
+        molinfo {
+          biomol genomic } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 26 } } } } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "CP000812:2007261-2011020" } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        create-date
+          std {
+            year 2013 ,
+            month 3 ,
+            day 25 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 2 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 3760 ,
+        seq-data
+          ncbi2na '42B1C2A4E6BA397E98E8298E0A9BAC2798C25DAA2590129FE35AA3D583A
+A0178FADB0852D9602B9816AA0B804DD2C558A0080D0188F578B2298D80AA0097014B98EF4256C
+A6FBE47AAFBA844BEA629C68765AA2F1037DD7C9E0537A823A9688AB84956C2602A20875F81EEF
+542C59A856A035E6A0DEAA8515D429C0C77536D632E462C5B8A80AE008156A2A8B80C817805939
+710C2DA25642AE1A6E5FF8F0E2D662FB6D2E90AF096B229A25B260262D60CA990B47AE9215825A
+B89C55EA4A382BA9C0551E8AD6058E8CB800D768E17AAB28B802705815AE327AF7558064F8AE69
+762EB7B92AAC891E32A72AAB05D6057B40758357B130076A282DEEAA309D4E8402A0125485369C
+2A54888E9C2EA028EEB9154841EA2BE9F2092535FC08B9B049D14B62B91E65823B06A9D094D558
+253AB7B11CEC4A6B2A89FD67B2AE0AC856E2A71E8629A0B8839A138B3988A22E20DDD5560E542A
+C5EA82ADB5D52AF2DAC570AE05602A32582A09EBC33D49145EC362B98AAE1920AB09962A42E93D
+5F509AF2A6F8EAECAC0D645E8B7896E3A82856E2AD41A6F85519E508025D9B16F62BE4AE16F590
+16112BA989E20270AA26A3057650A076903C156C1F6A20AAE592CAB81D2A80A905E8078A897826
+B64B84295C987BF140044A5DE4076C08A3B32A9E197952E5A0AF0AA2AB8A590A6C9D4058255AC0
+69A5B0730216FB2F1AC001DA7B39A8077A2E5AEAC512BBAC10D51A2E60265210564A01D370BC28
+83FD4E7A1BC020F51600CAF1C5F929FE486882A2FD3AFBEC2020238F300BAFA08CDEC9FD0EDD83
+0230ACB9F91FFC02B3F81EE81DD6D26C08EBBBAC7382CAC3F4198FBA00EE317F7F848F48FDFDE4
+942003D33D00F4002FB2030FA08DE04C61028293E008CF37F8A0D038B0C36B40980111634A0BFE
+AC9F238A35D2214C6589344EAFE15406A8E6596153A38E33AD43573AC132A5C03A8C9743E2B838
+2CF0606B5C2B260317E52B0BDE979383A6C187AA47B7698A856B80FD2EEAE08E544179A721A021
+56E89FC7905EB3E8F7844DBB128CAEA29EE0569DB4AB6AA25B6BA8C515DAEEDA0F705E05EE0892
+BEA04B94AEA4BF87AA6B65D700EC1A299982B69D2BABE80D45822EC2A4C25A5E1EE21612B62488
+602DA572E15A61D62E82ADB61068402F156A8C129CB765622F44D8698A3691763B69D354D7AA78
+24AD50ABCA7B5973C0AAC6E27ABD216DB084ADAD5CDA59A9928AFE2A2B755FB188A16A88BA977A
+EC5A7B5E52A93196AC9CE54C263059E0A4DC26A099B5423C85D5357C2A2C296B5883285F8CA5AE
+BB0936C2BBE2505AC70CA58A5F8'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                product
+                  whole
+                    other {
+                      accession "NR_076115" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 2018 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042007" } } ,
+                    int {
+                      from 2765 ,
+                      to 3759 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042007" } } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 2019 ,
+                    to 2764 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_042007" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_076115" } } ,
+      descr {
+        title "Thermotoga lettingae strain TMO 23S ribosomal RNA, complete
+ sequence." ,
+        molinfo {
+          biomol rRNA } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "Status" ,
+              data
+                str "Reviewed" } ,
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_042007" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 3014 ,
+        seq-data
+          ncbi2na '42B1C2A4E6BA397E98E8298E0A9BAC2798C25DAA2590129FE35AA3D583A
+A0178FADB0852D9602B9816AA0B804DD2C558A0080D0188F578B2298D80AA0097014B98EF4256C
+A6FBE47AAFBA844BEA629C68765AA2F1037DD7C9E0537A823A9688AB84956C2602A20875F81EEF
+542C59A856A035E6A0DEAA8515D429C0C77536D632E462C5B8A80AE008156A2A8B80C817805939
+710C2DA25642AE1A6E5FF8F0E2D662FB6D2E90AF096B229A25B260262D60CA990B47AE9215825A
+B89C55EA4A382BA9C0551E8AD6058E8CB800D768E17AAB28B802705815AE327AF7558064F8AE69
+762EB7B92AAC891E32A72AAB05D6057B40758357B130076A282DEEAA309D4E8402A0125485369C
+2A54888E9C2EA028EEB9154841EA2BE9F2092535FC08B9B049D14B62B91E65823B06A9D094D558
+253AB7B11CEC4A6B2A89FD67B2AE0AC856E2A71E8629A0B8839A138B3988A22E20DDD5560E542A
+C5EA82ADB5D52AF2DAC570AE05602A32582A09EBC33D49145EC362B98AAE1920AB09962A42E93D
+5F509AF2A6F8EAECAC0D645E8B7896E3A82856E2AD41A6F85519E508025D9B16F62BE4AE16F590
+16112BA989E20270AA26A3057650A076903C156C1F6A20AAE592CAB81D2A80A905E8078A897826
+B64B84295C987BF140044A5DE4076C08A3B32A9E197952E5A0AF0AA2AB8A590A6C9D4058255AC0
+69A5B0730216FB0382CF0606B5C2B260317E52B0BDE979383A6C187AA47B7698A856B80FD2EEAE
+08E544179A721A02156E89FC7905EB3E8F7844DBB128CAEA29EE0569DB4AB6AA25B6BA8C515DAE
+EDA0F705E05EE0892BEA04B94AEA4BF87AA6B65D700EC1A299982B69D2BABE80D45822EC2A4C25
+A5E1EE21612B62488602DA572E15A61D62E82ADB61068402F156A8C129CB765622F44D8698A369
+1763B69D354D7AA7824AD50ABCA7B5973C0AAC6E27ABD216DB084ADAD5CDA59A9928AFE2A2B755
+FB188A16A88BA977AEC5A7B5E52A93196AC9CE54C263059E0A4DC26A099B5423C85D5357C2A2C2
+96B5883285F8CA5AEBB0936C2BBE2505AC70CA58A5F80'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                location
+                  int {
+                    from 0 ,
+                    to 3013 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_076115" } } } } } } } } }

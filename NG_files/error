@@ -1,0 +1,10 @@
+ERROR          SEQ_FEAT       RnaProductMismatch                           3 5 61 1 1 7
+               Type of RNA does not match MolInfo of
+               product Bioseq FEATURE: rRNA: 23S ribosomal
+               RNA [ref|NG_041980|:1-3115] ->
+               [ref|NR_103000|] [ref|NG_041980|: raw, dna
+               len= 3115]
+
+               The RNA feature product type does not
+               correspond to the RNA feature type.  These
+               need to be consistent.

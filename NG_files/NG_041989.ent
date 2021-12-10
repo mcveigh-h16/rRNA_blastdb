@@ -1,0 +1,639 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Thiobacillus denitrificans" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 36861 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Thiobacillus" ,
+              species "denitrificans" } ,
+          attrib "nomodforward" ,
+          mod {
+            {
+              subtype strain ,
+              subname "ATCC 25259" } ,
+            {
+              subtype culture-collection ,
+              subname "ATCC:25259" } } ,
+          lineage "Bacteria; Proteobacteria; Betaproteobacteria;
+ Hydrogenophilales; Hydrogenophilaceae; Thiobacillus" ,
+          gcode 11 ,
+          div "BCT" } } } ,
+    pub {
+      pub {
+        gen {
+          cit "Unpublished" ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Copeland" ,
+                      first "Alex" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Lucas" ,
+                      first "Susan" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Lapidus" ,
+                      first "Alla" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Barry" ,
+                      first "Kerrie" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Detter" ,
+                      first "John" ,
+                      initials "J.C." } } ,
+                {
+                  name
+                    name {
+                      last "Glavina" ,
+                      first "Tijana" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Hammon" ,
+                      first "Nancy" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Israni" ,
+                      first "Sanjay" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Pitluck" ,
+                      first "Samuel" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Chain" ,
+                      first "Patrick" ,
+                      initials "P." } } ,
+                {
+                  name
+                    name {
+                      last "Malfatti" ,
+                      first "Stephanie" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Shin" ,
+                      first "Maria" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Vergez" ,
+                      first "Lisa" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Schmutz" ,
+                      first "Jeremy" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Larimer" ,
+                      first "Frank" ,
+                      initials "F." } } ,
+                {
+                  name
+                    name {
+                      last "Land" ,
+                      first "Miriam" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Kyripides" ,
+                      first "Nikos" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Lykidis" ,
+                      first "Athanasios" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Richardson" ,
+                      first "Paul" ,
+                      initials "P." } } ,
+                {
+                  name
+                    consortium "US DOE Joint Genome Institute" } } ,
+            affil
+              std {
+                affil "US DOE Joint Genome Institute" ,
+                city "Walnut Creek" ,
+                sub "CA" ,
+                country "USA" ,
+                street "2800 Mitchell Drive B100" ,
+                postal-code "94598-1698" } } ,
+          title "Complete sequence of Thiobacillus denitrificans ATCC 25259" } } } ,
+    pub {
+      pub {
+        article {
+          title {
+            name "The genome sequence of the obligately chemolithoautotrophic,
+ facultatively anaerobic bacterium Thiobacillus denitrificans." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Beller" ,
+                      initials "H.R." } ,
+                  affil
+                    str "Lawrence Livermore National Laboratory, P.O. Box 808,
+ L-542, Livermore, California 94551-0808, USA. beller2@llnl.gov" } ,
+                {
+                  name
+                    name {
+                      last "Chain" ,
+                      initials "P.S." } } ,
+                {
+                  name
+                    name {
+                      last "Letain" ,
+                      initials "T.E." } } ,
+                {
+                  name
+                    name {
+                      last "Chakicherla" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Larimer" ,
+                      initials "F.W." } } ,
+                {
+                  name
+                    name {
+                      last "Richardson" ,
+                      initials "P.M." } } ,
+                {
+                  name
+                    name {
+                      last "Coleman" ,
+                      initials "M.A." } } ,
+                {
+                  name
+                    name {
+                      last "Wood" ,
+                      initials "A.P." } } ,
+                {
+                  name
+                    name {
+                      last "Kelly" ,
+                      initials "D.P." } } } } ,
+          from
+            journal {
+              title {
+                iso-jta "J. Bacteriol." ,
+                ml-jta "J Bacteriol" ,
+                issn "0021-9193" ,
+                name "Journal of bacteriology" } ,
+              imp {
+                date
+                  std {
+                    year 2006 ,
+                    month 2 } ,
+                volume "188" ,
+                issue "4" ,
+                pages "1473-1488" ,
+                language "eng" ,
+                pubstatus ppublish ,
+                history {
+                  {
+                    pubstatus pubmed ,
+                    date
+                      std {
+                        year 2006 ,
+                        month 2 ,
+                        day 3 ,
+                        hour 9 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus medline ,
+                    date
+                      std {
+                        year 2006 ,
+                        month 4 ,
+                        day 1 ,
+                        hour 9 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus other ,
+                    date
+                      std {
+                        year 2006 ,
+                        month 2 ,
+                        day 3 ,
+                        hour 9 ,
+                        minute 0 } } } } } ,
+          ids {
+            pii "188/4/1473" ,
+            doi "10.1128/JB.188.4.1473-1488.2006" ,
+            pubmed 16452431 ,
+            other {
+              db "pmc" ,
+              tag
+                str "PMC1367237" } } } ,
+        pmid 16452431 } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Copeland" ,
+                      first "Alex" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Lucas" ,
+                      first "Susan" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Lapidus" ,
+                      first "Alla" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Barry" ,
+                      first "Kerrie" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Detter" ,
+                      first "John" ,
+                      initials "J.C." } } ,
+                {
+                  name
+                    name {
+                      last "Glavina" ,
+                      first "Tijana" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Hammon" ,
+                      first "Nancy" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Israni" ,
+                      first "Sanjay" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Pitluck" ,
+                      first "Samuel" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Chain" ,
+                      first "Patrick" ,
+                      initials "P." } } ,
+                {
+                  name
+                    name {
+                      last "Malfatti" ,
+                      first "Stephanie" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Shin" ,
+                      first "Maria" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Vergez" ,
+                      first "Lisa" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Schmutz" ,
+                      first "Jeremy" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Larimer" ,
+                      first "Frank" ,
+                      initials "F." } } ,
+                {
+                  name
+                    name {
+                      last "Land" ,
+                      first "Miriam" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Kyripides" ,
+                      first "Nikos" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Lykidis" ,
+                      first "Athanasios" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Richardson" ,
+                      first "Paul" ,
+                      initials "P." } } } ,
+            affil
+              std {
+                affil "US DOE Joint Genome Institute" ,
+                city "Walnut Creek" ,
+                sub "CA" ,
+                country "USA" ,
+                street "2800 Mitchell Drive" ,
+                postal-code "94598-1698" } } ,
+          medium other ,
+          date
+            std {
+              year 2005 ,
+              month 7 ,
+              day 27 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2013 ,
+              month 2 ,
+              day 14 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA188943" } } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_041989" } ,
+        general {
+          db "REF_23S_RNA" ,
+          tag
+            str "CP000116:480293-483317" } } ,
+      descr {
+        title "Thiobacillus denitrificans strain ATCC 25259 23S ribosomal RNA
+ gene, complete sequence." ,
+        molinfo {
+          biomol genomic } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 26 } } } } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "Status" ,
+              data
+                str "Reviewed" } ,
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "CP000116:480293-483317" } } } } } } } ,
+        create-date
+          std {
+            year 2013 ,
+            month 3 ,
+            day 25 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 2 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 3025 ,
+        seq-data
+          ncbi2na 'AD09870B93BAE8E5FA61C4A6382866C25E6309F6A89E90C89FE35A23F58
+3AA815A57FA947545E0C4CABAB226064B81E01370B27928020341623D532CBA6260FA8225F4E3F
+24F7EF2E812DE80B7A532EAE3255B1980108BBA072938842CA9A846E035EDE04EAA8535D429C0C
+76CB61632E052C5B8A80A6008156A2A8B80C8D780593931012EA255E7D0917D8F7F62898990989
+87402C3C20A2E03AB9E419926FB2E95E6204568ABBF824AAE1E6C5FFB30EAD261F1BD6F989F058
+32A8A6098098B7C32A64CB26A9B215805A38DCD4E94A382B9AC1191E8AD605470EF800F2A8E27B
+A32AB80A701035A2327AF75D809CFCAC9974ECD1D1AAB2247B0EF2EAAD3E61F1E693240758316E
+0B9893A88484DAB9C1B5AED08A804152161270AD50386E70BA0063BA82932127282FA7C82494D7
+F02026C327472D8B6D799A08EC1AA7091B05827DA3391FEE4CEB2289BDEC2DE60AED7B0AAE7A23
+3482E60E784E2C98C0AAB80A5576580150AFD79906F4DA64AB8B6B570AE292239B278EA01AB403
+D5B1FDBF1E63BAA1A20AF2B896AEFA3B56BF0B9B292357CA40D6AABC3B62118E1AE753E8960B47
+8C509F5080251C27D2B018816C59016112BAB28E20F70A67E22076AE0A076903EB16C1F6A30AC6
+55ACAFB261F9D982963AAF92E03AE9E61EFC300112477901180BA1B32AEE19795AE5A0AF0F8EAB
+909DF8D8255AC069A5B07306B5C2B2603D7EDAB0BD6159183A6C18E9447B75158874982F80EFEE
+08E437559A721A02154E05FC7B27F93E87B86A1FBB28C9EA25EE098AD9C8DDBA29B6F80C525EBB
+6F9AF705EAD4F37A36A85B93AEA4BF87AA6B75D502EC1A28B182B7DCAC6B684DB1E32E43A4020A
+7E1E621E11B624AE6024AD32E35AEBDECE82A536741A300AC77AA304A78F5D508BD3361AA8BFA4
+5D8EDA74D135EA9EC96B542ACE9EF653F02EB1B89EAFC01B6E212FEB573796EA6FA08F86AA79D7
+2C62285A2E86E5DEBB16BCE194B6CD96AC9C2468223019E024DC26E01F978230B7D5E917E2E578
+2ADB6085186F8CA6ABBA0992C39BC27056C70F95B8A7E35CC00'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                product
+                  whole
+                    other {
+                      accession "NR_076380" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 395 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041989" } } ,
+                    int {
+                      from 679 ,
+                      to 3024 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041989" } } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 396 ,
+                    to 678 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_041989" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_076380" } } ,
+      descr {
+        title "Thiobacillus denitrificans strain ATCC 25259 23S ribosomal RNA,
+ complete sequence." ,
+        molinfo {
+          biomol rRNA } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_041989" } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "PROVISIONAL" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 2742 ,
+        seq-data
+          ncbi2na 'AD09870B93BAE8E5FA61C4A6382866C25E6309F6A89E90C89FE35A23F58
+3AA815A57FA947545E0C4CABAB226064B81E01370B27928020341623D532CBA6260FA8225F4E3F
+24F7EF2E812DE80B7A532EAE3255B1980108BBA072938842CA9A846E035EDAB879B17FECC3AB49
+87C6F5BE627C160CAA298260262DF0CA9932C9AA6C8560168E37353A528E0AE6B04647A2B58151
+C3BE003CAA389EE8CAAE029C040D688C9EBDD760273F2B265D3B34746AAC891EC3BCBAAB4F987C
+79A4C901D60C5B82E624EA212136AE706D6BB422A0105485849C2B540E1B9C2E8018EEA0A4C849
+CA0BE9F2092535FC0809B0C9D1CB62DB5E66823B06A9C246C1609F68CE47FB933AC8A26F7B0B79
+82BB5EC2AB9E88CD20B9839E138B26302AAE02955D9600542BF5E641BD36992AE2DAD5C2B8A488
+E6C9E3A806AD00F56C7F6FC798EEA86882BCAE25ABBE8ED5AFC2E6CA48D5F29035AAAF0ED88463
+86B9D4FA2582D1E31427D420094709F4AC06205B16405844AEACA3883DC299F8881DAB8281DA40
+FAC5B07DA8C2B1956B2BEC987E7660A58EABE4B80EBA7987BF0C004491DE404602E86CCABB865E
+56B9682BC3E3AAE4277E360956B01A696C1CC1AD70AC980F5FB6AC2F5856460E9B063A511EDD45
+621D260BE03BFB82390DD5669C86808553817F1EC9FE4FA1EE1A87EECA327A897B8262B672376E
+8A6DBE031497AEDBE6BDC17AB53CDE8DAA16E4EBA92FE1EA9ADD7540BB068A2C60ADF72B1ADA13
+6C78CB90E900829F879887846D892B98092B4CB8D6BAF7B3A0A94D9D068C02B1DEA8C129E3D754
+22F4CD86AA2FE91763B69D344D7AA7B25AD50AB3A7BD94FC0BAC6E27ABF006DB884BFAD5CDE5BA
+9BE823E1AA9E75CB188A168BA1B977AEC5AF38652DB365AB27091A088C0678093709B807E5E08C
+2DF57A45F8B95E0AB6D821461BE329AAEE8264B0E6F09C15B1C3E56E29F8D7300'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                location
+                  int {
+                    from 0 ,
+                    to 2741 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_076380" } } } } } } } } }

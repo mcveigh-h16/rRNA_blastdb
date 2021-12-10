@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!DOCTYPE UpdateDbOrderList PUBLIC "-//NCBI//update db/EN" "update_db.dtd">
+<UpdateDbOrderList>
+  <version>1.1</version>
+  <upd-order>
+    <dbid>
+      <uid>55628044</uid>
+    </dbid>
+    <visibility>public</visibility>
+  </upd-order>
+</UpdateDbOrderList>

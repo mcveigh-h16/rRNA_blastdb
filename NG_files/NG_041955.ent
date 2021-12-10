@@ -1,0 +1,461 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Caldivirga maquilingensis" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 76887 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Caldivirga" ,
+              species "maquilingensis" } ,
+          attrib "nomodforward" ,
+          mod {
+            {
+              subtype strain ,
+              subname "IC-167" } } ,
+          lineage "Archaea; Crenarchaeota; Thermoprotei; Thermoproteales;
+ Thermoproteaceae; Caldivirga" ,
+          gcode 11 ,
+          div "BCT" } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Copeland" ,
+                      first "Alex" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Lucas" ,
+                      first "Susan" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Lapidus" ,
+                      first "Alla" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Barry" ,
+                      first "Kerrie" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Glavina del Rio" ,
+                      first "Tijana" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Dalin" ,
+                      first "Eileen" ,
+                      initials "E." } } ,
+                {
+                  name
+                    name {
+                      last "Tice" ,
+                      first "Hope" ,
+                      initials "H." } } ,
+                {
+                  name
+                    name {
+                      last "Pitluck" ,
+                      first "Samuel" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Saunders" ,
+                      first "Elizabeth" ,
+                      initials "E." } } ,
+                {
+                  name
+                    name {
+                      last "Brettin" ,
+                      first "Thomas" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Bruce" ,
+                      first "David" ,
+                      initials "D." } } ,
+                {
+                  name
+                    name {
+                      last "Detter" ,
+                      first "John" ,
+                      initials "J.C." } } ,
+                {
+                  name
+                    name {
+                      last "Han" ,
+                      first "Cliff" ,
+                      initials "C." } } ,
+                {
+                  name
+                    name {
+                      last "Schmutz" ,
+                      first "Jeremy" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Larimer" ,
+                      first "Frank" ,
+                      initials "F." } } ,
+                {
+                  name
+                    name {
+                      last "Land" ,
+                      first "Miriam" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Hauser" ,
+                      first "Loren" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Kyrpides" ,
+                      first "Nikos" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Ivanova" ,
+                      first "Natalia" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Biddle" ,
+                      first "Jennifer" ,
+                      initials "J.F." } } ,
+                {
+                  name
+                    name {
+                      last "Zhang" ,
+                      first "Zhidan" ,
+                      initials "Z." } } ,
+                {
+                  name
+                    name {
+                      last "Fitz-Gibbon" ,
+                      first "Sorel" ,
+                      initials "S.T." } } ,
+                {
+                  name
+                    name {
+                      last "Lowe" ,
+                      first "Todd" ,
+                      initials "T.M." } } ,
+                {
+                  name
+                    name {
+                      last "Saltikov" ,
+                      first "Chad" ,
+                      initials "C." } } ,
+                {
+                  name
+                    name {
+                      last "House" ,
+                      first "Christopher" ,
+                      initials "C.H." } } ,
+                {
+                  name
+                    name {
+                      last "Richardson" ,
+                      first "Paul" ,
+                      initials "P." } } ,
+                {
+                  name
+                    consortium "US DOE Joint Genome Institute" } } ,
+            affil
+              std {
+                affil "US DOE Joint Genome Institute" ,
+                city "Walnut Creek" ,
+                sub "CA" ,
+                country "USA" ,
+                street "2800 Mitchell Drive B100" ,
+                postal-code "94598-1698" } } ,
+          date
+            std {
+              year 2007 ,
+              month 10 ,
+              day 2 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2013 ,
+              month 5 ,
+              day 9 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA188942" } } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_041955" } ,
+        general {
+          db "REF_23S_RNA" ,
+          tag
+            str "CP000852:125858-129087" } } ,
+      descr {
+        title "Caldivirga maquilingensis strain IC-167 23S ribosomal RNA gene,
+ complete sequence." ,
+        molinfo {
+          biomol genomic } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 26 } } } } ,
+        comment "This record has been curated by collaboration with an
+ international consortium of ribosomal RNA databases" ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "CP000852:125858-129087" } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        create-date
+          std {
+            year 2013 ,
+            month 5 ,
+            day 24 } ,
+        update-date
+          std {
+            year 2014 ,
+            month 11 ,
+            day 10 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 3230 ,
+        seq-data
+          ncbi2na 'C56E59825B5AE8E9DA76A658A0A9BA42698CE56AB2592929BE356A35583
+AA7D717A960CA74AE55B2AAEA066A81A0137CB15928AA01402A155E2CAA61602AAF2540581553A
+AC16EAA8EEBBFA9FAB1658A4972582EA7A025596C8AB8C956CA702BE7A68F543B568B1469FAFF9
+6EA0C6AA5D49570A70B1B562D6326042C5B8A8093A874A013A2CBBE3E5668F779D3E7C3C5DB880
+1516BAAF3ABC3C0AAB2FB3CBC259A93CC38E6CBACD16CC57AB56E55C89E00815662ABB80225E01
+686BC0AE69A57428C1545E0A016AB856A2C62AEAB1AAD967C6D48046252A2F54DEE98B70AABC15
+68A6CA805829592DABC1618AA7AB5BC2A56C944AEA214805898DC95AACAB826A980956E8A563EA
+BDE1B9036F56E15EA72A900850D09DAE327AF5558249DF29E9757A2AE74EAB22478D6A392A9602
+9D6B56AD01D6054E2553E0AAA21ABD56AAC27EAA588A80415216ABC29540B9A9C2ED0DC82AEDD5
+160869A85B29524925369C2419B049A159E2BA8A55821912A1D0959658855A5468D3E359BAACAA
+A6D96EA9A096A5B8AD6BA159AE0E28D7A6B2C92608AAEA315759680A54ABD4EB0EF4D253ABC96B
+5C2BAA5C3E9151602A01ABC30D5B96EAACAFE69064A553D586DD28CAB8BAA796553F05B6085AA2
+E5B4E98816BE086B0C96A5F895AF4561D7AA54E00A83AA062554616C58816112B65EAE20950A6A
+DAB46529CA81DA40F257B07DA8C0AB959ADEAC015A85BAB64BA42AA1787BF04004CAD566256C2A
+FEC6AA7835E947A6B1B8056AF416A7099678296AAC1DE15DF0AC940E5F96AC2F5A6E4E0E8D062B
+551ED525EB95A60545D4AE48B5EA15586A988215EE85FC79256DBEABAA8AAB932ECAEA263814EB
+75A96EA8E6D0E011454DD75DE55C15EABD152A849A6AFA4BFA7AA691177802334AAE5709D674AD
+AD201616C8AB0A5039AA787955F819CAAA4AAA015A97260676E5547A2AA5A93B6802B154A2C169
+DB66AE22F54D8559AFEB1521B6DDF54D7A6B9249650ABAA795953C0AA06E23ABD216DB884ADADD
+C5EDAAB9E965E2A82B95D2C62281AA659A5DCB716BED692A4B96A494659FAAC1678293709A8056
+55C0329A59675E16ABC56BEAAEBCA9D5B2086ABE3AAEBAECD558ABFD58AAA25E51D50D958E0'H ,
+        hist {
+          assembly {
+            {
+              type partial ,
+              dim 2 ,
+              segs
+                denseg {
+                  dim 2 ,
+                  numseg 1 ,
+                  ids {
+                    gi 507148338 ,
+                    gi 157919427 } ,
+                  starts {
+                    0 ,
+                    125857 } ,
+                  lens {
+                    3230 } ,
+                  strands {
+                    plus ,
+                    minus } } } } } } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                product
+                  whole
+                    other {
+                      accession "NR_103141" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 506 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041955" } } ,
+                    int {
+                      from 699 ,
+                      to 3229 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041955" } } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 507 ,
+                    to 698 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_041955" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_103141" } } ,
+      descr {
+        title "Caldivirga maquilingensis strain IC-167 23S ribosomal RNA,
+ complete sequence." ,
+        molinfo {
+          biomol rRNA } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "Status" ,
+              data
+                str "Reviewed" } ,
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_041955" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 3038 ,
+        seq-data
+          ncbi2na 'C56E59825B5AE8E9DA76A658A0A9BA42698CE56AB2592929BE356A35583
+AA7D717A960CA74AE55B2AAEA066A81A0137CB15928AA01402A155E2CAA61602AAF2540581553A
+AC16EAA8EEBBFA9FAB1658A4972582EA7A025596C8AB8C956CA702BE7A68F543B568B1469FAFF9
+6EA0C6AA5D49570A70B1B562D6326042C5B8A809E00815662ABB80225E01686BC0AE69A57428C1
+545E0A016AB856A2C62AEAB1AAD967C6D48046252A2F54DEE98B70AABC1568A6CA805829592DAB
+C1618AA7AB5BC2A56C944AEA214805898DC95AACAB826A980956E8A563EABDE1B9036F56E15EA7
+2A900850D09DAE327AF5558249DF29E9757A2AE74EAB22478D6A392A96029D6B56AD01D6054E25
+53E0AAA21ABD56AAC27EAA588A80415216ABC29540B9A9C2ED0DC82AEDD5160869A85B29524925
+369C2419B049A159E2BA8A55821912A1D0959658855A5468D3E359BAACAAA6D96EA9A096A5B8AD
+6BA159AE0E28D7A6B2C92608AAEA315759680A54ABD4EB0EF4D253ABC96B5C2BAA5C3E9151602A
+01ABC30D5B96EAACAFE69064A553D586DD28CAB8BAA796553F05B6085AA2E5B4E98816BE086B0C
+96A5F895AF4561D7AA54E00A83AA062554616C58816112B65EAE20950A6ADAB46529CA81DA40F2
+57B07DA8C0AB959ADEAC015A85BAB64BA42AA1787BF04004CAD566256C2AFEC6AA7835E947A6B1
+B8056AF416A7099678296AAC1DE15DF0AC940E5F96AC2F5A6E4E0E8D062B551ED525EB95A60545
+D4AE48B5EA15586A988215EE85FC79256DBEABAA8AAB932ECAEA263814EB75A96EA8E6D0E01145
+4DD75DE55C15EABD152A849A6AFA4BFA7AA691177802334AAE5709D674ADAD201616C8AB0A5039
+AA787955F819CAAA4AAA015A97260676E5547A2AA5A93B6802B154A2C169DB66AE22F54D8559AF
+EB1521B6DDF54D7A6B9249650ABAA795953C0AA06E23ABD216DB884ADADDC5EDAAB9E965E2A82B
+95D2C62281AA659A5DCB716BED692A4B96A494659FAAC1678293709A805655C0329A59675E16AB
+C56BEAAEBCA9D5B2086ABE3AAEBAECD558ABFD58AAA25E51D50D958E0'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                location
+                  int {
+                    from 0 ,
+                    to 3037 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_103141" } } } } } } } } }

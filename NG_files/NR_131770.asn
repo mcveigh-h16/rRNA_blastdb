@@ -1,0 +1,847 @@
+Seq-entry ::= seq {
+  id {
+    general {
+      db "REF_SSU16S",
+      tag str "AE016828:167577-168740"
+    },
+    other {
+      accession "NR_131770"
+    }
+  },
+  descr {
+    title "Coxiella burnetii RSA 493 strain RSA 493 16S ribosomal RNA,
+ complete sequence",
+    molinfo {
+      biomol rRNA,
+      tech standard,
+      completeness complete
+    },
+    create-date std {
+      year 2003,
+      month 4,
+      day 4
+    },
+    source {
+      genome genomic,
+      org {
+        taxname "Coxiella burnetii RSA 493",
+        db {
+          {
+            db "taxon",
+            tag id 227377
+          }
+        },
+        orgname {
+          name binomial {
+            genus "Coxiella",
+            species "burnetii"
+          },
+          mod {
+            {
+              subtype strain,
+              subname "RSA 493"
+            },
+            {
+              subtype other,
+              subname "type strain of Coxiella burnetii RSA 493"
+            }
+          },
+          lineage "Bacteria; Proteobacteria; Gammaproteobacteria;
+ Legionellales; Coxiellaceae; Coxiella",
+          gcode 11,
+          div "BCT"
+        }
+      }
+    },
+    pub {
+      pub {
+        article {
+          title {
+            name "Complete genome sequence of the Q-fever pathogen Coxiella
+ burnetii."
+          },
+          authors {
+            names 
+              std {
+                {
+                  name
+                    name {
+                      last "Seshadri" ,
+                      initials "R." } } ,
+                {
+                  name
+                    name {
+                      last "Paulsen" ,
+                      initials "I.T." } } ,
+                {
+                  name
+                    name {
+                      last "Eisen" ,
+                      initials "J.A." } } ,
+                {
+                  name
+                    name {
+                      last "Read" ,
+                      initials "T.D." } } ,
+                {
+                  name
+                    name {
+                      last "Nelson" ,
+                      initials "K.E." } } ,
+                {
+                  name
+                    name {
+                      last "Nelson" ,
+                      initials "W.C." } } ,
+                {
+                  name
+                    name {
+                      last "Ward" ,
+                      initials "N.L." } } ,
+                {
+                  name
+                    name {
+                      last "Tettelin" ,
+                      initials "H." } } ,
+                {
+                  name
+                    name {
+                      last "Davidsen" ,
+                      initials "T.M." } } ,
+                {
+                  name
+                    name {
+                      last "Beanan" ,
+                      initials "M.J." } } ,
+                {
+                  name
+                    name {
+                      last "Deboy" ,
+                      initials "R.T." } } ,
+                {
+                  name
+                    name {
+                      last "Daugherty" ,
+                      initials "S.C." } } ,
+                {
+                  name
+                    name {
+                      last "Brinkac" ,
+                      initials "L.M." } } ,
+                {
+                  name
+                    name {
+                      last "Madupu" ,
+                      initials "R." } } ,
+                {
+                  name
+                    name {
+                      last "Dodson" ,
+                      initials "R.J." } } ,
+                {
+                  name
+                    name {
+                      last "Khouri" ,
+                      initials "H.M." } } ,
+                {
+                  name
+                    name {
+                      last "Lee" ,
+                      initials "K.H." } } ,
+                {
+                  name
+                    name {
+                      last "Carty" ,
+                      initials "H.A." } } ,
+                {
+                  name
+                    name {
+                      last "Scanlan" ,
+                      initials "D." } } ,
+                {
+                  name
+                    name {
+                      last "Heinzen" ,
+                      initials "R.A." } } ,
+                {
+                  name
+                    name {
+                      last "Thompson" ,
+                      initials "H.A." } } ,
+                {
+                  name
+                    name {
+                      last "Samuel" ,
+                      initials "J.E." } } ,
+                {
+                  name
+                    name {
+                      last "Fraser" ,
+                      initials "C.M." } } ,
+                {
+                  name
+                    name {
+                      last "Heidelberg" ,
+                      initials "J.F." } } },
+            affil str "The Institute for Genomic Research, 9712 Medical Center
+ Drive, Rockville, MD 20850, USA."
+          },
+          from journal {
+            title {
+              iso-jta "Proc. Natl. Acad. Sci. U.S.A.",
+              ml-jta "Proc Natl Acad Sci U S A",
+              issn "0027-8424",
+              name "Proceedings of the National Academy of Sciences of the
+ United States of America"
+            },
+            imp {
+              date std {
+                year 2003,
+                month 4,
+                day 29
+              },
+              volume "100",
+              issue "9",
+              pages "5455-5460",
+              language "eng",
+              pubstatus ppublish,
+              history {
+                {
+                  pubstatus pubmed,
+                  date std {
+                    year 2003,
+                    month 4,
+                    day 22,
+                    hour 5,
+                    minute 0
+                  }
+                },
+                {
+                  pubstatus medline,
+                  date std {
+                    year 2003,
+                    month 6,
+                    day 12,
+                    hour 5,
+                    minute 0
+                  }
+                },
+                {
+                  pubstatus aheadofprint,
+                  date std {
+                    year 2003,
+                    month 4,
+                    day 18
+                  }
+                },
+                {
+                  pubstatus other,
+                  date std {
+                    year 2003,
+                    month 4,
+                    day 22,
+                    hour 5,
+                    minute 0
+                  }
+                }
+              }
+            }
+          },
+          ids {
+            pubmed 12704232,
+            doi "10.1073/pnas.0931379100",
+            pii "0931379100",
+            other {
+              db "pmc",
+              tag str "PMC154366"
+            }
+          }
+        },
+        pmid 12704232
+      }
+    },
+    pub {
+      pub {
+        sub {
+          authors {
+            names 
+              std {
+                {
+                  name
+                    name {
+                      last "Seshadri" ,
+                      first "Rekha" ,
+                      initials "R." } } ,
+                {
+                  name
+                    name {
+                      last "Paulsen" ,
+                      first "Ian" ,
+                      middle "T." ,
+                      initials "I.T." } } ,
+                {
+                  name
+                    name {
+                      last "Eisen" ,
+                      first "Jonathan" ,
+                      middle "A." ,
+                      initials "J.A." } } ,
+                {
+                  name
+                    name {
+                      last "Read" ,
+                      first "Timothy" ,
+                      middle "D." ,
+                      initials "T.D." } } ,
+                {
+                  name
+                    name {
+                      last "Nelson" ,
+                      first "Karen" ,
+                      middle "E." ,
+                      initials "K.E." } } ,
+                {
+                  name
+                    name {
+                      last "Nelson" ,
+                      first "William" ,
+                      middle "C." ,
+                      initials "W.C." } } ,
+                {
+                  name
+                    name {
+                      last "Ward" ,
+                      first "Naomi" ,
+                      middle "L." ,
+                      initials "N.L." } } ,
+                {
+                  name
+                    name {
+                      last "Tettelin" ,
+                      first "Herve" ,
+                      initials "H." } } ,
+                {
+                  name
+                    name {
+                      last "Fraser" ,
+                      first "Claire" ,
+                      middle "M." ,
+                      initials "C.M." } } ,
+                {
+                  name
+                    name {
+                      last "Davidsen" ,
+                      first "Tanja" ,
+                      middle "M." ,
+                      initials "T.M." } } ,
+                {
+                  name
+                    name {
+                      last "Beanan" ,
+                      first "Maureen" ,
+                      middle "J." ,
+                      initials "M.J." } } ,
+                {
+                  name
+                    name {
+                      last "DeBoy" ,
+                      first "Robert" ,
+                      middle "T." ,
+                      initials "R.T." } } ,
+                {
+                  name
+                    name {
+                      last "Daugherty" ,
+                      first "Sean" ,
+                      middle "C." ,
+                      initials "S.C." } } ,
+                {
+                  name
+                    name {
+                      last "Madupu" ,
+                      first "Ramana" ,
+                      initials "R." } } ,
+                {
+                  name
+                    name {
+                      last "Dodson" ,
+                      first "Robert" ,
+                      middle "J." ,
+                      initials "R.J." } } ,
+                {
+                  name
+                    name {
+                      last "Khouri" ,
+                      first "Hoda" ,
+                      middle "M." ,
+                      initials "H.M." } } ,
+                {
+                  name
+                    name {
+                      last "Lee" ,
+                      first "Kathy" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Carty" ,
+                      first "Heather" ,
+                      middle "A." ,
+                      initials "H.A." } } ,
+                {
+                  name
+                    name {
+                      last "Scanlan" ,
+                      first "David" ,
+                      initials "D." } } ,
+                {
+                  name
+                    name {
+                      last "Heinzen" ,
+                      first "Robert" ,
+                      middle "A." ,
+                      initials "R.A." } } ,
+                {
+                  name
+                    name {
+                      last "Thompson" ,
+                      first "Herbert" ,
+                      middle "A" ,
+                      initials "H.A." } } ,
+                {
+                  name
+                    name {
+                      last "Heidelberg" ,
+                      first "John" ,
+                      middle "F." ,
+                      initials "J.F." } } ,
+                {
+                  name
+                    name {
+                      last "Brinkac" ,
+                      first "Lauren" ,
+                      middle "M." ,
+                      initials "L.M." } } },
+            affil std {
+              affil "The Institute for Genomic Research",
+              city "Rockville",
+              sub "MD",
+              country "USA",
+              street "9712 Medical Center Dr",
+              postal-code "20850"
+            }
+          },
+          medium other,
+          date std {
+            year 2005,
+            month 7,
+            day 13
+          }
+        }
+      }
+    },
+    pub {
+      pub {
+        article {
+          title {
+            name "Comparative genomics reveal extensive transposon-mediated
+ genomic plasticity and diversity among potential effector proteins within the
+ genus Coxiella."
+          },
+          authors {
+            names 
+              std {
+                {
+                  name
+                    name {
+                      last "Beare" ,
+                      initials "P.A." } } ,
+                {
+                  name
+                    name {
+                      last "Unsworth" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Andoh" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Voth" ,
+                      initials "D.E." } } ,
+                {
+                  name
+                    name {
+                      last "Omsland" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Gilk" ,
+                      initials "S.D." } } ,
+                {
+                  name
+                    name {
+                      last "Williams" ,
+                      initials "K.P." } } ,
+                {
+                  name
+                    name {
+                      last "Sobral" ,
+                      initials "B.W." } } ,
+                {
+                  name
+                    name {
+                      last "Kupko" ,
+                      initials "J.J." ,
+                      suffix "III" } } ,
+                {
+                  name
+                    name {
+                      last "Porcella" ,
+                      initials "S.F." } } ,
+                {
+                  name
+                    name {
+                      last "Samuel" ,
+                      initials "J.E." } } ,
+                {
+                  name
+                    name {
+                      last "Heinzen" ,
+                      initials "R.A." } } },
+            affil str "Coxiella Pathogenesis Section, Laboratory of
+ Intracellular Parasites, Rocky Mountain Laboratories, National Institute of
+ Allergy and Infectious Diseases, 903 S. 4th Street, Hamilton, MT 59840, USA."
+          },
+          from journal {
+            title {
+              iso-jta "Infect. Immun.",
+              ml-jta "Infect Immun",
+              issn "1098-5522",
+              name "Infection and immunity"
+            },
+            imp {
+              date std {
+                year 2009,
+                month 2
+              },
+              volume "77",
+              issue "2",
+              pages "642-656",
+              language "eng",
+              pubstatus ppublish,
+              history {
+                {
+                  pubstatus aheadofprint,
+                  date std {
+                    year 2008,
+                    month 12,
+                    day 1
+                  }
+                },
+                {
+                  pubstatus pubmed,
+                  date std {
+                    year 2008,
+                    month 12,
+                    day 3,
+                    hour 9,
+                    minute 0
+                  }
+                },
+                {
+                  pubstatus medline,
+                  date std {
+                    year 2009,
+                    month 2,
+                    day 21,
+                    hour 9,
+                    minute 0
+                  }
+                },
+                {
+                  pubstatus other,
+                  date std {
+                    year 2008,
+                    month 12,
+                    day 3,
+                    hour 9,
+                    minute 0
+                  }
+                },
+                {
+                  pubstatus other,
+                  date std {
+                    year 2009,
+                    month 8,
+                    day 1
+                  }
+                }
+              }
+            }
+          },
+          ids {
+            pii "IAI.01141-08",
+            doi "10.1128/IAI.01141-08",
+            pubmed 19047403,
+            other {
+              db "pmc",
+              tag str "PMC2632050"
+            }
+          }
+        },
+        pmid 19047403
+      }
+    },
+    pub {
+      pub {
+        sub {
+          authors {
+            names 
+              std {
+                {
+                  name
+                    name {
+                      last "Beare" ,
+                      first "Paul" ,
+                      initials "P.A." } } ,
+                {
+                  name
+                    name {
+                      last "Unsworth" ,
+                      first "Nathan" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Andoh" ,
+                      first "Masako" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Voth" ,
+                      first "Daniel" ,
+                      initials "D.E." } } ,
+                {
+                  name
+                    name {
+                      last "Omsland" ,
+                      first "Anders" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Gilk" ,
+                      first "Stacey" ,
+                      initials "S.D." } } ,
+                {
+                  name
+                    name {
+                      last "Williams" ,
+                      first "Kelly" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Sobral" ,
+                      first "Bruno" ,
+                      initials "B." } } ,
+                {
+                  name
+                    name {
+                      last "Kupko" ,
+                      first "John" ,
+                      initials "J.J." ,
+                      suffix "III" } } ,
+                {
+                  name
+                    name {
+                      last "Porcella" ,
+                      first "Stephen" ,
+                      initials "S.J." } } ,
+                {
+                  name
+                    name {
+                      last "Samuel" ,
+                      first "James" ,
+                      initials "J.E." } } ,
+                {
+                  name
+                    name {
+                      last "Heinzen" ,
+                      first "Robert" ,
+                      initials "R.A." } } },
+            affil std {
+              affil "Rocky Mountain Laboratories, National Institute of
+ Allergy and Infectious Diseases",
+              div "Coxiella Pathogenesis Section, Laboratory of Intracellular
+ Parasites",
+              city "Hamilton",
+              sub "MT",
+              country "USA",
+              street "903 S. 4th Street",
+              postal-code "59840"
+            }
+          },
+          medium other,
+          date std {
+            year 2008,
+            month 9,
+            day 24
+          },
+          descr "Protein update by submitter"
+        }
+      }
+    },
+    comment "This record has been curated by collaboration with an
+ international consortium of ribosomal RNA databases",
+    pub {
+      pub {
+        sub {
+          authors {
+            names 
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } },
+            affil std {
+              affil "National Center for Biotechnology Information, NIH",
+              city "Bethesda",
+              sub "MD",
+              country "USA",
+              postal-code "20894"
+            }
+          },
+          date std {
+            year 2015,
+            month 4,
+            day 23
+          }
+        }
+      }
+    },
+    user {
+      type str "RefGeneTracking",
+      data {
+        {
+          label str "IdenticalTo",
+          data fields {
+            {
+              label id 0,
+              data fields {
+                {
+                  label str "name",
+                  data str "AE016828:167577-168740"
+                }
+              }
+            }
+          }
+        },
+        {
+          label str "Status",
+          data str "REVIEWED"
+        }
+      }
+    },
+    update-date std {
+      year 2015,
+      month 4,
+      day 23
+    },
+    user {
+      type str "DBLink",
+      data {
+        {
+          label str "BioProject",
+          num 1,
+          data strs {
+            "PRJNA33175"
+          }
+        }
+      }
+    },
+    user {
+      type str "GenomeProjectsDB",
+      data {
+        {
+          label str "ProjectID",
+          data int 33175
+        }
+      }
+    }
+  },
+  inst {
+    repr raw,
+    mol rna,
+    length 1164,
+    strand ss,
+    seq-data ncbi4na '44821148411811424218184484418422884421481141442418411441
+248148142284241811428824444142844211121142418418224414188822411844441112221122
+888241448818248181284118821814481812414424112284444112841112182811481222141441
+111411182112241418822482148142442414241114244112142221488128111821881888488281
+421411848828441114882142218142444841814222248124241114148111811848444811241841
+481448244412124844818288412841121844444412218228221144281118128228812841224181
+424112214812248414441114484111141122224424144441484111814112284111224818424812
+114214814414218882882441118484128424812288884818118444821424128812884884814241
+428811224828144441442481444111224148224111844424888148842112414814122241112241
+424182818281844221444841144821448112128412844144222411222128118488411111881444
+418414284844181441484111442811821142824414181428448828228241114281888144814242
+282484818412828844444814142128488824428144444221822244228122111224144211128224
+118122114114888814212444141212128424448418114482248448441114441112142221418242
+214281144822211118212148811484411112418484441144282141214221441448844288141142
+142218228881114111424811814282128448241482482284242441141888112444428211128484
+8122411428424421'H,
+    hist {
+      assembly {
+        {
+          type partial,
+          dim 2,
+          segs denseg {
+            dim 2,
+            numseg 1,
+            ids {
+              other {
+                accession "NR_131770"
+              },
+              gi 71066702
+            },
+            starts {
+              0,
+              167576
+            },
+            lens {
+              1164
+            },
+            strands {
+              plus,
+              plus
+            }
+          }
+        }
+      }
+    }
+  },
+  annot {
+    {
+      data ftable {
+        {
+          data rna {
+            type rRNA,
+            ext name "16S ribosomal RNA"
+          },
+          location int {
+            from 0,
+            to 1163,
+            id other {
+              accession "NR_131770"
+            }
+          }
+        }
+      }
+    }
+  }
+}

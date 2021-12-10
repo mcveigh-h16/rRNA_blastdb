@@ -1,0 +1,696 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Syntrophothermus lipocalidus" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 86170 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Syntrophothermus" ,
+              species "lipocalidus" } ,
+          attrib "nomodforward" ,
+          mod {
+            {
+              subtype strain ,
+              subname "DSM 12680" } ,
+            {
+              subtype culture-collection ,
+              subname "DSM:12680" } } ,
+          lineage "Bacteria; Firmicutes; Clostridia; Clostridiales;
+ Syntrophomonadaceae; Syntrophothermus" ,
+          gcode 11 ,
+          div "BCT" } } ,
+      subtype {
+        {
+          subtype isolation-source ,
+          name "anaerobic granular sludge, thermophilic UASB reactor" } } } ,
+    pub {
+      pub {
+        article {
+          title {
+            name "Complete genome sequence of Syntrophothermus lipocalidus
+ type strain (TGB-C1)." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Djao" ,
+                      initials "O.D." } } ,
+                {
+                  name
+                    name {
+                      last "Zhang" ,
+                      initials "X." } } ,
+                {
+                  name
+                    name {
+                      last "Lucas" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Lapidus" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Del Rio" ,
+                      initials "T.G." } } ,
+                {
+                  name
+                    name {
+                      last "Nolan" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Tice" ,
+                      initials "H." } } ,
+                {
+                  name
+                    name {
+                      last "Cheng" ,
+                      initials "J.F." } } ,
+                {
+                  name
+                    name {
+                      last "Han" ,
+                      initials "C." } } ,
+                {
+                  name
+                    name {
+                      last "Tapia" ,
+                      initials "R." } } ,
+                {
+                  name
+                    name {
+                      last "Goodwin" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Pitluck" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Liolios" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Ivanova" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Mavromatis" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Mikhailova" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Ovchinnikova" ,
+                      initials "G." } } ,
+                {
+                  name
+                    name {
+                      last "Pati" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Brambilla" ,
+                      initials "E." } } ,
+                {
+                  name
+                    name {
+                      last "Chen" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Palaniappan" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Land" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Hauser" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Chang" ,
+                      initials "Y.J." } } ,
+                {
+                  name
+                    name {
+                      last "Jeffries" ,
+                      initials "C.D." } } ,
+                {
+                  name
+                    name {
+                      last "Rohde" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Sikorski" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Spring" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Goker" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Detter" ,
+                      initials "J.C." } } ,
+                {
+                  name
+                    name {
+                      last "Woyke" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Bristow" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Eisen" ,
+                      initials "J.A." } } ,
+                {
+                  name
+                    name {
+                      last "Markowitz" ,
+                      initials "V." } } ,
+                {
+                  name
+                    name {
+                      last "Hugenholtz" ,
+                      initials "P." } } ,
+                {
+                  name
+                    name {
+                      last "Kyrpides" ,
+                      initials "N.C." } } ,
+                {
+                  name
+                    name {
+                      last "Klenk" ,
+                      initials "H.P." } } } } ,
+          from
+            journal {
+              title {
+                iso-jta "Stand Genomic Sci" ,
+                ml-jta "Stand Genomic Sci" ,
+                issn "1944-3277" ,
+                name "Standards in genomic sciences" } ,
+              imp {
+                date
+                  std {
+                    year 2010 } ,
+                volume "3" ,
+                issue "3" ,
+                pages "268-275" ,
+                language "eng" ,
+                pubstatus epublish ,
+                history {
+                  {
+                    pubstatus epublish ,
+                    date
+                      std {
+                        year 2010 ,
+                        month 12 ,
+                        day 15 } } ,
+                  {
+                    pubstatus other ,
+                    date
+                      std {
+                        year 2011 ,
+                        month 2 ,
+                        day 10 ,
+                        hour 6 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus pubmed ,
+                    date
+                      std {
+                        year 2011 ,
+                        month 2 ,
+                        day 10 ,
+                        hour 6 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus medline ,
+                    date
+                      std {
+                        year 2011 ,
+                        month 2 ,
+                        day 10 ,
+                        hour 6 ,
+                        minute 1 } } } } } ,
+          ids {
+            doi "10.4056/sigs.1233249" ,
+            pubmed 21304731 ,
+            other {
+              db "pmc" ,
+              tag
+                str "PMC3035303" } ,
+            other {
+              db "ELocationID doi" ,
+              tag
+                str "10.4056/sigs.1233249" } } } ,
+        pmid 21304731 } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Lucas" ,
+                      first "Susan" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Copeland" ,
+                      first "Alex" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Lapidus" ,
+                      first "Alla" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Glavina del Rio" ,
+                      first "Tijana" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Dalin" ,
+                      first "Eileen" ,
+                      initials "E." } } ,
+                {
+                  name
+                    name {
+                      last "Tice" ,
+                      first "Hope" ,
+                      initials "H." } } ,
+                {
+                  name
+                    name {
+                      last "Bruce" ,
+                      first "David" ,
+                      initials "D." } } ,
+                {
+                  name
+                    name {
+                      last "Goodwin" ,
+                      first "Lynne" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Pitluck" ,
+                      first "Samuel" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Kyrpides" ,
+                      first "Nikos" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Mavromatis" ,
+                      first "Konstantinos" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Ovchinnikova" ,
+                      first "Galina" ,
+                      initials "G." } } ,
+                {
+                  name
+                    name {
+                      last "Zhang" ,
+                      first "X" ,
+                      initials "X." } } ,
+                {
+                  name
+                    name {
+                      last "Detter" ,
+                      first "John" ,
+                      initials "J.C." } } ,
+                {
+                  name
+                    name {
+                      last "Han" ,
+                      first "Cliff" ,
+                      initials "C." } } ,
+                {
+                  name
+                    name {
+                      last "Larimer" ,
+                      first "Frank" ,
+                      initials "F." } } ,
+                {
+                  name
+                    name {
+                      last "Land" ,
+                      first "Miriam" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Hauser" ,
+                      first "Loren" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Markowitz" ,
+                      first "Victor" ,
+                      initials "V." } } ,
+                {
+                  name
+                    name {
+                      last "Cheng" ,
+                      first "Jan-Fang" ,
+                      initials "J.-F." } } ,
+                {
+                  name
+                    name {
+                      last "Hugenholtz" ,
+                      first "Phil" ,
+                      initials "P." } } ,
+                {
+                  name
+                    name {
+                      last "Woyke" ,
+                      first "Tanja" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Wu" ,
+                      first "Dongying" ,
+                      initials "D." } } ,
+                {
+                  name
+                    name {
+                      last "Spring" ,
+                      first "Stefan" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Schroeder" ,
+                      first "Maren" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Brambilla" ,
+                      first "Evelyne" ,
+                      initials "E." } } ,
+                {
+                  name
+                    name {
+                      last "Klenk" ,
+                      first "Hans-Peter" ,
+                      initials "H.-P." } } ,
+                {
+                  name
+                    name {
+                      last "Eisen" ,
+                      first "Jonathan" ,
+                      initials "J.A." } } ,
+                {
+                  name
+                    consortium "US DOE Joint Genome Institute (JGI-PGF)" } } ,
+            affil
+              std {
+                affil "US DOE Joint Genome Institute" ,
+                city "Walnut Creek" ,
+                sub "CA" ,
+                country "USA" ,
+                street "2800 Mitchell Drive" ,
+                postal-code "94598-1698" } } ,
+          date
+            std {
+              year 2010 ,
+              month 5 ,
+              day 20 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2013 ,
+              month 5 ,
+              day 9 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA33175" } } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_042070" } ,
+        general {
+          db "REF_16S_RNA" ,
+          tag
+            str "CP002048:47044-48764" } } ,
+      descr {
+        title "Syntrophothermus lipocalidus strain DSM 12680 16S ribosomal RNA
+ gene, complete sequence." ,
+        molinfo {
+          biomol genomic } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "CP002048:47044-48764" } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        create-date
+          std {
+            year 2013 ,
+            month 5 ,
+            day 24 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 2 } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 26 } } } } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 1721 ,
+        seq-data
+          ncbi2na '22FE35E9D286067A69B97044E42D89AD691D244B9D3DAA8ECA0B22A2298
+FA24AC3CAA38B892E278B968C9A686AE2C19BAB0DC54C22AA3047A805AE70C59309CF6B393B1E8
+CB02BA5DE8909C59F3A38959B78F272FAEAB069714298634B25A5E22AE869447A8788469521D71
+A8A492EA833E643AAA05786498659B89860A5F6AFB0277FCF2A180D5939832EEEA8E1AC5C38309
+569C1C6E524966B086CAA989BED683C7A9B0226ECA6A7BC2D2BB80C592741E6ABA4DE31E92DF8A
+9288A82E83D7AEC9AE039B2334A28114BA60A69F5E87A578678866026EA890128F2315EB2D467B
+018EA472BB28ACD855F7B9649C190C2E5597AA2C6B6429E01D0283E1AA959109AE893BAFC3D8E4
+198205F14A9F84D79A17AE8047AAE5F2A01F0A064884AEB93AFB6D276EDB88EFABC2D590626415
+F9EF2F9C1AB825891DC1A8796B8425A282BAA386D034D395FCE57A9C446E710E96B12220982598
+AE890374025ADD2F68F929E41D979382DA0D9CB0D983481B66B839BD5A97EC44595B4451809E90
+456096B89415A4742EBA8021FCA23AF9E0A122824DF6898BDD94BE2E5A8A496D82BAA7AE3EAB82
+DB042B35B1682B9A3A345C0'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "16S ribosomal RNA" } ,
+                product
+                  whole
+                    other {
+                      accession "NR_102767" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 75 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042070" } } ,
+                    int {
+                      from 156 ,
+                      to 1720 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042070" } } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 76 ,
+                    to 155 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_042070" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_102767" } } ,
+      descr {
+        molinfo {
+          biomol rRNA } ,
+        title "Syntrophothermus lipocalidus 16S ribosomal RNA, rRNA." ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_042070" } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "PROVISIONAL" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 1641 ,
+        seq-data
+          ncbi2na '22FE35E9D286067A69B97044E42D89AD691D248B968C9A686AE2C19BAB0
+DC54C22AA3047A805AE70C59309CF6B393B1E8CB02BA5DE8909C59F3A38959B78F272FAEAB0697
+14298634B25A5E22AE869447A8788469521D71A8A492EA833E643AAA05786498659B89860A5F6A
+FB0277FCF2A180D5939832EEEA8E1AC5C38309569C1C6E524966B086CAA989BED683C7A9B0226E
+CA6A7BC2D2BB80C592741E6ABA4DE31E92DF8A9288A82E83D7AEC9AE039B2334A28114BA60A69F
+5E87A578678866026EA890128F2315EB2D467B018EA472BB28ACD855F7B9649C190C2E5597AA2C
+6B6429E01D0283E1AA959109AE893BAFC3D8E4198205F14A9F84D79A17AE8047AAE5F2A01F0A06
+4884AEB93AFB6D276EDB88EFABC2D590626415F9EF2F9C1AB825891DC1A8796B8425A282BAA386
+D034D395FCE57A9C446E710E96B12220982598AE890374025ADD2F68F929E41D979382DA0D9CB0
+D983481B66B839BD5A97EC44595B4451809E90456096B89415A4742EBA8021FCA23AF9E0A12282
+4DF6898BDD94BE2E5A8A496D82BAA7AE3EAB82DB042B35B1682B9A3A345C0'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "16S ribosomal RNA" } ,
+                location
+                  int {
+                    from 0 ,
+                    to 1640 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_102767" } } } } } } } } }

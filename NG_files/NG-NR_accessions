@@ -1,0 +1,114 @@
+NR_108510|FR754498|1-1670|944479|NG_041941|		done
+NR_102768|CP001348|453791-455431|1521|NG_041947|	done
+NR_040790|AB013926|1-1642|76887|NG_041949|		done
+
+
+NR_118661|L07511|24-1474|384616|NG_041953|		fixed NR but no intron here, NG isn't need
+NG_041964	need to review intron may not be real
+
+NG_041966	NR_076084/NR_131770/NR_131209		special case we'll need two NRs to be made
+
+
+---------------------------------
+NR_102991  NG_041952  					NG fixed READY
+NR_103215  NG_041970					NG fixed READY
+NR_103975|CP002997|1584913-1587820|204722|NG_041968|	fixed NG READY
+NR_121692 paired with NG_042066				fixed NG READY
+NR_040973 linked with NG_042072				fixed NG READY
+NR_103141 linked with NG_041955 			fixed NG READY
+NR_121922|AP012489|1160967-1164809|1198449|NG_041948|	fixed NG READY
+NR_118373|JQ346759|1-1461|76887|NG_041950|		fixed NG READY
+NR_040935|AB087402|1-2168|698757|NG_041951|		fixed NG READY
+NR_112034|AB009618|1-2130|70771|NG_041954|		fixed NG READY
+NR_102766|CP003316|1430990-1433181|698757|NG_041957|	fixed NG READY
+NR_102764|AE009441|1089640-1091850|178306|NG_041958|	fixed NG READY
+NR_044847|X71837|1-1692|28906|NG_041959|		fixed NG READY
+NR_029182|U18766|1-1652|37372|NG_041960|		fixed NG READY
+NR_102989|CP000660|623326-625532|121277|NG_041961|	fixed NG READY
+NR_103216|BA000002|1214495-1218356|56636|NG_041956|	fixed NG READY
+NR_102992	NG_041965				fixed NG READY
+
+
+NG_041971	NR_103214				fixed NG READY
+NG_041972	NR_103200				fixed NG READY
+NG_041973	NR_103199				fixed NG READY
+NG_041974	NR_103168				fixed NG READY
+NG_041975	NR_103163				fixed NG READY
+NG_041977	NR_103027				fixed NG READY
+NG_041978	NR_103017				fixed NG READY
+NG_041979	NR_103001				fixed NG READY
+NG_041980	NR_103000				fixed NG READY
+NG_041981	NR_102996		ready to be loaded edited NG and NR in new file
+NG_041982	NR_102995		ready to be loaded
+NG_041983	NR_102994		ready to be loaded
+NG_041984	NR_102993		ready to be loaded
+NG_041988	NR_076788		ready to be loaded
+NG_041989	NR_076380		ready to be loaded
+NG_041990	NR_076284		ready to be loaded
+NG_041991	NR_076152		ready to be loaded
+NG_041992	NR_076150		ready to be loaded
+NG_041993	NR_076146		ready to be loaded
+NG_041994	NR_076145		ready to be loaded
+NG_041995	NR_076141		ready to be loaded but no strain
+NG_041996	NR_076139		ready to be loaded
+NG_041997	NR_076135		ready to be loaded
+NG_041998	NR_076133		ready to be loaded
+NG_041999	NR_076129		ready to be loaded
+NG_042000	NR_076125		ready to be loaded
+NG_042001	NR_076122		ready to be loaded no strain - candidatus
+NG_042002	NR_076121		ready but not a published species
+NG_042003	NR_076120		ready to be loaded
+NG_042004	NR_076119		ready to be loaded
+NG_042005	NR_076118		ready candidatus
+NG_042006	NR_076116		ready to be loaded
+NG_042007	NR_076115		ready to be loaded
+NG_042008	NR_076114		ready to be loaded
+NG_042009	NR_076112		ready to be loaded
+NG_042010	NR_076111		ready to be loaded
+NG_042011	NR_076109		ready to be loaded
+NG_042012	NR_076108		ready to be loaded
+NG_042013	NR_076106		ready but not a published species
+NG_042014	NR_076105		ready to be loaded
+NG_042015	NR_076102		ready to be loaded
+NG_042016	NR_076101		ready to be loaded
+NG_042017	NR_076099		ready but no species name
+NG_042018	NR_076098		ready to be loaded
+NG_042019	NR_076097		ready to be loaded
+NG_042020	NR_076095		ready but no species name
+NG_042021	NR_076094		ready to be loaded
+NG_042022	NR_076092		ready to be loaded
+NG_042023	NR_076091		ready to be loaded
+NG_042024	NR_076090		ready to be loaded
+NG_042025	NR_076087		ready to be loaded
+NG_042026	NR_076086		ready to be loaded
+NG_042027	NR_076085		ready to be loaded
+NG_042028	NR_076081		ready to be loaded
+NG_042029	NR_076080		ready to be loaded
+NG_042030	NR_076079		ready to be loaded
+NG_042031	NR_076078		ready to be loaded
+
+
+NG_042069	NR_102972		fixed
+NG_042068	NR_102988		fixed
+NG_042067	NR_102765		fixed
+NG_042070	NR_102767		fixed
+
+
+outstanding
+NR_115042	was 2 expecting 2 but now 1	fixed
+NR_117712	was 3 expecting 2 fixed
+NR_104940	was 2 expecting 1 fixed
+NR_121692	fixed
+NR_118373	OK
+NR_112034	OK
+NR_040935	OK
+NR_040973	OK
+NR_040790	OK
+NR_102989	OK
+NR_102988	OK
+NR_102972	OK
+NR_102766	OK
+NR_102765	OK
+NR_102764	OK
+
+

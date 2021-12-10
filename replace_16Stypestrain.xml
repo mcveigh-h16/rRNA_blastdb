@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+<!DOCTYPE ReplaceDbOrder PUBLIC "-//NCBI//replace db/EN" "replace_db.dtd">
+<ReplaceDbOrderList>
+  <version>1.1</version>
+  <replace-order>
+  	<dbid>
+	   <uid>16647894</uid>
+	</dbid>
+	<file-path></file-path>
+  </replace-order>
+</ReplaceDbOrderList>

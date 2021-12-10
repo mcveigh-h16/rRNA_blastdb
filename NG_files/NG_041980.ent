@@ -1,0 +1,640 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Mycobacterium leprae" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 1769 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Mycobacterium" ,
+              species "leprae" } ,
+          mod {
+            {
+              subtype strain ,
+              subname "Br4923" } } ,
+          lineage "Bacteria; Actinobacteria; Actinobacteridae;
+ Actinomycetales; Corynebacterineae; Mycobacteriaceae; Mycobacterium" ,
+          gcode 11 ,
+          div "BCT" } } ,
+      subtype {
+        {
+          subtype country ,
+          name "Brazil" } ,
+        {
+          subtype collected-by ,
+          name "J. Spencer" } } } ,
+    pub {
+      pub {
+        pmid 19881526 ,
+        article {
+          title {
+            name "Comparative genomic and phylogeographic analysis of
+ Mycobacterium leprae." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Monot" ,
+                      initials "M." } ,
+                  affil
+                    str "Institut Pasteur, Paris, France." } ,
+                {
+                  name
+                    name {
+                      last "Honore" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Garnier" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Zidane" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Sherafi" ,
+                      initials "D." } } ,
+                {
+                  name
+                    name {
+                      last "Paniz-Mondolfi" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Matsuoka" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Taylor" ,
+                      initials "G.M." } } ,
+                {
+                  name
+                    name {
+                      last "Donoghue" ,
+                      initials "H.D." } } ,
+                {
+                  name
+                    name {
+                      last "Bouwman" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Mays" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Watson" ,
+                      initials "C." } } ,
+                {
+                  name
+                    name {
+                      last "Lockwood" ,
+                      initials "D." } } ,
+                {
+                  name
+                    name {
+                      last "Khamesipour" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Dowlati" ,
+                      initials "Y." } } ,
+                {
+                  name
+                    name {
+                      last "Jianping" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Rea" ,
+                      initials "T.H." } } ,
+                {
+                  name
+                    name {
+                      last "Vera-Cabrera" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Stefani" ,
+                      initials "M.M." } } ,
+                {
+                  name
+                    name {
+                      last "Banu" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Macdonald" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Sapkota" ,
+                      initials "B.R." } } ,
+                {
+                  name
+                    name {
+                      last "Spencer" ,
+                      initials "J.S." } } ,
+                {
+                  name
+                    name {
+                      last "Thomas" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Harshman" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Singh" ,
+                      initials "P." } } ,
+                {
+                  name
+                    name {
+                      last "Busso" ,
+                      initials "P." } } ,
+                {
+                  name
+                    name {
+                      last "Gattiker" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Rougemont" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Brennan" ,
+                      initials "P.J." } } ,
+                {
+                  name
+                    name {
+                      last "Cole" ,
+                      initials "S.T." } } } } ,
+          from
+            journal {
+              title {
+                iso-jta "Nat. Genet." ,
+                ml-jta "Nat Genet" ,
+                issn "1546-1718" ,
+                name "Nature genetics" } ,
+              imp {
+                date
+                  std {
+                    year 2009 ,
+                    month 12 } ,
+                volume "41" ,
+                issue "12" ,
+                pages "1282-1289" ,
+                language "eng" ,
+                retract {
+                  type in-error ,
+                  exp "Nat Genet. 2010 Apr;42(4):361. Khamispour, Ali
+ [corrected to Khamesipour, Ali]" } ,
+                pubstatus ppublish ,
+                history {
+                  {
+                    pubstatus received ,
+                    date
+                      std {
+                        year 2009 ,
+                        month 6 ,
+                        day 19 } } ,
+                  {
+                    pubstatus accepted ,
+                    date
+                      std {
+                        year 2009 ,
+                        month 9 ,
+                        day 1 } } ,
+                  {
+                    pubstatus aheadofprint ,
+                    date
+                      std {
+                        year 2009 ,
+                        month 11 ,
+                        day 1 } } ,
+                  {
+                    pubstatus other ,
+                    date
+                      std {
+                        year 2009 ,
+                        month 11 ,
+                        day 3 ,
+                        hour 6 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus pubmed ,
+                    date
+                      std {
+                        year 2009 ,
+                        month 11 ,
+                        day 3 ,
+                        hour 6 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus medline ,
+                    date
+                      std {
+                        year 2010 ,
+                        month 1 ,
+                        day 6 ,
+                        hour 6 ,
+                        minute 0 } } } } } ,
+          ids {
+            pii "ng.477" ,
+            doi "10.1038/ng.477" ,
+            pubmed 19881526 ,
+            other {
+              db "ELocationID doi" ,
+              tag
+                str "10.1038/ng.477" } } } } ,
+      reftype no-target } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Monot" ,
+                      initials "M." } } } ,
+            affil
+              str "Monot M., Genome et Genetique, Institut Pasteur, 28 rue du
+ docteur roux, Paris, 75015, FRANCE" } ,
+          medium other ,
+          date
+            std {
+              year 2008 ,
+              month 9 ,
+              day 3 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2013 ,
+              month 5 ,
+              day 9 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA188943" } } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_041980" } ,
+        general {
+          db "REF_23S_RNA" ,
+          tag
+            str "FM211192:1343021-1346135" } } ,
+      descr {
+        title "Mycobacterium leprae strain Br4923 23S ribosomal RNA gene,
+ complete sequence." ,
+        molinfo {
+          biomol genomic } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 26 } } } } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "FM211192:1343021-1346135" } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        embl {
+          div pro ,
+          creation-date
+            std {
+              year 2009 ,
+              month 1 ,
+              day 10 } ,
+          update-date
+            std {
+              year 2009 ,
+              month 12 ,
+              day 9 } ,
+          xref {
+            {
+              dbname
+                name "GR" ,
+              id {
+                str "FM211192_GR" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00001" ,
+                str "5S_rRNA" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00002" ,
+                str "5_8S_rRNA" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00005" ,
+                str "tRNA" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00010" ,
+                str "RNaseP_bact_a" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00023" ,
+                str "tmRNA" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00059" ,
+                str "TPP" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00169" ,
+                str "SRP_bact" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00174" ,
+                str "Cobalamin" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00177" ,
+                str "SSU_rRNA_5" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00379" ,
+                str "ydaO-yuaA" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00380" ,
+                str "ykoK" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00515" ,
+                str "PyrR" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF00634" ,
+                str "SAM-IV" } } ,
+            {
+              dbname
+                name "RFAM" ,
+              id {
+                str "RF01118" ,
+                str "PK-G12rRNA" } } ,
+            {
+              dbname
+                name "SILVA-SSU" ,
+              id {
+                str "FM211192" } } } } ,
+        create-date
+          std {
+            year 2013 ,
+            month 5 ,
+            day 24 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 2 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 3115 ,
+        seq-data
+          ncbi2na 'C2E5C2A64EBA397E9362258E0A1BA8A798CE5DAA27B41626E8D628FD60E
+A8054118B4EDBBC56CDE0CCCABDA8A819AA0B804DD2C56CA208010FB8F590B2E98981BA0CE9C05
+9113B7072B2ABEEEE6BBEEA3EB3B741DC5EBE2AB2D202E5BAF2680E97A8E9796C86B88952C6602
+5E91797ECD0F562C926A56E8379EE0DE5A8515AC25C0C7DD8E163268D2C5B8A83AE00B156A2A8B
+80CB17805BB9710D6D225DFEEAB8E9B9FFE08389798B4A84ED98AF056EEAB259260262DE0CA9B3
+46EE26EECBA6EF7A158268B8DC54E94AB8266AC2166E8A560547C2F823E2A8E2FBAB2AB80A50D0
+1D6E327AF75580E4FCAE49BE6EBD1468AC89C7A3A58EA571CAF1E1B4940758396EBF009BA4B886
+9AA8C275B1B602A012548D969C295709BB9C2E8028EE4B6408414A2BE9F2092515F808B9B0C9D1
+EB42E3EE658C3B26A9D0911658259A44F45F72AE8EEACAA26F5D3D260975AB05AEBA2AEA82E20E
+4A4E2C98C290B8817E565B0850ABD7A94A52D654AB8B6A170A6296129B2D8E841ABE33D5B15BBB
+B995B8E0D26B1D14540168D853355F6AA73A2BDAA79BA81F6FACB2D098EAB864A0AC96C52D2EB0
+C7A24256CA8898CA40D6DBDB835E22B8E4C963E2983DAC25DE7942009772624C4E695B15405844
+AEB4AC8931429B188C1CEBC281DA403975B07DA882AA968336E0457E6BA89A8D6B648852E20987
+BF1C0044AD6E60B6C218ECC687865E56B9E82BC2285EF05602AE09A20FC2552C069AEB0730535C
+2B2603D7EDAB0BD6179183A6C187DD07B7414C876980F91C62C08E76F1B9A4A1802156A17D1C41
+FACF8EF6B9AFEECA32BA887B807D8672FAAE8B6FBE0314778FB3E04DC17605B335AFCA84B97A6A
+CBF07AA6BE5D700EC1A299502BD5D05EB6B0D2BA62EC0E442AA7E1E621711B424A8602DA8F2E35
+A45DE2E82ABB6741A300AC55AA304A78DF5508B53361A8EBFA45D8EDA76D935EA9E092B542AFA9
+EF654F02691989EAFC81B6E212F6B773596666D201F8A037B572C62285A868605DEB314BEDD14A
+A459E8C946F68423059E024DC26A017DD4234AFDF151FAEA30A55592046A3E32B485C8274B0E2E
+CA81E91C1E96027C4'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                product
+                  whole
+                    other {
+                      accession "NR_103000" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 1552 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041980" } } ,
+                    int {
+                      from 1611 ,
+                      to 3114 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041980" } } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 1553 ,
+                    to 1610 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_041980" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_103000" } } ,
+      descr {
+        title "Mycobacterium leprae strain Br4923 23S ribosomal RNA, complete
+ sequence." ,
+        molinfo {
+          biomol rRNA } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_041980" } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "PROVISIONAL" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 3057 ,
+        seq-data
+          ncbi2na 'C2E5C2A64EBA397E9362258E0A1BA8A798CE5DAA27B41626E8D628FD60E
+A8054118B4EDBBC56CDE0CCCABDA8A819AA0B804DD2C56CA208010FB8F590B2E98981BA0CE9C05
+9113B7072B2ABEEEE6BBEEA3EB3B741DC5EBE2AB2D202E5BAF2680E97A8E9796C86B88952C6602
+5E91797ECD0F562C926A56E8379EE0DE5A8515AC25C0C7DD8E163268D2C5B8A83AE00B156A2A8B
+80CB17805BB9710D6D225DFEEAB8E9B9FFE08389798B4A84ED98AF056EEAB259260262DE0CA9B3
+46EE26EECBA6EF7A158268B8DC54E94AB8266AC2166E8A560547C2F823E2A8E2FBAB2AB80A50D0
+1D6E327AF75580E4FCAE49BE6EBD1468AC89C7A3A58EA571CAF1E1B4940758396EBF009BA4B886
+9AA8C275B1B602A012548D969C295709BB9C2E8028EE4B6408414A2BE9F2092515F808B9B0C9D1
+EB42E3EE658C3B26A9D0911658259A44F45F72AE8EEACAA26F5D3D260975AB05AEBA2AEA82E20E
+4A4E2C98C290B8817E565B0850ABD7A94A52D654AB8B6A170A6296129B2D8E841ABE33D5B15BBB
+B995B8E0D26B1D1681F6FACB2D098EAB864A0AC96C52D2EB0C7A24256CA8898CA40D6DBDB835E2
+2B8E4C963E2983DAC25DE7942009772624C4E695B15405844AEB4AC8931429B188C1CEBC281DA4
+03975B07DA882AA968336E0457E6BA89A8D6B648852E20987BF1C0044AD6E60B6C218ECC687865
+E56B9E82BC2285EF05602AE09A20FC2552C069AEB0730535C2B2603D7EDAB0BD6179183A6C187D
+D07B7414C876980F91C62C08E76F1B9A4A1802156A17D1C41FACF8EF6B9AFEECA32BA887B807D8
+672FAAE8B6FBE0314778FB3E04DC17605B335AFCA84B97A6ACBF07AA6BE5D700EC1A299502BD5D
+05EB6B0D2BA62EC0E442AA7E1E621711B424A8602DA8F2E35A45DE2E82ABB6741A300AC55AA304
+A78DF5508B53361A8EBFA45D8EDA76D935EA9E092B542AFA9EF654F02691989EAFC81B6E212F6B
+773596666D201F8A037B572C62285A868605DEB314BEDD14AA459E8C946F68423059E024DC26A0
+17DD4234AFDF151FAEA30A55592046A3E32B485C8274B0E2ECA81E91C1E96027C40'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                location
+                  int {
+                    from 0 ,
+                    to 3056 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_103000" } } } } } } } } }

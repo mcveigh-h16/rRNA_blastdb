@@ -1,0 +1,396 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Pyrobaculum neutrophilum" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 70771 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Pyrobaculum" ,
+              species "neutrophilum" } ,
+          attrib "nomodforward" ,
+          mod {
+            {
+              subtype strain ,
+              subname "V24Sta" } ,
+            {
+              subtype culture-collection ,
+              subname "JCM:9278" } } ,
+          lineage "Archaea; Crenarchaeota; Thermoprotei; Thermoproteales;
+ Thermoproteaceae; Pyrobaculum" ,
+          gcode 11 ,
+          div "BCT" } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Itoh" ,
+                      initials "T." } } } ,
+            affil
+              str "Takashi Itoh, RIKEN BioResource Center, Japan Collection of
+ Microorganisms; 2-1 Hirosawa, Wako, Saitama 351-0198, Japan
+ (E-mail:ito@jcm.riken.jp, Tel:81-48-467-8440, Fax:81-48-462-4860)" } ,
+          medium email ,
+          date
+            std {
+              year 1997 ,
+              month 12 ,
+              day 9 } } } } ,
+    pub {
+      pub {
+        pmid 9683654 ,
+        article {
+          title {
+            name "Occurrence of introns in the 16S rRNA genes of members of
+ the genus Thermoproteus." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Itoh" ,
+                      initials "T." } ,
+                  affil
+                    str "Japan Collection of Microorganisms, The Institute of
+ Physical and Chemical Research (RIKEN), 2-1 Hirosawa, Wako-shi, Saitama
+ 351-0198, Japan. ito@ulmus.riken.go.jp" } ,
+                {
+                  name
+                    name {
+                      last "Suzuki" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Nakase" ,
+                      initials "T." } } } } ,
+          from
+            journal {
+              title {
+                iso-jta "Arch. Microbiol." ,
+                ml-jta "Arch Microbiol" ,
+                issn "0302-8933" ,
+                name "Archives of microbiology" } ,
+              imp {
+                date
+                  std {
+                    year 1998 ,
+                    month 9 } ,
+                volume "170" ,
+                issue "3" ,
+                pages "155-161" ,
+                language "eng" ,
+                pubstatus ppublish ,
+                history {
+                  {
+                    pubstatus pubmed ,
+                    date
+                      std {
+                        year 1998 ,
+                        month 7 ,
+                        day 31 } } ,
+                  {
+                    pubstatus medline ,
+                    date
+                      std {
+                        year 1998 ,
+                        month 7 ,
+                        day 31 ,
+                        hour 0 ,
+                        minute 1 } } ,
+                  {
+                    pubstatus other ,
+                    date
+                      std {
+                        year 1998 ,
+                        month 7 ,
+                        day 31 ,
+                        hour 0 ,
+                        minute 0 } } } } } ,
+          ids {
+            pubmed 9683654 } } } ,
+      reftype no-target } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2014 ,
+              month 4 ,
+              day 23 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA33317" } } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_041954" } ,
+        general {
+          db "REF_16S_RNA" ,
+          tag
+            str "AB009618:1-2130" } } ,
+      descr {
+        title "Pyrobaculum neutrophilum strain V24Sta 16S ribosomal RNA gene,
+ partial sequence." ,
+        molinfo {
+          biomol genomic } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 26 } } } } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "AB009618:1-2130" } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        create-date
+          std {
+            year 1998 ,
+            month 10 ,
+            day 1 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 2 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 2130 ,
+        seq-data
+          ncbi4na '412224122428182444481444281142218424148242F2422244444242224
+441424424212442821481121248422211228122282444144444121222224441112844442211822
+222181444414444242844114422222822222111444184424422418224224221822422241441844
+444212442221821448148844244488111442224221142241141244481444424484141422424142
+222414182442128414121144422414422812444484214214424241181282242118424442112242
+412444428122224148422444241141422244288884222448281111142244414118114244444421
+148284484821422422424481181221428224241484482444484888128444288111424222481422
+442224421148242822841118222144422211222844442444444241812842244428144444244414
+144224224481282244444814444241118224881182222441441221221484424111424442442214
+112424222412448414444241114224444414211144441881418122228481482224422481112418
+424442814284824422444288144422244224484424114441112248811422242242284444148124
+422421144284111288111441188442444444421221211444484114288424428811884414821124
+224411122821222444424121421441841144221442811241228842244124142841414414484218
+442248248214282484224841448482244881148224421124142414122222122228148842812222
+482281244412444444212128144444128422442481142244144114414444422124421448214818
+144412218444411124222144822242841142222411142248442222112444811188112222182812
+111141218441284424428281228184844828218142842141844221228241284814144141118212
+188442121411414414141288218141812118242112418118411412111244218141818142414218
+888281241814111142444848484411428211112114141211141888281214481228118111211244
+428111484244114111114282441418211222122242248841122112442444128222181248218144
+288218241844141244484448841121118812111111481214114224112181212281828414148144
+228111412411114811142428114441284418242141448428211442211244218114142211212242
+441211111141244181241118221218141812418141442484412148142211118488428211222812
+221221241114128111121118224441282214128281128218288828222112224884444212442244
+414122224444284212424142842118442444412142444182241222241114444414421182224811
+122224222214814441824144428421128242228248411248441182228148112242484821221124
+242448411812482228422228842121212242224824212212224144414222828424144222288422
+4124144844444412414214444428222114444448411'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "16S ribosomal RNA" } ,
+                partial TRUE ,
+                product
+                  whole
+                    other {
+                      accession "NR_112034" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 1150 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041954" } ,
+                      fuzz-from
+                        lim lt } ,
+                    int {
+                      from 1185 ,
+                      to 1192 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041954" } } ,
+                    int {
+                      from 1856 ,
+                      to 2129 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041954" } ,
+                      fuzz-to
+                        lim gt } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 1151 ,
+                    to 1184 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_041954" } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 1193 ,
+                    to 1855 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_041954" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_112034" } } ,
+      descr {
+        title "Pyrobaculum neutrophilum strain V24Sta 16S ribosomal RNA,
+ partial sequence." ,
+        molinfo {
+          biomol rRNA ,
+          completeness no-ends } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "Status" ,
+              data
+                str "Reviewed" } ,
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_041954" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 1433 ,
+        seq-data
+          ncbi4na '412224122428182444481444281142218424148242F2422244444242224
+441424424212442821481121248422211228122282444144444121222224441112844442211822
+222181444414444242844114422222822222111444184424422418224224221822422241441844
+444212442221821448148844244488111442224221142241141244481444424484141422424142
+222414182442128414121144422414422812444484214214424241181282242118424442112242
+412444428122224148422444241141422244288884222448281111142244414118114244444421
+148284484821422422424481181221428224241484482444484888128444288111424222481422
+442224421148242822841118222144422211222844442444444241812842244428144444244414
+144224224481282244444814444241118224881182222441441221221484424111424442442214
+112424222412448414444241114224444414211144441881418122228481482224422481112418
+424442814284824422444288144422244224484424114441112248811422242242284444148124
+422421144284111288111441188442444444421221211444484114288424428811884414821124
+224411122821222444424121421441841144221442811241228842244124142841414414484218
+442248248214282484224841448482244881148224421124142414122222122228148842812222
+482281244412444444212128144444128422442481142244144114414444422124421448214818
+422224111222244442842124241428421184424444121424441822412222411144444144211822
+248111222242222148144418241444284211282422282484112484411822281481122424848212
+211242424484118124822284222288421212122422248242122122241444142228284241442222
+8842241241448444444124142144444282221144444484110'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "16S ribosomal RNA" } ,
+                partial TRUE ,
+                location
+                  int {
+                    from 0 ,
+                    to 1432 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_112034" } ,
+                    fuzz-from
+                      lim lt ,
+                    fuzz-to
+                      lim gt } } } } } } } }

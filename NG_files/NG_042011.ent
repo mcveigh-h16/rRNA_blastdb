@@ -1,0 +1,646 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Agrobacterium vitis" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 373 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Agrobacterium" ,
+              species "vitis" } ,
+          attrib "nomodforward" ,
+          mod {
+            {
+              subtype strain ,
+              subname "S4" } ,
+            {
+              subtype isolate ,
+              subname "Kecskemet-Hungary" } ,
+            {
+              subtype nat-host ,
+              subname "Vitis vinifera cv. 'Izsaki Sarfeher'" } ,
+            {
+              subtype gb-synonym ,
+              subname "Rhizobium vitis" } ,
+            {
+              subtype culture-collection ,
+              subname "ATCC:BAA-846" } } ,
+          lineage "Bacteria; Proteobacteria; Alphaproteobacteria; Rhizobiales;
+ Rhizobiaceae; Rhizobium/Agrobacterium group; Agrobacterium" ,
+          gcode 11 ,
+          div "BCT" } } ,
+      subtype {
+        {
+          subtype country ,
+          name "Hungary: Orgovany" } } } ,
+    pub {
+      pub {
+        article {
+          title {
+            name "Genome sequences of three agrobacterium biovars help
+ elucidate the evolution of multichromosome genomes in bacteria." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Slater" ,
+                      initials "S.C." } ,
+                  affil
+                    str "Virginia Bioinformatics Institute, Washington St., MC
+ 0477, Blacksburg, VA 24060, USA." } ,
+                {
+                  name
+                    name {
+                      last "Goldman" ,
+                      initials "B.S." } } ,
+                {
+                  name
+                    name {
+                      last "Goodner" ,
+                      initials "B." } } ,
+                {
+                  name
+                    name {
+                      last "Setubal" ,
+                      initials "J.C." } } ,
+                {
+                  name
+                    name {
+                      last "Farrand" ,
+                      initials "S.K." } } ,
+                {
+                  name
+                    name {
+                      last "Nester" ,
+                      initials "E.W." } } ,
+                {
+                  name
+                    name {
+                      last "Burr" ,
+                      initials "T.J." } } ,
+                {
+                  name
+                    name {
+                      last "Banta" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Dickerman" ,
+                      initials "A.W." } } ,
+                {
+                  name
+                    name {
+                      last "Paulsen" ,
+                      initials "I." } } ,
+                {
+                  name
+                    name {
+                      last "Otten" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Suen" ,
+                      initials "G." } } ,
+                {
+                  name
+                    name {
+                      last "Welch" ,
+                      initials "R." } } ,
+                {
+                  name
+                    name {
+                      last "Almeida" ,
+                      initials "N.F." } } ,
+                {
+                  name
+                    name {
+                      last "Arnold" ,
+                      initials "F." } } ,
+                {
+                  name
+                    name {
+                      last "Burton" ,
+                      initials "O.T." } } ,
+                {
+                  name
+                    name {
+                      last "Du" ,
+                      initials "Z." } } ,
+                {
+                  name
+                    name {
+                      last "Ewing" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Godsy" ,
+                      initials "E." } } ,
+                {
+                  name
+                    name {
+                      last "Heisel" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Houmiel" ,
+                      initials "K.L." } } ,
+                {
+                  name
+                    name {
+                      last "Jhaveri" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Lu" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Miller" ,
+                      initials "N.M." } } ,
+                {
+                  name
+                    name {
+                      last "Norton" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Chen" ,
+                      initials "Q." } } ,
+                {
+                  name
+                    name {
+                      last "Phoolcharoen" ,
+                      initials "W." } } ,
+                {
+                  name
+                    name {
+                      last "Ohlin" ,
+                      initials "V." } } ,
+                {
+                  name
+                    name {
+                      last "Ondrusek" ,
+                      initials "D." } } ,
+                {
+                  name
+                    name {
+                      last "Pride" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Stricklin" ,
+                      initials "S.L." } } ,
+                {
+                  name
+                    name {
+                      last "Sun" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Wheeler" ,
+                      initials "C." } } ,
+                {
+                  name
+                    name {
+                      last "Wilson" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Zhu" ,
+                      initials "H." } } ,
+                {
+                  name
+                    name {
+                      last "Wood" ,
+                      initials "D.W." } } } } ,
+          from
+            journal {
+              title {
+                iso-jta "J. Bacteriol." ,
+                ml-jta "J Bacteriol" ,
+                issn "1098-5530" ,
+                name "Journal of bacteriology" } ,
+              imp {
+                date
+                  std {
+                    year 2009 ,
+                    month 4 } ,
+                volume "191" ,
+                issue "8" ,
+                pages "2501-2511" ,
+                language "eng" ,
+                pubstatus ppublish ,
+                history {
+                  {
+                    pubstatus aheadofprint ,
+                    date
+                      std {
+                        year 2009 ,
+                        month 2 ,
+                        day 27 } } ,
+                  {
+                    pubstatus other ,
+                    date
+                      std {
+                        year 2009 ,
+                        month 3 ,
+                        day 3 ,
+                        hour 9 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus pubmed ,
+                    date
+                      std {
+                        year 2009 ,
+                        month 3 ,
+                        day 3 ,
+                        hour 9 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus medline ,
+                    date
+                      std {
+                        year 2009 ,
+                        month 4 ,
+                        day 25 ,
+                        hour 9 ,
+                        minute 0 } } } } } ,
+          ids {
+            pii "JB.01779-08" ,
+            doi "10.1128/JB.01779-08" ,
+            pubmed 19251847 ,
+            other {
+              db "pmc" ,
+              tag
+                str "PMC2668409" } ,
+            other {
+              db "ELocationID doi" ,
+              tag
+                str "10.1128/JB.01779-08" } } } ,
+        pmid 19251847 } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Setubal" ,
+                      first "Joao" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Wood" ,
+                      first "D" ,
+                      initials "D." } } ,
+                {
+                  name
+                    name {
+                      last "Slater" ,
+                      first "S" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Nester" ,
+                      first "E" ,
+                      initials "E." } } ,
+                {
+                  name
+                    name {
+                      last "Farrand" ,
+                      first "S" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Goldman" ,
+                      first "B" ,
+                      initials "B." } } ,
+                {
+                  name
+                    name {
+                      last "Burr" ,
+                      first "T" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Goodner" ,
+                      first "B" ,
+                      initials "B." } } ,
+                {
+                  name
+                    name {
+                      last "Otten" ,
+                      first "L" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Dickerman" ,
+                      first "A" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Almeida" ,
+                      first "N" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Sun" ,
+                      first "J" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Jhaveri" ,
+                      first "J" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Banta" ,
+                      first "L" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Houmiel" ,
+                      first "K" ,
+                      initials "K." } } ,
+                {
+                  name
+                    consortium "Agrobacterium Consortium" } } ,
+            affil
+              std {
+                affil "Virginia Tech" ,
+                div "Virginia Bioinformatics Institute" ,
+                city "Blacksburg" ,
+                sub "VA" ,
+                country "USA" ,
+                street "Washington Street, Box 0477" ,
+                postal-code "24061" } } ,
+          medium other ,
+          date
+            std {
+              year 2007 ,
+              month 3 ,
+              day 14 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2013 ,
+              month 2 ,
+              day 14 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA188943" } } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_042011" } ,
+        general {
+          db "REF_23S_RNA" ,
+          tag
+            str "CP000634:933760-936699" } } ,
+      descr {
+        title "Agrobacterium vitis strain S4 23S ribosomal RNA gene, complete
+ sequence." ,
+        molinfo {
+          biomol genomic } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 26 } } } } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "CP000634:933760-936699" } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        create-date
+          std {
+            year 2013 ,
+            month 3 ,
+            day 25 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 2 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 2940 ,
+        seq-data
+          ncbi2na 'C2E830A93FAE8E5FA4E44A638286E319E63096EA89E60C27F8D4E8FD60E
+A80545F2337200DEFF9C850DEFF85AFBBA86D531216B296D9426FE9916DEC9929D8225849B8210
+040558BBAA632AF69008AFDC8CD9030ACDF17E0C4CAAC20981DAA07804DC2C560A0284D0588759
+0B2E989819A14A52E90E283026810BE809FA532EAE1255B19B20474FB5C8B2A6A11B80D7BD813A
+A2147750970B1DB93858C9810B16E2A02B802455842A8B80C81760168E5C404B28A9809761D9B1
+7FECC3AB4187CBB074909F096B2BB299260262EF0C998F8BCBE4F2158058B8DC94E24AF82BEAC1
+141E8A160564DEF90C8FA8E1FBAF2AB80A50D01DA0327AF759801CFCACB9B6360C5D2AAC891E8E
+A73AA1D16DF1E35C14075831788B1C3692111A6AE706D6DB822A4105785D49C2B550B4E9C2EA02
+8EE28D500414A3BE9F2092534FC0809B049D1EB7030AB7F99600EC1AA7025391609E28EE46C2EC
+6EB2689BD6C25EE0A84B6E2135E8ACDA0B983BE138B06302AAE22155D9602142AF5E7C0BC37892
+AF25A55C298A480E6CB63A8146F0CF6EA5EBACB868D1103EC4B7C7A3E3EE4BA2EBD4A0327516CC
+85B15805844AEB4AC8B314299F8881CEF8281DA40F919B07DA0826E157FF190BA22ABA44852AAC
+987BF340044A9DE60B642186CCAB7865E56B9E82BC0288AE427F83E0954B01A696C1CC1AD70AC9
+80F5FB6AC2F585E460E9B061F559EDD41321D2E03E0F55B8239AAF5E6B48680855B917F1CC9FC4
+7A4F6EDA4EECA32BACA7F827E8652F62E894D7E031457CDB4E8EDC166B5BCD68D6A12ECEBAB2FE
+1EA9AD975808B068A6663AEA7485ADA036B6D8B90E9309597879887842D8922180B6B4CB8D6BAD
+59BA0A94D9D068C02B196A8C129E3855422D4CD86ABEFE91763B69D364D7AA7A24AD50ABFA7BD9
+43C09AC6E27ABD206DB884BDAD5CDE5BABB2833E128DED5CB188A16A3A13377AE85EFB6E506932
+4AB27333A0E8C1678293709A80505E0062CF5734896E821851BE3286AEE824AB05E609F16F1C32
+763E9F0'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                product
+                  whole
+                    other {
+                      accession "NR_076109" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 163 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042011" } } ,
+                    int {
+                      from 243 ,
+                      to 2939 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042011" } } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 164 ,
+                    to 242 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_042011" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_076109" } } ,
+      descr {
+        title "Agrobacterium vitis strain S4 23S ribosomal RNA, complete
+ sequence." ,
+        molinfo {
+          biomol rRNA } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "Status" ,
+              data
+                str "Reviewed" } ,
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_042011" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 2861 ,
+        seq-data
+          ncbi2na 'C2E830A93FAE8E5FA4E44A638286E319E63096EA89E60C27F8D4E8FD60E
+A80545F2337200DEFF9C8504A760896126E0840101562EEA98CABDA4022BF7233640C2B37C5F83
+132AB0826076A81E01370B158280A1341621D642CBA62606685294BA438A0C09A042FA027E94CB
+AB84956C66C811D3ED722CA9A846E035EF604EA8851DD425C2C76E4E16326042C5B8A80AE00915
+610AA2E03205D805A3971012CA2A6025D8766C5FFB30EAD061F2EC1D2427C25ACAECA6498098BB
+C32663E2F2F93C8560162E37253892BE0AFAB04507A285815937BE4323EA387EEBCAAE02943407
+680C9EBDD660073F2B2E6D8D83174AAB2247A3A9CEA8745B7C78D70501D60C5E22C70DA484469A
+B9C1B5B6E08A90415E175270AD542D3A70BA80A3B8A354010528EFA7C82494D3F02026C12747AD
+C0C2ADFE65803B06A9C094E458278A3B91B0BB1BAC9A26F5B097B82A12DB884D7A2B3682E60EF8
+4E2C18C0AAB8885576580850ABD79F02F0DE24ABC969570A6292039B2D8EA051BC33DBA97AEB2E
+1A34440FB12DF1E8F8FB92E8BAF5280C9D45B3216C56016112BAD2B22CC50A67E22073BE0A0769
+03E466C1F68209B855FFC642E88AAE91214AAB261EFCD00112A77982D90861B32ADE19795AE7A0
+AF00A22B909FE0F82552C069A5B07306B5C2B2603D7EDAB0BD6179183A6C187D567B7504C874B8
+0F83D56E08E6ABD79AD21A02156E45FC7327F11E93DBB693BB28CAEB29FE09FA194BD8BA2535F8
+0C515F36D3A3B7059AD6F35A35A84BB3AEACBF87AA6B65D6022C1A29998EBA9D216B680DADB62E
+43A4C2565E1E621E10B62488602DAD32E35AEB566E82A536741A300AC65AA304A78E15508B5336
+1AAFBFA45D8EDA74D935EA9E892B542AFE9EF650F026B1B89EAF481B6E212F6B573796EAECA0CF
+84A37B572C62285A8E84CDDEBA17BEDB941A4C92AC9CCCE83A3059E0A4DC26A014178018B3D5CD
+225BA086146F8CA1ABBA092AC179827C5BC70C9D8FA7C00'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                location
+                  int {
+                    from 0 ,
+                    to 2860 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_076109" } } } } } } } } }

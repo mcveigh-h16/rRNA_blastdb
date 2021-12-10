@@ -1,0 +1,544 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Thermotoga neapolitana" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 2337 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Thermotoga" ,
+              species "neapolitana" } ,
+          attrib "nomodforward" ,
+          mod {
+            {
+              subtype strain ,
+              subname "DSM 4359" } ,
+            {
+              subtype culture-collection ,
+              subname "DSM:4359" } } ,
+          lineage "Bacteria; Thermotogae; Thermotogales; Thermotogaceae;
+ Thermotoga" ,
+          gcode 11 ,
+          div "BCT" } } } ,
+    pub {
+      pub {
+        article {
+          title {
+            name "WeGAS: a web-based microbial genome annotation system." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Lee" ,
+                      initials "D." } ,
+                  affil
+                    str "Department of Biological Sciences, Korea Advanced
+ Institute of Science and Technology." } ,
+                {
+                  name
+                    name {
+                      last "Seo" ,
+                      initials "H." } } ,
+                {
+                  name
+                    name {
+                      last "Park" ,
+                      initials "C." } } ,
+                {
+                  name
+                    name {
+                      last "Park" ,
+                      initials "K." } } } } ,
+          from
+            journal {
+              title {
+                iso-jta "Biosci. Biotechnol. Biochem." ,
+                ml-jta "Biosci Biotechnol Biochem" ,
+                issn "1347-6947" ,
+                name "Bioscience, biotechnology, and biochemistry" } ,
+              imp {
+                date
+                  std {
+                    year 2009 ,
+                    month 1 } ,
+                volume "73" ,
+                issue "1" ,
+                pages "213-216" ,
+                language "eng" ,
+                pubstatus ppublish ,
+                history {
+                  {
+                    pubstatus aheadofprint ,
+                    date
+                      std {
+                        year 2009 ,
+                        month 1 ,
+                        day 7 } } ,
+                  {
+                    pubstatus other ,
+                    date
+                      std {
+                        year 2009 ,
+                        month 1 ,
+                        day 9 ,
+                        hour 9 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus pubmed ,
+                    date
+                      std {
+                        year 2009 ,
+                        month 1 ,
+                        day 9 ,
+                        hour 9 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus medline ,
+                    date
+                      std {
+                        year 2009 ,
+                        month 4 ,
+                        day 2 ,
+                        hour 9 ,
+                        minute 0 } } } } } ,
+          ids {
+            pii "JST.JSTAGE/bbb/80567" ,
+            pubmed 19129632 ,
+            doi "10.1271/bbb.80567" } } ,
+        pmid 19129632 } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Lim" ,
+                      first "Si Kyu" ,
+                      initials "S.K." } } ,
+                {
+                  name
+                    name {
+                      last "Kim" ,
+                      first "Jin Sik" ,
+                      initials "J.S." } } ,
+                {
+                  name
+                    name {
+                      last "Cha" ,
+                      first "Sun Ho" ,
+                      initials "S.H." } } ,
+                {
+                  name
+                    name {
+                      last "Park" ,
+                      first "Byoung Chul" ,
+                      initials "B.C." } } ,
+                {
+                  name
+                    name {
+                      last "Lee" ,
+                      first "Dae Sang" ,
+                      initials "D.S." } } ,
+                {
+                  name
+                    name {
+                      last "Seo" ,
+                      first "Hwa Jung" ,
+                      initials "H.J." } } ,
+                {
+                  name
+                    name {
+                      last "Kim" ,
+                      first "Sang Jun" ,
+                      initials "S.J." } } ,
+                {
+                  name
+                    name {
+                      last "Kim" ,
+                      first "Jae Jong" ,
+                      initials "J.J." } } ,
+                {
+                  name
+                    name {
+                      last "Park" ,
+                      first "Ki Jung" ,
+                      initials "K.J." } } ,
+                {
+                  name
+                    name {
+                      last "Lee" ,
+                      first "Sang Yup" ,
+                      initials "S.Y." } } } ,
+            affil
+              std {
+                affil "GenoTech Corp." ,
+                div "R&D Center" ,
+                city "Yuseong-gu" ,
+                sub "Daejeon" ,
+                country "Republic of Korea" ,
+                street "59-5 Jang-dong" ,
+                email "slim@genotech.co.kr" ,
+                fax "+82-42-862-8406" ,
+                phone "+82-42-862-8404" ,
+                postal-code "305-343" } } ,
+          medium other ,
+          date
+            std {
+              year 2007 ,
+              month 11 ,
+              day 27 } } } } ,
+    pub {
+      pub {
+        gen {
+          cit "Unpublished" ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Lim" ,
+                      first "Si Kyu" ,
+                      initials "S.K." } } ,
+                {
+                  name
+                    name {
+                      last "Kim" ,
+                      first "Jin Sik" ,
+                      initials "J.S." } } ,
+                {
+                  name
+                    name {
+                      last "Cha" ,
+                      first "Sun Ho" ,
+                      initials "S.H." } } ,
+                {
+                  name
+                    name {
+                      last "Park" ,
+                      first "Byoung Chul" ,
+                      initials "B.C." } } ,
+                {
+                  name
+                    name {
+                      last "Lee" ,
+                      first "Dae Sang" ,
+                      initials "D.S." } } ,
+                {
+                  name
+                    name {
+                      last "Tae" ,
+                      first "Hong Seok" ,
+                      initials "H.S." } } ,
+                {
+                  name
+                    name {
+                      last "Kim" ,
+                      first "Sang Jun" ,
+                      initials "S.J." } } ,
+                {
+                  name
+                    name {
+                      last "Kim" ,
+                      first "Jae Jong" ,
+                      initials "J.J." } } ,
+                {
+                  name
+                    name {
+                      last "Park" ,
+                      first "Ki Jung" ,
+                      initials "K.J." } } ,
+                {
+                  name
+                    name {
+                      last "Lee" ,
+                      first "Sang Yup" ,
+                      initials "S.Y." } } } ,
+            affil
+              std {
+                div "R&D Center" ,
+                city "Daejeon" ,
+                country "Republic of Korea" ,
+                street "GenoTech Corp., 59-5 Jang-dong, Yuseong-gu" ,
+                postal-code "305-343" } } ,
+          title "The genome sequence of the hyperthermophilic bacterium
+ Thermotoga neapolitana" } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2013 ,
+              month 2 ,
+              day 14 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA188943" } } } } ,
+    user {
+      type
+        str "NcbiCleanup" ,
+      data {
+        {
+          label
+            str "method" ,
+          data
+            str "SequinCleanup" } ,
+        {
+          label
+            str "version" ,
+          data
+            int 8 } ,
+        {
+          label
+            str "month" ,
+          data
+            int 4 } ,
+        {
+          label
+            str "day" ,
+          data
+            int 21 } ,
+        {
+          label
+            str "year" ,
+          data
+            int 2015 } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_042003" } ,
+        general {
+          db "REF_23S_RNA" ,
+          tag
+            str "CP000916:501993-505707" } } ,
+      descr {
+        title "Thermotoga neapolitana 23S ribosomal RNA gene, complete
+ sequence." ,
+        molinfo {
+          biomol genomic } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 26 } } } } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "CP000916:501993-505707" } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        create-date
+          std {
+            year 2013 ,
+            month 3 ,
+            day 25 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 2 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 3715 ,
+        seq-data
+          ncbi2na '42B1C2A466BA397E9A6A298E0A9BA42798C256AA2590929BE356A3D583A
+A017ABA5BE29476596029AE6116AA0B804DD2C558A0080D0588F55CB2698981AA28950149BAE50
+256EA6F9467AAF9A84616A629468765AA2F103575DC960517A82BA9688AB84956CA602A8A8757A
+B6EF562C51A846E8356EA09EAA8515D429C0C715965632E452C5B8A80AE00915682A8B808A1780
+59B971082DA2554FEAAE1A6E5FF8F0E25662F96DAE98AF0963E29B25B260262D604A9B72D169A4
+856096AE27157A92AE0AEAF00547A295816BA12E00B5DA385EAACA2E009C16056B8C9EBDD56039
+3E2B925DABADEE4AAB22478EA9CAAAFD758156D01D60D5E444095A8B8959AA8C2759A188AA0415
+2165A70A95822BA70BAC0A3BAA65C2127A8EFA7C82494D3F022E6C12745258A65791600EC1AA74
+2515560966AD2C5D67A2B1E9ACAA26F59ECAB829A1598A967A18A682E20E6A4E2C66228AB88357
+555B0950AB17AA0AB6D654ABC96A15C2B81580AAC960A825AF0CF5A65179AD8EB18AAE1928AB29
+96AA42E93957509AF2A6386A6CAC0D6655897896E3AA2B57DAA141A6585511E588005D9B167E21
+6CAE56F59016112BA9A9E20A74AA26AF057650A076903E956C1F6A20AAE59BCAB815AA82A90568
+05AA8958A6B64B84295E987BF140044ADDE7076008A0B32A1E197952E5A0AF0AA2AB8A755FBA89
+B2758560956B01A696C1CC1AD70AC9BD9E5E544A805EEA90C569ECE6A8257C895F5C5EAA79A525
+4AC00E82A3EA435928055BE2AA8D74887B196A4D4B55B882ABA037E8DD09787AB6FABDB63AE0AF
+BF71BEBB492036453801ABCD2BDD560F4A36D49109B84C4AF7B191E282F7DA39AEFB9A0814618D
+8C6070A34800ADB9F8202FB20F7D8004D7702182001BE1F4003D20A3DD30E3A06A8813744020AD
+D34231E80D94E80E044A014602BE01815D82235AA1E8E08C4B51551D602AEA30AB8980F5FB6AC2
+F585E4E0E9B061EA91EDDA6AA95A603F4B7AB823952C5669C8680855BA27F1E497ACFA9DEB936E
+CC832BA8A7B82597652A9AE89652E8314576B91E8B5C17857B8224ABAA12E52BA92FE1EA9AD175
+C08B068AE640ADA74AEAFA03516C8B90A93096978798A584A5892AA805695CB8569A55BBA0A96D
+8D068C02F156A8C129EB565622F44D869AAF691763B69D354D7AA7824AD50ABEA7BD953C0AAC6E
+27ABD216DB884ADAD5CDE59A9B28A7E2AAB5D5FB188A16A28AA977AEC5A7B6652693196AC9CE55
+C263059E024DC26A09995423CA5D5356F0A8B0A5AD6208A17E3296AAEC26590A6F89516B1C3696
+297E0'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                product
+                  whole
+                    other {
+                      accession "NR_076120" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 2061 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042003" } } ,
+                    int {
+                      from 2735 ,
+                      to 3714 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042003" } } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 2062 ,
+                    to 2734 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_042003" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_076120" } } ,
+      descr {
+        title "Thermotoga neapolitana 23S ribosomal RNA, complete sequence." ,
+        molinfo {
+          biomol rRNA } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "Status" ,
+              data
+                str "Reviewed" } ,
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_042003" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 3042 ,
+        seq-data
+          ncbi2na '42B1C2A466BA397E9A6A298E0A9BA42798C256AA2590929BE356A3D583A
+A017ABA5BE29476596029AE6116AA0B804DD2C558A0080D0588F55CB2698981AA28950149BAE50
+256EA6F9467AAF9A84616A629468765AA2F103575DC960517A82BA9688AB84956CA602A8A8757A
+B6EF562C51A846E8356EA09EAA8515D429C0C715965632E452C5B8A80AE00915682A8B808A1780
+59B971082DA2554FEAAE1A6E5FF8F0E25662F96DAE98AF0963E29B25B260262D604A9B72D169A4
+856096AE27157A92AE0AEAF00547A295816BA12E00B5DA385EAACA2E009C16056B8C9EBDD56039
+3E2B925DABADEE4AAB22478EA9CAAAFD758156D01D60D5E444095A8B8959AA8C2759A188AA0415
+2165A70A95822BA70BAC0A3BAA65C2127A8EFA7C82494D3F022E6C12745258A65791600EC1AA74
+2515560966AD2C5D67A2B1E9ACAA26F59ECAB829A1598A967A18A682E20E6A4E2C66228AB88357
+555B0950AB17AA0AB6D654ABC96A15C2B81580AAC960A825AF0CF5A65179AD8EB18AAE1928AB29
+96AA42E93957509AF2A6386A6CAC0D6655897896E3AA2B57DAA141A6585511E588005D9B167E21
+6CAE56F59016112BA9A9E20A74AA26AF057650A076903E956C1F6A20AAE59BCAB815AA82A90568
+05AA8958A6B64B84295E987BF140044ADDE7076008A0B32A1E197952E5A0AF0AA2AB8A755FBA89
+B2758560956B01A696C1CC1AD70AC9BD9E5EA8C2AE2603D7EDAB0BD6179383A6C187AA47B769AA
+A56980FD2DEAE08E54B159A721A02156E89FC7925EB3EA77AE4DBB320CAEA29EE0965D94AA6BA2
+594BA0C515DAE47A2D705E15EE0892AEA84B94AEA4BF87AA6B45D7022C1A2B9902B69D2BABE80D
+45B22E42A4C25A5E1E6296129624AAA015A572E15A6956EE82A5B6341A300BC55AA304A7AD5958
+8BD1361A6ABDA45D8EDA74D535EA9E092B542AFA9EF654F02AB1B89EAF485B6E212B6B5737966A
+6CA29F8AAAD757EC62285A8A2AA5DEBB169ED9949A4C65AB273957098C1678093709A82665508F
+29754D5BC2A2C296B5882285F8CA5AABB0996429BE2545AC70DA58A5F80'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                location
+                  int {
+                    from 0 ,
+                    to 3041 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_076120" } } } } } } } } }

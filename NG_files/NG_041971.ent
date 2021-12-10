@@ -1,0 +1,440 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Moraxella catarrhalis" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 480 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Moraxella" ,
+              species "catarrhalis" } ,
+          attrib "nomodforward" ,
+          mod {
+            {
+              subtype strain ,
+              subname "BBH18" } ,
+            {
+              subtype other ,
+              subname "submitted as Moraxella catarrhalis RH4" } } ,
+          lineage "Bacteria; Proteobacteria; Gammaproteobacteria;
+ Pseudomonadales; Moraxellaceae; Moraxella" ,
+          gcode 11 ,
+          div "BCT" } } } ,
+    pub {
+      pub {
+        article {
+          title {
+            name "Genome analysis of Moraxella catarrhalis strain BBH18,
+ [corrected] a human respiratory tract pathogen." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "de Vries" ,
+                      initials "S.P." } ,
+                  affil
+                    str "Laboratory of Pediatric Infectious Diseases, Radboud
+ University Nijmegen Medical Centre, P.O. Box 9101 (Route 224), 6500 HB
+ Nijmegen, The Netherlands." } ,
+                {
+                  name
+                    name {
+                      last "van Hijum" ,
+                      initials "S.A." } } ,
+                {
+                  name
+                    name {
+                      last "Schueler" ,
+                      initials "W." } } ,
+                {
+                  name
+                    name {
+                      last "Riesbeck" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Hays" ,
+                      initials "J.P." } } ,
+                {
+                  name
+                    name {
+                      last "Hermans" ,
+                      initials "P.W." } } ,
+                {
+                  name
+                    name {
+                      last "Bootsma" ,
+                      initials "H.J." } } } } ,
+          from
+            journal {
+              title {
+                iso-jta "J. Bacteriol." ,
+                ml-jta "J Bacteriol" ,
+                issn "1098-5530" ,
+                name "Journal of bacteriology" } ,
+              imp {
+                date
+                  std {
+                    year 2010 ,
+                    month 7 } ,
+                volume "192" ,
+                issue "14" ,
+                pages "3574-3583" ,
+                language "eng" ,
+                retract {
+                  type in-error ,
+                  exp "J Bacteriol. 2012 Dec;194(24):7021" } ,
+                pubstatus ppublish ,
+                history {
+                  {
+                    pubstatus aheadofprint ,
+                    date
+                      std {
+                        year 2010 ,
+                        month 5 ,
+                        day 7 } } ,
+                  {
+                    pubstatus other ,
+                    date
+                      std {
+                        year 2010 ,
+                        month 5 ,
+                        day 11 ,
+                        hour 6 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus pubmed ,
+                    date
+                      std {
+                        year 2010 ,
+                        month 5 ,
+                        day 11 ,
+                        hour 6 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus medline ,
+                    date
+                      std {
+                        year 2010 ,
+                        month 7 ,
+                        day 23 ,
+                        hour 6 ,
+                        minute 0 } } } } } ,
+          ids {
+            pii "JB.00121-10" ,
+            doi "10.1128/JB.00121-10" ,
+            pubmed 20453089 ,
+            other {
+              db "pmc" ,
+              tag
+                str "PMC2897349" } ,
+            other {
+              db "ELocationID doi" ,
+              tag
+                str "10.1128/JB.00121-10" } } } ,
+        pmid 20453089 } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "de Vries" ,
+                      first "Stefan" ,
+                      initials "S.P.W." } } ,
+                {
+                  name
+                    name {
+                      last "van Hijum" ,
+                      first "Sacha" ,
+                      initials "S.A.F.T." } } ,
+                {
+                  name
+                    name {
+                      last "Schueler" ,
+                      first "Wolfgang" ,
+                      initials "W." } } ,
+                {
+                  name
+                    name {
+                      last "Riesbeck" ,
+                      first "Kristian" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Hays" ,
+                      first "John" ,
+                      initials "J.P." } } ,
+                {
+                  name
+                    name {
+                      last "Hermans" ,
+                      first "Peter" ,
+                      initials "P.W.M." } } ,
+                {
+                  name
+                    name {
+                      last "Bootsma" ,
+                      first "Hester" ,
+                      initials "H.J." } } } ,
+            affil
+              std {
+                affil "Radboud University Nijmegen Medical Centre" ,
+                div "Pediatric Infectious Diseases" ,
+                city "Nijmegen" ,
+                country "The Netherlands" ,
+                street "Kapittelweg 29" ,
+                postal-code "6525 EN" } } ,
+          date
+            std {
+              year 2010 ,
+              month 4 ,
+              day 5 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2013 ,
+              month 5 ,
+              day 9 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA188943" } } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_041971" } ,
+        general {
+          db "REF_23S_RNA" ,
+          tag
+            str "CP002005:317714-320869" } } ,
+      descr {
+        title "Moraxella catarrhalis strain BBH18 23S ribosomal RNA gene,
+ complete sequence." ,
+        molinfo {
+          biomol genomic } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 26 } } } } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "CP002005:317714-320869" } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        create-date
+          std {
+            year 2013 ,
+            month 5 ,
+            day 24 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 2 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 3156 ,
+        seq-data
+          ncbi2na 'D0B0E0B913AE8E5FA4B48A638086E325E6309B6B8AE90CD7B85698FDE0E
+A805414130BEBCF112FC7BB0A405A882E01374B15628021340E23D6C2C9A6260468A258D0FF12C
+900E9BA809414CB2B8CB5ECE601EFC26133C2CA9A046203DEDE08EAA8535D429C0C75E1E1632E0
+52C5B8A80A6008157BCAA2E03205E016EE4C424B6895851F0DBFE28C10E0FFC71B73B4C401BA30
+D38E2FF3BEBFC514BF004083E38530C3A441F1D05224204E9B3EFCFB825C4F0E042E9080188981
+4C0030EB6CE207F7E3836ED03443F8434818F0BADAB869B17FECC3AB4987CCF7B242BC160CAA25
+B2A0162DF0CA9838BE4AB32158058B8DCD4E24AF80B96C129168A160547B6F80252A8E1FBA32AB
+80A70D01DAE327AF755809CFCAC9976860C53EAAC891EFDA72AAD1161F14058E4075831638B0CD
+6A2121A6AE706D6DB422A0105485949C29540F5CBC2EA018EEA0A44849CA2BE9F2092515FC0809
+B0C9D1CB62DA5E66823B06A9D01CA258279A3F0FBF43C2EB2A89BEEC25EE0AE47B0AEE7A2B3442
+260E786E2C18401AB80256F65A0850ABD4B506F0DAA7AB8B61570A6296029B2D8EA036BC33D631
+FBF38E63A2A1A20AF39497A63AFB52BA0A3B2F21E2CA40D676BCF0E2378C9094BF1E902E90315E
+7D4A009F7098CB4C060DB15805844AEB4AC88314299F8881DE78281CA403AC5B07DA882B19E58E
+B8C21F9DFE27BE92D92314A79E41EFCF00112477901180BA1B32AEE39795AE7A0AF0F8EABC9B09
+8277E360954B01A696C1CC1AD70AC980F5FB6AC2F585E460E930E3A499EDD49221D2E0360364B8
+239EEC5669C8680855B817F1C49FC4F81FE1707EECA32BA8A7F8248C652CFEE89417E031457AF3
+BEABDC1F28D040D42843B3AEACBF87AA6B75D7022C1A28B182B99D206B680DBD022CC0A402667C
+1E621510B624AC602CADF2E35AEBDECE82A536741A300AC77AA304A78C59508BD3361A6BBFA45D
+8EDA74DD35EA9E092B542ACE9EF653F022B1989EAFC81B6E212F6B573716EA6FA03F88A379D72C
+6228522E8605DEBBF6BED194BA4F962C9CEF68EA3059E024DC26A0951742308FD5C0896FB21861
+BE32BEAEE82ECB8C4EC9C1431C3E76FE9F853'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                product
+                  whole
+                    other {
+                      accession "NR_103214" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 515 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041971" } } ,
+                    int {
+                      from 827 ,
+                      to 3155 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041971" } } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 516 ,
+                    to 826 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_041971" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_103214" } } ,
+      descr {
+        title "Moraxella catarrhalis strain BBH18 23S ribosomal RNA, complete
+ sequence." ,
+        molinfo {
+          biomol rRNA } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "Status" ,
+              data
+                str "Reviewed" } ,
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_041971" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 2845 ,
+        seq-data
+          ncbi2na 'D0B0E0B913AE8E5FA4B48A638086E325E6309B6B8AE90CD7B85698FDE0E
+A805414130BEBCF112FC7BB0A405A882E01374B15628021340E23D6C2C9A6260468A258D0FF12C
+900E9BA809414CB2B8CB5ECE601EFC26133C2CA9A046203DEDE08EAA8535D429C0C75E1E1632E0
+52C5B8A80A6008157BCAA2E03205E016EE4C424B689E1A6C5FFB30EAD261F33DEC90AF05832A89
+6CA8058B7C32A60E2F92ACC8560162E37353892BE02E5B04A45A2858151EDBE0094AA387EE8CAA
+E029C34076B8C9EBDD560273F2B265DA18314FAAB2247BF69CAAB44587C50163901D60C58E2C33
+5A884869AB9C1B5B6D08A804152165270A5503D72F0BA8063BA8291212728AFA7C8249457F0202
+6C327472D8B69799A08EC1AA7407289609E68FC3EFD0F0BACAA26FBB097B82B91EC2BB9E8ACD10
+89839E1B8B061006AE0095BD9682142AF52D41BC36A9EAE2D855C298A580A6CB63A80DAF0CF58C
+7EFCE398E8A86882BCE525E98EBED4AE828ECBC878B290359DAF3C388DE324252FC7A40BA40C57
+9F528027DC2632D301836C56016112BAD2B220C50A67E220779E0A072900EB16C1F6A20AC67963
+AE3087E77F89EFA4B648C529E7907BF3C004491DE404602E86CCABB8E5E56B9E82BC3E3AAF26C2
+609DF8D82552C069A5B07306B5C2B2603D7EDAB0BD6179183A4C38E9267B75248874B80D80D92E
+08E7BB159A721A02156E05FC7127F13E07F85C1FBB28CAEA29FE0923194B3FBA2505F80C515EBC
+EFAAF707CA3410350A10ECEBAB2FE1EA9ADD75C08B068A2C60AE67481ADA036F408B302900999F
+079885442D892B180B2B7CB8D6BAF7B3A0A94D9D068C02B1DEA8C129E3165422F4CD869AEFE917
+63B69D374D7AA7824AD50AB3A7BD94FC08AC6627ABF206DB884BDAD5CDC5BA9BE80FE228DE75CB
+188A148BA18177AEFDAFB4652E93E58B273BDA3A8C1678093709A82545D08C23F570225BEC8618
+6F8CAFABBA0BB2E313B27050C70F9DBFA7E14C0'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                location
+                  int {
+                    from 0 ,
+                    to 2844 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_103214" } } } } } } } } }

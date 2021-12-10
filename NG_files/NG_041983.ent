@@ -1,0 +1,609 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Thermoanaerobacter pseudethanolicus" ,
+        db {
+          {
+            db "ATCC" ,
+            tag
+              id 33223 } ,
+          {
+            db "taxon" ,
+            tag
+              id 496866 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Thermoanaerobacter" ,
+              species "pseudethanolicus" } ,
+          attrib "nomodforward" ,
+          mod {
+            {
+              subtype strain ,
+              subname "39E" } ,
+            {
+              subtype culture-collection ,
+              subname "ATCC:33223" } } ,
+          lineage "Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales;
+ Thermoanaerobacteraceae; Thermoanaerobacter" ,
+          gcode 11 ,
+          div "BCT" } } } ,
+    pub {
+      pub {
+        gen {
+          cit "Unpublished" ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Copeland" ,
+                      first "Alex" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Lucas" ,
+                      first "Susan" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Lapidus" ,
+                      first "Alla" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Barry" ,
+                      first "Kerrie" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Glavina del Rio" ,
+                      first "Tijana" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Dalin" ,
+                      first "Eileen" ,
+                      initials "E." } } ,
+                {
+                  name
+                    name {
+                      last "Tice" ,
+                      first "Hope" ,
+                      initials "H." } } ,
+                {
+                  name
+                    name {
+                      last "Pitluck" ,
+                      first "Samuel" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Bruce" ,
+                      first "David" ,
+                      initials "D." } } ,
+                {
+                  name
+                    name {
+                      last "Goodwin" ,
+                      first "Lynne" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Saunders" ,
+                      first "Elizabeth" ,
+                      initials "E." } } ,
+                {
+                  name
+                    name {
+                      last "Brettin" ,
+                      first "Thomas" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Detter" ,
+                      first "John" ,
+                      initials "J.C." } } ,
+                {
+                  name
+                    name {
+                      last "Han" ,
+                      first "Cliff" ,
+                      initials "C." } } ,
+                {
+                  name
+                    name {
+                      last "Schmutz" ,
+                      first "Jeremy" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Larimer" ,
+                      first "Frank" ,
+                      initials "F." } } ,
+                {
+                  name
+                    name {
+                      last "Land" ,
+                      first "Miriam" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Hauser" ,
+                      first "Loren" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Kyrpides" ,
+                      first "Nikos" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Lykidis" ,
+                      first "Athanasios" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Hemme" ,
+                      first "Chris" ,
+                      initials "C." } } ,
+                {
+                  name
+                    name {
+                      last "Fields" ,
+                      first "Matthew" ,
+                      initials "M.W." } } ,
+                {
+                  name
+                    name {
+                      last "He" ,
+                      first "Zhili" ,
+                      initials "Z." } } ,
+                {
+                  name
+                    name {
+                      last "Zhou" ,
+                      first "Jizhong" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Richardson" ,
+                      first "Paul" ,
+                      initials "P." } } ,
+                {
+                  name
+                    consortium "US DOE Joint Genome Institute" } } ,
+            affil
+              std {
+                affil "US DOE Joint Genome Institute" ,
+                city "Walnut Creek" ,
+                sub "CA" ,
+                country "USA" ,
+                street "2800 Mitchell Drive B100" ,
+                postal-code "94598-1698" } } ,
+          title "Complete sequence of Thermoanaerobacter psuedethanolicus 39E" } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Copeland" ,
+                      first "Alex" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Lucas" ,
+                      first "Susan" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Lapidus" ,
+                      first "Alla" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Barry" ,
+                      first "Kerrie" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Glavina del Rio" ,
+                      first "Tijana" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Dalin" ,
+                      first "Eileen" ,
+                      initials "E." } } ,
+                {
+                  name
+                    name {
+                      last "Tice" ,
+                      first "Hope" ,
+                      initials "H." } } ,
+                {
+                  name
+                    name {
+                      last "Pitluck" ,
+                      first "Samuel" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Bruce" ,
+                      first "David" ,
+                      initials "D." } } ,
+                {
+                  name
+                    name {
+                      last "Goodwin" ,
+                      first "Lynne" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Saunders" ,
+                      first "Elizabeth" ,
+                      initials "E." } } ,
+                {
+                  name
+                    name {
+                      last "Brettin" ,
+                      first "Thomas" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Detter" ,
+                      first "John" ,
+                      initials "J.C." } } ,
+                {
+                  name
+                    name {
+                      last "Han" ,
+                      first "Cliff" ,
+                      initials "C." } } ,
+                {
+                  name
+                    name {
+                      last "Schmutz" ,
+                      first "Jeremy" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Larimer" ,
+                      first "Frank" ,
+                      initials "F." } } ,
+                {
+                  name
+                    name {
+                      last "Land" ,
+                      first "Miriam" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Hauser" ,
+                      first "Loren" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Kyrpides" ,
+                      first "Nikos" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Lykidis" ,
+                      first "Athanasios" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Hemme" ,
+                      first "Chris" ,
+                      initials "C." } } ,
+                {
+                  name
+                    name {
+                      last "Fields" ,
+                      first "Matthew" ,
+                      initials "M.W." } } ,
+                {
+                  name
+                    name {
+                      last "He" ,
+                      first "Zhili" ,
+                      initials "Z." } } ,
+                {
+                  name
+                    name {
+                      last "Zhou" ,
+                      first "Jizhong" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Richardson" ,
+                      first "Paul" ,
+                      initials "P." } } ,
+                {
+                  name
+                    consortium "US DOE Joint Genome Institute" } } ,
+            affil
+              std {
+                affil "US DOE Joint Genome Institute" ,
+                city "Walnut Creek" ,
+                sub "CA" ,
+                country "USA" ,
+                street "2800 Mitchell Drive B100" ,
+                postal-code "94598-1698" } } ,
+          date
+            std {
+              year 2008 ,
+              month 1 ,
+              day 17 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2013 ,
+              month 5 ,
+              day 9 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA188943" } } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_041983" } ,
+        general {
+          db "REF_23S_RNA" ,
+          tag
+            str "CP000924:440344-443690" } } ,
+      descr {
+        title "Thermoanaerobacter pseudethanolicus strain 39E 23S ribosomal
+ RNA gene, complete sequence." ,
+        molinfo {
+          biomol genomic } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 26 } } } } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "CP000924:440344-443690" } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        create-date
+          std {
+            year 2013 ,
+            month 5 ,
+            day 24 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 2 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 3347 ,
+        seq-data
+          ncbi2na 'D0B8AC2A4CEBA397691FA25820A19A426980675AA25909A98235A2B7583
+AA8151D8AC31D8B351E381132D2E8AA059981E01370B266280202028363D5C2C9A62602A8A2540
+5691D0BA13A0F3290008E330C6ED47E2E5AABCA1516C02E2E2C772981A37A029696082B8095ECB
+602A809F9EBAA148B146A329857BA829A8A145D50A7031C50B858C9A32C5B8A80AE008156A2A8B
+80881780533971092D22DE5B0A48E3A6C7FFB206A5A62F1AC9098AF09AC26896098098B5802A60
+2FE79EC856016E617153A52AE0968B08DEBA2958146FA6F80253A8E27BAB22B80E50D891A2327A
+F75580C9FCA9C974AB285CE8AC891E0EA72A9428AF16057340758394CAF0C5EA2D21C62E308D6C
+B622A8125485D49C2B540A93BC2EB0282EA1F608414A3BE9F20925313F022E6C12747AD88AD799
+600E06A9D013945827AA70120B48EE22B48AE200E3021B30A3748333410D3109C24C88C4427054
+81CD7AB3808C60F2A2D07082A4904D0C5BC0CC960A33A02020D22923FC22B3F023267E8D090E03
+20B3C721F0BCE1F28CCC8C213E4C181C320831127F0A09033118E3020BA22CD613787D613787DE
+FEAB2A89B1EC6AC82942682629E87B12C888396938B0622C2B8805F165A0978AFD7AA0AB0D454A
+B0B6A9709629F026CA63AA05AC8CF5AC5162A5902239AA1926232BA26E6BEB2A46F434A4582AC6
+CA40D66C7A4AADE20AA25A0A609458249E5880259CD8A5E2B95B1C405844ACA628883512989A88
+15D3C281DA403875B07DA8828B96029648822950987BF140044ADDE70B682182CCAA7865E56B9E
+82BC2A82EE22478160954B81A696C1CC1AD70AC980F5FB6AC2F585646029B061FA99EDF8E2A95A
+E03ECB1DB82398BC5663E8480855BA27F1EC97B47A3FEB0F7EC4A32BA884882B2A6525F1E8B61B
+EA31457A8F1683DC17325B805A6CA843A4AEA4BF87AA6B65D702AC1A299502BC5D26686A0D9980
+8B902920AC9787988884DD892A180B6A7CB8D69A4B8BA8196D9D068C027156A8C129E3755422D4
+4D86A8AFE91763B69D364D7AA782CAD50ABEA7BD953C09AC6627ABD206DB884BDAD5CD6D9A9B28
+07E2291E55CB188A16ABA18163AEC52F91652B9127AB250BDA0A8C0678093709B82565D08F2BF5
+4D622AB0845D821C62B23296AAEC22E80477C9E16B1C34B6287E160'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                product
+                  whole
+                    other {
+                      accession "NR_102994" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 1311 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041983" } } ,
+                    int {
+                      from 1658 ,
+                      to 3346 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041983" } } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 1312 ,
+                    to 1657 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_041983" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_102994" } } ,
+      descr {
+        title "Thermoanaerobacter pseudethanolicus 23S ribosomal RNA, rRNA." ,
+        molinfo {
+          biomol rRNA } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "Status" ,
+              data
+                str "Reviewed" } ,
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_041983" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 3001 ,
+        seq-data
+          ncbi2na 'D0B8AC2A4CEBA397691FA25820A19A426980675AA25909A98235A2B7583
+AA8151D8AC31D8B351E381132D2E8AA059981E01370B266280202028363D5C2C9A62602A8A2540
+5691D0BA13A0F3290008E330C6ED47E2E5AABCA1516C02E2E2C772981A37A029696082B8095ECB
+602A809F9EBAA148B146A329857BA829A8A145D50A7031C50B858C9A32C5B8A80AE008156A2A8B
+80881780533971092D22DE5B0A48E3A6C7FFB206A5A62F1AC9098AF09AC26896098098B5802A60
+2FE79EC856016E617153A52AE0968B08DEBA2958146FA6F80253A8E27BAB22B80E50D891A2327A
+F75580C9FCA9C974AB285CE8AC891E0EA72A9428AF16057340758394CAF0C5EA2D21C62E308D6C
+B622A8125485D49C2B540A93BC2EB0282EA1F608414A3BE9F20925313F022E6C12747AD88AD799
+600E06A9D013945827AA70120B48EE22B48AE200E3021B30A377D613787DEFEAB2A89B1EC6AC82
+942682629E87B12C888396938B0622C2B8805F165A0978AFD7AA0AB0D454AB0B6A9709629F026C
+A63AA05AC8CF5AC5162A5902239AA1926232BA26E6BEB2A46F434A4582AC6CA40D66C7A4AADE20
+AA25A0A609458249E5880259CD8A5E2B95B1C405844ACA628883512989A8815D3C281DA403875B
+07DA8828B96029648822950987BF140044ADDE70B682182CCAA7865E56B9E82BC2A82EE2247816
+0954B81A696C1CC1AD70AC980F5FB6AC2F585646029B061FA99EDF8E2A95AE03ECB1DB82398BC5
+663E8480855BA27F1EC97B47A3FEB0F7EC4A32BA884882B2A6525F1E8B61BEA31457A8F1683DC1
+7325B805A6CA843A4AEA4BF87AA6B65D702AC1A299502BC5D26686A0D99808B902920AC9787988
+884DD892A180B6A7CB8D69A4B8BA8196D9D068C027156A8C129E3755422D44D86A8AFE91763B69
+D364D7AA782CAD50ABEA7BD953C09AC6627ABD206DB884BDAD5CD6D9A9B2807E2291E55CB188A1
+6ABA18163AEC52F91652B9127AB250BDA0A8C0678093709B82565D08F2BF54D622AB0845D821C6
+2B23296AAEC22E80477C9E16B1C34B6287E1600'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                location
+                  int {
+                    from 0 ,
+                    to 3000 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_102994" } } } } } } } } }

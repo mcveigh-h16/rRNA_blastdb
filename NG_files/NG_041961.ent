@@ -1,0 +1,411 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Pyrobaculum arsenaticum" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 121277 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Pyrobaculum" ,
+              species "arsenaticum" } ,
+          attrib "nomodforward" ,
+          mod {
+            {
+              subtype strain ,
+              subname "DSM 13514" } ,
+            {
+              subtype culture-collection ,
+              subname "DSM:13514" } } ,
+          lineage "Archaea; Crenarchaeota; Thermoprotei; Thermoproteales;
+ Thermoproteaceae; Pyrobaculum" ,
+          gcode 11 ,
+          div "BCT" } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Copeland" ,
+                      first "Alex" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Lucas" ,
+                      first "Susan" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Lapidus" ,
+                      first "Alla" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Barry" ,
+                      first "Kerrie" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Glavina del Rio" ,
+                      first "Tijana" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Dalin" ,
+                      first "Eileen" ,
+                      initials "E." } } ,
+                {
+                  name
+                    name {
+                      last "Tice" ,
+                      first "Hope" ,
+                      initials "H." } } ,
+                {
+                  name
+                    name {
+                      last "Pitluck" ,
+                      first "Samuel" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Chain" ,
+                      first "Patrick" ,
+                      initials "P." } } ,
+                {
+                  name
+                    name {
+                      last "Malfatti" ,
+                      first "Stephanie" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Shin" ,
+                      first "Maria" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Vergez" ,
+                      first "Lisa" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Schmutz" ,
+                      first "Jeremy" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Larimer" ,
+                      first "Frank" ,
+                      initials "F." } } ,
+                {
+                  name
+                    name {
+                      last "Land" ,
+                      first "Miriam" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Hauser" ,
+                      first "Loren" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Kyrpides" ,
+                      first "Nikos" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Mikhailova" ,
+                      first "Natalia" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Cozen" ,
+                      first "A" ,
+                      initials "A.E." } } ,
+                {
+                  name
+                    name {
+                      last "Fitz-Gibbon" ,
+                      first "S" ,
+                      initials "S.T." } } ,
+                {
+                  name
+                    name {
+                      last "House" ,
+                      first "C" ,
+                      initials "C.H." } } ,
+                {
+                  name
+                    name {
+                      last "Saltikov" ,
+                      first "C" ,
+                      initials "C." } } ,
+                {
+                  name
+                    name {
+                      last "Lowe" ,
+                      first "T" ,
+                      initials "T.M." } } ,
+                {
+                  name
+                    name {
+                      last "Richardson" ,
+                      first "P" ,
+                      initials "P." } } } ,
+            affil
+              std {
+                affil "US DOE Joint Genome Institute" ,
+                city "Walnut Creek" ,
+                sub "CA" ,
+                country "USA" ,
+                street "2800 Mitchell Drive B100" ,
+                postal-code "94598-1698" } } ,
+          date
+            std {
+              year 2007 ,
+              month 4 ,
+              day 10 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2013 ,
+              month 5 ,
+              day 9 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA33317" } } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_041961" } ,
+        general {
+          db "REF_16S_RNA" ,
+          tag
+            str "CP000660:623326-625532" } } ,
+      descr {
+        title "Pyrobaculum arsenaticum strain DSM 13514 16S ribosomal RNA
+ gene, complete sequence." ,
+        molinfo {
+          biomol genomic } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 26 } } } } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "CP000660:623326-625532" } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        create-date
+          std {
+            year 2013 ,
+            month 5 ,
+            day 24 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 2 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 2207 ,
+        seq-data
+          ncbi2na '16BE35E5A15859CDAACA9C25398B66656AA656A26991A74B046E541715D
+A8AA84556A01EA943554CAA0A99E82957D5402A1669635964B5958A3AA91A54D2B2FA6AF029594
+25821AB2A9AE2259895623691E210A96295C6AB924A660C75903AA82969D74E1A283F05C0E0B40
+CF603F84201B04D22E5A10941207DC92288C90C47CA21A717FFC618228C3273231A6FA9F0D4005
+8AF83193196C9A2F0CAA0B33AF30175AC20299B3E230ED5C98CA86FC0440B9DAFF5CCA45286A01
+88239768CAFA33C423880F651A634C22A7FC8C5828DAE002337287FAA3EFB824880428CD9CEF71
+952ECFDDCFABF4751833143A06008109737196DBAC7A90A3BAC821F5D6873005480D5DC2155DFF
+CB7D77465A5D5526839A905986A9C558B96A60895A7FE56B70065A8830BAAA42DEBB49659AC314
+95462EB6ABBF1EA7C0995B25A5690B675E0355A95056AA6AA98C796A72AA6A22965AC75AAB2A98
+0D6F0D568A1452E9809A9A52066561AE2A98096AA240AA3C8C55ECB5696C0639A9C9EDA7A9F2A5
+696BA60A805BC256597AA2C696429E01F0283E9AAA91442AB827E69F0FA2D065A017456A984928
+E0A529C185F96862788A2B93A5B6D276E5B8AED6BC2D69062621559572F9C55B5C6A1AAA4472AA
+1E5A6C25A2828AA94692B4B39560156A9E4662790E9AA126A0585580AA8A4356C055954B2A362A
+79076576E06E83572C166ED14199AE0C6D5E55F9111656D914562A275798A55F9602BAAA1892AA
+7542AAB82DB042B25B2A8179A7A345C'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "16S ribosomal RNA" } ,
+                product
+                  whole
+                    other {
+                      accession "NR_102989" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 375 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041961" } } ,
+                    int {
+                      from 1088 ,
+                      to 2206 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041961" } } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 376 ,
+                    to 1087 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_041961" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_102989" } } ,
+      descr {
+        title "Pyrobaculum arsenaticum strain DSM 13514 16S ribosomal RNA,
+ complete sequence." ,
+        molinfo {
+          biomol rRNA } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "Status" ,
+              data
+                str "Reviewed" } ,
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_041961" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 1495 ,
+        seq-data
+          ncbi2na '16BE35E5A15859CDAACA9C25398B66656AA656A26991A74B046E541715D
+A8AA84556A01EA943554CAA0A99E82957D5402A1669635964B5958A3AA91A54D2B2FA6AF029594
+25821AB2A9AE2259895623691E210A96295C6AB924A660C759039A905986A9C558B96A60895A7F
+E56B70065A8830BAAA42DEBB49659AC31495462EB6ABBF1EA7C0995B25A5690B675E0355A95056
+AA6AA98C796A72AA6A22965AC75AAB2A980D6F0D568A1452E9809A9A52066561AE2A98096AA240
+AA3C8C55ECB5696C0639A9C9EDA7A9F2A5696BA60A805BC256597AA2C696429E01F0283E9AAA91
+442AB827E69F0FA2D065A017456A984928E0A529C185F96862788A2B93A5B6D276E5B8AED6BC2D
+69062621559572F9C55B5C6A1AAA4472AA1E5A6C25A2828AA94692B4B39560156A9E4662790E9A
+A126A0585580AA8A4356C055954B2A362A79076576E06E83572C166ED14199AE0C6D5E55F91116
+56D914562A275798A55F9602BAAA1892AA7542AAB82DB042B25B2A8179A7A345C'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "16S ribosomal RNA" } ,
+                location
+                  int {
+                    from 0 ,
+                    to 1494 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_102989" } } } } } } } } }

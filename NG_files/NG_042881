@@ -1,0 +1,470 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Helicobacter fennelliae" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 215 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Helicobacter" ,
+              species "fennelliae" } ,
+          attrib "nomodforward" ,
+          mod {
+            {
+              subtype strain ,
+              subname "Fennel 231" } ,
+            {
+              subtype culture-collection ,
+              subname "CCUG:18820" } } ,
+          lineage "Bacteria; Proteobacteria; Epsilonproteobacteria;
+ Campylobacterales; Helicobacteraceae; Helicobacter" ,
+          gcode 11 ,
+          div "BCT" } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Dewhirst" ,
+                      first "F" ,
+                      initials "F.E." } } ,
+                {
+                  name
+                    name {
+                      last "Paster" ,
+                      first "B" ,
+                      initials "B.J." } } } ,
+            affil
+              std {
+                affil "Forsyth Dental Center" ,
+                city "Boston" ,
+                sub "MA" ,
+                country "USA" ,
+                postal-code "02115" } } ,
+          date
+            std {
+              year 1993 ,
+              month 5 ,
+              day 27 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Dewhirst" ,
+                      first "Floyd" ,
+                      initials "F.E." } } } ,
+            affil
+              std {
+                affil "The Forsyth Institute" ,
+                div "Department of Molecular Genetics" ,
+                city "Boston" ,
+                sub "MA" ,
+                country "USA" ,
+                street "140 The Fenway" ,
+                email "fdewhirst@forsyth.org" ,
+                fax "(617) 262-4021" ,
+                phone "(617) 262-5200 X298" ,
+                postal-code "02115" } } ,
+          medium other ,
+          date
+            std {
+              year 2004 ,
+              month 5 ,
+              day 20 } ,
+          descr "Sequence update by submitter" } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2014 ,
+              month 4 ,
+              day 28 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA33175" } } } } ,
+    user {
+      type
+        str "NcbiCleanup" ,
+      data {
+        {
+          label
+            str "method" ,
+          data
+            str "SequinCleanup" } ,
+        {
+          label
+            str "version" ,
+          data
+            int 8 } ,
+        {
+          label
+            str "month" ,
+          data
+            int 10 } ,
+        {
+          label
+            str "day" ,
+          data
+            int 1 } ,
+        {
+          label
+            str "year" ,
+          data
+            int 2015 } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_042881" } ,
+        general {
+          db "REF_SSU16S" ,
+          tag
+            str "M88154:1-1833" } } ,
+      descr {
+        title "Helicobacter fennelliae strain Fennel 231 16S ribosomal RNA
+ gene, partial sequence." ,
+        molinfo {
+          biomol genomic } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 9 ,
+                  day 29 } } } } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "M88154:1-1833" } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        user {
+          type
+            str "GenomeProjectsDB" ,
+          data {
+            {
+              label
+                str "ProjectID" ,
+              data
+                int 33175 } } } ,
+        user {
+          class "1.0" ,
+          type
+            str "AutodefOptions" ,
+          data {
+            {
+              label
+                str "SpecifyNuclearProduct" ,
+              data
+                bool TRUE } ,
+            {
+              label
+                str "MiscFeatRule" ,
+              data
+                str "NoncodingProductFeat" } ,
+            {
+              label
+                str "FeatureListType" ,
+              data
+                str "List All Features" } ,
+            {
+              label
+                str "ModifierList" ,
+              data
+                fields {
+                  {
+                    label
+                      str "OrgMods" ,
+                    num 1 ,
+                    data
+                      strs {
+                        "Strain" } } } } ,
+            {
+              label
+                str "HIVRule" ,
+              data
+                str "WantBoth" } ,
+            {
+              label
+                str "DoNotApplyToSp" ,
+              data
+                bool TRUE } ,
+            {
+              label
+                str "LeaveParenthetical" ,
+              data
+                bool TRUE } ,
+            {
+              label
+                str "MaxMods" ,
+              data
+                int -99 } ,
+            {
+              label
+                str "UseLabels" ,
+              data
+                bool TRUE } } } ,
+        create-date
+          std {
+            year 1993 ,
+            month 5 ,
+            day 20 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 3 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 1833 ,
+        seq-data
+          ncbi2na 'FC688BF8D7A748B819E9A6E5C31390B606382DDC9F9C88E8F2E991AB8B0
+E4C8C1395FCB728C947A01AE3C31E8C7DF18880A877C3220F427FE2E7FC6A27E03FF01C6381FC3
+BDCDFBF003F7990544034DD00DF20F720DD401120DC0FD08F7B008F28FF20DC89083EA3EE6C23F
+90BFD0800AE4A8BC5C26B0E1425FFD920DF9023E6E42D03DC09383FFCF08B759C0A3EB73B5CD27
+EFAE2B0E9D1429CE1AB35A5E22AE068447A078846B521D71A8A492CA833E743AA805782490659B
+A28E0AFF28FB01D7FEF2208F386B37060C245A7075B949259AC31A2AE426F1DA0D1EA6C08B9929
+A8C90B48EE039CE9F05320793F8079CF722EEA22B2BA0F7EBB2AB00D6C88D08A0C74F982985C7A
+04F1E19D391809BAA2404A3C8C57ACB5195C063839CBEF95E76D2A4B0E49C193C24F597AA2C6B6
+423C01D028321AA159109AE893BAFC3D827198205F1729F84F8C8379C88C9A2E7A7E5227E004AE
+791A7B6D276EDB88EFABC2D590626415DB5F2FBC92F69E24770A21E5F6428A282B8A186D0B4D3A
+57C65CA9C446E710EAB91022090CD988E8903750065DD2F68FB2DE41D8713027A0D9CB0D903490
+EF9AE0C6F56ADFB1D1656D114EA2FB3D95C25A0E703E9C5B51A68E4987AAE0B6C10AC16CAE05E4
+0'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "16S ribosomal RNA" } ,
+                partial TRUE ,
+                product
+                  whole
+                    other {
+                      accession "NR_118766" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 198 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042881" } ,
+                      fuzz-from
+                        lim lt } ,
+                    int {
+                      from 551 ,
+                      to 1832 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042881" } ,
+                      fuzz-to
+                        lim gt } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 199 ,
+                    to 550 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_042881" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_118766" } } ,
+      descr {
+        title "Helicobacter fennelliae strain Fennel 231 16S ribosomal RNA,
+ partial sequence." ,
+        molinfo {
+          biomol rRNA ,
+          completeness no-ends } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_042881" } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "PROVISIONAL" } } } ,
+        user {
+          class "1.0" ,
+          type
+            str "AutodefOptions" ,
+          data {
+            {
+              label
+                str "SpecifyNuclearProduct" ,
+              data
+                bool TRUE } ,
+            {
+              label
+                str "MiscFeatRule" ,
+              data
+                str "NoncodingProductFeat" } ,
+            {
+              label
+                str "FeatureListType" ,
+              data
+                str "List All Features" } ,
+            {
+              label
+                str "ModifierList" ,
+              data
+                fields {
+                  {
+                    label
+                      str "OrgMods" ,
+                    num 1 ,
+                    data
+                      strs {
+                        "Strain" } } } } ,
+            {
+              label
+                str "HIVRule" ,
+              data
+                str "WantBoth" } ,
+            {
+              label
+                str "DoNotApplyToSp" ,
+              data
+                bool TRUE } ,
+            {
+              label
+                str "LeaveParenthetical" ,
+              data
+                bool TRUE } ,
+            {
+              label
+                str "MaxMods" ,
+              data
+                int -99 } ,
+            {
+              label
+                str "UseLabels" ,
+              data
+                bool TRUE } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 1481 ,
+        seq-data
+          ncbi2na 'FC688BF8D7A748B819E9A6E5C31390B606382DDC9F9C88E8F2E991AB8B0
+E4C8C1395FCB728C947A01AE3C31E8C7DF18880AB759C0A3EB73B5CD27EFAE2B0E9D1429CE1AB3
+5A5E22AE068447A078846B521D71A8A492CA833E743AA805782490659BA28E0AFF28FB01D7FEF2
+208F386B37060C245A7075B949259AC31A2AE426F1DA0D1EA6C08B9929A8C90B48EE039CE9F053
+20793F8079CF722EEA22B2BA0F7EBB2AB00D6C88D08A0C74F982985C7A04F1E19D391809BAA240
+4A3C8C57ACB5195C063839CBEF95E76D2A4B0E49C193C24F597AA2C6B6423C01D028321AA15910
+9AE893BAFC3D827198205F1729F84F8C8379C88C9A2E7A7E5227E004AE791A7B6D276EDB88EFAB
+C2D590626415DB5F2FBC92F69E24770A21E5F6428A282B8A186D0B4D3A57C65CA9C446E710EAB9
+1022090CD988E8903750065DD2F68FB2DE41D8713027A0D9CB0D903490EF9AE0C6F56ADFB1D165
+6D114EA2FB3D95C25A0E703E9C5B51A68E4987AAE0B6C10AC16CAE05E40'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "16S ribosomal RNA" } ,
+                partial TRUE ,
+                location
+                  int {
+                    from 0 ,
+                    to 1480 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_118766" } ,
+                    fuzz-from
+                      lim lt ,
+                    fuzz-to
+                      lim gt } } } } } } } }

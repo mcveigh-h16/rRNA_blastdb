@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<!DOCTYPE RegisterDbOrder PUBLIC "-//NCBI//create db/EN" "register-db.xsd">
+<RegisterDbOrder>
+  <version>1.1</version>
+  <reg-order>
+    <db-path>/net/snowman/vol/export2/mcveigh/rRNA_blastdb/LSU_chloro_rRNA</db-path>
+    <display-name>rRNA_blast</display-name>
+    <visibility>private</visibility>
+    <molecule-type>dna</molecule-type>
+    <desc> BLAST data base of large subunit ribosomal RNAs from chloroplasts</desc>
+    <keyword>rRNA</keyword>
+  </reg-order>
+</RegisterDbOrder>

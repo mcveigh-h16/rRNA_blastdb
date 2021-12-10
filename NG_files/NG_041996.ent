@@ -1,0 +1,458 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Thermoanaerobacterium thermosaccharolyticum" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 1517 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Thermoanaerobacterium" ,
+              species "thermosaccharolyticum" } ,
+          attrib "nomodforward" ,
+          mod {
+            {
+              subtype strain ,
+              subname "DSM 571" } ,
+            {
+              subtype culture-collection ,
+              subname "CECT:5852" } ,
+            {
+              subtype culture-collection ,
+              subname "DSM:571" } } ,
+          lineage "Bacteria; Firmicutes; Clostridia; Thermoanaerobacterales;
+ Thermoanaerobacterales Family III. Incertae Sedis; Thermoanaerobacterium" ,
+          gcode 11 ,
+          div "BCT" } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Lucas" ,
+                      first "Susan" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Copeland" ,
+                      first "Alex" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Lapidus" ,
+                      first "Alla" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Cheng" ,
+                      first "Jan-Fang" ,
+                      initials "J.-F." } } ,
+                {
+                  name
+                    name {
+                      last "Bruce" ,
+                      first "David" ,
+                      initials "D." } } ,
+                {
+                  name
+                    name {
+                      last "Goodwin" ,
+                      first "Lynne" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Pitluck" ,
+                      first "Samuel" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Teshima" ,
+                      first "H" ,
+                      initials "H." } } ,
+                {
+                  name
+                    name {
+                      last "Detter" ,
+                      first "John" ,
+                      initials "J.C." } } ,
+                {
+                  name
+                    name {
+                      last "Han" ,
+                      first "Cliff" ,
+                      initials "C." } } ,
+                {
+                  name
+                    name {
+                      last "Tapia" ,
+                      first "Roxanne" ,
+                      initials "R." } } ,
+                {
+                  name
+                    name {
+                      last "Land" ,
+                      first "Miriam" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Hauser" ,
+                      first "Loren" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Chang" ,
+                      first "Yun-Juan" ,
+                      initials "Y.-J." } } ,
+                {
+                  name
+                    name {
+                      last "Jeffries" ,
+                      first "Cynthia" ,
+                      initials "C." } } ,
+                {
+                  name
+                    name {
+                      last "Kyrpides" ,
+                      first "Nikos" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Ivanova" ,
+                      first "Natalia" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Mikhailova" ,
+                      first "Natalia" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Hemme" ,
+                      first "Christofer" ,
+                      initials "C.L." } } ,
+                {
+                  name
+                    name {
+                      last "Woyke" ,
+                      first "Tanja" ,
+                      initials "T." } } ,
+                {
+                  name
+                    consortium "US DOE Joint Genome Institute" } } ,
+            affil
+              std {
+                affil "US DOE Joint Genome Institute" ,
+                city "Walnut Creek" ,
+                sub "CA" ,
+                country "USA" ,
+                street "2800 Mitchell Drive B310" ,
+                postal-code "94598-1698" } } ,
+          date
+            std {
+              year 2010 ,
+              month 8 ,
+              day 11 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2013 ,
+              month 2 ,
+              day 14 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA188943" } } } } ,
+    user {
+      type
+        str "NcbiCleanup" ,
+      data {
+        {
+          label
+            str "method" ,
+          data
+            str "SequinCleanup" } ,
+        {
+          label
+            str "version" ,
+          data
+            int 8 } ,
+        {
+          label
+            str "month" ,
+          data
+            int 4 } ,
+        {
+          label
+            str "day" ,
+          data
+            int 20 } ,
+        {
+          label
+            str "year" ,
+          data
+            int 2015 } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_041996" } ,
+        general {
+          db "REF_23S_RNA" ,
+          tag
+            str "CP002171:81269-84621" } } ,
+      descr {
+        title "Thermoanaerobacterium thermosaccharolyticum 23S ribosomal RNA
+ gene, complete sequence." ,
+        molinfo {
+          biomol genomic } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 26 } } } } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "CP002171:81269-84621" } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        create-date
+          std {
+            year 2013 ,
+            month 3 ,
+            day 25 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 2 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 3353 ,
+        seq-data
+          ncbi2na '42F102A6CEBA395291F225820A192626980675AA2D90921B235A23F583A
+A0159F0AC31F09354EB8113253A8AA0166E07804DC2C998A20808012A5D526888759EA0ACBB63F
+5C2C9A62600A022540534592B8EABF2851882B33A2E0960485EA0A4A5020AE0257B29B09FC0C58
+BA8D48B144A329056BA821A8A14DD50A7031D70B858C9902C5B8A80AE008156A2A8B8088178053
+3B51092E82D691D07813BC888200020726ED4BE225A1851B1FFEC81A1698BCC8CE498AF09809A2
+58260262DF08A980BE4CD3215805B985C54E34AB825A2C237AE8A56051BE1BE00B4EA383EEAC9A
+203D43627688C9EBDD560327F2A725D2AB800CE8AC891E0E872A9400AF16057340758394CF8815
+EA2D21C62E308D6EB402A0125485849C2B540893BC2E80282CA3F508414A3BE9F20925313D022E
+6C32747AD880D799600C06A9C0139458271A3D8083ACAA26C7B12A20A309A09837A12C4B2220E5
+ACC2C188B0A62017C5B6025C2BF5EA828C35952AC2DA85C258A6026CA63A105AC3035AC516035B
+4022090A19262308026E6BEB2246D4249860089FE2E0B1409D3089EE0AA2580A60BF60AA794200
+BE73628C8AE56C52016112B298A220D408626A20574F0A07690021D6C1F6A20A2E580A592208A5
+4261EFC500112BF79C2D80860B3289E19795AE7A0AF0AA0BBCD691D073173CA2E0203B3CEDCCC3
+020600E8A4CCC4A73D200CC28021C8274C3022701033102A9303A81C331CE09330240208E54002
+20010F000354C390823AF00808325009301DF2C8C8BE2E5A2091207C2552C069A5B07306B5C2B2
+603D7EDAB0BD6179180A6C187EA67B7E3AA856B80FB2C76E08E62F15984A1202154E89FC7927ED
+1E0FF2C337B128CAEA29A202BA9909737A2586FA8C515E33C580F704CA25B096933A11E129A92F
+E1EA9AD975408B068A6D40AF17499A0A03666C22E40A482B25C1E620210F624A8602DA9F2E35A6
+B220EA3E5B6741A3009C57AA304A78DD5508B51361AA2BFA45D8EDA74D935EA9E0B2B542AFA9EF
+654F026B1989EAF481B6E212F6B5735B66A6CA03F88A0795F2C62285AAE84058EBB14BE6C96C64
+49EAC942FE82A3019E024DC26E0151742008FD537A4741CC7C7828002473B103BCA8380C0323C4
+B2B22F8B948B0845FA20862B232968AEC22C80C7F89E16B1C30B6287E00'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                product
+                  whole
+                    other {
+                      accession "NR_076139" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 1951 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041996" } } ,
+                    int {
+                      from 2222 ,
+                      to 3195 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041996" } } ,
+                    int {
+                      from 3240 ,
+                      to 3352 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041996" } } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 1952 ,
+                    to 2221 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_041996" } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 3196 ,
+                    to 3241 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_041996" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_076139" } } ,
+      descr {
+        title "Thermoanaerobacterium thermosaccharolyticum 23S ribosomal RNA,
+ complete sequence." ,
+        molinfo {
+          biomol rRNA } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "Status" ,
+              data
+                str "Reviewed" } ,
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_041996" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 3037 ,
+        seq-data
+          ncbi2na '42F102A6CEBA395291F225820A192626980675AA2D90921B235A23F583A
+A0159F0AC31F09354EB8113253A8AA0166E07804DC2C998A20808012A5D526888759EA0ACBB63F
+5C2C9A62600A022540534592B8EABF2851882B33A2E0960485EA0A4A5020AE0257B29B09FC0C58
+BA8D48B144A329056BA821A8A14DD50A7031D70B858C9902C5B8A80AE008156A2A8B8088178053
+3B51092E82D691D07813BC888200020726ED4BE225A1851B1FFEC81A1698BCC8CE498AF09809A2
+58260262DF08A980BE4CD3215805B985C54E34AB825A2C237AE8A56051BE1BE00B4EA383EEAC9A
+203D43627688C9EBDD560327F2A725D2AB800CE8AC891E0E872A9400AF16057340758394CF8815
+EA2D21C62E308D6EB402A0125485849C2B540893BC2E80282CA3F508414A3BE9F20925313D022E
+6C32747AD880D799600C06A9C0139458271A3D8083ACAA26C7B12A20A309A09837A12C4B2220E5
+ACC2C188B0A62017C5B6025C2BF5EA828C35952AC2DA85C258A6026CA63A105AC3035AC516035B
+4022090A19262308026E6BEB2246D4249860089FE2E0B1409D3089EE0AA2580A60BF60AA794200
+BE73628C8AE56C52016112B298A220D408626A20574F0A07690021D6C1F6A20A2E580A592208A5
+4261EFC500112BF79C2D80860B3289E19795AE7A0AF0AA0BBCD691D0731C8C8BE2E5A2091207C2
+552C069A5B07306B5C2B2603D7EDAB0BD6179180A6C187EA67B7E3AA856B80FB2C76E08E62F159
+84A1202154E89FC7927ED1E0FF2C337B128CAEA29A202BA9909737A2586FA8C515E33C580F704C
+A25B096933A11E129A92FE1EA9AD975408B068A6D40AF17499A0A03666C22E40A482B25C1E6202
+10F624A8602DA9F2E35A6B220EA3E5B6741A3009C57AA304A78DD5508B51361AA2BFA45D8EDA74
+D935EA9E0B2B542AFA9EF654F026B1989EAF481B6E212F6B5735B66A6CA03F88A0795F2C62285A
+AE84058EBB14BE6C96C6449EAC942FE82A3019E024DC26E0151742008FD537A4741CC7C7828002
+B22F8B948B0845FA20862B232968AEC22C80C7F89E16B1C30B6287E00'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                location
+                  int {
+                    from 0 ,
+                    to 3036 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_076139" } } } } } } } } }

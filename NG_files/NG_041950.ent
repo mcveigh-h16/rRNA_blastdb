@@ -1,0 +1,398 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Caldivirga maquilingensis" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 76887 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Caldivirga" ,
+              species "maquilingensis" } ,
+          attrib "nomodforward" ,
+          mod {
+            {
+              subtype strain ,
+              subname "IC-167" } ,
+            {
+              subtype culture-collection ,
+              subname "DSM:13496" } } ,
+          lineage "Archaea; Crenarchaeota; Thermoprotei; Thermoproteales;
+ Thermoproteaceae; Caldivirga" ,
+          gcode 11 ,
+          div "BCT" } } ,
+      pcr-primers {
+        {
+          forward {
+            {
+              seq "gctsagtaacacgtsg" } } ,
+          reverse {
+            {
+              seq "gacgggcggtgwgtrca" } } } } } ,
+    pub {
+      pub {
+        article {
+          title {
+            name "PCR biases distort bacterial and archaeal community
+ structure in pyrosequencing datasets." } ,
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Pinto" ,
+                      initials "A.J." } ,
+                  affil
+                    str "Department of Civil and Environmental Engineering,
+ University of Michigan, Ann Arbor, Michigan, United States of America." } ,
+                {
+                  name
+                    name {
+                      last "Raskin" ,
+                      initials "L." } } } } ,
+          from
+            journal {
+              title {
+                iso-jta "PLoS ONE" ,
+                ml-jta "PLoS One" ,
+                issn "1932-6203" ,
+                name "PloS one" } ,
+              imp {
+                date
+                  std {
+                    year 2012 } ,
+                volume "7" ,
+                issue "8" ,
+                pages "E43093" ,
+                language "eng" ,
+                pubstatus ppublish ,
+                history {
+                  {
+                    pubstatus received ,
+                    date
+                      std {
+                        year 2012 ,
+                        month 2 ,
+                        day 22 } } ,
+                  {
+                    pubstatus accepted ,
+                    date
+                      std {
+                        year 2012 ,
+                        month 7 ,
+                        day 17 } } ,
+                  {
+                    pubstatus epublish ,
+                    date
+                      std {
+                        year 2012 ,
+                        month 8 ,
+                        day 15 } } ,
+                  {
+                    pubstatus other ,
+                    date
+                      std {
+                        year 2012 ,
+                        month 8 ,
+                        day 21 ,
+                        hour 6 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus pubmed ,
+                    date
+                      std {
+                        year 2012 ,
+                        month 8 ,
+                        day 21 ,
+                        hour 6 ,
+                        minute 0 } } ,
+                  {
+                    pubstatus medline ,
+                    date
+                      std {
+                        year 2013 ,
+                        month 2 ,
+                        day 12 ,
+                        hour 6 ,
+                        minute 0 } } } } } ,
+          ids {
+            doi "10.1371/journal.pone.0043093" ,
+            pii "PONE-D-12-05588" ,
+            pubmed 22905208 ,
+            other {
+              db "pmc" ,
+              tag
+                str "PMC3419673" } ,
+            other {
+              db "ELocationID doi" ,
+              tag
+                str "10.1371/journal.pone.0043093" } } } ,
+        pmid 22905208 } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Pinto" ,
+                      first "Ameet" ,
+                      initials "A.J." } } ,
+                {
+                  name
+                    name {
+                      last "Raskin" ,
+                      first "Lutgarde" ,
+                      initials "L." } } } ,
+            affil
+              std {
+                affil "University of Michigan" ,
+                div "Civil and Environmental Engineering" ,
+                city "Ann Arbor" ,
+                sub "MI" ,
+                country "USA" ,
+                street "1351 Beal Avenue, Rm 3" ,
+                postal-code "48109-2125" } } ,
+          medium email ,
+          date
+            std {
+              year 2011 ,
+              month 12 ,
+              day 30 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2014 ,
+              month 4 ,
+              day 28 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA33317" } } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_041950" } ,
+        general {
+          db "REF_16S_RNA" ,
+          tag
+            str "JQ346759:1-1461" } } ,
+      descr {
+        title "Caldivirga maquilingensis strain IC-167 16S ribosomal RNA gene,
+ partial sequence." ,
+        molinfo {
+          biomol genomic } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 26 } } } } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "JQ346759:1-1461" } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        create-date
+          std {
+            year 2012 ,
+            month 5 ,
+            day 20 } ,
+        update-date
+          std {
+            year 2015 ,
+            month 2 ,
+            day 2 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 1461 ,
+        seq-data
+          ncbi2na '9D2C11BA505C576A2AA3055A807AA70D5532A82AE7A0A55755802251B5A
+C5699A765628EA9C69534EB27A6AB069594A5821ABAA96E226A25588EA478842A54A573AAE4929
+D831D6439AC15986A94558B965638A9A7FD55BB0B27AA8309AAA42DEBB49659AC3149D662EB6AB
+BF1EA5C0995B25A56B0B455E0353A9D054EA5AAB8C796A7EAAEA22962AC756AB2A980D630D5A8A
+1452E9A099DA7A046561AE2A9809EAA240AA3C8C55ECB549EC0639A9C9EFABA9F2E5654BA6CA82
+5BC256597AA2C696405E91EA51095296A9A0A780A69A96E5A2F5586A072335040B12C074815D7F
+FC91D135D07F15E91FC55A469659524C7C0A0FA6AAA4510AAE09F9A7C3E8B4196805D15AA6124A
+38294A70617E5A189E228AE4E96D949DB96E2BB52F0B7A418998556757BE715C57DAAEAA9112A2
+87969B0968A0A2AA51A4AD2CE558055AA791989E43A6A849ABD615602AA290D5B0156552CA0D8A
+9EC1D95DB81BA0D5CB059BB450666B831B57957E444595B40'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "16S ribosomal RNA" } ,
+                partial TRUE ,
+                product
+                  whole
+                    other {
+                      accession "NR_118373" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 821 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041950" } ,
+                      fuzz-from
+                        lim lt } ,
+                    int {
+                      from 962 ,
+                      to 1460 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_041950" } ,
+                      fuzz-to
+                        lim gt } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 822 ,
+                    to 961 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_041950" } } ,
+                qual {
+                  {
+                    qual "number" ,
+                    val "1" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_118373" } } ,
+      descr {
+        title "Caldivirga maquilingensis strain IC-167 16S ribosomal RNA,
+ partial sequence." ,
+        molinfo {
+          biomol rRNA ,
+          completeness no-ends } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "Status" ,
+              data
+                str "Reviewed" } ,
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_041950" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 1321 ,
+        seq-data
+          ncbi2na '9D2C11BA505C576A2AA3055A807AA70D5532A82AE7A0A55755802251B5A
+C5699A765628EA9C69534EB27A6AB069594A5821ABAA96E226A25588EA478842A54A573AAE4929
+D831D6439AC15986A94558B965638A9A7FD55BB0B27AA8309AAA42DEBB49659AC3149D662EB6AB
+BF1EA5C0995B25A56B0B455E0353A9D054EA5AAB8C796A7EAAEA22962AC756AB2A980D630D5A8A
+1452E9A099DA7A046561AE2A9809EAA240AA3C8C55ECB549EC0639A9C9EFABA9F2E5654BA6CA82
+5BC256597AA2C696405E91EA51095296A9A0A7807C0A0FA6AAA4510AAE09F9A7C3E8B4196805D1
+5AA6124A38294A70617E5A189E228AE4E96D949DB96E2BB52F0B7A418998556757BE715C57DAAE
+AA9112A287969B0968A0A2AA51A4AD2CE558055AA791989E43A6A849ABD615602AA290D5B01565
+52CA0D8A9EC1D95DB81BA0D5CB059BB450666B831B57957E444595B40'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "16S ribosomal RNA" } ,
+                partial TRUE ,
+                location
+                  int {
+                    from 0 ,
+                    to 1320 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_118373" } ,
+                    fuzz-from
+                      lim lt ,
+                    fuzz-to
+                      lim gt } } } } } } } }

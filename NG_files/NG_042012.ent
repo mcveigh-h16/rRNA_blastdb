@@ -1,0 +1,479 @@
+Seq-entry ::= set {
+  class gen-prod-set ,
+  descr {
+    source {
+      genome genomic ,
+      org {
+        taxname "Pyrobaculum calidifontis" ,
+        db {
+          {
+            db "taxon" ,
+            tag
+              id 181486 } } ,
+        orgname {
+          name
+            binomial {
+              genus "Pyrobaculum" ,
+              species "calidifontis" } ,
+          attrib "nomodforward" ,
+          mod {
+            {
+              subtype strain ,
+              subname "JCM 11548" } ,
+            {
+              subtype culture-collection ,
+              subname "JCM:11548" } } ,
+          lineage "Archaea; Crenarchaeota; Thermoprotei; Thermoproteales;
+ Thermoproteaceae; Pyrobaculum" ,
+          gcode 11 ,
+          div "BCT" } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    name {
+                      last "Copeland" ,
+                      first "Alex" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Lucas" ,
+                      first "Susan" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Lapidus" ,
+                      first "Alla" ,
+                      initials "A." } } ,
+                {
+                  name
+                    name {
+                      last "Barry" ,
+                      first "Kerrie" ,
+                      initials "K." } } ,
+                {
+                  name
+                    name {
+                      last "Glavina del Rio" ,
+                      first "Tijana" ,
+                      initials "T." } } ,
+                {
+                  name
+                    name {
+                      last "Dalin" ,
+                      first "Eileen" ,
+                      initials "E." } } ,
+                {
+                  name
+                    name {
+                      last "Tice" ,
+                      first "Hope" ,
+                      initials "H." } } ,
+                {
+                  name
+                    name {
+                      last "Pitluck" ,
+                      first "Samuel" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Chain" ,
+                      first "Patrick" ,
+                      initials "P." } } ,
+                {
+                  name
+                    name {
+                      last "Malfatti" ,
+                      first "Stephanie" ,
+                      initials "S." } } ,
+                {
+                  name
+                    name {
+                      last "Shin" ,
+                      first "Maria" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Vergez" ,
+                      first "Lisa" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Schmutz" ,
+                      first "Jeremy" ,
+                      initials "J." } } ,
+                {
+                  name
+                    name {
+                      last "Larimer" ,
+                      first "Frank" ,
+                      initials "F." } } ,
+                {
+                  name
+                    name {
+                      last "Land" ,
+                      first "Miriam" ,
+                      initials "M." } } ,
+                {
+                  name
+                    name {
+                      last "Hauser" ,
+                      first "Loren" ,
+                      initials "L." } } ,
+                {
+                  name
+                    name {
+                      last "Kyrpides" ,
+                      first "Nikos" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Mikhailova" ,
+                      first "Natalia" ,
+                      initials "N." } } ,
+                {
+                  name
+                    name {
+                      last "Cozen" ,
+                      first "Aaron" ,
+                      initials "A.E." } } ,
+                {
+                  name
+                    name {
+                      last "Fitz-Gibbon" ,
+                      first "Sorel" ,
+                      initials "S.T." } } ,
+                {
+                  name
+                    name {
+                      last "House" ,
+                      first "Christopher" ,
+                      initials "C.H." } } ,
+                {
+                  name
+                    name {
+                      last "Saltikov" ,
+                      first "Chad" ,
+                      initials "C." } } ,
+                {
+                  name
+                    name {
+                      last "Lowe" ,
+                      first "Todd" ,
+                      initials "T.M." } } ,
+                {
+                  name
+                    name {
+                      last "Richardson" ,
+                      first "Paul" ,
+                      initials "P." } } ,
+                {
+                  name
+                    consortium "US DOE Joint Genome Institute" } } ,
+            affil
+              std {
+                affil "US DOE Joint Genome Institute" ,
+                city "Walnut Creek" ,
+                sub "CA" ,
+                country "USA" ,
+                street "2800 Mitchell Drive B100" ,
+                postal-code "94598-1698" } } ,
+          date
+            std {
+              year 2007 ,
+              month 2 ,
+              day 7 } } } } ,
+    pub {
+      pub {
+        sub {
+          authors {
+            names
+              std {
+                {
+                  name
+                    consortium "NCBI RefSeq Targeted Loci Project" } } ,
+            affil
+              std {
+                affil "National Center for Biotechnology Information, NIH" ,
+                city "Bethesda" ,
+                sub "MD" ,
+                country "USA" ,
+                postal-code "20894" } } ,
+          date
+            std {
+              year 2013 ,
+              month 2 ,
+              day 14 } } } } ,
+    user {
+      type
+        str "DBLink" ,
+      data {
+        {
+          label
+            str "BioProject" ,
+          num 1 ,
+          data
+            strs {
+              "PRJNA188942" } } } } } ,
+  seq-set {
+    seq {
+      id {
+        other {
+          accession "NG_042012" } ,
+        general {
+          db "REF_23S_RNA" ,
+          tag
+            str "CP000561:1725748-1729940" } } ,
+      descr {
+        title "Pyrobaculum calidifontis strain JCM 11548 23S ribosomal RNA
+ gene, complete sequence." ,
+        molinfo {
+          biomol genomic } ,
+        pub {
+          pub {
+            sub {
+              authors {
+                names
+                  std {
+                    {
+                      name
+                        consortium "NCBI Genome Project" } } ,
+                affil
+                  std {
+                    affil "National Center for Biotechnology Information, NIH" ,
+                    city "Bethesda" ,
+                    sub "MD" ,
+                    country "USA" ,
+                    postal-code "20894" } } ,
+              date
+                std {
+                  year 2015 ,
+                  month 3 ,
+                  day 26 } } } } ,
+        comment "This record has been curated by collaboration with an
+ international consortium of ribosomal RNA databases" ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "IdenticalTo" ,
+              data
+                fields {
+                  {
+                    label
+                      id 0 ,
+                    data
+                      fields {
+                        {
+                          label
+                            str "name" ,
+                          data
+                            str "CP000561:1725748-1729940" } } } } } ,
+            {
+              label
+                str "Status" ,
+              data
+                str "REVIEWED" } } } ,
+        create-date
+          std {
+            year 2013 ,
+            month 3 ,
+            day 25 } ,
+        update-date
+          std {
+            year 2014 ,
+            month 11 ,
+            day 10 } } ,
+      inst {
+        repr raw ,
+        mol dna ,
+        length 4193 ,
+        seq-data
+          ncbi2na 'A409656BA3A769DA996082A6E909E63095AAC964A4A7C815A8D560EA9F5
+E5AA58329569956C2A9A819AA02804DF2C564A0A82504A85578B2A98580AA8C950140D766A105B
+AA23BAA7EA56A4165A6A6B2582EA7A0E5596C8AB8C956CA601656E9A2D5AAD5A2C5DA7CBFE5AA8
+1996947A5A429C246D58B58C991CB16E2A027802055A0AAAE00897805A9A712EA929580A3955D5
+828055AE1AA8B18A8AAB52ADE57C6DC8046A5AA2F4696E98970AAF41568A6CA8058495926A9056
+62A9AADF02A56CB4696E214805A98DC95EA4AB826A980956E8A560AAF78EE40DBD5385EA9CAA40
+21434256B8C9EBD55609AB7495A5D568A6969AAC8B1E36AAE6A2580A75A556B407581794996C82
+AA8A6AA6BAAC25D675886A0416216ABC29550B9A9F2ED0DC02A6D55950849AA5BA9704925369C2
+419B049A159629AAA55823B12A1C2565962156959A96FA566EAB2AA99A5BAA4825A96E2B5AE856
+6961823569ACB249822AB88255D65A02852AFD7A41F43294A2F25AD70A6A970CA456580A806AF0
+CF56E59AAB2BDE69064A55B55865DA8CA9A9A8796D59F05B60A5AA2E5B0E98816960A6A0C96AAF
+D56B595875EA95B802A86A818955995B16205864AE75EAE20950A69DAB855A94A81DA40FA55B07
+DA88A99A68A3F0FCCA3536827B8A8662A26FC0D074FA3F7ECA63A3FC71382289280071F2FA3FB5
+227708A22031482DC40DBE7B630CFC120254F8A02265010ECB02B33373D00864CF3F7D0A230086
+3525033F5940F5968A208C03D729ABD121920A04BC22A360F3FCC419432A3F9D3E031283FF8219
+FA2D2371DC471453AE4CE271133A8802892A230F3A777B083C75D40335D5FF77C1DFDDF0759665
+55882AB979ADFAACC556A164AD92E90AA85E1EFC100132B559895B0ABBB1AA9E0D7A51E9AC6E05
+5AB105A982659E0A5AAB0778577C2B250397E5AB0A9EBA6AAD37F3B5D2C97379DA5C3EEAA3A6A7
+B17DD671029A5B160C48BEEB8740086594F9600669C23BF4F6F9D0A2769FA8DC2BD2B0C2EA6C56
+6C8AE6ADD890997FA49DF418427A505C8A9FA656188A365F4F22A7718678AA84216A28A9CA77A0
+4205969F72176EA89E9E2A2FA8362248B717E1842211AADC6DFA2B94D55C4828AFFD83EFB15954
+955632F5A6E4E0E8D062B551ED5A56A95A60545D4AE44B5EA15586A9882D5CE89F44925EDBE6AA
+A6AAB9226CAEA263806AB75A956E8E615E81145477595759F1596429AA126929A9EF69EA9A4455
+E008CDAAB9502769D29AB480D65B22EC2A4025A9E1EA57E0642A9529A805AA5C8819DB95514BAA
+96A4E1200BC5728305A76D9AB88B55361566BFAC5486DB77D535E9AE4925942AEA9E5654F02A81
+B88EAF485B66212B6B7717B6AA67A5978AA0AE574B188A06A99669772EC5AFB5A4A91E5A925196
+EAA3059E024DC26A095D56218A696F95EAA4156A918A9D5B2086ABE3AAA9AEC1558ABF562A8896
+95754365600'H ,
+        hist {
+          assembly {
+            {
+              type partial ,
+              dim 2 ,
+              segs
+                denseg {
+                  dim 2 ,
+                  numseg 1 ,
+                  ids {
+                    gi 470468299 ,
+                    gi 126248349 } ,
+                  starts {
+                    0 ,
+                    1725747 } ,
+                  lens {
+                    4193 } ,
+                  strands {
+                    plus ,
+                    plus } } } } } } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                product
+                  whole
+                    other {
+                      accession "NR_076108" } ,
+                location
+                  mix {
+                    int {
+                      from 0 ,
+                      to 1861 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042012" } } ,
+                    int {
+                      from 2441 ,
+                      to 2710 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042012" } } ,
+                    int {
+                      from 3239 ,
+                      to 4192 ,
+                      strand plus ,
+                      id
+                        other {
+                          accession "NG_042012" } } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 1862 ,
+                    to 2440 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_042012" } } } ,
+              {
+                data
+                  imp {
+                    key "intron" } ,
+                location
+                  int {
+                    from 2711 ,
+                    to 3238 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NG_042012" } } } } } } } ,
+    seq {
+      id {
+        other {
+          accession "NR_076108" } } ,
+      descr {
+        title "Pyrobaculum calidifontis strain JCM 11548 23S ribosomal RNA,
+ complete sequence." ,
+        molinfo {
+          biomol rRNA } ,
+        user {
+          type
+            str "RefGeneTracking" ,
+          data {
+            {
+              label
+                str "Status" ,
+              data
+                str "Reviewed" } ,
+            {
+              label
+                str "GenomicSource" ,
+              data
+                str "NG_042012" } } } } ,
+      inst {
+        repr raw ,
+        mol rna ,
+        length 3086 ,
+        seq-data
+          ncbi2na 'A409656BA3A769DA996082A6E909E63095AAC964A4A7C815A8D560EA9F5
+E5AA58329569956C2A9A819AA02804DF2C564A0A82504A85578B2A98580AA8C950140D766A105B
+AA23BAA7EA56A4165A6A6B2582EA7A0E5596C8AB8C956CA601656E9A2D5AAD5A2C5DA7CBFE5AA8
+1996947A5A429C246D58B58C991CB16E2A027802055A0AAAE00897805A9A712EA929580A3955D5
+828055AE1AA8B18A8AAB52ADE57C6DC8046A5AA2F4696E98970AAF41568A6CA8058495926A9056
+62A9AADF02A56CB4696E214805A98DC95EA4AB826A980956E8A560AAF78EE40DBD5385EA9CAA40
+21434256B8C9EBD55609AB7495A5D568A6969AAC8B1E36AAE6A2580A75A556B407581794996C82
+AA8A6AA6BAAC25D675886A0416216ABC29550B9A9F2ED0DC02A6D55950849AA5BA9704925369C2
+419B049A159629AAA55823B12A1C2565962156959A96FA566EAB2AA99A5BAA4825A96E2B5AE856
+6961823569ACB249822AB88255D65A02852AFD7A41F43294A2F25AD70A6A970CA456580A806AF0
+CF56E59AAB2BDE69064A55B55865DA8CA9A9A8796D59F05B60A5AA2E5B0E98816960A6A0C96AAF
+D56B595875EA95B802A86A818955995B16205864AE75EAE20950A69DAB855A94A81DA40FA55B07
+DA88A99A68A3F07C1D659955620AAE5E6B7EAB3155A8592B64BA42AA1787BF04004CAD566256C2
+AEEC6AA7835E947A6B1B8156AC416A6099678296AAC1DE15DF0AC940E5F96AC2A7AE9AA5558CBD
+69B9383A3418AD547B5695AA5698151752B912D7A85561AA620B573A27D12497B6F9AAA9AAAE48
+9B2BA898E01AADD6A55BA39857A045151DD655D67C56590A6A849A4A6A7BDA7AA691157802336A
+AE5409DA74A6AD203596C8BB0A90096A787A95F8190AA54A6A016A97220676E55452EAA5A93848
+02F15CA0C169DB66AE22D54D8559AFEB1521B6DDF54D7A6B9249650ABAA795953C0AA06E23ABD2
+16D9884ADADDC5EDAA99E965E2A82B95D2C62281AA659A5DCBB16BED692A4796A49465BAA8C167
+8093709A82575588629A5BE57AA9055AA462A756C821AAF8EAAA6BB05562AFD58AA225A55D50D9
+580'H } ,
+      annot {
+        {
+          data
+            ftable {
+              {
+                data
+                  rna {
+                    type rRNA ,
+                    ext
+                      name "23S ribosomal RNA" } ,
+                location
+                  int {
+                    from 0 ,
+                    to 3085 ,
+                    strand plus ,
+                    id
+                      other {
+                        accession "NR_076108" } } } } } } } } }
