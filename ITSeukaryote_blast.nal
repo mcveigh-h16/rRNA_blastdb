@@ -1,0 +1,8 @@
+#
+# Alias file created 4/17/2019 by Rich McVeigh
+#
+#
+TITLE ITS eukaryote BLAST
+#
+DBLIST ITS-animal ITS-fungi.fsa ITS-plant ITS-protist-final
+#

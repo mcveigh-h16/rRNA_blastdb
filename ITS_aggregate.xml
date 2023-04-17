@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<!DOCTYPE CreateDbOrder PUBLIC "-//NCBI//create db/EN" "create_db.dtd">
+<CreateDbOrder>
+<version>1.1</version>
+<agg-order>
+  <display-name>ITS eukaryote sequences</display-name>
+  <title>ITS eukaryote BLAST </title>
+  <agg-dbid>
+    <file-uid>
+      <file-path>rRNA_blastdb/ITS-protist.fsa </file-path>
+      <molecule-type>dna</molecule-type>
+    </file-uid>
+  </agg-dbid>
+  <agg-dbid>
+    <file-uid>
+      <file-path>rRNA_blastdb/ITS-plant2.fsa</file-path>
+      <molecule-type>dna</molecule-type>
+    </file-uid>
+  </agg-dbid>
+  <agg-dbid>
+    <file-uid>
+      <file-path>rRNA_blastdb/ITS-animal.fsa</file-path>
+      <molecule-type>dna</molecule-type>
+    </file-uid>
+  </agg-dbid>
+    <agg-dbid>
+    <file-uid>
+      <file-path>rRNA_blastdb/ITS-fungi.fsa</file-path>
+      <molecule-type>dna</molecule-type>
+    </file-uid>
+  </agg-dbid>
+</agg-order>
+</CreateDbOrder>
